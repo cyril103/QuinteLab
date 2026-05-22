@@ -1,9 +1,9 @@
 services:
-  quintelab:
+  site-test:
     image: nginx:alpine
-    container_name: quintelab-site-nginx
+    container_name: site-test-nginx
     restart: unless-stopped
     ports:
-      - "8781:80"
+      - "8080:80"
     volumes:
       - /docker/hermes-agent-rd02/data/quinte/site:/usr/share/nginx/html:ro
