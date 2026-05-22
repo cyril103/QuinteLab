@@ -19,3 +19,5 @@ Puis ouvrir : <http://localhost:8781>
 ## Mise à jour des données
 
 Le site est généré depuis les scripts du projet Quinté fictif, puis publié ici sous forme de fichiers statiques.
+
+Publication automatique actuelle : `/opt/data/scripts/quintelab_publish.sh` régénère le site depuis l’état live, synchronise le site Docker Compose local, commit les changements et pousse `main` vers GitHub. Le cron Hermes `quintelab-site-publish` l’exécute toutes les 30 minutes.
