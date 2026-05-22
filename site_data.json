@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T22:00:44.921749+00:00",
+  "generated_at": "2026-05-22T22:30:32.070885+00:00",
   "finance": {
     "bankroll": 27.55,
     "bets_count": 20,
@@ -464,7 +464,7 @@
   ],
   "settled_count": 20,
   "observation": {
-    "courses_count": 117,
+    "courses_count": 181,
     "arrivals_count": 115,
     "best_disciplines": [
       {
