@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Runtime / temporary files
+*.log
+.tmp/
+tmp/
+
+# Secrets
+.env
+*.secret
+*token*
+*credentials*
