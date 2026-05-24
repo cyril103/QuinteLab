@@ -371,9 +371,18 @@
       document.getElementById('modalSubtitle').textContent = `${course.discipline} · Départ ${timeLabel(course.start)} · Allocation ${fmtEUR(course.allocation)}`;
       const badge = document.getElementById('modalBadge');
       if (resultAvailable) {
+        const prono = runnersFor(course);
+        const pronoRank = new Map(prono.map(r => [Number(r.num), r.rank]));
+        const hits = course.resultTop5.filter(num => pronoRank.has(Number(num)));
+        const top3Hits = course.resultTop5.slice(0,3).filter(num => pronoRank.has(Number(num)));
         badge.className = 'h1-badge ready';
-        badge.textContent = 'Résultat officiel disponible';
-        document.getElementById('runnerRows').innerHTML = course.resultTop5.map((num, idx) => `<tr><td><span class="rank">${idx + 1}</span></td><td><strong>${num}</strong></td><td>Cheval ${num}</td><td class="note">Arrivée</td><td>${idx + 1}${idx === 0 ? 'er' : 'e'}</td><td>Top 5 officiel</td></tr>`).join('');
+        badge.textContent = `Résultat officiel disponible · ${hits.length}/5 dans notre sélection · ${top3Hits.length}/3 dans le podium`;
+        document.getElementById('runnerRows').innerHTML = course.resultTop5.map((num, idx) => {
+          const rank = pronoRank.get(Number(num));
+          const hit = rank ? `Oui · rang prono #${rank}` : 'Non retenu dans notre sélection';
+          const signal = rank ? (rank <= 3 ? 'Base touchée' : rank <= 8 ? 'Sélection touchée' : 'Outsider repéré') : 'Écart modèle';
+          return `<tr><td><span class="rank">${idx + 1}</span></td><td><strong>${num}</strong></td><td>Cheval ${num}</td><td class="note">${hit}</td><td>${idx + 1}${idx === 0 ? 'er' : 'e'} officiel</td><td>${signal}</td></tr>`;
+        }).join('');
       } else {
         badge.className = `h1-badge ${ready?'ready':''}`;
         badge.textContent = ready ? 'Pronostic Affiné (H-1) disponible' : 'Pronostic Affiné (H-1) en attente';
