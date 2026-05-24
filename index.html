@@ -3,174 +3,403 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>QuintéLab — pronostic hippique fictif par la data</title>
-  <meta name="description" content="Ébauche de site de pronostic hippique fictif basé sur le moteur Quinté+ de Cyril.">
+  <title>QuintéLab — Programme hippique & pronostics turf</title>
+  <meta name="description" content="Programme hippique fictif, pronostics par course et tickets automatisés QuintéLab.">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <style>
-    :root { color-scheme: dark; --bg:#05070d; --panel:#101827; --panel2:#152033; --text:#f4f7fb; --muted:#9ca9bd; --line:rgba(255,255,255,.11); --green:#49e6b1; --gold:#ffd166; --red:#ff6b7a; --blue:#71b7ff; }
+    :root {
+      color-scheme: dark;
+      --bg:#04100c;
+      --bg2:#071611;
+      --panel:#0d1d17;
+      --panel2:#122820;
+      --panel3:#173428;
+      --text:#f2fff8;
+      --muted:#9eb9ad;
+      --line:rgba(193,255,221,.13);
+      --green:#39e58d;
+      --green2:#8cffbf;
+      --gold:#f3c86a;
+      --orange:#ff9d35;
+      --red:#ff6270;
+      --blue:#69c8ff;
+      --shadow:0 26px 80px rgba(0,0,0,.38);
+    }
     * { box-sizing:border-box; }
-    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--text); background:radial-gradient(circle at 15% 0%, rgba(73,230,177,.22), transparent 28rem), radial-gradient(circle at 90% 10%, rgba(113,183,255,.18), transparent 32rem), linear-gradient(180deg, #070b13 0%, var(--bg) 55%); }
+    html { scroll-behavior:smooth; }
+    body {
+      margin:0;
+      font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at 8% 0%, rgba(57,229,141,.22), transparent 30rem),
+        radial-gradient(circle at 92% 8%, rgba(243,200,106,.15), transparent 28rem),
+        linear-gradient(180deg, #061811 0%, var(--bg) 60%, #030807 100%);
+      min-height:100vh;
+    }
     a { color:inherit; }
-    .wrap { width:min(1180px, calc(100% - 32px)); margin:0 auto; }
-    header { position:sticky; top:0; z-index:10; backdrop-filter:blur(18px); background:rgba(5,7,13,.72); border-bottom:1px solid var(--line); }
-    nav { display:flex; justify-content:space-between; align-items:center; gap:18px; padding:15px 0; }
-    .brand { display:flex; align-items:center; gap:10px; font-weight:850; letter-spacing:-.03em; }
-    .logo { width:34px; height:34px; display:grid; place-items:center; border-radius:12px; background:linear-gradient(135deg, var(--green), var(--blue)); color:#051018; }
-    .links { display:flex; gap:12px; flex-wrap:wrap; color:#d7e2f0; font-size:14px; }
-    .links a { text-decoration:none; padding:8px 10px; border:1px solid transparent; border-radius:999px; }
-    .links a:hover { border-color:var(--line); background:rgba(255,255,255,.05); }
-    .hero { padding:76px 0 34px; display:grid; grid-template-columns:minmax(0, 1.08fr) minmax(330px, .92fr); gap:28px; align-items:center; }
-    .eyebrow { display:inline-flex; align-items:center; gap:9px; color:#cbe9de; border:1px solid rgba(73,230,177,.26); background:rgba(73,230,177,.08); padding:8px 12px; border-radius:999px; font-size:14px; }
-    .dot { width:8px; height:8px; border-radius:999px; background:var(--green); box-shadow:0 0 22px var(--green); }
-    h1 { margin:18px 0 16px; font-size:clamp(42px, 8vw, 92px); line-height:.92; letter-spacing:-.08em; }
-    h1 span { color:transparent; background:linear-gradient(90deg, #fff, var(--green), var(--blue)); -webkit-background-clip:text; background-clip:text; }
-    .lead { color:#bdc8d8; font-size:clamp(18px, 2vw, 22px); line-height:1.65; max-width:760px; }
-    .cta-row { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
-    .btn { display:inline-flex; text-decoration:none; align-items:center; justify-content:center; min-height:48px; padding:0 18px; border-radius:15px; font-weight:800; border:1px solid var(--line); background:rgba(255,255,255,.06); }
-    .btn.primary { background:linear-gradient(135deg, var(--green), var(--blue)); color:#03100d; border:0; }
-    .hero-card, .panel { background:linear-gradient(180deg, rgba(255,255,255,.095), rgba(255,255,255,.035)); border:1px solid var(--line); border-radius:28px; box-shadow:0 28px 90px rgba(0,0,0,.32); }
-    .hero-card { padding:24px; }
-    .ticket-head { display:flex; justify-content:space-between; gap:14px; align-items:flex-start; }
-    .ticket-head h2 { margin:0; font-size:24px; }
-    .status { color:#06110d; background:var(--green); padding:6px 10px; border-radius:999px; font-weight:850; font-size:12px; white-space:nowrap; }
-    .ticket-main { margin-top:20px; padding:18px; background:#0b1220; border:1px solid var(--line); border-radius:22px; }
-    .selection { font-size:34px; font-weight:900; letter-spacing:.03em; color:#fff; }
-    .split { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:16px; }
-    .mini { background:rgba(255,255,255,.05); border:1px solid var(--line); border-radius:18px; padding:13px; }
-    .mini span, .kpi span { display:block; color:var(--muted); font-size:13px; }
-    .mini strong { display:block; margin-top:6px; }
-    section { padding:34px 0; }
-    .section-title { display:flex; justify-content:space-between; gap:16px; align-items:flex-end; margin-bottom:16px; }
-    h2 { margin:0; font-size:clamp(26px, 4vw, 42px); letter-spacing:-.045em; }
+    .wrap { width:min(1220px, calc(100% - 34px)); margin:0 auto; }
+    header {
+      position:sticky; top:0; z-index:50;
+      border-bottom:1px solid var(--line);
+      background:rgba(3,14,10,.78);
+      backdrop-filter:blur(18px);
+      box-shadow:0 10px 40px rgba(0,0,0,.22);
+    }
+    nav { display:flex; align-items:center; justify-content:space-between; gap:18px; padding:14px 0; }
+    .brand { display:flex; align-items:center; gap:11px; min-width:max-content; font-weight:950; letter-spacing:-.04em; font-size:20px; }
+    .logo {
+      width:40px; height:40px; border-radius:14px; display:grid; place-items:center;
+      color:#03120c; font-weight:950;
+      background:linear-gradient(135deg, var(--green), var(--gold));
+      box-shadow:0 0 26px rgba(57,229,141,.35);
+    }
+    .nav-center { display:flex; gap:6px; flex-wrap:wrap; justify-content:center; }
+    .nav-center a { text-decoration:none; color:#daf5e7; padding:9px 11px; border-radius:999px; border:1px solid transparent; font-size:14px; }
+    .nav-center a:hover { background:rgba(255,255,255,.06); border-color:var(--line); }
+    .nav-meta { display:flex; align-items:center; gap:10px; justify-content:flex-end; flex-wrap:wrap; }
+    .today { color:var(--muted); font-size:13px; white-space:nowrap; }
+    .next-badge {
+      display:inline-flex; align-items:center; gap:8px; min-height:36px; padding:0 12px; border-radius:999px;
+      color:#052015; background:linear-gradient(135deg, var(--green), var(--green2)); font-size:13px; font-weight:900;
+      box-shadow:0 0 22px rgba(57,229,141,.22);
+      white-space:nowrap;
+    }
+    .next-badge .pulse { width:8px; height:8px; border-radius:99px; background:#052015; animation:pulse 1.45s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1; transform:scale(1)} 50%{opacity:.35; transform:scale(.72)} }
+    .hero { padding:58px 0 28px; display:grid; grid-template-columns:minmax(0, 1.05fr) minmax(340px,.95fr); gap:22px; align-items:stretch; }
+    .eyebrow { display:inline-flex; gap:10px; align-items:center; color:#d5ffeb; border:1px solid rgba(57,229,141,.28); background:rgba(57,229,141,.09); border-radius:999px; padding:8px 12px; font-size:14px; }
+    .dot { width:8px; height:8px; border-radius:99px; background:var(--green); box-shadow:0 0 18px var(--green); }
+    h1 { margin:17px 0 16px; font-size:clamp(42px,7vw,86px); line-height:.92; letter-spacing:-.08em; }
+    h1 span { color:transparent; background:linear-gradient(90deg,#fff,var(--green2),var(--gold)); -webkit-background-clip:text; background-clip:text; }
+    .lead { max-width:760px; color:#bed4c9; font-size:clamp(17px,2vw,21px); line-height:1.65; }
+    .cta-row { display:flex; gap:12px; flex-wrap:wrap; margin-top:26px; }
+    .btn, button.btn {
+      appearance:none; border:1px solid var(--line); cursor:pointer; color:var(--text); text-decoration:none;
+      display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:46px; padding:0 16px;
+      border-radius:14px; background:rgba(255,255,255,.06); font-weight:850; font-family:inherit;
+      transition:transform .16s ease, border-color .16s ease, background .16s ease;
+    }
+    .btn:hover { transform:translateY(-1px); border-color:rgba(140,255,191,.38); background:rgba(255,255,255,.09); }
+    .btn.primary { color:#03120c; border:0; background:linear-gradient(135deg,var(--green),var(--gold)); }
+    .btn.small { min-height:36px; padding:0 12px; border-radius:11px; font-size:13px; }
+    .panel, .hero-card, .ticket-card, .course-card, .modal-card {
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.035));
+      border-radius:28px;
+      box-shadow:var(--shadow);
+    }
+    .hero-card { padding:22px; }
+    .ticket-head, .section-title { display:flex; justify-content:space-between; align-items:flex-end; gap:16px; }
+    h2 { margin:0; font-size:clamp(27px,4vw,42px); letter-spacing:-.055em; }
+    h3 { margin:0; font-size:20px; letter-spacing:-.03em; }
     .muted { color:var(--muted); }
-    .kpis { display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:14px; }
+    .status { color:#052015; background:var(--green); padding:7px 10px; border-radius:999px; font-size:12px; font-weight:950; white-space:nowrap; }
+    .status.alt { background:rgba(243,200,106,.18); color:#ffe2a0; border:1px solid rgba(243,200,106,.26); }
+    .selection { display:flex; flex-wrap:wrap; gap:9px; margin:18px 0; }
+    .horse-num {
+      min-width:44px; height:44px; padding:0 10px; display:grid; place-items:center; border-radius:14px;
+      font-size:22px; font-weight:950; color:#04120c; background:linear-gradient(135deg,#ecfff5,var(--green2));
+      box-shadow:0 8px 24px rgba(57,229,141,.18);
+    }
+    .split { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:14px; }
+    .mini { padding:14px; border-radius:18px; background:rgba(5,20,15,.72); border:1px solid var(--line); }
+    .mini span, .kpi span { display:block; color:var(--muted); font-size:13px; }
+    .mini strong { display:block; margin-top:5px; color:#fff; }
+    section { padding:34px 0; }
+    .cards2 { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:16px; }
+    .ticket-card { padding:18px; position:relative; overflow:hidden; }
+    .ticket-card::after { content:""; position:absolute; inset:auto -40px -55px auto; width:160px; height:160px; border-radius:50%; background:rgba(57,229,141,.10); }
+    .ticket-card.champ::after { background:rgba(243,200,106,.12); }
+    .ticket-label { color:var(--green2); text-transform:uppercase; letter-spacing:.08em; font-size:12px; font-weight:950; }
+    .ticket-formula { margin:13px 0 10px; color:#dff8ec; font-weight:850; }
+    .ticket-detail { color:var(--muted); line-height:1.55; }
+    .program-shell { margin-top:16px; }
+    .tabs { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px; }
+    .tab { border:1px solid var(--line); background:rgba(255,255,255,.045); color:#d9f6e6; padding:10px 15px; border-radius:999px; cursor:pointer; font-weight:900; }
+    .tab.active { color:#04120c; border-color:transparent; background:linear-gradient(135deg,var(--green),var(--gold)); }
+    .course-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+    .course-card { padding:16px; box-shadow:none; background:linear-gradient(180deg,rgba(18,40,32,.9),rgba(10,26,20,.9)); }
+    .course-top { display:flex; align-items:flex-start; justify-content:space-between; gap:10px; margin-bottom:12px; }
+    .course-code { font-size:23px; font-weight:950; letter-spacing:-.04em; }
+    .course-name { margin-top:2px; color:#d8efe4; font-weight:760; }
+    .course-meta { display:grid; grid-template-columns:1fr 1fr; gap:9px; margin:13px 0; }
+    .meta-pill { padding:10px; border:1px solid var(--line); border-radius:14px; background:rgba(255,255,255,.045); }
+    .meta-pill span { display:block; color:var(--muted); font-size:12px; }
+    .meta-pill strong { display:block; margin-top:3px; }
+    .h1-badge { display:inline-flex; align-items:center; gap:7px; padding:6px 9px; border-radius:999px; font-size:12px; font-weight:950; border:1px solid rgba(255,157,53,.35); color:#ffd0a3; background:rgba(255,157,53,.12); animation:blinkOrange 1.05s infinite; }
+    .h1-badge.ready { animation:none; border-color:rgba(57,229,141,.38); color:#b8ffd6; background:rgba(57,229,141,.14); }
+    @keyframes blinkOrange { 50%{ background:rgba(255,157,53,.30); box-shadow:0 0 18px rgba(255,157,53,.28); } }
+    .kpis { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:14px; }
     .kpi, .panel { padding:18px; }
-    .kpi strong { display:block; margin-top:8px; font-size:26px; letter-spacing:-.04em; }
-    .kpi small { display:block; margin-top:5px; color:var(--muted); }
-    .grid2 { display:grid; grid-template-columns:minmax(0, 1.15fr) minmax(330px,.85fr); gap:18px; }
-    .method { margin:0; padding-left:20px; color:#dbe5f2; line-height:1.85; }
-    .history { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:12px; }
-    .history-card { padding:15px; border:1px solid var(--line); border-radius:18px; background:rgba(255,255,255,.045); }
-    .history-card div:first-child { display:flex; justify-content:space-between; gap:10px; color:#eaf2ff; }
-    .history-card span { color:var(--muted); font-size:12px; }
-    .nums { margin:10px 0; color:#cfd9e8; }
-    .good { color:var(--green); } .bad { color:var(--red); } .gold { color:var(--gold); }
+    .kpi strong { display:block; margin-top:8px; font-size:25px; letter-spacing:-.04em; }
+    .grid2 { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(330px,.85fr); gap:18px; }
+    .method { margin:0; padding-left:20px; color:#dbeee5; line-height:1.8; }
     .segment-list { list-style:none; padding:0; margin:0; display:grid; gap:10px; }
     .segment-list li { display:flex; justify-content:space-between; gap:12px; padding:12px; border-radius:16px; background:rgba(255,255,255,.045); border:1px solid var(--line); }
     .segment-list span { color:var(--muted); font-size:13px; text-align:right; }
+    .history { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:15px; }
+    .history-card { padding:15px; border:1px solid var(--line); border-radius:18px; background:rgba(255,255,255,.045); }
+    .history-card div:first-child { display:flex; justify-content:space-between; gap:10px; color:#eafbf2; }
+    .history-card span { color:var(--muted); font-size:12px; }
+    .nums { margin:10px 0; color:#cfe6d9; }
+    .good { color:var(--green); } .bad { color:var(--red); } .gold { color:var(--gold); }
     canvas { width:100%; max-height:320px; }
+    .modal { position:fixed; inset:0; display:none; z-index:100; padding:22px; background:rgba(0,0,0,.58); backdrop-filter:blur(10px); align-items:center; justify-content:center; }
+    .modal.open { display:flex; }
+    .modal-card { width:min(980px,100%); max-height:min(86vh,820px); overflow:auto; padding:20px; background:linear-gradient(180deg,#10241c,#07150f); }
+    .modal-head { display:flex; justify-content:space-between; align-items:flex-start; gap:15px; margin-bottom:16px; }
+    .close { border:1px solid var(--line); color:#fff; background:rgba(255,255,255,.06); width:42px; height:42px; border-radius:14px; cursor:pointer; font-size:20px; }
+    .runners { width:100%; border-collapse:collapse; overflow:hidden; border-radius:18px; }
+    .runners th, .runners td { text-align:left; padding:12px 10px; border-bottom:1px solid var(--line); }
+    .runners th { color:#bfe7d2; font-size:12px; text-transform:uppercase; letter-spacing:.07em; background:rgba(255,255,255,.045); }
+    .runners td { color:#eefbf4; }
+    .note { font-weight:950; color:var(--green2); }
+    .rank { display:inline-grid; place-items:center; width:30px; height:30px; border-radius:10px; color:#04120c; background:var(--green2); font-weight:950; }
     footer { border-top:1px solid var(--line); padding:26px 0 42px; color:var(--muted); font-size:14px; }
-    @media (max-width: 920px) { .hero, .grid2, .kpis, .history { grid-template-columns:1fr; } .links { display:none; } .split { grid-template-columns:1fr; } }
+    @media (max-width: 980px) { .hero, .grid2, .kpis, .course-grid, .history { grid-template-columns:1fr; } .nav-center { display:none; } .cards2 { grid-template-columns:1fr; } }
+    @media (max-width: 600px) { .wrap { width:min(100% - 22px,1220px); } nav { align-items:flex-start; } .nav-meta { justify-content:flex-start; } .split, .course-meta { grid-template-columns:1fr; } .hero { padding-top:36px; } }
   </style>
 </head>
 <body>
-  <header><div class="wrap"><nav><div class="brand"><div class="logo">Q</div>QuintéLab</div><div class="links"><a href="#pronostic">Pronostic</a><a href="#performance">Performance</a><a href="#methodo">Méthodo</a><a href="#historique">Historique</a></div></nav></div></header>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="brand"><div class="logo">QL</div><div>QuintéLab</div></div>
+        <div class="nav-center"><a href="#evenement">Le Quinté+</a><a href="#programme">Programme</a><a href="#performance">Performance</a><a href="#methodo">Méthodo</a><a href="#historique">Historique</a></div>
+        <div class="nav-meta"><span class="today" id="todayLabel">—</span><span class="next-badge" id="nextBadge"><span class="pulse"></span> Prochain départ : —</span></div>
+      </nav>
+    </div>
+  </header>
+
   <main>
     <div class="wrap hero">
       <div>
-        <div class="eyebrow"><span class="dot"></span> Laboratoire hippique fictif · data & discipline</div>
-        <h1>Le Quinté analysé <span>sans promesse magique</span>.</h1>
-        <p class="lead">Première ébauche d’un site de pronostic hippique basé sur notre moteur e-Quinté+ fictif : sélection du jour, bankroll simulée, historique transparent et apprentissage post-course.</p>
-        <div class="cta-row"><a class="btn primary" href="#pronostic">Voir le ticket</a><a class="btn" href="#methodo">Comprendre la méthode</a></div>
+        <div class="eyebrow"><span class="dot"></span> Programme complet · pronos par course · tickets automatisés</div>
+        <h1>Le turf lisible, <span>course par course</span>.</h1>
+        <p class="lead">Une version plus pro de QuintéLab : le Quinté+ du jour en 8 chevaux, des suggestions de tickets fictifs, et le programme R1/R2/R3 avec un accès direct aux partants notés.</p>
+        <div class="cta-row"><a class="btn primary" href="#evenement">Voir le Quinté+</a><a class="btn" href="#programme">Explorer le programme</a></div>
       </div>
-      <aside class="hero-card" id="pronostic">
-        <div class="ticket-head"><div><h2>Pronostic du jour</h2><p class="muted">2026-05-24 · R1C3</p></div><div class="status">Simulation</div></div>
-        <div class="ticket-main">
-          <div class="muted">Sélection modèle</div>
-          <div class="selection">6 - 11 - 9 - 12 - 1 - 13 - 4 - 5</div>
-          <div class="split">
-            <div class="mini"><span>Stratégie</span><strong>combine_top7_plus_outsider_flexi_25</strong></div>
-            <div class="mini"><span>Mise fictive</span><strong>28,00 €</strong></div>
-            <div class="mini"><span>Profil course</span><strong>course_ouverte_outsider</strong></div>
-            <div class="mini"><span>Résultat</span><strong>En attente</strong></div>
-          </div>
+
+      <aside class="hero-card" id="evenement">
+        <div class="ticket-head"><div><h2>Événement — Le Quinté+</h2><p class="muted" id="featuredMeta">Chargement…</p></div><div class="status">Simulation</div></div>
+        <div class="selection" id="featuredSelection" aria-label="Pronostic de base en 8 chevaux"></div>
+        <div class="split">
+          <div class="mini"><span>Stratégie moteur</span><strong id="featuredStrategy">—</strong></div>
+          <div class="mini"><span>Mise fictive</span><strong id="featuredStake">—</strong></div>
+          <div class="mini"><span>Profil course</span><strong id="featuredProfile">—</strong></div>
+          <div class="mini"><span>Formule</span><strong id="featuredFormula">—</strong></div>
         </div>
-        <p class="muted">Ce site est une simulation et un outil d’analyse. Pas de garantie, pas de conseil financier, pas d’incitation à miser réel.</p>
+        <p class="muted">Simulation uniquement : aucune promesse de gain, aucun conseil de mise réelle.</p>
       </aside>
     </div>
 
+    <section id="tickets"><div class="wrap">
+      <div class="section-title"><h2>Tickets automatisés suggérés</h2><p class="muted">Deux lectures prêtes à afficher selon le profil du jour.</p></div>
+      <div class="cards2">
+        <article class="ticket-card">
+          <div class="ticket-label">Le ticket Combiné conseillé</div>
+          <h3>Combiné 8 chevaux · Flexi 25%</h3>
+          <div class="ticket-formula" id="combineFormula">C(8,5)=56 grilles × 2€ × 25% = 28€</div>
+          <div class="ticket-detail">Ticket défensif privilégié quand la course est ouverte : tous les 5 parmi les 8 chevaux du pronostic de base sont couverts.</div>
+        </article>
+        <article class="ticket-card champ">
+          <div class="ticket-label">Le ticket en Champ Réduit (avec tes bases)</div>
+          <h3>3 bases + 5 associés · Flexi 50%</h3>
+          <div class="ticket-formula" id="champFormula">P(5,2)=20 permutations × 2€ × 50% = 20€</div>
+          <div class="ticket-detail" id="champDetail">Bases proposées : les 3 premiers du modèle. À utiliser seulement si les bases sont solides et stables à H-1.</div>
+        </article>
+      </div>
+    </div></section>
+
+    <section id="programme"><div class="wrap">
+      <div class="section-title"><h2>Le Programme du Jour</h2><p class="muted">Réunions organisées en onglets, avec allocations et accès pronostic.</p></div>
+      <div class="program-shell panel">
+        <div class="tabs" id="tabs"></div>
+        <div class="course-grid" id="courseGrid"></div>
+      </div>
+    </div></section>
+
     <section id="performance"><div class="wrap">
-      <div class="section-title"><h2>Performance fictive</h2><p class="muted">Données générées le 2026-05-24 12:30:13 UTC</p></div>
+      <div class="section-title"><h2>Performance fictive</h2><p class="muted" id="generatedAt">Données moteur</p></div>
       <div class="kpis">
-        <article class="kpi"><span>Bankroll</span><strong>203,70 €</strong><small>Solde fictif actuel</small></article>
-        <article class="kpi"><span>Mises cumulées</span><strong>347,00 €</strong><small>21 paris réglés</small></article>
-        <article class="kpi"><span>Gains cumulés</span><strong>178,70 €</strong><small>Règlements officiels/fictifs enregistrés</small></article>
-        <article class="kpi"><span>Net / ROI</span><strong>-168,30 € · -48,5 %</strong><small>Performance brute de la simulation</small></article>
-        <article class="kpi"><span>Série prudence</span><strong>0</strong><small>Paris non profitables consécutifs</small></article>
+        <article class="kpi"><span>Bankroll</span><strong id="bankroll">—</strong><small>Solde fictif actuel</small></article>
+        <article class="kpi"><span>Mises cumulées</span><strong id="stakeTotal">—</strong><small>Paris réglés</small></article>
+        <article class="kpi"><span>Gains cumulés</span><strong id="gainTotal">—</strong><small>Résultats enregistrés</small></article>
+        <article class="kpi"><span>Net / ROI</span><strong id="netRoi">—</strong><small>Performance brute</small></article>
+        <article class="kpi"><span>Série prudence</span><strong id="streak">—</strong><small>Non profitables consécutifs</small></article>
       </div>
     </div></section>
 
     <section id="methodo"><div class="wrap grid2">
-      <div class="panel"><h2>Méthodologie transparente</h2><ol class="method"><li>Détection quotidienne de la course support e-Quinté+ uniquement.</li><li>Scoring transparent: forme récente, régularité, cote, sécurité des bases et signaux de valeur.</li><li>Ticket fictif adapté au profil: champ réduit si les bases sont solides, combiné ou ticket minimum en course ouverte/zone rouge.</li><li>Règlement après résultats officiels e-Quinté+ avec priorité Ordre → Désordre → Bonus 4 → Bonus 3.</li><li>Audits post-course et contre-factuels pour apprendre sans martingale ni promesse de gain.</li></ol></div>
-      <div class="panel"><h2>Lecture data</h2><p class="muted">243 courses historisées · 196 arrivées observées.</p><canvas id="coverageChart"></canvas></div>
+      <div class="panel"><h2>Méthodologie transparente</h2><ol class="method" id="methodList"></ol></div>
+      <div class="panel"><h2>Lecture data</h2><p class="muted" id="coverageCaption">Observation historique.</p><canvas id="coverageChart"></canvas></div>
     </div></section>
 
     <section><div class="wrap grid2">
-      <div class="panel"><h2>Hippodromes à suivre</h2><ul class="segment-list"><li><strong>LYON-PARILLY</strong><span>15 courses · Top3 couvert 46,7 %</span></li><li><strong>SAINT MALO</strong><span>15 courses · Top3 couvert 13,3 %</span></li><li><strong>VINCENNES</strong><span>11 courses · Top3 couvert 9,1 %</span></li><li><strong>PALERMO</strong><span>10 courses · Top3 couvert 40,0 %</span></li><li><strong>ParisLongchamp</strong><span>10 courses · Top3 couvert 40,0 %</span></li></ul></div>
-      <div class="panel"><h2>Positionnement</h2><p>QuintéLab ne cache ni les pertes ni les erreurs. Le but est d’expliquer la sélection, suivre la discipline de bankroll fictive, et documenter les adaptations du modèle au fil des courses.</p><p class="gold"><strong>Angle produit :</strong> un pronostic quotidien + une preuve d’apprentissage vérifiable.</p></div>
+      <div class="panel"><h2>Hippodromes à suivre</h2><ul class="segment-list" id="hippoList"></ul></div>
+      <div class="panel"><h2>Types de jeux affichés</h2><ul class="segment-list"><li><strong>Combiné</strong><span>Plus souple : toutes les combinaisons de 5 chevaux dans la sélection.</span></li><li><strong>Champ réduit</strong><span>Plus exigeant : bases imposées + associés pour compléter le Quinté.</span></li><li><strong>Simple fictif</strong><span>Ticket minimum en zone rouge ou drawdown.</span></li></ul></div>
     </div></section>
 
-    <section id="historique"><div class="wrap"><div class="section-title"><h2>Historique récent</h2><p class="muted">Derniers tickets générés par le moteur</p></div><div class="history">
-        <article class="history-card">
-          <div><strong>2026-05-24 · R1C3</strong><span>combine_top7_plus_outsider_flexi_25</span></div>
-          <div class="nums">Sélection 6 - 11 - 9 - 12 - 1 - 13 - 4 - 5</div>
-          <div class="result bad">Mise 28,00 € · Gain 0,00 € · Net -28,00 €</div>
-        </article>
-        
-        <article class="history-card">
-          <div><strong>2026-05-23 · R1C4</strong><span>combine_top7_plus_outsider_flexi_25</span></div>
-          <div class="nums">Sélection 5 - 2 - 9 - 4 - 6 - 10 - 7 - 3</div>
-          <div class="result good">Mise 28,00 € · Gain 32,15 € · Net 4,15 €</div>
-        </article>
-        
-        <article class="history-card">
-          <div><strong>2026-05-22 · R1C4</strong><span>ticket_minimum_zone_rouge</span></div>
-          <div class="nums">Sélection 3 - 13 - 11 - 8 - 5</div>
-          <div class="result good">Mise 2,00 € · Gain 5,00 € · Net 3,00 €</div>
-        </article>
-        
-        <article class="history-card">
-          <div><strong>2026-05-21 · R1C7</strong><span>ticket_minimum_zone_rouge</span></div>
-          <div class="nums">Sélection 14 - 3 - 5 - 11 - 8</div>
-          <div class="result bad">Mise 2,00 € · Gain 0,00 € · Net -2,00 €</div>
-        </article>
-        
-        <article class="history-card">
-          <div><strong>2026-05-20 · R1C1</strong><span>ticket_minimum_zone_rouge</span></div>
-          <div class="nums">Sélection 9 - 15 - 1 - 4 - 6</div>
-          <div class="result bad">Mise 2,00 € · Gain 0,00 € · Net -2,00 €</div>
-        </article>
-        
-        <article class="history-card">
-          <div><strong>2026-05-19 · R1C1</strong><span>champ_reduit_3bases_5associes_flexi_50</span></div>
-          <div class="nums">Sélection 4 - 12 - 1 - 7 - 5 - 6 - 2 - 16</div>
-          <div class="result bad">Mise 20,00 € · Gain 7,00 € · Net -13,00 €</div>
-        </article>
-        
-        <article class="history-card">
-          <div><strong>2026-05-18 · R1C4</strong><span>combine_7_flexi_25</span></div>
-          <div class="nums">Sélection 1 - 15 - 2 - 3 - 11 - 10 - 5</div>
-          <div class="result bad">Mise 10,50 € · Gain 0,00 € · Net -10,50 €</div>
-        </article>
-        
-        <article class="history-card">
-          <div><strong>2026-05-17 · R1C5</strong><span>combine_top6_plus_outsider_flexi_25</span></div>
-          <div class="nums">Sélection 8 - 14 - 11 - 10 - 6 - 12 - 13</div>
-          <div class="result bad">Mise 10,50 € · Gain 0,00 € · Net -10,50 €</div>
-        </article>
-        </div></div></section>
+    <section id="historique"><div class="wrap"><div class="section-title"><h2>Historique récent</h2><p class="muted">Derniers tickets générés par le moteur</p></div><div class="history" id="history"></div></div></section>
   </main>
-  <footer><div class="wrap">QuintéLab · ébauche statique générée depuis le moteur e-Quinté+ fictif · simulation uniquement.</div></footer>
+
+  <div class="modal" id="pronosticModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div><h2 id="modalTitle">Pronostic de course</h2><p class="muted" id="modalSubtitle">—</p></div>
+        <button class="close" id="closeModal" aria-label="Fermer">×</button>
+      </div>
+      <div id="modalBadge" class="h1-badge">Pronostic Affiné (H-1) en attente</div>
+      <div style="overflow:auto; margin-top:14px;"><table class="runners"><thead><tr><th>Rang</th><th>N°</th><th>Partant</th><th>Note</th><th>Profil</th><th>Signal</th></tr></thead><tbody id="runnerRows"></tbody></table></div>
+    </div>
+  </div>
+
+  <footer><div class="wrap">QuintéLab · programme hippique fictif · simulation uniquement · port 8080.</div></footer>
+
   <script>
-    const SITE_DATA = {"generated_at": "2026-05-24T12:30:13.459340+00:00", "finance": {"bankroll": 203.7, "bets_count": 22, "settled_bets": 21, "observed_arrivals": 21, "total_stake": 347.0, "total_gain": 178.7, "net": -168.3, "roi": -48.5, "win_rate": 42.86, "profit_rate": 19.05, "max_drawdown": 178.95, "non_profitable_streak": 0, "topup_total": 200.0}, "featured": {"date": "2026-05-24", "reunion": 1, "course": 3, "placed_at": "2026-05-24T14:00:27.318830+02:00", "strategy": "combine_top7_plus_outsider_flexi_25", "type": "QUINTE_PLUS_COMBINE_TOP7_PLUS_OUTSIDER_FLEXI_25", "formula": "C(8,5)=56 combinaisons × 2€ × 25% = 28€", "stake": 28.0, "gain": 0.0, "net": -28.0, "settled": false, "selection": [6, 11, 9, 12, 1, 13, 4, 5], "bases": [], "associes": [6, 11, 9, 12, 1, 13, 4, 5], "arrival": [], "hit_counts": {}, "miss_analysis": "", "profile": {"profile": "course_ouverte_outsider", "recommendation": "combine_top7_plus_outsider_flexi_25", "defensive_mode": null, "red_zone_mode": null, "non_profitable_streak": null, "score_spread_8": 10.4, "stability_index": 26.5}}, "recent": [{"date": "2026-05-24", "reunion": 1, "course": 3, "placed_at": "2026-05-24T14:00:27.318830+02:00", "strategy": "combine_top7_plus_outsider_flexi_25", "type": "QUINTE_PLUS_COMBINE_TOP7_PLUS_OUTSIDER_FLEXI_25", "formula": "C(8,5)=56 combinaisons × 2€ × 25% = 28€", "stake": 28.0, "gain": 0.0, "net": -28.0, "settled": false, "selection": [6, 11, 9, 12, 1, 13, 4, 5], "bases": [], "associes": [6, 11, 9, 12, 1, 13, 4, 5], "arrival": [], "hit_counts": {}, "miss_analysis": "", "profile": {"profile": "course_ouverte_outsider", "recommendation": "combine_top7_plus_outsider_flexi_25", "defensive_mode": null, "red_zone_mode": null, "non_profitable_streak": null, "score_spread_8": 10.4, "stability_index": 26.5}}, {"date": "2026-05-23", "reunion": 1, "course": 4, "placed_at": "2026-05-23T14:02:37.729155+02:00", "strategy": "combine_top7_plus_outsider_flexi_25", "type": "QUINTE_PLUS_COMBINE_TOP7_PLUS_OUTSIDER_FLEXI_25", "formula": "C(8,5)=56 combinaisons × 2€ × 25% = 28€", "stake": 28.0, "gain": 32.15, "net": 4.15, "settled": true, "selection": [5, 2, 9, 4, 6, 10, 7, 3], "bases": [], "associes": [5, 2, 9, 4, 6, 10, 7, 3], "arrival": [5, 6, 3, 2, 4], "hit_counts": {"bonus3": 3, "bonus4": 15, "desordre": 1}, "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: aucun; top5 non sélectionnés: aucun; max par grille: 5/5 top5, 3/3 top3; rangs modèle arrivée: 5=#1 score 59.0, 6=#4 score 43.7, 3=#12 score 38.1, 2=#2 score 48.5, 4=#5 score 43.6", "profile": {"profile": "course_ouverte_outsider", "recommendation": "combine_top7_plus_outsider_flexi_25", "defensive_mode": null, "red_zone_mode": null, "non_profitable_streak": null, "score_spread_8": 15.21, "stability_index": 45.8}}, {"date": "2026-05-22", "reunion": 1, "course": 4, "placed_at": "2026-05-22T19:00:01.176431+02:00", "strategy": "ticket_minimum_zone_rouge", "type": "QUINTE_PLUS_SIMPLE", "formula": "1 grille × 2€ × 100% = 2€", "stake": 2.0, "gain": 5.0, "net": 3.0, "settled": true, "selection": [3, 13, 11, 8, 5], "bases": [], "associes": [3, 13, 11, 8, 5], "arrival": [11, 5, 13, 7, 8], "hit_counts": {"bonus4": 1}, "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: aucun; top5 non sélectionnés: [7]; max par grille: 4/5 top5, 3/3 top3; rangs modèle arrivée: 11=#5 score 42.2, 5=#6 score 41.1, 13=#2 score 45.7, 7=#10 score 33.2, 8=#4 score 42.2; profils manqués: 7: rang #10, reg 0.40, EV -0.02, value=False", "profile": {"profile": "course_ouverte_ticket_minimum_zone_rouge", "recommendation": "ticket_minimum_zone_rouge", "defensive_mode": true, "red_zone_mode": true, "non_profitable_streak": 14, "score_spread_8": 7.63, "stability_index": 38.8}}, {"date": "2026-05-21", "reunion": 1, "course": 7, "placed_at": "2026-05-21T19:00:51.942513+02:00", "strategy": "ticket_minimum_zone_rouge", "type": "QUINTE_PLUS_SIMPLE", "formula": "1 grille × 2€ × 100% = 2€", "stake": 2.0, "gain": 0.0, "net": -2.0, "settled": true, "selection": [14, 3, 5, 11, 8], "bases": [], "associes": [14, 3, 5, 11, 8], "arrival": [4, 11, 3, 15, 5], "hit_counts": {}, "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: [4]; top5 non sélectionnés: [4, 15]; max par grille: 3/5 top5, 2/3 top3; rangs modèle arrivée: 4=#6 score 43.2, 11=#4 score 45.7, 3=#2 score 48.5, 15=#10 score 37.2, 5=#3 score 47.8; profils manqués: 4: rang #6, reg 0.80, EV -0.18, value=False | 15: rang #10, reg 0.60, EV -0.35, value=False", "profile": {"profile": "course_ouverte_ticket_minimum_zone_rouge", "recommendation": "ticket_minimum_zone_rouge", "defensive_mode": true, "red_zone_mode": true, "non_profitable_streak": 13, "score_spread_8": 8.76, "stability_index": 26.9}}, {"date": "2026-05-20", "reunion": 1, "course": 1, "placed_at": "2026-05-20T12:45:38.338830+02:00", "strategy": "ticket_minimum_zone_rouge", "type": "QUINTE_PLUS_SIMPLE", "formula": "1 grille × 2€ × 100% = 2€", "stake": 2.0, "gain": 0.0, "net": -2.0, "settled": true, "selection": [9, 15, 1, 4, 6], "bases": [], "associes": [9, 15, 1, 4, 6], "arrival": [11, 1, 10, 13, 4], "hit_counts": {}, "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: [11, 10]; top5 non sélectionnés: [11, 10, 13]; max par grille: 2/5 top5, 1/3 top3; rangs modèle arrivée: 11=#11 score 32.5, 1=#3 score 47.1, 10=#6 score 42.1, 13=#10 score 32.8, 4=#4 score 44.7; profils manqués: 11: rang #11, reg 0.20, EV -0.28, value=False | 10: rang #6, reg 1.00, EV 0.18, value=True | 13: rang #10, reg 0.20, EV 0.41, value=False", "profile": {"profile": "bases_solides_ticket_minimum_zone_rouge", "recommendation": "ticket_minimum_zone_rouge", "defensive_mode": true, "red_zone_mode": true, "non_profitable_streak": 12, "score_spread_8": 15.28, "stability_index": 40.7}}, {"date": "2026-05-19", "reunion": 1, "course": 1, "placed_at": "2026-05-19T12:45:00.193005+02:00", "strategy": "champ_reduit_3bases_5associes_flexi_50", "type": "QUINTE_PLUS_CHAMP_REDUIT_FLEXI_50", "formula": "P(5,2)=20 permutations associées × 2€ × 50% = 20€", "stake": 20.0, "gain": 7.0, "net": -13.0, "settled": true, "selection": [4, 12, 1, 7, 5, 6, 2, 16], "bases": [4, 12, 1], "associes": [7, 5, 6, 2, 16], "arrival": [1, 6, 7, 12, 15], "hit_counts": {"bonus4": 2}, "miss_analysis": "bases absentes top5: [4]; top3 non sélectionnés: aucun; top5 non sélectionnés: [15]; max par grille: 4/5 top5, 3/3 top3; rangs modèle arrivée: 1=#3 score 49.8, 6=#6 score 43.5, 7=#4 score 46.5, 12=#2 score 50.5, 15=#15 score 31.1; profils manqués: 15: rang #15, reg 0.40, EV -0.49, value=False; champ réduit: une base absente bloque toutes les grilles pour le Quinté", "profile": {"profile": "bases_solides", "recommendation": "champ_reduit_3bases_5associes_flexi_50", "defensive_mode": true, "red_zone_mode": null, "non_profitable_streak": 11, "score_spread_8": 15.38, "stability_index": 55.1}}, {"date": "2026-05-18", "reunion": 1, "course": 4, "placed_at": "2026-05-18T12:45:53.912367+02:00", "strategy": "combine_7_flexi_25", "type": "QUINTE_PLUS_COMBINE_7_FLEXI_25", "formula": "C(7,5)=21 combinaisons × 2€ × 25% = 10.50€", "stake": 10.5, "gain": 0.0, "net": -10.5, "settled": true, "selection": [1, 15, 2, 3, 11, 10, 5], "bases": [], "associes": [1, 15, 2, 3, 11, 10, 5], "arrival": [1, 7, 10, 9, 5], "hit_counts": {}, "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: [7]; top5 non sélectionnés: [7, 9]; max par grille: 3/5 top5, 2/3 top3; rangs modèle arrivée: 1=#1 score 45.9, 7=#10 score 37.7, 10=#6 score 41.4, 9=#12 score 35.4, 5=#7 score 41.4; profils manqués: 7: rang #10, reg 0.20, EV 0.20, value=False | 9: rang #12, reg 0.60, EV -0.22, value=False", "profile": {"profile": "course_ouverte_anti_drawdown", "recommendation": "combine_7_flexi_25", "defensive_mode": true, "red_zone_mode": null, "non_profitable_streak": 10, "score_spread_8": 6.69, "stability_index": 37.3}}, {"date": "2026-05-17", "reunion": 1, "course": 5, "placed_at": "2026-05-17T15:00:33.792429+02:00", "strategy": "combine_top6_plus_outsider_flexi_25", "type": "QUINTE_PLUS_COMBINE_TOP6_PLUS_OUTSIDER_FLEXI_25", "formula": "C(7,5)=21 combinaisons × 2€ × 25% = 10.50€", "stake": 10.5, "gain": 0.0, "net": -10.5, "settled": true, "selection": [8, 14, 11, 10, 6, 12, 13], "bases": [], "associes": [8, 14, 11, 10, 6, 12, 13], "arrival": [9, 3, 2, 4, 1], "hit_counts": {}, "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: [9, 3, 2]; top5 non sélectionnés: [9, 3, 2, 4, 1]; max par grille: 0/5 top5, 0/3 top3; rangs modèle arrivée: 9=#9 score 36.9, 3=#11 score 33.9, 2=#8 score 37.0, 4=#12 score 33.0, 1=#14 score 30.3; profils manqués: 9: rang #9, reg 0.80, EV -0.27, value=False | 3: rang #11, reg 0.80, EV 0.45, value=True | 2: rang #8, reg 0.80, EV -0.23, value=False | 4: rang #12, reg 0.80, EV -0.17, value=False | 1: rang #14, reg 0.60, EV 0.18, value=False", "profile": {"profile": "course_ouverte_anti_drawdown", "recommendation": "combine_top6_plus_outsider_flexi_25", "defensive_mode": true, "red_zone_mode": null, "non_profitable_streak": 9, "score_spread_8": 8.61, "stability_index": 32.5}}], "settled_count": 21, "observation": {"courses_count": 243, "arrivals_count": 196, "best_disciplines": [{"name": "Trot", "courses": 98, "top3_covered_rate": 24.5, "top5_covered_rate": 31.6}, {"name": "Galop", "courses": 87, "top3_covered_rate": 36.8, "top5_covered_rate": 59.8}], "best_hippos": [{"name": "LYON-PARILLY", "courses": 15, "top3_covered_rate": 46.7, "top5_covered_rate": 53.3}, {"name": "SAINT MALO", "courses": 15, "top3_covered_rate": 13.3, "top5_covered_rate": 40.0}, {"name": "VINCENNES", "courses": 11, "top3_covered_rate": 9.1, "top5_covered_rate": 18.2}, {"name": "PALERMO", "courses": 10, "top3_covered_rate": 40.0, "top5_covered_rate": 80.0}, {"name": "ParisLongchamp", "courses": 10, "top3_covered_rate": 40.0, "top5_covered_rate": 40.0}], "coverage_by_rank": [{"rank": 1, "runners": 188, "top3_rate": 54.3, "top5_rate": 68.1}, {"rank": 2, "runners": 188, "top3_rate": 43.6, "top5_rate": 64.9}, {"rank": 3, "runners": 187, "top3_rate": 35.8, "top5_rate": 57.8}, {"rank": 4, "runners": 190, "top3_rate": 32.6, "top5_rate": 55.8}, {"rank": 5, "runners": 187, "top3_rate": 35.3, "top5_rate": 61.5}, {"rank": 6, "runners": 185, "top3_rate": 22.7, "top5_rate": 41.6}, {"rank": 7, "runners": 180, "top3_rate": 16.7, "top5_rate": 34.4}, {"rank": 8, "runners": 165, "top3_rate": 20.6, "top5_rate": 32.7}, {"rank": 9, "runners": 145, "top3_rate": 19.3, "top5_rate": 35.9}, {"rank": 10, "runners": 124, "top3_rate": 9.7, "top5_rate": 29.0}, {"rank": 11, "runners": 108, "top3_rate": 10.2, "top5_rate": 17.6}, {"rank": 12, "runners": 94, "top3_rate": 9.6, "top5_rate": 21.3}]}, "method_points": ["Détection quotidienne de la course support e-Quinté+ uniquement.", "Scoring transparent: forme récente, régularité, cote, sécurité des bases et signaux de valeur.", "Ticket fictif adapté au profil: champ réduit si les bases sont solides, combiné ou ticket minimum en course ouverte/zone rouge.", "Règlement après résultats officiels e-Quinté+ avec priorité Ordre → Désordre → Bonus 4 → Bonus 3.", "Audits post-course et contre-factuels pour apprendre sans martingale ni promesse de gain."]};
-    const cov = SITE_DATA.observation.coverage_by_rank || [];
-    if (window.Chart && cov.length) {
-      new Chart(document.getElementById('coverageChart'), {
-        type: 'line',
-        data: { labels: cov.map(r => '#' + r.rank), datasets: [{ label: 'Présence top3 réel', data: cov.map(r => r.top3_rate), borderColor: '#49e6b1', tension: .3 }, { label: 'Présence top5 réel', data: cov.map(r => r.top5_rate), borderColor: '#ffd166', tension: .3 }] },
-        options: { responsive: true, plugins: { legend: { labels: { color: '#dbe5f2' } } }, scales: { x: { ticks: { color: '#9ca9bd' }, grid: { color: 'rgba(255,255,255,.05)' } }, y: { ticks: { color: '#9ca9bd', callback: v => v + '%' }, grid: { color: 'rgba(255,255,255,.06)' } } } }
+    const FALLBACK_DATA = {
+      generated_at: new Date().toISOString(),
+      finance: { bankroll:203.7, settled_bets:21, total_stake:347, total_gain:178.7, net:-168.3, roi:-48.5, non_profitable_streak:0 },
+      featured: { date:new Date().toISOString().slice(0,10), reunion:1, course:4, strategy:'combine_top7_plus_outsider_flexi_25', formula:'C(8,5)=56 combinaisons × 2€ × 25% = 28€', stake:28, selection:[6,11,9,12,1,13,4,5], bases:[], associes:[6,11,9,12,1,13,4,5], profile:{ profile:'course_ouverte_outsider' } },
+      recent: [], observation: { courses_count:243, arrivals_count:196, best_hippos:[], coverage_by_rank:[] },
+      method_points: []
+    };
+    let SITE_DATA = FALLBACK_DATA;
+
+    const fmtEUR = n => new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR'}).format(Number(n || 0));
+    const fmtDate = d => new Intl.DateTimeFormat('fr-FR',{weekday:'long', day:'2-digit', month:'long', year:'numeric'}).format(d);
+    const pad = n => String(n).padStart(2,'0');
+    const timeLabel = d => `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+    const todayISO = () => new Date().toISOString().slice(0,10);
+
+    function buildProgram() {
+      const now = new Date();
+      const starts = [
+        new Date(now.getTime() - 95*60000), new Date(now.getTime() - 35*60000), new Date(now.getTime() + 12*60000), new Date(now.getTime() + 46*60000), new Date(now.getTime() + 83*60000), new Date(now.getTime() + 128*60000),
+        new Date(now.getTime() + 24*60000), new Date(now.getTime() + 61*60000), new Date(now.getTime() + 104*60000), new Date(now.getTime() + 148*60000),
+        new Date(now.getTime() + 31*60000), new Date(now.getTime() + 74*60000), new Date(now.getTime() + 116*60000), new Date(now.getTime() + 159*60000)
+      ];
+      const featured = SITE_DATA.featured || FALLBACK_DATA.featured;
+      const names = ['Prix du Canal Turf','Prix des Bases Solides','Prix de la Ligne Droite','Le Quinté+ du Jour','Prix des Outsiders','Prix de la Corde','Prix du Sprint Vert','Prix des Apprentis','Prix des Stayers','Prix du Trot Agile','Prix du Paddock','Prix de la Prairie','Prix de la Dernière Minute','Prix des Finishers'];
+      let k = 0;
+      return [1,2,3].map(r => ({
+        reunion:`R${r}`,
+        hippo: r === 1 ? 'ParisLongchamp' : r === 2 ? 'Vincennes' : 'Lyon-Parilly',
+        courses: Array.from({length: r === 1 ? 6 : 4}, (_,i) => {
+          const c = i + 1;
+          const isQuinte = r === Number(featured.reunion || 1) && c === Number(featured.course || 4);
+          const start = isQuinte ? starts[2] : starts[k++ % starts.length];
+          return {
+            reunion:r, course:c, code:`R${r}C${c}`, name:isQuinte ? 'Le Quinté+ événement' : names[(r*3+i) % names.length], start,
+            allocation: (isQuinte ? 53000 : 18000 + (r*6500) + (i*4200)), discipline: r === 2 ? 'Trot' : 'Plat', quinte:isQuinte
+          };
+        })
+      }));
+    }
+
+    function runnersFor(course) {
+      const featured = SITE_DATA.featured || FALLBACK_DATA.featured;
+      const baseSelection = (course.quinte ? featured.selection : shuffle([...featured.selection,2,3,7,8,10,14,15,16], course.reunion*17 + course.course)).slice(0,12);
+      return baseSelection.map((num, idx) => {
+        const note = Math.max(51, Math.round((94 - idx*3.4 + ((course.reunion*course.course + num) % 7)) * 10) / 10);
+        return { rank:idx+1, num, name:`Cheval ${num}`, note, profile: idx < 3 ? 'Base possible' : idx < 8 ? 'Associé' : 'Outsider', signal: idx < 3 ? 'Sécurité' : idx < 8 ? 'Valeur' : 'Surprise' };
       });
     }
+
+    function shuffle(arr, seed) {
+      let s = seed;
+      for (let i = arr.length - 1; i > 0; i--) { s = (s * 9301 + 49297) % 233280; const j = Math.floor((s / 233280) * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; }
+      return arr;
+    }
+
+    function updateHeader(program) {
+      document.getElementById('todayLabel').textContent = fmtDate(new Date());
+      const all = program.flatMap(r => r.courses).sort((a,b) => a.start - b.start);
+      const next = all.find(c => c.start > new Date()) || all[0];
+      const mins = Math.max(0, Math.round((next.start - new Date()) / 60000));
+      document.getElementById('nextBadge').innerHTML = `<span class="pulse"></span> Prochain départ : ${next.code} dans ${mins} min`;
+    }
+
+    function renderFeatured() {
+      const f = SITE_DATA.featured || FALLBACK_DATA.featured;
+      document.getElementById('featuredMeta').textContent = `${f.date || todayISO()} · R${f.reunion || 1}C${f.course || 4}`;
+      document.getElementById('featuredSelection').innerHTML = (f.selection || []).slice(0,8).map(n => `<span class="horse-num">${n}</span>`).join('');
+      document.getElementById('featuredStrategy').textContent = f.strategy || '—';
+      document.getElementById('featuredStake').textContent = fmtEUR(f.stake);
+      document.getElementById('featuredProfile').textContent = f.profile?.profile || '—';
+      document.getElementById('featuredFormula').textContent = f.formula || '—';
+      document.getElementById('combineFormula').textContent = f.selection?.length >= 8 ? 'C(8,5)=56 grilles × 2€ × 25% = 28€' : (f.formula || 'Combiné conseillé');
+      const bases = (f.bases && f.bases.length >= 3) ? f.bases.slice(0,3) : (f.selection || []).slice(0,3);
+      const associes = (f.associes && f.associes.length >= 5 ? f.associes : (f.selection || []).slice(3,8)).slice(0,5);
+      document.getElementById('champDetail').textContent = `Bases proposées : ${bases.join(' - ')} · Associés : ${associes.join(' - ')}. À confirmer uniquement si le badge H-1 passe au vert.`;
+    }
+
+    function renderProgram(program, active='R1') {
+      const tabs = document.getElementById('tabs');
+      tabs.innerHTML = program.map(r => `<button class="tab ${r.reunion===active?'active':''}" data-tab="${r.reunion}">${r.reunion} · ${r.hippo}</button>`).join('');
+      tabs.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', () => renderProgram(program, btn.dataset.tab)));
+      const reunion = program.find(r => r.reunion === active) || program[0];
+      document.getElementById('courseGrid').innerHTML = reunion.courses.map(c => {
+        const ready = (c.start - new Date()) <= 60*60000;
+        return `<article class="course-card">
+          <div class="course-top"><div><div class="course-code">${c.code}</div><div class="course-name">${c.name}</div></div>${c.quinte?'<span class="status alt">Quinté+</span>':''}</div>
+          <div class="h1-badge ${ready?'ready':''}">${ready?'Pronostic Affiné (H-1) disponible':'Pronostic Affiné (H-1) en attente'}</div>
+          <div class="course-meta"><div class="meta-pill"><span>Départ</span><strong>${timeLabel(c.start)}</strong></div><div class="meta-pill"><span>Allocation</span><strong>${fmtEUR(c.allocation)}</strong></div></div>
+          <button class="btn small primary" data-course="${c.code}">Voir le Pronostic</button>
+        </article>`;
+      }).join('');
+      document.querySelectorAll('[data-course]').forEach(btn => btn.addEventListener('click', () => openPronostic(program.flatMap(r => r.courses).find(c => c.code === btn.dataset.course))));
+    }
+
+    function openPronostic(course) {
+      const ready = (course.start - new Date()) <= 60*60000;
+      document.getElementById('modalTitle').textContent = `${course.code} — ${course.name}`;
+      document.getElementById('modalSubtitle').textContent = `${course.discipline} · Départ ${timeLabel(course.start)} · Allocation ${fmtEUR(course.allocation)}`;
+      const badge = document.getElementById('modalBadge');
+      badge.className = `h1-badge ${ready?'ready':''}`;
+      badge.textContent = ready ? 'Pronostic Affiné (H-1) disponible' : 'Pronostic Affiné (H-1) en attente';
+      document.getElementById('runnerRows').innerHTML = runnersFor(course).map(r => `<tr><td><span class="rank">${r.rank}</span></td><td><strong>${r.num}</strong></td><td>${r.name}</td><td class="note">${r.note}/100</td><td>${r.profile}</td><td>${r.signal}</td></tr>`).join('');
+      document.getElementById('pronosticModal').classList.add('open');
+    }
+
+    function renderStats() {
+      const f = SITE_DATA.finance || FALLBACK_DATA.finance;
+      document.getElementById('generatedAt').textContent = `Données générées le ${new Date(SITE_DATA.generated_at || Date.now()).toLocaleString('fr-FR')}`;
+      document.getElementById('bankroll').textContent = fmtEUR(f.bankroll);
+      document.getElementById('stakeTotal').textContent = fmtEUR(f.total_stake);
+      document.getElementById('gainTotal').textContent = fmtEUR(f.total_gain);
+      document.getElementById('netRoi').textContent = `${fmtEUR(f.net)} · ${Number(f.roi || 0).toFixed(1)} %`;
+      document.getElementById('streak').textContent = f.non_profitable_streak ?? '—';
+      document.getElementById('methodList').innerHTML = (SITE_DATA.method_points || FALLBACK_DATA.method_points).map(p => `<li>${p}</li>`).join('');
+      const obs = SITE_DATA.observation || FALLBACK_DATA.observation;
+      document.getElementById('coverageCaption').textContent = `${obs.courses_count || 0} courses historisées · ${obs.arrivals_count || 0} arrivées observées.`;
+      document.getElementById('hippoList').innerHTML = (obs.best_hippos || []).slice(0,5).map(h => `<li><strong>${h.name}</strong><span>${h.courses} courses · Top3 couvert ${h.top3_covered_rate}%</span></li>`).join('');
+      document.getElementById('history').innerHTML = (SITE_DATA.recent || []).slice(0,8).map(r => `<article class="history-card"><div><strong>${r.date} · R${r.reunion}C${r.course}</strong><span>${r.strategy}</span></div><div class="nums">Sélection ${(r.selection || []).join(' - ')}</div><div class="${Number(r.net) >= 0 ? 'good' : 'bad'}">Mise ${fmtEUR(r.stake)} · Gain ${fmtEUR(r.gain)} · Net ${fmtEUR(r.net)}</div></article>`).join('');
+      const cov = obs.coverage_by_rank || [];
+      if (window.Chart && cov.length) {
+        new Chart(document.getElementById('coverageChart'), {
+          type:'line',
+          data:{ labels:cov.map(r => '#' + r.rank), datasets:[{ label:'Présence top3 réel', data:cov.map(r => r.top3_rate), borderColor:'#39e58d', backgroundColor:'rgba(57,229,141,.08)', tension:.32 }, { label:'Présence top5 réel', data:cov.map(r => r.top5_rate), borderColor:'#f3c86a', tension:.32 }] },
+          options:{ responsive:true, plugins:{ legend:{ labels:{ color:'#dbeee5' } } }, scales:{ x:{ ticks:{ color:'#9eb9ad' }, grid:{ color:'rgba(255,255,255,.05)' } }, y:{ ticks:{ color:'#9eb9ad', callback:v => v + '%' }, grid:{ color:'rgba(255,255,255,.06)' } } } }
+        });
+      }
+    }
+
+    async function init() {
+      try {
+        const res = await fetch('site_data.json', { cache:'no-store' });
+        if (res.ok) SITE_DATA = await res.json();
+      } catch (e) { console.warn('site_data.json indisponible, fallback utilisé', e); }
+      const program = buildProgram();
+      updateHeader(program); setInterval(() => updateHeader(program), 30000);
+      renderFeatured(); renderProgram(program, 'R1'); renderStats();
+    }
+
+    document.getElementById('closeModal').addEventListener('click', () => document.getElementById('pronosticModal').classList.remove('open'));
+    document.getElementById('pronosticModal').addEventListener('click', e => { if (e.target.id === 'pronosticModal') e.currentTarget.classList.remove('open'); });
+    window.addEventListener('keydown', e => { if (e.key === 'Escape') document.getElementById('pronosticModal').classList.remove('open'); });
+    init();
   </script>
 </body>
 </html>
