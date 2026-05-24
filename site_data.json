@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T15:00:33.115939+00:00",
+  "generated_at": "2026-05-24T15:30:50.906663+00:00",
   "finance": {
     "bankroll": 327.2,
     "bets_count": 22,
@@ -582,19 +582,25 @@
           "allocation": 21100,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": []
+          "status": "FIN_COURSE",
+          "result_top5": [
+            8,
+            3,
+            7,
+            13,
+            4
+          ]
         },
         {
           "reunion": 1,
           "course": 7,
           "code": "R1C7",
           "name": "PRIX DU JEU DE PAUME",
-          "start_at": "2026-05-24T15:35:00+00:00",
+          "start_at": "2026-05-24T15:37:00+00:00",
           "allocation": 25900,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "JOKEYS_MONTENT_A_CHEVAL",
           "result_top5": []
         },
         {
@@ -843,19 +849,19 @@
   "settled_count": 22,
   "observation": {
     "courses_count": 243,
-    "arrivals_count": 210,
+    "arrivals_count": 215,
     "best_disciplines": [
       {
         "name": "Trot",
-        "courses": 106,
-        "top3_covered_rate": 22.6,
-        "top5_covered_rate": 31.1
+        "courses": 108,
+        "top3_covered_rate": 22.2,
+        "top5_covered_rate": 31.5
       },
       {
         "name": "Galop",
-        "courses": 93,
-        "top3_covered_rate": 36.6,
-        "top5_covered_rate": 60.2
+        "courses": 96,
+        "top3_covered_rate": 35.4,
+        "top5_covered_rate": 59.4
       }
     ],
     "best_hippos": [
@@ -873,9 +879,9 @@
       },
       {
         "name": "ParisLongchamp",
-        "courses": 14,
-        "top3_covered_rate": 35.7,
-        "top5_covered_rate": 50.0
+        "courses": 15,
+        "top3_covered_rate": 33.3,
+        "top5_covered_rate": 46.7
       },
       {
         "name": "VINCENNES",
@@ -893,75 +899,75 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 203,
-        "top3_rate": 54.7,
-        "top5_rate": 68.0
+        "runners": 208,
+        "top3_rate": 54.3,
+        "top5_rate": 67.8
       },
       {
         "rank": 2,
-        "runners": 203,
-        "top3_rate": 41.4,
-        "top5_rate": 63.5
+        "runners": 208,
+        "top3_rate": 40.4,
+        "top5_rate": 63.9
       },
       {
         "rank": 3,
-        "runners": 201,
-        "top3_rate": 34.8,
-        "top5_rate": 56.2
+        "runners": 206,
+        "top3_rate": 34.5,
+        "top5_rate": 55.8
       },
       {
         "rank": 4,
-        "runners": 204,
-        "top3_rate": 32.8,
-        "top5_rate": 55.9
+        "runners": 209,
+        "top3_rate": 32.5,
+        "top5_rate": 55.0
       },
       {
         "rank": 5,
-        "runners": 201,
-        "top3_rate": 34.3,
+        "runners": 206,
+        "top3_rate": 34.0,
         "top5_rate": 60.7
       },
       {
         "rank": 6,
-        "runners": 199,
-        "top3_rate": 24.1,
-        "top5_rate": 42.7
+        "runners": 204,
+        "top3_rate": 26.0,
+        "top5_rate": 44.1
       },
       {
         "rank": 7,
-        "runners": 192,
-        "top3_rate": 18.2,
-        "top5_rate": 35.9
+        "runners": 197,
+        "top3_rate": 18.8,
+        "top5_rate": 36.5
       },
       {
         "rank": 8,
-        "runners": 176,
-        "top3_rate": 19.3,
-        "top5_rate": 33.0
+        "runners": 181,
+        "top3_rate": 18.8,
+        "top5_rate": 32.6
       },
       {
         "rank": 9,
-        "runners": 156,
-        "top3_rate": 19.2,
-        "top5_rate": 35.3
+        "runners": 160,
+        "top3_rate": 19.4,
+        "top5_rate": 35.0
       },
       {
         "rank": 10,
-        "runners": 134,
-        "top3_rate": 9.7,
+        "runners": 137,
+        "top3_rate": 10.2,
         "top5_rate": 29.9
       },
       {
         "rank": 11,
-        "runners": 118,
-        "top3_rate": 11.9,
-        "top5_rate": 18.6
+        "runners": 121,
+        "top3_rate": 11.6,
+        "top5_rate": 18.2
       },
       {
         "rank": 12,
-        "runners": 103,
-        "top3_rate": 10.7,
-        "top5_rate": 21.4
+        "runners": 106,
+        "top3_rate": 10.4,
+        "top5_rate": 20.8
       }
     ]
   },
