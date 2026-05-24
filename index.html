@@ -274,27 +274,31 @@
     const todayISO = () => new Date().toISOString().slice(0,10);
 
     function buildProgram() {
+      const realProgram = Array.isArray(SITE_DATA.program) ? SITE_DATA.program : [];
+      if (realProgram.length) {
+        return realProgram.map(r => ({
+          reunion: r.reunion,
+          hippo: r.hippo || 'Réunion',
+          courses: (r.courses || []).map(c => ({
+            reunion: Number(c.reunion),
+            course: Number(c.course),
+            code: c.code || `${r.reunion}C${c.course}`,
+            name: c.name || `Course ${c.course}`,
+            start: new Date(c.start_at),
+            allocation: Number(c.allocation || 0),
+            discipline: c.discipline || 'Course',
+            quinte: !!c.quinte
+          })).filter(c => !Number.isNaN(c.start.getTime()))
+        })).filter(r => r.courses.length);
+      }
+
+      // Offline fallback only if site_data.json has no PMU programme snapshot.
       const now = new Date();
-      const starts = [
-        new Date(now.getTime() - 95*60000), new Date(now.getTime() - 35*60000), new Date(now.getTime() + 12*60000), new Date(now.getTime() + 46*60000), new Date(now.getTime() + 83*60000), new Date(now.getTime() + 128*60000),
-        new Date(now.getTime() + 24*60000), new Date(now.getTime() + 61*60000), new Date(now.getTime() + 104*60000), new Date(now.getTime() + 148*60000),
-        new Date(now.getTime() + 31*60000), new Date(now.getTime() + 74*60000), new Date(now.getTime() + 116*60000), new Date(now.getTime() + 159*60000)
-      ];
-      const featured = SITE_DATA.featured || FALLBACK_DATA.featured;
-      const names = ['Prix du Canal Turf','Prix des Bases Solides','Prix de la Ligne Droite','Le Quinté+ du Jour','Prix des Outsiders','Prix de la Corde','Prix du Sprint Vert','Prix des Apprentis','Prix des Stayers','Prix du Trot Agile','Prix du Paddock','Prix de la Prairie','Prix de la Dernière Minute','Prix des Finishers'];
-      let k = 0;
+      const starts = [new Date(now.getTime() + 45*60000), new Date(now.getTime() + 85*60000), new Date(now.getTime() + 125*60000)];
       return [1,2,3].map(r => ({
         reunion:`R${r}`,
         hippo: r === 1 ? 'ParisLongchamp' : r === 2 ? 'Vincennes' : 'Lyon-Parilly',
-        courses: Array.from({length: r === 1 ? 6 : 4}, (_,i) => {
-          const c = i + 1;
-          const isQuinte = r === Number(featured.reunion || 1) && c === Number(featured.course || 4);
-          const start = isQuinte ? starts[2] : starts[k++ % starts.length];
-          return {
-            reunion:r, course:c, code:`R${r}C${c}`, name:isQuinte ? 'Le Quinté+ événement' : names[(r*3+i) % names.length], start,
-            allocation: (isQuinte ? 53000 : 18000 + (r*6500) + (i*4200)), discipline: r === 2 ? 'Trot' : 'Plat', quinte:isQuinte
-          };
-        })
+        courses: Array.from({length: 3}, (_,i) => ({ reunion:r, course:i+1, code:`R${r}C${i+1}`, name:`Course ${i+1}`, start:starts[(r+i-1)%starts.length], allocation:0, discipline:'Course', quinte:false }))
       }));
     }
 
@@ -316,8 +320,12 @@
     function updateHeader(program) {
       document.getElementById('todayLabel').textContent = fmtDate(new Date());
       const all = program.flatMap(r => r.courses).sort((a,b) => a.start - b.start);
-      const next = all.find(c => c.start > new Date()) || all[0];
-      const mins = Math.max(0, Math.round((next.start - new Date()) / 60000));
+      const next = all.find(c => c.start > new Date());
+      if (!next) {
+        document.getElementById('nextBadge').innerHTML = `<span class="pulse"></span> Programme terminé`;
+        return;
+      }
+      const mins = Math.max(0, Math.ceil((next.start - new Date()) / 60000));
       document.getElementById('nextBadge').innerHTML = `<span class="pulse"></span> Prochain départ : ${next.code} dans ${mins} min`;
     }
 
