@@ -375,7 +375,13 @@
       const obs = SITE_DATA.observation || FALLBACK_DATA.observation;
       document.getElementById('coverageCaption').textContent = `${obs.courses_count || 0} courses historisées · ${obs.arrivals_count || 0} arrivées observées.`;
       document.getElementById('hippoList').innerHTML = (obs.best_hippos || []).slice(0,5).map(h => `<li><strong>${h.name}</strong><span>${h.courses} courses · Top3 couvert ${h.top3_covered_rate}%</span></li>`).join('');
-      document.getElementById('history').innerHTML = (SITE_DATA.recent || []).slice(0,8).map(r => `<article class="history-card"><div><strong>${r.date} · R${r.reunion}C${r.course}</strong><span>${r.strategy}</span></div><div class="nums">Sélection ${(r.selection || []).join(' - ')}</div><div class="${Number(r.net) >= 0 ? 'good' : 'bad'}">Mise ${fmtEUR(r.stake)} · Gain ${fmtEUR(r.gain)} · Net ${fmtEUR(r.net)}</div></article>`).join('');
+      document.getElementById('history').innerHTML = (SITE_DATA.recent || []).slice(0,8).map(r => {
+        const isSettled = !!r.settled;
+        const resultLine = isSettled
+          ? `<div class="${Number(r.net) >= 0 ? 'good' : 'bad'}">Mise ${fmtEUR(r.stake)} · Gain ${fmtEUR(r.gain)} · Net ${fmtEUR(r.net)}</div>`
+          : `<div class="gold">Mise fictive ${fmtEUR(r.stake)} · Résultat en attente — course non courue / non réglée</div>`;
+        return `<article class="history-card"><div><strong>${r.date} · R${r.reunion}C${r.course}</strong><span>${r.strategy}</span></div><div class="nums">Sélection ${(r.selection || []).join(' - ')}</div>${resultLine}</article>`;
+      }).join('');
       const cov = obs.coverage_by_rank || [];
       if (window.Chart && cov.length) {
         new Chart(document.getElementById('coverageChart'), {
