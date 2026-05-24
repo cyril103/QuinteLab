@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T13:27:14.134231+00:00",
+  "generated_at": "2026-05-24T13:30:57.702390+00:00",
   "finance": {
     "bankroll": 203.7,
     "bets_count": 22,
@@ -510,7 +510,7 @@
           "allocation": 50900,
           "discipline": "PLAT",
           "quinte": true,
-          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             4,
             1,
@@ -528,7 +528,7 @@
           "allocation": 119000,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": []
         },
         {
