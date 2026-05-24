@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T15:32:09.208972+00:00",
+  "generated_at": "2026-05-24T16:00:11.402572+00:00",
   "finance": {
     "bankroll": 312.2,
     "bets_count": 22,
@@ -598,19 +598,25 @@
           "allocation": 25900,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": []
+          "status": "FIN_COURSE",
+          "result_top5": [
+            5,
+            12,
+            7,
+            2,
+            1
+          ]
         },
         {
           "reunion": 1,
           "course": 8,
           "code": "R1C8",
           "name": "PRIX DE LA RUE DU CHAT QUI PECHE",
-          "start_at": "2026-05-24T16:10:00+00:00",
+          "start_at": "2026-05-24T16:12:00+00:00",
           "allocation": 19200,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": []
         }
       ]
