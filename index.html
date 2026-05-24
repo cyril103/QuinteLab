@@ -287,7 +287,9 @@
             start: new Date(c.start_at),
             allocation: Number(c.allocation || 0),
             discipline: c.discipline || 'Course',
-            quinte: !!c.quinte
+            quinte: !!c.quinte,
+            status: c.status || '',
+            resultTop5: Array.isArray(c.result_top5) ? c.result_top5 : []
           })).filter(c => !Number.isNaN(c.start.getTime()))
         })).filter(r => r.courses.length);
       }
@@ -298,7 +300,7 @@
       return [1,2,3].map(r => ({
         reunion:`R${r}`,
         hippo: r === 1 ? 'ParisLongchamp' : r === 2 ? 'Vincennes' : 'Lyon-Parilly',
-        courses: Array.from({length: 3}, (_,i) => ({ reunion:r, course:i+1, code:`R${r}C${i+1}`, name:`Course ${i+1}`, start:starts[(r+i-1)%starts.length], allocation:0, discipline:'Course', quinte:false }))
+        courses: Array.from({length: 3}, (_,i) => ({ reunion:r, course:i+1, code:`R${r}C${i+1}`, name:`Course ${i+1}`, start:starts[(r+i-1)%starts.length], allocation:0, discipline:'Course', quinte:false, status:'', resultTop5:[] }))
       }));
     }
 
@@ -349,12 +351,14 @@
       tabs.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', () => renderProgram(program, btn.dataset.tab)));
       const reunion = program.find(r => r.reunion === active) || program[0];
       document.getElementById('courseGrid').innerHTML = reunion.courses.map(c => {
-        const ready = (c.start - new Date()) <= 60*60000;
+        const now = new Date();
+        const ready = (c.start - now) <= 60*60000;
+        const resultAvailable = (now - c.start) >= 60*60000 && c.resultTop5 && c.resultTop5.length;
         return `<article class="course-card">
           <div class="course-top"><div><div class="course-code">${c.code}</div><div class="course-name">${c.name}</div></div>${c.quinte?'<span class="status alt">Quinté+</span>':''}</div>
-          <div class="h1-badge ${ready?'ready':''}">${ready?'Pronostic Affiné (H-1) disponible':'Pronostic Affiné (H-1) en attente'}</div>
+          <div class="h1-badge ${ready?'ready':''}">${resultAvailable?'Résultat disponible':(ready?'Pronostic Affiné (H-1) disponible':'Pronostic Affiné (H-1) en attente')}</div>
           <div class="course-meta"><div class="meta-pill"><span>Départ</span><strong>${timeLabel(c.start)}</strong></div><div class="meta-pill"><span>Allocation</span><strong>${fmtEUR(c.allocation)}</strong></div></div>
-          <button class="btn small primary" data-course="${c.code}">Voir le Pronostic</button>
+          <button class="btn small primary" data-course="${c.code}">${resultAvailable?'Voir le Résultat':'Voir le Pronostic'}</button>
         </article>`;
       }).join('');
       document.querySelectorAll('[data-course]').forEach(btn => btn.addEventListener('click', () => openPronostic(program.flatMap(r => r.courses).find(c => c.code === btn.dataset.course))));
@@ -362,12 +366,19 @@
 
     function openPronostic(course) {
       const ready = (course.start - new Date()) <= 60*60000;
+      const resultAvailable = (new Date() - course.start) >= 60*60000 && course.resultTop5 && course.resultTop5.length;
       document.getElementById('modalTitle').textContent = `${course.code} — ${course.name}`;
       document.getElementById('modalSubtitle').textContent = `${course.discipline} · Départ ${timeLabel(course.start)} · Allocation ${fmtEUR(course.allocation)}`;
       const badge = document.getElementById('modalBadge');
-      badge.className = `h1-badge ${ready?'ready':''}`;
-      badge.textContent = ready ? 'Pronostic Affiné (H-1) disponible' : 'Pronostic Affiné (H-1) en attente';
-      document.getElementById('runnerRows').innerHTML = runnersFor(course).map(r => `<tr><td><span class="rank">${r.rank}</span></td><td><strong>${r.num}</strong></td><td>${r.name}</td><td class="note">${r.note}/100</td><td>${r.profile}</td><td>${r.signal}</td></tr>`).join('');
+      if (resultAvailable) {
+        badge.className = 'h1-badge ready';
+        badge.textContent = 'Résultat officiel disponible';
+        document.getElementById('runnerRows').innerHTML = course.resultTop5.map((num, idx) => `<tr><td><span class="rank">${idx + 1}</span></td><td><strong>${num}</strong></td><td>Cheval ${num}</td><td class="note">Arrivée</td><td>${idx + 1}${idx === 0 ? 'er' : 'e'}</td><td>Top 5 officiel</td></tr>`).join('');
+      } else {
+        badge.className = `h1-badge ${ready?'ready':''}`;
+        badge.textContent = ready ? 'Pronostic Affiné (H-1) disponible' : 'Pronostic Affiné (H-1) en attente';
+        document.getElementById('runnerRows').innerHTML = runnersFor(course).map(r => `<tr><td><span class="rank">${r.rank}</span></td><td><strong>${r.num}</strong></td><td>${r.name}</td><td class="note">${r.note}/100</td><td>${r.profile}</td><td>${r.signal}</td></tr>`).join('');
+      }
       document.getElementById('pronosticModal').classList.add('open');
     }
 
