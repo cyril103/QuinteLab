@@ -290,7 +290,8 @@
             quinte: !!c.quinte,
             status: c.status || '',
             resultTop5: Array.isArray(c.result_top5) ? c.result_top5 : [],
-            runners: Array.isArray(c.runners) ? c.runners : []
+            runners: Array.isArray(c.runners) ? c.runners : [],
+            modelSource: c.model_source || (Array.isArray(c.runners) && c.runners.some(r => r.source === 'sqlite_runner_scores') ? 'sqlite_runner_scores' : 'pmu_api')
           })).filter(c => !Number.isNaN(c.start.getTime()))
         })).filter(r => r.courses.length);
       }
@@ -313,15 +314,19 @@
           name: runner.name || `Cheval ${runner.num}`,
           note: Number(runner.note || 0),
           profile: runner.profile || (idx < 3 ? 'Base possible' : idx < 8 ? 'Associé' : 'Outsider'),
-          signal: runner.signal || 'Partant réel'
+          signal: runner.signal || (runner.source === 'sqlite_runner_scores' ? 'Score historique' : 'Partant réel'),
+          source: runner.source || course.modelSource || 'pmu_api'
         })).filter(runner => Number.isFinite(runner.num));
       }
-      const featured = SITE_DATA.featured || FALLBACK_DATA.featured;
-      const baseSelection = (course.quinte ? featured.selection : shuffle([...featured.selection,2,3,7,8,10,14,15,16], course.reunion*17 + course.course)).slice(0,12);
-      return baseSelection.map((num, idx) => {
-        const note = Math.max(51, Math.round((94 - idx*3.4 + ((course.reunion*course.course + num) % 7)) * 10) / 10);
-        return { rank:idx+1, num, name:`Cheval ${num}`, note, profile: idx < 3 ? 'Base possible' : idx < 8 ? 'Associé' : 'Outsider', signal: idx < 3 ? 'Sécurité' : idx < 8 ? 'Valeur' : 'Surprise' };
-      });
+      return [];
+    }
+
+    function runnerNameMap(course) {
+      return new Map(runnersFor(course).map(r => [Number(r.num), r.name]));
+    }
+
+    function modelSourceLabel(course) {
+      return course.modelSource === 'sqlite_runner_scores' ? 'modèle historique SQLite' : 'données PMU du jour';
     }
 
     function shuffle(arr, seed) {
@@ -384,20 +389,24 @@
       if (resultAvailable) {
         const prono = runnersFor(course);
         const pronoRank = new Map(prono.map(r => [Number(r.num), r.rank]));
+        const names = runnerNameMap(course);
         const hits = course.resultTop5.filter(num => pronoRank.has(Number(num)));
         const top3Hits = course.resultTop5.slice(0,3).filter(num => pronoRank.has(Number(num)));
         badge.className = 'h1-badge ready';
-        badge.textContent = `Résultat officiel disponible · ${hits.length}/5 dans notre sélection · ${top3Hits.length}/3 dans le podium`;
+        badge.textContent = `Résultat officiel disponible · ${hits.length}/5 dans notre sélection · ${top3Hits.length}/3 dans le podium · source ${modelSourceLabel(course)}`;
         document.getElementById('runnerRows').innerHTML = course.resultTop5.map((num, idx) => {
           const rank = pronoRank.get(Number(num));
           const hit = rank ? `Oui · rang prono #${rank}` : 'Non retenu dans notre sélection';
           const signal = rank ? (rank <= 3 ? 'Base touchée' : rank <= 8 ? 'Sélection touchée' : 'Outsider repéré') : 'Écart modèle';
-          return `<tr><td><span class="rank">${idx + 1}</span></td><td><strong>${num}</strong></td><td>Cheval ${num}</td><td class="note">${hit}</td><td>${idx + 1}${idx === 0 ? 'er' : 'e'} officiel</td><td>${signal}</td></tr>`;
+          return `<tr><td><span class="rank">${idx + 1}</span></td><td><strong>${num}</strong></td><td>${names.get(Number(num)) || `Cheval ${num}`}</td><td class="note">${hit}</td><td>${idx + 1}${idx === 0 ? 'er' : 'e'} officiel</td><td>${signal}</td></tr>`;
         }).join('');
       } else {
         badge.className = `h1-badge ${ready?'ready':''}`;
-        badge.textContent = ready ? 'Pronostic Affiné (H-1) disponible' : 'Pronostic Affiné (H-1) en attente';
-        document.getElementById('runnerRows').innerHTML = runnersFor(course).map(r => `<tr><td><span class="rank">${r.rank}</span></td><td><strong>${r.num}</strong></td><td>${r.name}</td><td class="note">${r.note}/100</td><td>${r.profile}</td><td>${r.signal}</td></tr>`).join('');
+        badge.textContent = ready ? `Pronostic Affiné (H-1) disponible · source ${modelSourceLabel(course)}` : `Pronostic Affiné (H-1) en attente · source ${modelSourceLabel(course)}`;
+        const runners = runnersFor(course);
+        document.getElementById('runnerRows').innerHTML = runners.length
+          ? runners.map(r => `<tr><td><span class="rank">${r.rank}</span></td><td><strong>${r.num}</strong></td><td>${r.name}</td><td class="note">${r.note}/100</td><td>${r.profile}</td><td>${r.signal}</td></tr>`).join('')
+          : '<tr><td colspan="6" class="muted">Aucun partant réel/scoré disponible pour cette course dans le snapshot.</td></tr>';
       }
       document.getElementById('pronosticModal').classList.add('open');
     }
