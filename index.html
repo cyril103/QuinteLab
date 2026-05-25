@@ -289,7 +289,8 @@
             discipline: c.discipline || 'Course',
             quinte: !!c.quinte,
             status: c.status || '',
-            resultTop5: Array.isArray(c.result_top5) ? c.result_top5 : []
+            resultTop5: Array.isArray(c.result_top5) ? c.result_top5 : [],
+            runners: Array.isArray(c.runners) ? c.runners : []
           })).filter(c => !Number.isNaN(c.start.getTime()))
         })).filter(r => r.courses.length);
       }
@@ -305,6 +306,16 @@
     }
 
     function runnersFor(course) {
+      if (Array.isArray(course.runners) && course.runners.length) {
+        return course.runners.map((runner, idx) => ({
+          rank: Number(runner.rank || idx + 1),
+          num: Number(runner.num),
+          name: runner.name || `Cheval ${runner.num}`,
+          note: Number(runner.note || 0),
+          profile: runner.profile || (idx < 3 ? 'Base possible' : idx < 8 ? 'Associé' : 'Outsider'),
+          signal: runner.signal || 'Partant réel'
+        })).filter(runner => Number.isFinite(runner.num));
+      }
       const featured = SITE_DATA.featured || FALLBACK_DATA.featured;
       const baseSelection = (course.quinte ? featured.selection : shuffle([...featured.selection,2,3,7,8,10,14,15,16], course.reunion*17 + course.course)).slice(0,12);
       return baseSelection.map((num, idx) => {

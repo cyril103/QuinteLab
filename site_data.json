@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T15:18:30.554259+00:00",
+  "generated_at": "2026-05-25T15:30:05.340239+00:00",
   "finance": {
     "bankroll": 292.2,
     "bets_count": 23,
@@ -499,6 +499,80 @@
             8,
             10,
             3
+          ],
+          "runners": [
+            {
+              "num": 3,
+              "name": "CONTADOR",
+              "note": 62.0,
+              "profile": "Base possible",
+              "signal": "Cote 4.5",
+              "rank": 1
+            },
+            {
+              "num": 6,
+              "name": "GAREYA",
+              "note": 62.0,
+              "profile": "Base possible",
+              "signal": "Cote 3.5",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "PALMYRA",
+              "note": 62.0,
+              "profile": "Base possible",
+              "signal": "Cote 5.5",
+              "rank": 3
+            },
+            {
+              "num": 10,
+              "name": "FINLANDAISE",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Cote 3.3",
+              "rank": 4
+            },
+            {
+              "num": 2,
+              "name": "NOW FOR GLORY",
+              "note": 61.6,
+              "profile": "Associé",
+              "signal": "Cote 14",
+              "rank": 5
+            },
+            {
+              "num": 5,
+              "name": "SCHWYZER",
+              "note": 55.7,
+              "profile": "Associé",
+              "signal": "Cote 27",
+              "rank": 6
+            },
+            {
+              "num": 8,
+              "name": "VALDERRAMA",
+              "note": 54.4,
+              "profile": "Associé",
+              "signal": "Cote 30",
+              "rank": 7
+            },
+            {
+              "num": 1,
+              "name": "THE WHEEL OF TIME",
+              "note": 48.9,
+              "profile": "Associé",
+              "signal": "Cote 42",
+              "rank": 8
+            },
+            {
+              "num": 4,
+              "name": "TAYLOR",
+              "note": 48.9,
+              "profile": "Outsider",
+              "signal": "Cote 42",
+              "rank": 9
+            }
           ]
         },
         {
@@ -517,6 +591,72 @@
             8,
             5,
             2
+          ],
+          "runners": [
+            {
+              "num": 1,
+              "name": "THE MAGPIE",
+              "note": 91.6,
+              "profile": "Base possible",
+              "signal": "Cote 2.8",
+              "rank": 1
+            },
+            {
+              "num": 2,
+              "name": "MERVEILLE",
+              "note": 90.0,
+              "profile": "Base possible",
+              "signal": "Cote 8.9",
+              "rank": 2
+            },
+            {
+              "num": 3,
+              "name": "ARIOSTO",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 6.5",
+              "rank": 3
+            },
+            {
+              "num": 6,
+              "name": "NATORSPEED ESSEF",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 6.7",
+              "rank": 4
+            },
+            {
+              "num": 5,
+              "name": "RUSAIR FAL",
+              "note": 80.0,
+              "profile": "Associé",
+              "signal": "Cote 7.9",
+              "rank": 5
+            },
+            {
+              "num": 8,
+              "name": "ZARABABY",
+              "note": 80.0,
+              "profile": "Associé",
+              "signal": "Cote 6.8",
+              "rank": 6
+            },
+            {
+              "num": 9,
+              "name": "SYLVEROY",
+              "note": 79.2,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 7
+            },
+            {
+              "num": 4,
+              "name": "ZITTO",
+              "note": 73.6,
+              "profile": "Associé",
+              "signal": "Cote 14",
+              "rank": 8
+            }
           ]
         },
         {
@@ -535,6 +675,128 @@
             8,
             6,
             5
+          ],
+          "runners": [
+            {
+              "num": 4,
+              "name": "CALAS",
+              "note": 93.9,
+              "profile": "Base possible",
+              "signal": "Cote 5.2",
+              "rank": 1
+            },
+            {
+              "num": 9,
+              "name": "DUBALAA",
+              "note": 90.7,
+              "profile": "Base possible",
+              "signal": "Cote 6.5",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "COMME QUOI",
+              "note": 89.9,
+              "profile": "Base possible",
+              "signal": "Cote 5.9",
+              "rank": 3
+            },
+            {
+              "num": 2,
+              "name": "HALF HALF",
+              "note": 88.9,
+              "profile": "Associé",
+              "signal": "Cote 7.1",
+              "rank": 4
+            },
+            {
+              "num": 15,
+              "name": "THE SNARK",
+              "note": 85.5,
+              "profile": "Associé",
+              "signal": "Cote 26",
+              "rank": 5
+            },
+            {
+              "num": 3,
+              "name": "PUMALIN PARK",
+              "note": 83.7,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 6
+            },
+            {
+              "num": 16,
+              "name": "LISIPPO",
+              "note": 83.0,
+              "profile": "Associé",
+              "signal": "Cote 9.6",
+              "rank": 7
+            },
+            {
+              "num": 8,
+              "name": "ZIGGY STAR",
+              "note": 82.8,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 8
+            },
+            {
+              "num": 14,
+              "name": "BABY HARTWOOD",
+              "note": 81.8,
+              "profile": "Outsider",
+              "signal": "Cote 26",
+              "rank": 9
+            },
+            {
+              "num": 10,
+              "name": "JOH SPIRIT",
+              "note": 80.1,
+              "profile": "Outsider",
+              "signal": "Cote 25",
+              "rank": 10
+            },
+            {
+              "num": 11,
+              "name": "PRINCE AUBOIS",
+              "note": 75.9,
+              "profile": "Outsider",
+              "signal": "Cote 31",
+              "rank": 11
+            },
+            {
+              "num": 6,
+              "name": "SERINES",
+              "note": 75.5,
+              "profile": "Outsider",
+              "signal": "Cote 27",
+              "rank": 12
+            },
+            {
+              "num": 7,
+              "name": "TRUE TEDESCO",
+              "note": 73.1,
+              "profile": "Outsider",
+              "signal": "Cote 31",
+              "rank": 13
+            },
+            {
+              "num": 13,
+              "name": "CASARES",
+              "note": 65.2,
+              "profile": "Outsider",
+              "signal": "Cote 54",
+              "rank": 14
+            },
+            {
+              "num": 12,
+              "name": "BAUHINIA RHAPSODY",
+              "note": 64.2,
+              "profile": "Outsider",
+              "signal": "Cote 49",
+              "rank": 15
+            }
           ]
         },
         {
@@ -553,6 +815,96 @@
             3,
             1,
             2
+          ],
+          "runners": [
+            {
+              "num": 1,
+              "name": "LOVATREE PARIS",
+              "note": 89.8,
+              "profile": "Base possible",
+              "signal": "Cote 10",
+              "rank": 1
+            },
+            {
+              "num": 2,
+              "name": "MAJOIE",
+              "note": 89.0,
+              "profile": "Base possible",
+              "signal": "Cote 11",
+              "rank": 2
+            },
+            {
+              "num": 4,
+              "name": "LA MARITZA",
+              "note": 83.5,
+              "profile": "Base possible",
+              "signal": "Cote 21",
+              "rank": 3
+            },
+            {
+              "num": 3,
+              "name": "PIYANGO",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 3.5",
+              "rank": 4
+            },
+            {
+              "num": 7,
+              "name": "PARVAGE",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 4.5",
+              "rank": 5
+            },
+            {
+              "num": 11,
+              "name": "HEUREUSE",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 7.8",
+              "rank": 6
+            },
+            {
+              "num": 5,
+              "name": "BEAU ROMAN",
+              "note": 80.7,
+              "profile": "Associé",
+              "signal": "Cote 16",
+              "rank": 7
+            },
+            {
+              "num": 10,
+              "name": "GANODIN",
+              "note": 79.0,
+              "profile": "Associé",
+              "signal": "Cote 6.7",
+              "rank": 8
+            },
+            {
+              "num": 6,
+              "name": "SYDNEY SUNSET",
+              "note": 69.4,
+              "profile": "Outsider",
+              "signal": "Cote 41",
+              "rank": 9
+            },
+            {
+              "num": 9,
+              "name": "AL PASO",
+              "note": 69.4,
+              "profile": "Outsider",
+              "signal": "Cote 41",
+              "rank": 10
+            },
+            {
+              "num": 8,
+              "name": "KAPKAN",
+              "note": 68.0,
+              "profile": "Outsider",
+              "signal": "Cote 21",
+              "rank": 11
+            }
           ]
         },
         {
@@ -571,6 +923,128 @@
             9,
             10,
             12
+          ],
+          "runners": [
+            {
+              "num": 12,
+              "name": "EVEROSE",
+              "note": 91.6,
+              "profile": "Base possible",
+              "signal": "Cote 7.7",
+              "rank": 1
+            },
+            {
+              "num": 3,
+              "name": "ORINOCO",
+              "note": 90.0,
+              "profile": "Base possible",
+              "signal": "Cote 6.3",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "TCHIKITA",
+              "note": 88.9,
+              "profile": "Base possible",
+              "signal": "Cote 12",
+              "rank": 3
+            },
+            {
+              "num": 9,
+              "name": "ASTREA",
+              "note": 82.1,
+              "profile": "Associé",
+              "signal": "Cote 24",
+              "rank": 4
+            },
+            {
+              "num": 1,
+              "name": "RUBENESQUE",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 5
+            },
+            {
+              "num": 10,
+              "name": "LADY SOFIA",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 4.1",
+              "rank": 6
+            },
+            {
+              "num": 13,
+              "name": "NAVACERRADA",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 13",
+              "rank": 7
+            },
+            {
+              "num": 16,
+              "name": "BEST SISTER",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 23",
+              "rank": 8
+            },
+            {
+              "num": 6,
+              "name": "FILIGRANE",
+              "note": 81.0,
+              "profile": "Outsider",
+              "signal": "Cote 6",
+              "rank": 9
+            },
+            {
+              "num": 2,
+              "name": "GLOW UP",
+              "note": 80.2,
+              "profile": "Outsider",
+              "signal": "Cote 48",
+              "rank": 10
+            },
+            {
+              "num": 7,
+              "name": "MISTY CITY",
+              "note": 75.3,
+              "profile": "Outsider",
+              "signal": "Cote 37",
+              "rank": 11
+            },
+            {
+              "num": 14,
+              "name": "TANA MA",
+              "note": 73.5,
+              "profile": "Outsider",
+              "signal": "Cote 32",
+              "rank": 12
+            },
+            {
+              "num": 4,
+              "name": "DEUX DE COUPE",
+              "note": 69.8,
+              "profile": "Outsider",
+              "signal": "Cote 40",
+              "rank": 13
+            },
+            {
+              "num": 8,
+              "name": "MAURICIA",
+              "note": 60.3,
+              "profile": "Outsider",
+              "signal": "Cote 39",
+              "rank": 14
+            },
+            {
+              "num": 15,
+              "name": "SECRET QUEEN",
+              "note": 55.0,
+              "profile": "Outsider",
+              "signal": "Cote 86",
+              "rank": 15
+            }
           ]
         },
         {
@@ -589,6 +1063,104 @@
             9,
             10,
             6
+          ],
+          "runners": [
+            {
+              "num": 2,
+              "name": "DORIANELLO",
+              "note": 91.6,
+              "profile": "Base possible",
+              "signal": "Cote 10",
+              "rank": 1
+            },
+            {
+              "num": 9,
+              "name": "MASTER PAT",
+              "note": 89.8,
+              "profile": "Base possible",
+              "signal": "Cote 10",
+              "rank": 2
+            },
+            {
+              "num": 1,
+              "name": "CROWDFUNDING",
+              "note": 86.6,
+              "profile": "Base possible",
+              "signal": "Cote 7.3",
+              "rank": 3
+            },
+            {
+              "num": 5,
+              "name": "MODERN SPIRIT",
+              "note": 85.3,
+              "profile": "Associé",
+              "signal": "Cote 23",
+              "rank": 4
+            },
+            {
+              "num": 10,
+              "name": "WOFF",
+              "note": 84.7,
+              "profile": "Associé",
+              "signal": "Cote 7.7",
+              "rank": 5
+            },
+            {
+              "num": 6,
+              "name": "MAKAROV",
+              "note": 84.5,
+              "profile": "Associé",
+              "signal": "Cote 7.8",
+              "rank": 6
+            },
+            {
+              "num": 7,
+              "name": "MARHARRY",
+              "note": 84.3,
+              "profile": "Associé",
+              "signal": "Cote 8.7",
+              "rank": 7
+            },
+            {
+              "num": 11,
+              "name": "HONGUEMARE",
+              "note": 83.6,
+              "profile": "Associé",
+              "signal": "Cote 14",
+              "rank": 8
+            },
+            {
+              "num": 8,
+              "name": "QUIET SEA",
+              "note": 82.0,
+              "profile": "Outsider",
+              "signal": "Cote 3.9",
+              "rank": 9
+            },
+            {
+              "num": 4,
+              "name": "SAXON VILLAGE",
+              "note": 78.0,
+              "profile": "Outsider",
+              "signal": "Cote 21",
+              "rank": 10
+            },
+            {
+              "num": 3,
+              "name": "LETTY'S MARVEL",
+              "note": 70.7,
+              "profile": "Outsider",
+              "signal": "Cote 45",
+              "rank": 11
+            },
+            {
+              "num": 12,
+              "name": "NEUSCHWANSTEIN",
+              "note": 70.5,
+              "profile": "Outsider",
+              "signal": "Cote 35",
+              "rank": 12
+            }
           ]
         },
         {
@@ -600,8 +1172,130 @@
           "allocation": 17300,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": []
+          "status": "JOKEYS_MONTENT_A_CHEVAL",
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 5,
+              "name": "INKIOSTRO",
+              "note": 85.6,
+              "profile": "Base possible",
+              "signal": "Cote 12",
+              "rank": 1
+            },
+            {
+              "num": 1,
+              "name": "TOKYO DREAMER",
+              "note": 84.0,
+              "profile": "Base possible",
+              "signal": "Cote 9.5",
+              "rank": 2
+            },
+            {
+              "num": 6,
+              "name": "CAREGIVER",
+              "note": 83.5,
+              "profile": "Base possible",
+              "signal": "Cote 7.8",
+              "rank": 3
+            },
+            {
+              "num": 13,
+              "name": "NEOWISE",
+              "note": 83.4,
+              "profile": "Associé",
+              "signal": "Cote 7.6",
+              "rank": 4
+            },
+            {
+              "num": 11,
+              "name": "MAGIC STARS",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 11",
+              "rank": 5
+            },
+            {
+              "num": 7,
+              "name": "PINYA",
+              "note": 81.2,
+              "profile": "Associé",
+              "signal": "Cote 22",
+              "rank": 6
+            },
+            {
+              "num": 2,
+              "name": "LUNALA",
+              "note": 81.1,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 7
+            },
+            {
+              "num": 10,
+              "name": "JOAO",
+              "note": 80.5,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 8
+            },
+            {
+              "num": 12,
+              "name": "KING HARTWOOD",
+              "note": 80.5,
+              "profile": "Outsider",
+              "signal": "Cote 8.3",
+              "rank": 9
+            },
+            {
+              "num": 14,
+              "name": "LES TROIS VALLEES",
+              "note": 77.7,
+              "profile": "Outsider",
+              "signal": "Cote 13",
+              "rank": 10
+            },
+            {
+              "num": 4,
+              "name": "PERGOLOR",
+              "note": 76.4,
+              "profile": "Outsider",
+              "signal": "Cote 19",
+              "rank": 11
+            },
+            {
+              "num": 9,
+              "name": "UMAMI",
+              "note": 75.5,
+              "profile": "Outsider",
+              "signal": "Cote 21",
+              "rank": 12
+            },
+            {
+              "num": 15,
+              "name": "RHEINLAND",
+              "note": 75.3,
+              "profile": "Outsider",
+              "signal": "Cote 13",
+              "rank": 13
+            },
+            {
+              "num": 3,
+              "name": "GOLDEN VALE",
+              "note": 63.6,
+              "profile": "Outsider",
+              "signal": "Cote 58",
+              "rank": 14
+            },
+            {
+              "num": 8,
+              "name": "RIVERA",
+              "note": 54.3,
+              "profile": "Outsider",
+              "signal": "Cote 51",
+              "rank": 15
+            }
+          ]
         },
         {
           "reunion": 1,
@@ -613,7 +1307,113 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 9,
+              "name": "ENORA SENORA",
+              "note": 81.8,
+              "profile": "Base possible",
+              "signal": "Cote 7",
+              "rank": 1
+            },
+            {
+              "num": 5,
+              "name": "DIWAN SENORA",
+              "note": 81.6,
+              "profile": "Base possible",
+              "signal": "Cote 6.3",
+              "rank": 2
+            },
+            {
+              "num": 3,
+              "name": "MEARAS STYLE",
+              "note": 79.0,
+              "profile": "Base possible",
+              "signal": "Cote 13",
+              "rank": 3
+            },
+            {
+              "num": 6,
+              "name": "PEARL HARBOUR",
+              "note": 78.3,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 4
+            },
+            {
+              "num": 11,
+              "name": "BLACK PANTHER",
+              "note": 78.3,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 5
+            },
+            {
+              "num": 1,
+              "name": "ORANGE VIF",
+              "note": 78.1,
+              "profile": "Associé",
+              "signal": "Cote 4.6",
+              "rank": 6
+            },
+            {
+              "num": 7,
+              "name": "ANONYME",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 7.7",
+              "rank": 7
+            },
+            {
+              "num": 8,
+              "name": "SOHO VICKY",
+              "note": 77.5,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 8
+            },
+            {
+              "num": 2,
+              "name": "KATANA DES ROCS",
+              "note": 67.0,
+              "profile": "Outsider",
+              "signal": "Cote 19",
+              "rank": 9
+            },
+            {
+              "num": 4,
+              "name": "EARLY LIGHT",
+              "note": 66.4,
+              "profile": "Outsider",
+              "signal": "Cote 40",
+              "rank": 10
+            },
+            {
+              "num": 10,
+              "name": "ROXANA OF CECCA",
+              "note": 63.9,
+              "profile": "Outsider",
+              "signal": "Cote 20",
+              "rank": 11
+            },
+            {
+              "num": 14,
+              "name": "KARAWAN",
+              "note": 61.2,
+              "profile": "Outsider",
+              "signal": "Cote 15",
+              "rank": 12
+            },
+            {
+              "num": 13,
+              "name": "CINQUAIN",
+              "note": 58.2,
+              "profile": "Outsider",
+              "signal": "Cote 53",
+              "rank": 13
+            }
+          ]
         },
         {
           "reunion": 1,
@@ -625,7 +1425,73 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 2,
+              "name": "PLEASING",
+              "note": 90.1,
+              "profile": "Base possible",
+              "signal": "Cote 2.3",
+              "rank": 1
+            },
+            {
+              "num": 3,
+              "name": "CHASUBLE",
+              "note": 88.5,
+              "profile": "Base possible",
+              "signal": "Cote 6.7",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "ANIMA SANA",
+              "note": 86.1,
+              "profile": "Base possible",
+              "signal": "Cote 20",
+              "rank": 3
+            },
+            {
+              "num": 4,
+              "name": "SPLENDINO",
+              "note": 86.0,
+              "profile": "Associé",
+              "signal": "Cote 7.7",
+              "rank": 4
+            },
+            {
+              "num": 6,
+              "name": "MY EDEN JAMES",
+              "note": 82.3,
+              "profile": "Associé",
+              "signal": "Cote 8.3",
+              "rank": 5
+            },
+            {
+              "num": 8,
+              "name": "FREEZE",
+              "note": 82.3,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 6
+            },
+            {
+              "num": 1,
+              "name": "ZILCOVER",
+              "note": 81.1,
+              "profile": "Associé",
+              "signal": "Cote 9.1",
+              "rank": 7
+            },
+            {
+              "num": 7,
+              "name": "CANATIYANN",
+              "note": 76.5,
+              "profile": "Associé",
+              "signal": "Cote 7.6",
+              "rank": 8
+            }
+          ]
         }
       ]
     },
@@ -649,6 +1515,64 @@
             7,
             4,
             1
+          ],
+          "runners": [
+            {
+              "num": 6,
+              "name": "HORNADO BELLO",
+              "note": 85.1,
+              "profile": "Base possible",
+              "signal": "Cote 6.6",
+              "rank": 1
+            },
+            {
+              "num": 3,
+              "name": "JOKER WIND",
+              "note": 81.5,
+              "profile": "Base possible",
+              "signal": "Cote 1.5",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "IT'S DU QUENNE",
+              "note": 80.6,
+              "profile": "Base possible",
+              "signal": "Cote 18",
+              "rank": 3
+            },
+            {
+              "num": 4,
+              "name": "GOOD PLAY JEPHI",
+              "note": 74.7,
+              "profile": "Associé",
+              "signal": "Cote 24",
+              "rank": 4
+            },
+            {
+              "num": 2,
+              "name": "IBISCUS DE MAHEY",
+              "note": 74.2,
+              "profile": "Associé",
+              "signal": "Cote 5.1",
+              "rank": 5
+            },
+            {
+              "num": 1,
+              "name": "JUST BE YOURSELF",
+              "note": 72.3,
+              "profile": "Associé",
+              "signal": "Cote 28",
+              "rank": 6
+            },
+            {
+              "num": 7,
+              "name": "JOUNA DE LAURMA",
+              "note": 64.8,
+              "profile": "Associé",
+              "signal": "Cote 45",
+              "rank": 7
+            }
           ]
         },
         {
@@ -667,6 +1591,80 @@
             9,
             7,
             2
+          ],
+          "runners": [
+            {
+              "num": 4,
+              "name": "MARIVENT",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 13",
+              "rank": 1
+            },
+            {
+              "num": 6,
+              "name": "MAXIMUS SS",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 5.9",
+              "rank": 2
+            },
+            {
+              "num": 3,
+              "name": "NIKA DE KOR",
+              "note": 66.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.2",
+              "rank": 3
+            },
+            {
+              "num": 5,
+              "name": "MAGIC HV",
+              "note": 66.0,
+              "profile": "Associé",
+              "signal": "Cote 2.6",
+              "rank": 4
+            },
+            {
+              "num": 1,
+              "name": "MAREA DE LADIL",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 4.1",
+              "rank": 5
+            },
+            {
+              "num": 7,
+              "name": "MATTIE CROWN",
+              "note": 63.2,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 6
+            },
+            {
+              "num": 8,
+              "name": "LLAGRIMA ELI",
+              "note": 62.2,
+              "profile": "Associé",
+              "signal": "Cote 26",
+              "rank": 7
+            },
+            {
+              "num": 9,
+              "name": "LOUSTIC",
+              "note": 59.1,
+              "profile": "Associé",
+              "signal": "Cote 24",
+              "rank": 8
+            },
+            {
+              "num": 2,
+              "name": "LODYSEAS",
+              "note": 48.9,
+              "profile": "Outsider",
+              "signal": "Cote 42",
+              "rank": 9
+            }
           ]
         },
         {
@@ -685,6 +1683,88 @@
             7,
             11,
             2
+          ],
+          "runners": [
+            {
+              "num": 2,
+              "name": "KIMERA DES COLL",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 10",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "NOCIO DE LADIL",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 3.3",
+              "rank": 2
+            },
+            {
+              "num": 9,
+              "name": "NURIA BM",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.5",
+              "rank": 3
+            },
+            {
+              "num": 11,
+              "name": "MANILA D'ITE",
+              "note": 68.0,
+              "profile": "Associé",
+              "signal": "Cote 9.1",
+              "rank": 4
+            },
+            {
+              "num": 5,
+              "name": "MA BELLE FRANCE",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 9.3",
+              "rank": 5
+            },
+            {
+              "num": 6,
+              "name": "NASKAR DES PUIG",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 3.4",
+              "rank": 6
+            },
+            {
+              "num": 3,
+              "name": "KRAC DE SA COMA",
+              "note": 57.5,
+              "profile": "Associé",
+              "signal": "Cote 23",
+              "rank": 7
+            },
+            {
+              "num": 10,
+              "name": "MICHAEL JET",
+              "note": 57.3,
+              "profile": "Associé",
+              "signal": "Cote 28",
+              "rank": 8
+            },
+            {
+              "num": 7,
+              "name": "MAR DE CRU",
+              "note": 56.8,
+              "profile": "Outsider",
+              "signal": "Cote 29",
+              "rank": 9
+            },
+            {
+              "num": 8,
+              "name": "MIAMI DE CLIDE",
+              "note": 43.5,
+              "profile": "Outsider",
+              "signal": "Cote 54",
+              "rank": 10
+            }
           ]
         },
         {
@@ -703,6 +1783,80 @@
             7,
             3,
             5
+          ],
+          "runners": [
+            {
+              "num": 1,
+              "name": "LLAVOR DE LADIL",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 4.6",
+              "rank": 1
+            },
+            {
+              "num": 3,
+              "name": "LEON AR",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 10",
+              "rank": 2
+            },
+            {
+              "num": 4,
+              "name": "KAPRITXOS A",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 5",
+              "rank": 3
+            },
+            {
+              "num": 7,
+              "name": "KAMBALAYA BJ",
+              "note": 68.0,
+              "profile": "Associé",
+              "signal": "Cote 8.1",
+              "rank": 4
+            },
+            {
+              "num": 2,
+              "name": "MELOS DES PRES",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 13",
+              "rank": 5
+            },
+            {
+              "num": 6,
+              "name": "LOTA M",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 3.7",
+              "rank": 6
+            },
+            {
+              "num": 8,
+              "name": "KALAHARI DES PONS",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 8.3",
+              "rank": 7
+            },
+            {
+              "num": 9,
+              "name": "KURIOS DE LLEVANT",
+              "note": 59.1,
+              "profile": "Associé",
+              "signal": "Cote 24",
+              "rank": 8
+            },
+            {
+              "num": 5,
+              "name": "JASTIC CROWN",
+              "note": 51.2,
+              "profile": "Outsider",
+              "signal": "Cote 37",
+              "rank": 9
+            }
           ]
         },
         {
@@ -721,6 +1875,112 @@
             4,
             5,
             10
+          ],
+          "runners": [
+            {
+              "num": 10,
+              "name": "MITAKA MARTINOV",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 3.6",
+              "rank": 1
+            },
+            {
+              "num": 11,
+              "name": "MAXIMUS LOVE RS",
+              "note": 68.0,
+              "profile": "Base possible",
+              "signal": "Cote 10",
+              "rank": 2
+            },
+            {
+              "num": 1,
+              "name": "MISSIL VA I VE",
+              "note": 64.0,
+              "profile": "Base possible",
+              "signal": "Cote 4.4",
+              "rank": 3
+            },
+            {
+              "num": 3,
+              "name": "LLAMP DE LADIL",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 7.3",
+              "rank": 4
+            },
+            {
+              "num": 5,
+              "name": "MAIG DE LADIL",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 5
+            },
+            {
+              "num": 8,
+              "name": "JENTY A",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 6
+            },
+            {
+              "num": 6,
+              "name": "LARAMIE ATAC",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 7
+            },
+            {
+              "num": 4,
+              "name": "MUSCLES MASSIVE",
+              "note": 61.4,
+              "profile": "Associé",
+              "signal": "Cote 19",
+              "rank": 8
+            },
+            {
+              "num": 7,
+              "name": "MAXI DE FONT",
+              "note": 60.8,
+              "profile": "Outsider",
+              "signal": "Cote 29",
+              "rank": 9
+            },
+            {
+              "num": 2,
+              "name": "LOVE TWIST",
+              "note": 58.8,
+              "profile": "Outsider",
+              "signal": "Cote 29",
+              "rank": 10
+            },
+            {
+              "num": 12,
+              "name": "LA NIT DE LLEVANT",
+              "note": 48.9,
+              "profile": "Outsider",
+              "signal": "Cote 42",
+              "rank": 11
+            },
+            {
+              "num": 13,
+              "name": "LINGOT MAR",
+              "note": 43.2,
+              "profile": "Outsider",
+              "signal": "Cote 59",
+              "rank": 12
+            },
+            {
+              "num": 9,
+              "name": "JOYA DE FONT",
+              "note": 40.3,
+              "profile": "Outsider",
+              "signal": "Cote 61",
+              "rank": 13
+            }
           ]
         }
       ]
@@ -743,6 +2003,88 @@
             9,
             6,
             10
+          ],
+          "runners": [
+            {
+              "num": 6,
+              "name": "MAEVA DES BAUX",
+              "note": 92.0,
+              "profile": "Base possible",
+              "signal": "Cote 5.8",
+              "rank": 1
+            },
+            {
+              "num": 8,
+              "name": "MADU JOSSELYN",
+              "note": 90.5,
+              "profile": "Base possible",
+              "signal": "Cote 4.3",
+              "rank": 2
+            },
+            {
+              "num": 9,
+              "name": "MAGIE D'ORLY",
+              "note": 85.7,
+              "profile": "Base possible",
+              "signal": "Cote 3.1",
+              "rank": 3
+            },
+            {
+              "num": 3,
+              "name": "MAKING MUSIC",
+              "note": 78.1,
+              "profile": "Associé",
+              "signal": "Cote 20",
+              "rank": 4
+            },
+            {
+              "num": 1,
+              "name": "METALLICA PIYA",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 9.7",
+              "rank": 5
+            },
+            {
+              "num": 11,
+              "name": "MADOVA DU RILER",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 22",
+              "rank": 6
+            },
+            {
+              "num": 4,
+              "name": "MA BEAUTE D'AMOUR",
+              "note": 77.6,
+              "profile": "Associé",
+              "signal": "Cote 18",
+              "rank": 7
+            },
+            {
+              "num": 10,
+              "name": "MAGIC GIRL",
+              "note": 74.0,
+              "profile": "Associé",
+              "signal": "Cote 6.2",
+              "rank": 8
+            },
+            {
+              "num": 7,
+              "name": "MISS JENILOU",
+              "note": 69.1,
+              "profile": "Outsider",
+              "signal": "Cote 39",
+              "rank": 9
+            },
+            {
+              "num": 2,
+              "name": "MA BELLE TAL",
+              "note": 60.0,
+              "profile": "Outsider",
+              "signal": "Cote 101",
+              "rank": 10
+            }
           ]
         },
         {
@@ -761,6 +2103,80 @@
             7,
             9,
             5
+          ],
+          "runners": [
+            {
+              "num": 6,
+              "name": "NOBLESS DU NOYER",
+              "note": 96.0,
+              "profile": "Base possible",
+              "signal": "Cote 11",
+              "rank": 1
+            },
+            {
+              "num": 7,
+              "name": "NEMESIA",
+              "note": 93.7,
+              "profile": "Base possible",
+              "signal": "Cote 16",
+              "rank": 2
+            },
+            {
+              "num": 3,
+              "name": "NUROSEDA DE WARNOC",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.2",
+              "rank": 3
+            },
+            {
+              "num": 4,
+              "name": "NEW GRASS",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 1.4",
+              "rank": 4
+            },
+            {
+              "num": 8,
+              "name": "NUANCE DU HOULET",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 22",
+              "rank": 5
+            },
+            {
+              "num": 1,
+              "name": "NAIADE D'OSCINE",
+              "note": 77.7,
+              "profile": "Associé",
+              "signal": "Cote 16",
+              "rank": 6
+            },
+            {
+              "num": 9,
+              "name": "NOTELLA D'OR",
+              "note": 74.8,
+              "profile": "Associé",
+              "signal": "Cote 29",
+              "rank": 7
+            },
+            {
+              "num": 5,
+              "name": "NOUVELLE AVENTURE",
+              "note": 69.5,
+              "profile": "Associé",
+              "signal": "Cote 54",
+              "rank": 8
+            },
+            {
+              "num": 2,
+              "name": "NECTARINE PIERJI",
+              "note": 61.3,
+              "profile": "Outsider",
+              "signal": "Cote 50",
+              "rank": 9
+            }
           ]
         },
         {
@@ -779,6 +2195,64 @@
             8,
             3,
             4
+          ],
+          "runners": [
+            {
+              "num": 5,
+              "name": "NICOU CHAK",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.1",
+              "rank": 1
+            },
+            {
+              "num": 6,
+              "name": "NORD CALITY",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 4.1",
+              "rank": 2
+            },
+            {
+              "num": 8,
+              "name": "NOOKER BERRY",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 4.3",
+              "rank": 3
+            },
+            {
+              "num": 3,
+              "name": "NUMBER ONE MADRIK",
+              "note": 78.5,
+              "profile": "Associé",
+              "signal": "Cote 21",
+              "rank": 4
+            },
+            {
+              "num": 7,
+              "name": "NEIL DE BANVILLE",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 2.1",
+              "rank": 5
+            },
+            {
+              "num": 2,
+              "name": "NEMO PONT VAUTIER",
+              "note": 73.2,
+              "profile": "Associé",
+              "signal": "Cote 26",
+              "rank": 6
+            },
+            {
+              "num": 4,
+              "name": "NEAL DE TROUVILLE",
+              "note": 60.0,
+              "profile": "Associé",
+              "signal": "Cote 67",
+              "rank": 7
+            }
           ]
         },
         {
@@ -797,6 +2271,80 @@
             4,
             9,
             6
+          ],
+          "runners": [
+            {
+              "num": 6,
+              "name": "MARINO PONT ROYAL",
+              "note": 95.0,
+              "profile": "Base possible",
+              "signal": "Cote 13",
+              "rank": 1
+            },
+            {
+              "num": 8,
+              "name": "MISTRAL EXPRESS",
+              "note": 94.2,
+              "profile": "Base possible",
+              "signal": "Cote 3.5",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "MEETING GEMA",
+              "note": 90.0,
+              "profile": "Base possible",
+              "signal": "Cote 3",
+              "rank": 3
+            },
+            {
+              "num": 2,
+              "name": "MIRAGE D'ARDENNES",
+              "note": 88.1,
+              "profile": "Associé",
+              "signal": "Cote 21",
+              "rank": 4
+            },
+            {
+              "num": 4,
+              "name": "MERALTO",
+              "note": 81.0,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 5
+            },
+            {
+              "num": 9,
+              "name": "MANDARINO FLEURY",
+              "note": 77.9,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 6
+            },
+            {
+              "num": 5,
+              "name": "MATHUSALEM PIYA",
+              "note": 76.2,
+              "profile": "Associé",
+              "signal": "Cote 4.4",
+              "rank": 7
+            },
+            {
+              "num": 1,
+              "name": "MERANO BLEU",
+              "note": 73.7,
+              "profile": "Associé",
+              "signal": "Cote 48",
+              "rank": 8
+            },
+            {
+              "num": 3,
+              "name": "MALABAR MELOC",
+              "note": 57.1,
+              "profile": "Outsider",
+              "signal": "Cote 81",
+              "rank": 9
+            }
           ]
         },
         {
@@ -815,6 +2363,96 @@
             3,
             1,
             7
+          ],
+          "runners": [
+            {
+              "num": 6,
+              "name": "LAZIZA JASMA",
+              "note": 89.1,
+              "profile": "Base possible",
+              "signal": "Cote 14",
+              "rank": 1
+            },
+            {
+              "num": 1,
+              "name": "LORIQUET",
+              "note": 87.3,
+              "profile": "Base possible",
+              "signal": "Cote 7.2",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "LET IT OUT",
+              "note": 86.4,
+              "profile": "Base possible",
+              "signal": "Cote 11",
+              "rank": 3
+            },
+            {
+              "num": 10,
+              "name": "LACKING SPIRIT",
+              "note": 85.8,
+              "profile": "Associé",
+              "signal": "Cote 4",
+              "rank": 4
+            },
+            {
+              "num": 4,
+              "name": "LEGENDE DU GERS",
+              "note": 84.1,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 5
+            },
+            {
+              "num": 2,
+              "name": "LETS GO HAPPY",
+              "note": 81.1,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 6
+            },
+            {
+              "num": 3,
+              "name": "L'AMIRAL DU SAPTEL",
+              "note": 81.1,
+              "profile": "Associé",
+              "signal": "Cote 3.9",
+              "rank": 7
+            },
+            {
+              "num": 5,
+              "name": "L'ALPHA DE LAUNI",
+              "note": 79.5,
+              "profile": "Associé",
+              "signal": "Cote 8.9",
+              "rank": 8
+            },
+            {
+              "num": 8,
+              "name": "LONDON EYE",
+              "note": 78.2,
+              "profile": "Outsider",
+              "signal": "Cote 15",
+              "rank": 9
+            },
+            {
+              "num": 11,
+              "name": "LADY DE MONGUERET",
+              "note": 60.3,
+              "profile": "Outsider",
+              "signal": "Cote 61",
+              "rank": 10
+            },
+            {
+              "num": 9,
+              "name": "LIBERTINE RUSH",
+              "note": 59.0,
+              "profile": "Outsider",
+              "signal": "Cote 125",
+              "rank": 11
+            }
           ]
         },
         {
@@ -833,6 +2471,128 @@
             16,
             14,
             12
+          ],
+          "runners": [
+            {
+              "num": 6,
+              "name": "KISS ME DU RABUTIN",
+              "note": 91.8,
+              "profile": "Base possible",
+              "signal": "Cote 5",
+              "rank": 1
+            },
+            {
+              "num": 12,
+              "name": "KAID DEL GREEN",
+              "note": 89.7,
+              "profile": "Base possible",
+              "signal": "Cote 11",
+              "rank": 2
+            },
+            {
+              "num": 16,
+              "name": "KAISER VRIE",
+              "note": 87.5,
+              "profile": "Base possible",
+              "signal": "Cote 6",
+              "rank": 3
+            },
+            {
+              "num": 13,
+              "name": "KUZCO",
+              "note": 87.0,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 4
+            },
+            {
+              "num": 11,
+              "name": "KARAMBA KARACHO",
+              "note": 86.3,
+              "profile": "Associé",
+              "signal": "Cote 13",
+              "rank": 5
+            },
+            {
+              "num": 7,
+              "name": "KINBALL",
+              "note": 85.2,
+              "profile": "Associé",
+              "signal": "Cote 2.9",
+              "rank": 6
+            },
+            {
+              "num": 14,
+              "name": "KERLAZ D'AVE",
+              "note": 83.7,
+              "profile": "Associé",
+              "signal": "Cote 20",
+              "rank": 7
+            },
+            {
+              "num": 8,
+              "name": "KISS ME MENCOURT",
+              "note": 77.9,
+              "profile": "Associé",
+              "signal": "Cote 37",
+              "rank": 8
+            },
+            {
+              "num": 2,
+              "name": "KESACO DU CHAILLOU",
+              "note": 75.3,
+              "profile": "Outsider",
+              "signal": "Cote 35",
+              "rank": 9
+            },
+            {
+              "num": 9,
+              "name": "KOOKY DE TROUVILLE",
+              "note": 72.7,
+              "profile": "Outsider",
+              "signal": "Cote 49",
+              "rank": 10
+            },
+            {
+              "num": 10,
+              "name": "KITALIANO ALGREF",
+              "note": 71.8,
+              "profile": "Outsider",
+              "signal": "Cote 37",
+              "rank": 11
+            },
+            {
+              "num": 5,
+              "name": "KOCARDE",
+              "note": 67.5,
+              "profile": "Outsider",
+              "signal": "Cote 45",
+              "rank": 12
+            },
+            {
+              "num": 15,
+              "name": "KRONA VIKING",
+              "note": 67.0,
+              "profile": "Outsider",
+              "signal": "Cote 58",
+              "rank": 13
+            },
+            {
+              "num": 1,
+              "name": "KISS PAULCA",
+              "note": 60.1,
+              "profile": "Outsider",
+              "signal": "Cote 129",
+              "rank": 14
+            },
+            {
+              "num": 3,
+              "name": "KINDER DANOVER",
+              "note": 56.4,
+              "profile": "Outsider",
+              "signal": "Cote 152",
+              "rank": 15
+            }
           ]
         },
         {
@@ -851,6 +2611,112 @@
             12,
             2,
             5
+          ],
+          "runners": [
+            {
+              "num": 2,
+              "name": "JOHNNY QUICK",
+              "note": 89.5,
+              "profile": "Base possible",
+              "signal": "Cote 8.1",
+              "rank": 1
+            },
+            {
+              "num": 6,
+              "name": "JELLY JAMM",
+              "note": 85.2,
+              "profile": "Base possible",
+              "signal": "Cote 3.6",
+              "rank": 2
+            },
+            {
+              "num": 8,
+              "name": "JOY ERCA",
+              "note": 84.5,
+              "profile": "Base possible",
+              "signal": "Cote 8.3",
+              "rank": 3
+            },
+            {
+              "num": 12,
+              "name": "ISIMONEY DU CHENE",
+              "note": 82.4,
+              "profile": "Associé",
+              "signal": "Cote 9.8",
+              "rank": 4
+            },
+            {
+              "num": 7,
+              "name": "JALHIA DU HANOY",
+              "note": 81.8,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 5
+            },
+            {
+              "num": 9,
+              "name": "JET SPE",
+              "note": 81.1,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 6
+            },
+            {
+              "num": 10,
+              "name": "JOY EASTER",
+              "note": 80.9,
+              "profile": "Associé",
+              "signal": "Cote 32",
+              "rank": 7
+            },
+            {
+              "num": 1,
+              "name": "JAVA DES AUGERIES",
+              "note": 78.2,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 8
+            },
+            {
+              "num": 5,
+              "name": "JUDICIEUSE ZAILER",
+              "note": 78.2,
+              "profile": "Outsider",
+              "signal": "Cote 5.3",
+              "rank": 9
+            },
+            {
+              "num": 13,
+              "name": "JOEYSTAR DE NIRO",
+              "note": 77.5,
+              "profile": "Outsider",
+              "signal": "Cote 34",
+              "rank": 10
+            },
+            {
+              "num": 11,
+              "name": "JUSTE DE MELLERAY",
+              "note": 71.6,
+              "profile": "Outsider",
+              "signal": "Cote 42",
+              "rank": 11
+            },
+            {
+              "num": 14,
+              "name": "IDEAL D'AUCHY",
+              "note": 60.8,
+              "profile": "Outsider",
+              "signal": "Cote 95",
+              "rank": 12
+            },
+            {
+              "num": 4,
+              "name": "IBLISS MAYBE",
+              "note": 58.3,
+              "profile": "Outsider",
+              "signal": "Cote 63",
+              "rank": 13
+            }
           ]
         },
         {
@@ -869,6 +2735,96 @@
             3,
             11,
             7
+          ],
+          "runners": [
+            {
+              "num": 10,
+              "name": "JASMIN GEMA",
+              "note": 90.9,
+              "profile": "Base possible",
+              "signal": "Cote 2.6",
+              "rank": 1
+            },
+            {
+              "num": 8,
+              "name": "JALDO D'OCQUE",
+              "note": 87.8,
+              "profile": "Base possible",
+              "signal": "Cote 5.1",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "JAPPELOU",
+              "note": 84.2,
+              "profile": "Base possible",
+              "signal": "Cote 9.9",
+              "rank": 3
+            },
+            {
+              "num": 11,
+              "name": "INVICTUS ONE",
+              "note": 83.9,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 4
+            },
+            {
+              "num": 2,
+              "name": "JANARDAL CLUB",
+              "note": 82.5,
+              "profile": "Associé",
+              "signal": "Cote 5.1",
+              "rank": 5
+            },
+            {
+              "num": 3,
+              "name": "JICKY GIRL",
+              "note": 79.4,
+              "profile": "Associé",
+              "signal": "Cote 20",
+              "rank": 6
+            },
+            {
+              "num": 7,
+              "name": "IFALCO DE MAY",
+              "note": 79.3,
+              "profile": "Associé",
+              "signal": "Cote 18",
+              "rank": 7
+            },
+            {
+              "num": 9,
+              "name": "HASHTAG DUB'S",
+              "note": 77.6,
+              "profile": "Associé",
+              "signal": "Cote 27",
+              "rank": 8
+            },
+            {
+              "num": 4,
+              "name": "JULIAN DARK",
+              "note": 74.1,
+              "profile": "Outsider",
+              "signal": "Cote 31",
+              "rank": 9
+            },
+            {
+              "num": 6,
+              "name": "INFERNAL SPIRIT",
+              "note": 62.2,
+              "profile": "Outsider",
+              "signal": "Cote 66",
+              "rank": 10
+            },
+            {
+              "num": 1,
+              "name": "JETLAG DE BEAUFOUR",
+              "note": 60.3,
+              "profile": "Outsider",
+              "signal": "Cote 113",
+              "rank": 11
+            }
           ]
         }
       ]
@@ -893,6 +2849,72 @@
             8,
             4,
             1
+          ],
+          "runners": [
+            {
+              "num": 4,
+              "name": "BOSQUET",
+              "note": 85.5,
+              "profile": "Base possible",
+              "signal": "Cote 3.8",
+              "rank": 1
+            },
+            {
+              "num": 6,
+              "name": "GO JOHNNY GO GO GO",
+              "note": 82.7,
+              "profile": "Base possible",
+              "signal": "Cote 8.4",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "THE DIG",
+              "note": 81.7,
+              "profile": "Base possible",
+              "signal": "Cote 5.1",
+              "rank": 3
+            },
+            {
+              "num": 3,
+              "name": "HAARICIA",
+              "note": 80.5,
+              "profile": "Associé",
+              "signal": "Cote 9.3",
+              "rank": 4
+            },
+            {
+              "num": 1,
+              "name": "INSTRUIT",
+              "note": 80.4,
+              "profile": "Associé",
+              "signal": "Cote 6.5",
+              "rank": 5
+            },
+            {
+              "num": 2,
+              "name": "DADAS BOY",
+              "note": 79.0,
+              "profile": "Associé",
+              "signal": "Cote 4",
+              "rank": 6
+            },
+            {
+              "num": 8,
+              "name": "EXPLORAR",
+              "note": 75.9,
+              "profile": "Associé",
+              "signal": "Cote 19",
+              "rank": 7
+            },
+            {
+              "num": 7,
+              "name": "UNE FRAGRANCE",
+              "note": 69.0,
+              "profile": "Associé",
+              "signal": "Cote 26",
+              "rank": 8
+            }
           ]
         },
         {
@@ -911,6 +2933,96 @@
             5,
             2,
             4
+          ],
+          "runners": [
+            {
+              "num": 4,
+              "name": "INDIAN PACIFIC",
+              "note": 86.6,
+              "profile": "Base possible",
+              "signal": "Cote 11",
+              "rank": 1
+            },
+            {
+              "num": 2,
+              "name": "PLATA D OCTOBRE",
+              "note": 86.5,
+              "profile": "Base possible",
+              "signal": "Cote 3.3",
+              "rank": 2
+            },
+            {
+              "num": 9,
+              "name": "POLYSPEED",
+              "note": 85.9,
+              "profile": "Base possible",
+              "signal": "Cote 3.6",
+              "rank": 3
+            },
+            {
+              "num": 5,
+              "name": "ARCUBIATU",
+              "note": 85.1,
+              "profile": "Associé",
+              "signal": "Cote 9.4",
+              "rank": 4
+            },
+            {
+              "num": 7,
+              "name": "PEARL SPIRIT",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 4.5",
+              "rank": 5
+            },
+            {
+              "num": 1,
+              "name": "GLAVIA",
+              "note": 81.1,
+              "profile": "Associé",
+              "signal": "Cote 26",
+              "rank": 6
+            },
+            {
+              "num": 11,
+              "name": "CANDY CHERIE",
+              "note": 76.8,
+              "profile": "Associé",
+              "signal": "Cote 18",
+              "rank": 7
+            },
+            {
+              "num": 10,
+              "name": "SHANCEL",
+              "note": 72.3,
+              "profile": "Associé",
+              "signal": "Cote 40",
+              "rank": 8
+            },
+            {
+              "num": 6,
+              "name": "DENGIE",
+              "note": 66.9,
+              "profile": "Outsider",
+              "signal": "Cote 37",
+              "rank": 9
+            },
+            {
+              "num": 3,
+              "name": "MAYISKI",
+              "note": 64.8,
+              "profile": "Outsider",
+              "signal": "Cote 73",
+              "rank": 10
+            },
+            {
+              "num": 8,
+              "name": "YAKAMOUN",
+              "note": 59.2,
+              "profile": "Outsider",
+              "signal": "Cote 52",
+              "rank": 11
+            }
           ]
         },
         {
@@ -922,8 +3034,79 @@
           "allocation": 19200,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_SOUS_ORDRES",
-          "result_top5": []
+          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "result_top5": [
+            1,
+            7,
+            5,
+            4
+          ],
+          "runners": [
+            {
+              "num": 1,
+              "name": "STUDY OF CASE",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 5",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "CELAGO",
+              "note": 80.0,
+              "profile": "Base possible",
+              "signal": "Cote 6.3",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "NATURALISTE",
+              "note": 80.0,
+              "profile": "Base possible",
+              "signal": "Cote 1.9",
+              "rank": 3
+            },
+            {
+              "num": 5,
+              "name": "BRUNETTE COLEMAN",
+              "note": 79.0,
+              "profile": "Associé",
+              "signal": "Cote 6.9",
+              "rank": 4
+            },
+            {
+              "num": 2,
+              "name": "NEW CHAPTER",
+              "note": 76.2,
+              "profile": "Associé",
+              "signal": "Cote 26",
+              "rank": 5
+            },
+            {
+              "num": 3,
+              "name": "KILLWINING",
+              "note": 68.9,
+              "profile": "Associé",
+              "signal": "Cote 31",
+              "rank": 6
+            },
+            {
+              "num": 6,
+              "name": "TREIZE ACTIVE",
+              "note": 63.9,
+              "profile": "Associé",
+              "signal": "Cote 50",
+              "rank": 7
+            },
+            {
+              "num": 8,
+              "name": "BANSKY",
+              "note": 59.8,
+              "profile": "Associé",
+              "signal": "Cote 18",
+              "rank": 8
+            }
+          ]
         },
         {
           "reunion": 4,
@@ -934,8 +3117,50 @@
           "allocation": 15400,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": []
+          "status": "ROUGE_AUX_PARTANTS",
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 1,
+              "name": "GRECIAN BONANZA",
+              "note": 94.7,
+              "profile": "Base possible",
+              "signal": "Cote 4.6",
+              "rank": 1
+            },
+            {
+              "num": 2,
+              "name": "SOUS INFLUENCE",
+              "note": 92.4,
+              "profile": "Base possible",
+              "signal": "Cote 3.5",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "GREY TORNADO",
+              "note": 89.3,
+              "profile": "Base possible",
+              "signal": "Cote 4.9",
+              "rank": 3
+            },
+            {
+              "num": 3,
+              "name": "ROCQUEMONT",
+              "note": 89.1,
+              "profile": "Associé",
+              "signal": "Cote 2.8",
+              "rank": 4
+            },
+            {
+              "num": 4,
+              "name": "BON DERNIER",
+              "note": 86.5,
+              "profile": "Associé",
+              "signal": "Cote 8.5",
+              "rank": 5
+            }
+          ]
         },
         {
           "reunion": 4,
@@ -947,7 +3172,81 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 3,
+              "name": "CAVANI KAIZEN",
+              "note": 91.7,
+              "profile": "Base possible",
+              "signal": "Cote 8.6",
+              "rank": 1
+            },
+            {
+              "num": 1,
+              "name": "MEASTER OWEN",
+              "note": 87.0,
+              "profile": "Base possible",
+              "signal": "Cote 2.9",
+              "rank": 2
+            },
+            {
+              "num": 4,
+              "name": "BERLINETTA",
+              "note": 85.9,
+              "profile": "Base possible",
+              "signal": "Cote 9.3",
+              "rank": 3
+            },
+            {
+              "num": 5,
+              "name": "BEN DE DIANE",
+              "note": 84.7,
+              "profile": "Associé",
+              "signal": "Cote 6.5",
+              "rank": 4
+            },
+            {
+              "num": 9,
+              "name": "SYLVER SAMBA",
+              "note": 83.2,
+              "profile": "Associé",
+              "signal": "Cote 17",
+              "rank": 5
+            },
+            {
+              "num": 2,
+              "name": "UNFURLED",
+              "note": 81.7,
+              "profile": "Associé",
+              "signal": "Cote 6.9",
+              "rank": 6
+            },
+            {
+              "num": 6,
+              "name": "LADY MANA",
+              "note": 81.7,
+              "profile": "Associé",
+              "signal": "Cote 8.3",
+              "rank": 7
+            },
+            {
+              "num": 8,
+              "name": "LA HAUTE ISLE",
+              "note": 80.4,
+              "profile": "Associé",
+              "signal": "Cote 19",
+              "rank": 8
+            },
+            {
+              "num": 7,
+              "name": "PORT SANTA PONSA",
+              "note": 78.4,
+              "profile": "Outsider",
+              "signal": "Cote 12",
+              "rank": 9
+            }
+          ]
         },
         {
           "reunion": 4,
@@ -959,7 +3258,73 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 4,
+              "name": "PRAY FOR HOPE",
+              "note": 88.4,
+              "profile": "Base possible",
+              "signal": "Cote 8.9",
+              "rank": 1
+            },
+            {
+              "num": 3,
+              "name": "SOUPIR",
+              "note": 88.3,
+              "profile": "Base possible",
+              "signal": "Cote 4.7",
+              "rank": 2
+            },
+            {
+              "num": 1,
+              "name": "MOMO NELSON",
+              "note": 85.1,
+              "profile": "Base possible",
+              "signal": "Cote 2.5",
+              "rank": 3
+            },
+            {
+              "num": 5,
+              "name": "POET'S BLACK",
+              "note": 85.1,
+              "profile": "Associé",
+              "signal": "Cote 14",
+              "rank": 4
+            },
+            {
+              "num": 6,
+              "name": "HASHTAG JOA",
+              "note": 84.2,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 5
+            },
+            {
+              "num": 2,
+              "name": "ALROMY",
+              "note": 83.2,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 6
+            },
+            {
+              "num": 8,
+              "name": "SUCCESS STORY",
+              "note": 82.4,
+              "profile": "Associé",
+              "signal": "Cote 6.8",
+              "rank": 7
+            },
+            {
+              "num": 9,
+              "name": "CASH RULER",
+              "note": 73.2,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 8
+            }
+          ]
         },
         {
           "reunion": 4,
@@ -971,7 +3336,49 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 2,
+              "name": "NO BAY",
+              "note": 94.6,
+              "profile": "Base possible",
+              "signal": "Cote 19",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "BAY D'ARGENT",
+              "note": 92.2,
+              "profile": "Base possible",
+              "signal": "Cote 3.5",
+              "rank": 2
+            },
+            {
+              "num": 3,
+              "name": "PHILAU",
+              "note": 92.0,
+              "profile": "Base possible",
+              "signal": "Cote 6.5",
+              "rank": 3
+            },
+            {
+              "num": 1,
+              "name": "BOOGIE",
+              "note": 89.7,
+              "profile": "Associé",
+              "signal": "Cote 2.4",
+              "rank": 4
+            },
+            {
+              "num": 5,
+              "name": "LE ROI RENE",
+              "note": 87.6,
+              "profile": "Associé",
+              "signal": "Cote 3.6",
+              "rank": 5
+            }
+          ]
         }
       ]
     },
@@ -989,7 +3396,89 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 3,
+              "name": "PAMPLONNE",
+              "note": 70.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "FOUN GAROTA",
+              "note": 70.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 10,
+              "name": "LAGUNA CANDY",
+              "note": 70.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 1,
+              "name": "AITAI",
+              "note": 68.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 2,
+              "name": "THE GREAT DANSILI",
+              "note": 68.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 6,
+              "name": "REBEL YELL",
+              "note": 68.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 7,
+              "name": "VALLEY FARM",
+              "note": 68.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 11,
+              "name": "TRENZA MORENA",
+              "note": 68.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 5,
+              "name": "RISK FREE",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 8,
+              "name": "RIKI",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 10
+            }
+          ]
         },
         {
           "reunion": 5,
@@ -1001,7 +3490,73 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 3,
+              "name": "MISTER COQUETTE",
+              "note": 96.0,
+              "profile": "Base possible",
+              "signal": "Cote 6.6",
+              "rank": 1
+            },
+            {
+              "num": 5,
+              "name": "QUALITY BOY",
+              "note": 94.4,
+              "profile": "Base possible",
+              "signal": "Cote 2.9",
+              "rank": 2
+            },
+            {
+              "num": 2,
+              "name": "SOUTHERN SECRET",
+              "note": 93.3,
+              "profile": "Base possible",
+              "signal": "Cote 14",
+              "rank": 3
+            },
+            {
+              "num": 8,
+              "name": "PRIVATE BLEND",
+              "note": 93.3,
+              "profile": "Associé",
+              "signal": "Cote 7.7",
+              "rank": 4
+            },
+            {
+              "num": 10,
+              "name": "MELON VINO",
+              "note": 93.0,
+              "profile": "Associé",
+              "signal": "Cote 7.9",
+              "rank": 5
+            },
+            {
+              "num": 7,
+              "name": "TRUE FOR SALE",
+              "note": 91.0,
+              "profile": "Associé",
+              "signal": "Cote 6.4",
+              "rank": 6
+            },
+            {
+              "num": 6,
+              "name": "NEVADO PAMPA",
+              "note": 90.8,
+              "profile": "Associé",
+              "signal": "Cote 11",
+              "rank": 7
+            },
+            {
+              "num": 9,
+              "name": "LAUDRUP",
+              "note": 90.7,
+              "profile": "Associé",
+              "signal": "Cote 9.6",
+              "rank": 8
+            }
+          ]
         },
         {
           "reunion": 5,
@@ -1013,7 +3568,89 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 6,
+              "name": "POINT UP",
+              "note": 96.0,
+              "profile": "Base possible",
+              "signal": "Cote 4.5",
+              "rank": 1
+            },
+            {
+              "num": 8,
+              "name": "SANTA LA NEGRA",
+              "note": 96.0,
+              "profile": "Base possible",
+              "signal": "Cote 5.4",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "SOY ATORRANTA",
+              "note": 95.1,
+              "profile": "Base possible",
+              "signal": "Cote 5.7",
+              "rank": 3
+            },
+            {
+              "num": 10,
+              "name": "LA ASTURIANA BLUE",
+              "note": 93.2,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 4
+            },
+            {
+              "num": 7,
+              "name": "TODO TODA",
+              "note": 92.0,
+              "profile": "Associé",
+              "signal": "Cote 4.5",
+              "rank": 5
+            },
+            {
+              "num": 9,
+              "name": "EXCRUTADA",
+              "note": 91.2,
+              "profile": "Associé",
+              "signal": "Cote 11",
+              "rank": 6
+            },
+            {
+              "num": 4,
+              "name": "GURISA MASK",
+              "note": 90.4,
+              "profile": "Associé",
+              "signal": "Cote 11",
+              "rank": 7
+            },
+            {
+              "num": 2,
+              "name": "TIBETANA",
+              "note": 87.8,
+              "profile": "Associé",
+              "signal": "Cote 24",
+              "rank": 8
+            },
+            {
+              "num": 1,
+              "name": "BLESSED OF GLORY",
+              "note": 86.7,
+              "profile": "Outsider",
+              "signal": "Cote 17",
+              "rank": 9
+            },
+            {
+              "num": 3,
+              "name": "LAPULI",
+              "note": 75.3,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 10
+            }
+          ]
         },
         {
           "reunion": 5,
@@ -1025,7 +3662,121 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 8,
+              "name": "LIVE YOUR LIFE",
+              "note": 95.8,
+              "profile": "Base possible",
+              "signal": "Cote 18",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "UNICA FORMA",
+              "note": 95.0,
+              "profile": "Base possible",
+              "signal": "Cote 11",
+              "rank": 2
+            },
+            {
+              "num": 3,
+              "name": "GRAN GOTERA",
+              "note": 94.6,
+              "profile": "Base possible",
+              "signal": "Cote 14",
+              "rank": 3
+            },
+            {
+              "num": 12,
+              "name": "ACHISPADA",
+              "note": 92.7,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 4
+            },
+            {
+              "num": 11,
+              "name": "MANI GIRL",
+              "note": 89.7,
+              "profile": "Associé",
+              "signal": "Cote 27",
+              "rank": 5
+            },
+            {
+              "num": 2,
+              "name": "JUST DANCE",
+              "note": 89.0,
+              "profile": "Associé",
+              "signal": "Cote 22",
+              "rank": 6
+            },
+            {
+              "num": 10,
+              "name": "TAREA FACIL",
+              "note": 85.4,
+              "profile": "Associé",
+              "signal": "Cote 30",
+              "rank": 7
+            },
+            {
+              "num": 13,
+              "name": "SALEMA",
+              "note": 85.4,
+              "profile": "Associé",
+              "signal": "Cote 41",
+              "rank": 8
+            },
+            {
+              "num": 9,
+              "name": "FULL QUESTION",
+              "note": 83.5,
+              "profile": "Outsider",
+              "signal": "Cote 45",
+              "rank": 9
+            },
+            {
+              "num": 14,
+              "name": "DEEP FEELING",
+              "note": 83.2,
+              "profile": "Outsider",
+              "signal": "Cote 44",
+              "rank": 10
+            },
+            {
+              "num": 1,
+              "name": "GOTA CLARA SOS",
+              "note": 78.0,
+              "profile": "Outsider",
+              "signal": "Cote 1.6",
+              "rank": 11
+            },
+            {
+              "num": 6,
+              "name": "INTER BOMBAZA",
+              "note": 77.3,
+              "profile": "Outsider",
+              "signal": "Cote 28",
+              "rank": 12
+            },
+            {
+              "num": 5,
+              "name": "GUNAKALI",
+              "note": 73.0,
+              "profile": "Outsider",
+              "signal": "Cote 33",
+              "rank": 13
+            },
+            {
+              "num": 15,
+              "name": "HI INTENSE",
+              "note": 68.1,
+              "profile": "Outsider",
+              "signal": "Cote 35",
+              "rank": 14
+            }
+          ]
         },
         {
           "reunion": 5,
@@ -1037,7 +3788,97 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 11,
+              "name": "DESERT VOICE",
+              "note": 96.0,
+              "profile": "Base possible",
+              "signal": "Cote 17",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "CARDO CASTILLA",
+              "note": 95.0,
+              "profile": "Base possible",
+              "signal": "Cote 5.9",
+              "rank": 2
+            },
+            {
+              "num": 6,
+              "name": "KYPRIOS",
+              "note": 89.5,
+              "profile": "Base possible",
+              "signal": "Cote 21",
+              "rank": 3
+            },
+            {
+              "num": 3,
+              "name": "PAULO SIL",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 11",
+              "rank": 4
+            },
+            {
+              "num": 9,
+              "name": "HAPPY ANGEL",
+              "note": 80.7,
+              "profile": "Associé",
+              "signal": "Cote 16",
+              "rank": 5
+            },
+            {
+              "num": 10,
+              "name": "HI POCHO",
+              "note": 80.3,
+              "profile": "Associé",
+              "signal": "Cote 17",
+              "rank": 6
+            },
+            {
+              "num": 1,
+              "name": "STAY TUNE",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 2.4",
+              "rank": 7
+            },
+            {
+              "num": 2,
+              "name": "ROI DU MONDE",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 8
+            },
+            {
+              "num": 12,
+              "name": "TEOBALDO",
+              "note": 78.0,
+              "profile": "Outsider",
+              "signal": "Cote 11",
+              "rank": 9
+            },
+            {
+              "num": 8,
+              "name": "PANCHO GIO",
+              "note": 76.7,
+              "profile": "Outsider",
+              "signal": "Cote 16",
+              "rank": 10
+            },
+            {
+              "num": 7,
+              "name": "LUNATICO BOMB",
+              "note": 73.1,
+              "profile": "Outsider",
+              "signal": "Cote 24",
+              "rank": 11
+            }
+          ]
         },
         {
           "reunion": 5,
@@ -1049,7 +3890,65 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 1,
+              "name": "DON TRAMO",
+              "note": 82.2,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 6,
+              "name": "IDEA GENIAL",
+              "note": 81.5,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "SOY DEL PARQUE",
+              "note": 81.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 4,
+              "name": "FURIOSO AMAZON",
+              "note": 79.6,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 8,
+              "name": "LUMINOSO ES",
+              "note": 78.5,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 5,
+              "name": "SENOR ROARKE",
+              "note": 74.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 2,
+              "name": "SOL DE TORMENTA",
+              "note": 73.5,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            }
+          ]
         },
         {
           "reunion": 5,
@@ -1061,7 +3960,161 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 3,
+              "name": "REINA SECRETA",
+              "note": 86.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "LESSONS OF LIFE",
+              "note": 86.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "SAMBA DO BRAZIL",
+              "note": 86.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 6,
+              "name": "DREAM SERENA",
+              "note": 86.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 13,
+              "name": "NOCHE ALTA",
+              "note": 86.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 7,
+              "name": "NEOWISE",
+              "note": 85.8,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 16,
+              "name": "HARLAN'S RIM",
+              "note": 85.2,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 2,
+              "name": "IGUAL NO SOY",
+              "note": 84.7,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 20,
+              "name": "INTERNATIONAL LOOK",
+              "note": 84.4,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 18,
+              "name": "ORPEN RIMOUT",
+              "note": 84.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 10
+            },
+            {
+              "num": 11,
+              "name": "ADI SHAKTI",
+              "note": 83.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 11
+            },
+            {
+              "num": 12,
+              "name": "PAWNEE DRIVE",
+              "note": 83.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 12
+            },
+            {
+              "num": 9,
+              "name": "MY PRIDE",
+              "note": 82.2,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 13
+            },
+            {
+              "num": 19,
+              "name": "FORTI LEAF",
+              "note": 82.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 14
+            },
+            {
+              "num": 14,
+              "name": "PAXING",
+              "note": 81.6,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 15
+            },
+            {
+              "num": 1,
+              "name": "INDIANA CANDY",
+              "note": 78.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 16
+            },
+            {
+              "num": 15,
+              "name": "FIESTA POP",
+              "note": 78.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 17
+            },
+            {
+              "num": 8,
+              "name": "MERCATA MAYOR",
+              "note": 76.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 18
+            },
+            {
+              "num": 17,
+              "name": "TODAVIA CANTAMOS",
+              "note": 66.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 19
+            }
+          ]
         },
         {
           "reunion": 5,
@@ -1073,7 +4126,89 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 1,
+              "name": "ALWAYS FUNNY",
+              "note": 86.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 2,
+              "name": "UNA GLORIA",
+              "note": 85.2,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 8,
+              "name": "MAREJADA",
+              "note": 83.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 9,
+              "name": "BRYANA",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 10,
+              "name": "CITY TAPIT",
+              "note": 80.4,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 3,
+              "name": "ICILIA",
+              "note": 79.5,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 5,
+              "name": "PALE ALE",
+              "note": 79.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 7,
+              "name": "WILL SOUND",
+              "note": 79.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 6,
+              "name": "INVOCACION",
+              "note": 74.1,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 4,
+              "name": "CALIDOSTATICA",
+              "note": 73.8,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 10
+            }
+          ]
         },
         {
           "reunion": 5,
@@ -1085,7 +4220,105 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 6,
+              "name": "EQUAL MOSTAZA",
+              "note": 86.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 11,
+              "name": "TIME TO THINK",
+              "note": 86.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "CASTANON RIM",
+              "note": 85.5,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 2,
+              "name": "SONO PERFETTO",
+              "note": 83.5,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 7,
+              "name": "NEAT COLT",
+              "note": 83.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 10,
+              "name": "OUT OF THE BLUE",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 4,
+              "name": "HONEST BOY",
+              "note": 81.6,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 3,
+              "name": "FULL KEYNOTE",
+              "note": 80.4,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 8,
+              "name": "EPITYRUM",
+              "note": 80.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 12,
+              "name": "HOLY HOLY RIM",
+              "note": 79.3,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 10
+            },
+            {
+              "num": 9,
+              "name": "CURIOUS SONG",
+              "note": 73.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 11
+            },
+            {
+              "num": 1,
+              "name": "MAGNUM FIFTH",
+              "note": 66.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 12
+            }
+          ]
         },
         {
           "reunion": 5,
@@ -1097,7 +4330,97 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 1,
+              "name": "A MARES",
+              "note": 86.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 6,
+              "name": "PRETTY BOY",
+              "note": 83.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 3,
+              "name": "PHANTON",
+              "note": 82.2,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 8,
+              "name": "REAL RIM",
+              "note": 82.2,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 4,
+              "name": "DON LOGRADO",
+              "note": 81.5,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 10,
+              "name": "NO ME ACUERDO",
+              "note": 81.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 5,
+              "name": "SENOR SANDRO",
+              "note": 80.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 7,
+              "name": "THE GUANTECITO",
+              "note": 77.6,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 2,
+              "name": "SOY DEL COLOSO",
+              "note": 74.1,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 11,
+              "name": "THE GREAT WELLS",
+              "note": 73.6,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 10
+            },
+            {
+              "num": 9,
+              "name": "CINCO ROSAS",
+              "note": 72.5,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 11
+            }
+          ]
         }
       ]
     },
@@ -1115,7 +4438,57 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 5,
+              "name": "CINCINNATUS",
+              "note": 76.3,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 2,
+              "name": "COLISEO DI ROMA",
+              "note": 72.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 1,
+              "name": "PAROLACCIA",
+              "note": 71.4,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 6,
+              "name": "RUSTY",
+              "note": 68.6,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 3,
+              "name": "SIETE DEL NUEVE",
+              "note": 64.4,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 4,
+              "name": "SIN PREJUICIOS",
+              "note": 62.7,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            }
+          ]
         },
         {
           "reunion": 6,
@@ -1127,7 +4500,105 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 1,
+              "name": "NOTA DULCE",
+              "note": 65.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 2,
+              "name": "MARY READ",
+              "note": 60.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "ENTRE PARENTESIS",
+              "note": 57.5,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 3,
+              "name": "TE QUIERO A TI",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 4,
+              "name": "WILLKOMMEN",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 5,
+              "name": "CUCHI KICHI",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 6,
+              "name": "QUEEN AMBER",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 8,
+              "name": "GRAN JOCY",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 9,
+              "name": "SRA ELGA",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 10,
+              "name": "REGALO PARA TI",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 10
+            },
+            {
+              "num": 11,
+              "name": "OIKU",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 11
+            },
+            {
+              "num": 12,
+              "name": "NINA GUERRERA",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 12
+            }
+          ]
         },
         {
           "reunion": 6,
@@ -1139,7 +4610,81 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 5,
+              "name": "POETA GRIEGO",
+              "note": 75.2,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 8,
+              "name": "YADA",
+              "note": 74.6,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "PONGASE AL DIA",
+              "note": 66.6,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 6,
+              "name": "REINA EGIPCIA",
+              "note": 65.7,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 2,
+              "name": "DOMENICO",
+              "note": 65.6,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 4,
+              "name": "CROCKED",
+              "note": 63.2,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 3,
+              "name": "HIER ANCORE",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 9,
+              "name": "CORAL REEF",
+              "note": 60.7,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 1,
+              "name": "MATE AMARGO",
+              "note": 58.8,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            }
+          ]
         },
         {
           "reunion": 6,
@@ -1151,7 +4696,73 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 3,
+              "name": "THE LAWYER",
+              "note": 75.2,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 5,
+              "name": "ONIX BLUE",
+              "note": 73.2,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 2,
+              "name": "ARAKI",
+              "note": 73.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 1,
+              "name": "BESOS DE MIEL",
+              "note": 72.3,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 4,
+              "name": "SIETE DE ABRIL",
+              "note": 69.5,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 6,
+              "name": "GRIEZMANN",
+              "note": 67.3,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 8,
+              "name": "PIANTAO",
+              "note": 67.2,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 7,
+              "name": "SONRISA DULCE",
+              "note": 64.5,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            }
+          ]
         },
         {
           "reunion": 6,
@@ -1163,7 +4774,113 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 1,
+              "name": "KATSUMI",
+              "note": 70.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 12,
+              "name": "KANDAN",
+              "note": 67.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "BARELLA",
+              "note": 57.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 13,
+              "name": "DIVINA PALOMA",
+              "note": 56.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 2,
+              "name": "FRENCH FASHION",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 3,
+              "name": "MICERINA",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 4,
+              "name": "WHITE FLAME",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 6,
+              "name": "MAKUKA",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 7,
+              "name": "COMANCHE BRAVA",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 8,
+              "name": "DONNA MARIA",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 10
+            },
+            {
+              "num": 9,
+              "name": "CHICA SERENA",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 11
+            },
+            {
+              "num": 10,
+              "name": "MI AGUS",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 12
+            },
+            {
+              "num": 11,
+              "name": "LIZARRAGA",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 13
+            }
+          ]
         },
         {
           "reunion": 6,
@@ -1175,7 +4892,89 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 5,
+              "name": "CHARLIE HARPER",
+              "note": 70.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "SIETE VEINTIUNO",
+              "note": 67.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 3,
+              "name": "RESOLUTIVO",
+              "note": 56.3,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 10,
+              "name": "NO ES NA CIERTO",
+              "note": 54.3,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 1,
+              "name": "LIGHT AND DARK",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 2,
+              "name": "GAUCHO PAMPERO",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 6,
+              "name": "MODERNUS",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 7,
+              "name": "EL FINIQUITO",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 8,
+              "name": "FIVE DIRHAM",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 9,
+              "name": "BREE",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 10
+            }
+          ]
         },
         {
           "reunion": 6,
@@ -1187,7 +4986,81 @@
           "discipline": "PLAT",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 6,
+              "name": "BEN MAMUT",
+              "note": 73.1,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 1
+            },
+            {
+              "num": 8,
+              "name": "MASSU TARE",
+              "note": 68.7,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 2
+            },
+            {
+              "num": 1,
+              "name": "SUNAM",
+              "note": 67.0,
+              "profile": "Base possible",
+              "signal": "Partant confirmé",
+              "rank": 3
+            },
+            {
+              "num": 2,
+              "name": "MAXIWARIO",
+              "note": 66.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 4
+            },
+            {
+              "num": 4,
+              "name": "LANNISTER",
+              "note": 65.9,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 5
+            },
+            {
+              "num": 3,
+              "name": "DOCTORA MILAGRO",
+              "note": 63.6,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 6
+            },
+            {
+              "num": 9,
+              "name": "CICARELLI",
+              "note": 62.9,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 7,
+              "name": "CUARTO C",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 5,
+              "name": "FLIGHT OF ICARUS",
+              "note": 61.9,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            }
+          ]
         }
       ]
     },
@@ -1205,7 +5078,121 @@
           "discipline": "ATTELE",
           "quinte": false,
           "status": "PROGRAMMEE",
-          "result_top5": []
+          "result_top5": [],
+          "runners": [
+            {
+              "num": 14,
+              "name": "ILLICO DE BOUTEAU",
+              "note": 85.6,
+              "profile": "Base possible",
+              "signal": "Cote 7.5",
+              "rank": 1
+            },
+            {
+              "num": 8,
+              "name": "IOWA DE TOUCHYVON",
+              "note": 84.1,
+              "profile": "Base possible",
+              "signal": "Cote 12",
+              "rank": 2
+            },
+            {
+              "num": 10,
+              "name": "JOYCE MIKA",
+              "note": 84.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.6",
+              "rank": 3
+            },
+            {
+              "num": 1,
+              "name": "IDOCTRO DE HOUELLE",
+              "note": 83.8,
+              "profile": "Associé",
+              "signal": "Cote 9.7",
+              "rank": 4
+            },
+            {
+              "num": 7,
+              "name": "JIPSY DES AIRES",
+              "note": 83.6,
+              "profile": "Associé",
+              "signal": "Cote 9.5",
+              "rank": 5
+            },
+            {
+              "num": 4,
+              "name": "JAOUEN",
+              "note": 82.3,
+              "profile": "Associé",
+              "signal": "Cote 3.8",
+              "rank": 6
+            },
+            {
+              "num": 13,
+              "name": "ISSIA DE CHARLY",
+              "note": 82.1,
+              "profile": "Associé",
+              "signal": "Cote 8.9",
+              "rank": 7
+            },
+            {
+              "num": 9,
+              "name": "HE STAR DU CALICE",
+              "note": 77.5,
+              "profile": "Associé",
+              "signal": "Cote 20",
+              "rank": 8
+            },
+            {
+              "num": 12,
+              "name": "I LOVE IGNY",
+              "note": 77.0,
+              "profile": "Outsider",
+              "signal": "Cote 9.2",
+              "rank": 9
+            },
+            {
+              "num": 2,
+              "name": "IPIKO",
+              "note": 76.4,
+              "profile": "Outsider",
+              "signal": "Cote 21",
+              "rank": 10
+            },
+            {
+              "num": 5,
+              "name": "ISA DE TOUCHYVON",
+              "note": 62.0,
+              "profile": "Outsider",
+              "signal": "Cote 131",
+              "rank": 11
+            },
+            {
+              "num": 3,
+              "name": "JARFALLA QUICK",
+              "note": 61.4,
+              "profile": "Outsider",
+              "signal": "Cote 175",
+              "rank": 12
+            },
+            {
+              "num": 11,
+              "name": "HEROS DES LOYAUX",
+              "note": 60.6,
+              "profile": "Outsider",
+              "signal": "Cote 105",
+              "rank": 13
+            },
+            {
+              "num": 6,
+              "name": "HYPOLIT DE BEL AIR",
+              "note": 54.7,
+              "profile": "Outsider",
+              "signal": "Cote 58",
+              "rank": 14
+            }
+          ]
         }
       ]
     },
@@ -1229,6 +5216,96 @@
             10,
             8,
             12
+          ],
+          "runners": [
+            {
+              "num": 12,
+              "name": "NAPOLEON",
+              "note": 87.0,
+              "profile": "Base possible",
+              "signal": "Cote 12",
+              "rank": 1
+            },
+            {
+              "num": 11,
+              "name": "NECTAR DU CHATELET",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 9.6",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "NORFOLK DE VANDEL",
+              "note": 79.0,
+              "profile": "Base possible",
+              "signal": "Cote 4",
+              "rank": 3
+            },
+            {
+              "num": 4,
+              "name": "NAPHIL MIJACK",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 6",
+              "rank": 4
+            },
+            {
+              "num": 6,
+              "name": "NEWTON DE BANVILLE",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 3",
+              "rank": 5
+            },
+            {
+              "num": 3,
+              "name": "NONAME DE CHENU",
+              "note": 77.6,
+              "profile": "Associé",
+              "signal": "Cote 14",
+              "rank": 6
+            },
+            {
+              "num": 8,
+              "name": "NARCOS DES LANDES",
+              "note": 75.4,
+              "profile": "Associé",
+              "signal": "Cote 41",
+              "rank": 7
+            },
+            {
+              "num": 5,
+              "name": "NUTELLA DU CAMPUS",
+              "note": 74.5,
+              "profile": "Associé",
+              "signal": "Cote 21",
+              "rank": 8
+            },
+            {
+              "num": 10,
+              "name": "NUSCH NOVA",
+              "note": 73.6,
+              "profile": "Outsider",
+              "signal": "Cote 25",
+              "rank": 9
+            },
+            {
+              "num": 9,
+              "name": "NOMADE VRIE",
+              "note": 72.2,
+              "profile": "Outsider",
+              "signal": "Cote 26",
+              "rank": 10
+            },
+            {
+              "num": 2,
+              "name": "NELSON MELODY",
+              "note": 59.0,
+              "profile": "Outsider",
+              "signal": "Cote 55",
+              "rank": 11
+            }
           ]
         },
         {
@@ -1247,6 +5324,128 @@
             15,
             2,
             11
+          ],
+          "runners": [
+            {
+              "num": 14,
+              "name": "KHARA DRY",
+              "note": 83.9,
+              "profile": "Base possible",
+              "signal": "Cote 3.6",
+              "rank": 1
+            },
+            {
+              "num": 15,
+              "name": "KALITY D'ERABLE",
+              "note": 82.2,
+              "profile": "Base possible",
+              "signal": "Cote 3.6",
+              "rank": 2
+            },
+            {
+              "num": 5,
+              "name": "KILLER POINT",
+              "note": 81.8,
+              "profile": "Base possible",
+              "signal": "Cote 9.3",
+              "rank": 3
+            },
+            {
+              "num": 13,
+              "name": "KARPANINO",
+              "note": 81.2,
+              "profile": "Associé",
+              "signal": "Cote 8.8",
+              "rank": 4
+            },
+            {
+              "num": 11,
+              "name": "KAISER BEGONIA",
+              "note": 81.0,
+              "profile": "Associé",
+              "signal": "Cote 12",
+              "rank": 5
+            },
+            {
+              "num": 6,
+              "name": "KELLIA VAUCEENNE",
+              "note": 80.4,
+              "profile": "Associé",
+              "signal": "Cote 9.4",
+              "rank": 6
+            },
+            {
+              "num": 7,
+              "name": "KAHAL DES RUETTES",
+              "note": 79.6,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 7
+            },
+            {
+              "num": 1,
+              "name": "KINGDOM ME",
+              "note": 77.5,
+              "profile": "Associé",
+              "signal": "Cote 41",
+              "rank": 8
+            },
+            {
+              "num": 8,
+              "name": "KAILASH ARCTIC",
+              "note": 74.7,
+              "profile": "Outsider",
+              "signal": "Cote 38",
+              "rank": 9
+            },
+            {
+              "num": 9,
+              "name": "KENZA D'OURVILLE",
+              "note": 71.6,
+              "profile": "Outsider",
+              "signal": "Cote 36",
+              "rank": 10
+            },
+            {
+              "num": 10,
+              "name": "KELMONDO BOY",
+              "note": 70.9,
+              "profile": "Outsider",
+              "signal": "Cote 49",
+              "rank": 11
+            },
+            {
+              "num": 3,
+              "name": "KRILLE DU BOUILLON",
+              "note": 61.7,
+              "profile": "Outsider",
+              "signal": "Cote 108",
+              "rank": 12
+            },
+            {
+              "num": 4,
+              "name": "KADEOS SI",
+              "note": 61.0,
+              "profile": "Outsider",
+              "signal": "Cote 90",
+              "rank": 13
+            },
+            {
+              "num": 12,
+              "name": "KRAC BOREAL",
+              "note": 60.2,
+              "profile": "Outsider",
+              "signal": "Cote 67",
+              "rank": 14
+            },
+            {
+              "num": 2,
+              "name": "KAVALE DE BOLERO",
+              "note": 58.0,
+              "profile": "Outsider",
+              "signal": "Cote 135",
+              "rank": 15
+            }
           ]
         },
         {
@@ -1265,6 +5464,136 @@
             7,
             10,
             3
+          ],
+          "runners": [
+            {
+              "num": 14,
+              "name": "LADY STRYCK",
+              "note": 85.2,
+              "profile": "Base possible",
+              "signal": "Cote 5.3",
+              "rank": 1
+            },
+            {
+              "num": 15,
+              "name": "LIEGO DU NOYER",
+              "note": 83.6,
+              "profile": "Base possible",
+              "signal": "Cote 5.1",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "LORD",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 9.9",
+              "rank": 3
+            },
+            {
+              "num": 5,
+              "name": "LORENZO DE GOHEL",
+              "note": 79.1,
+              "profile": "Associé",
+              "signal": "Cote 20",
+              "rank": 4
+            },
+            {
+              "num": 8,
+              "name": "LEADER STREET",
+              "note": 77.4,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 5
+            },
+            {
+              "num": 16,
+              "name": "L'AS TEJY",
+              "note": 77.0,
+              "profile": "Associé",
+              "signal": "Cote 7.5",
+              "rank": 6
+            },
+            {
+              "num": 12,
+              "name": "LIPSKA",
+              "note": 75.0,
+              "profile": "Associé",
+              "signal": "Cote 4.4",
+              "rank": 7
+            },
+            {
+              "num": 4,
+              "name": "LALOUISIA GIRL",
+              "note": 74.8,
+              "profile": "Associé",
+              "signal": "Cote 25",
+              "rank": 8
+            },
+            {
+              "num": 10,
+              "name": "LEADER CARISAIE",
+              "note": 69.7,
+              "profile": "Outsider",
+              "signal": "Cote 25",
+              "rank": 9
+            },
+            {
+              "num": 9,
+              "name": "LICORNE DE LA JOIE",
+              "note": 68.7,
+              "profile": "Outsider",
+              "signal": "Cote 22",
+              "rank": 10
+            },
+            {
+              "num": 6,
+              "name": "LIVINGSTONE DU HAC",
+              "note": 68.5,
+              "profile": "Outsider",
+              "signal": "Cote 48",
+              "rank": 11
+            },
+            {
+              "num": 2,
+              "name": "LEGENDE SOLEDAD",
+              "note": 59.9,
+              "profile": "Outsider",
+              "signal": "Cote 132",
+              "rank": 12
+            },
+            {
+              "num": 1,
+              "name": "LUNA BELLA BROUETS",
+              "note": 58.7,
+              "profile": "Outsider",
+              "signal": "Cote 75",
+              "rank": 13
+            },
+            {
+              "num": 13,
+              "name": "LUCKY NUMBER",
+              "note": 57.0,
+              "profile": "Outsider",
+              "signal": "Cote 75",
+              "rank": 14
+            },
+            {
+              "num": 11,
+              "name": "LOU DU DERBY",
+              "note": 56.4,
+              "profile": "Outsider",
+              "signal": "Cote 66",
+              "rank": 15
+            },
+            {
+              "num": 3,
+              "name": "LEU DES BOIS",
+              "note": 54.9,
+              "profile": "Outsider",
+              "signal": "Cote 52",
+              "rank": 16
+            }
           ]
         },
         {
@@ -1283,6 +5612,120 @@
             13,
             11,
             10
+          ],
+          "runners": [
+            {
+              "num": 10,
+              "name": "LUCKY LOVE THANA",
+              "note": 91.3,
+              "profile": "Base possible",
+              "signal": "Cote 2.8",
+              "rank": 1
+            },
+            {
+              "num": 7,
+              "name": "LIA DE LA MORTRIE",
+              "note": 90.2,
+              "profile": "Base possible",
+              "signal": "Cote 15",
+              "rank": 2
+            },
+            {
+              "num": 11,
+              "name": "LADY EVER",
+              "note": 89.0,
+              "profile": "Base possible",
+              "signal": "Cote 12",
+              "rank": 3
+            },
+            {
+              "num": 12,
+              "name": "LALDO LOUZEEN",
+              "note": 88.7,
+              "profile": "Associé",
+              "signal": "Cote 5.4",
+              "rank": 4
+            },
+            {
+              "num": 13,
+              "name": "LIBERTA DE MARZY",
+              "note": 87.0,
+              "profile": "Associé",
+              "signal": "Cote 5",
+              "rank": 5
+            },
+            {
+              "num": 9,
+              "name": "LANDSMAN",
+              "note": 83.4,
+              "profile": "Associé",
+              "signal": "Cote 9.4",
+              "rank": 6
+            },
+            {
+              "num": 2,
+              "name": "LIKE THAT",
+              "note": 79.9,
+              "profile": "Associé",
+              "signal": "Cote 21",
+              "rank": 7
+            },
+            {
+              "num": 14,
+              "name": "LEADER DE CERISY",
+              "note": 72.4,
+              "profile": "Associé",
+              "signal": "Cote 30",
+              "rank": 8
+            },
+            {
+              "num": 1,
+              "name": "LAGOS",
+              "note": 71.4,
+              "profile": "Outsider",
+              "signal": "Cote 30",
+              "rank": 9
+            },
+            {
+              "num": 8,
+              "name": "LOLITA DES LANDES",
+              "note": 70.2,
+              "profile": "Outsider",
+              "signal": "Cote 43",
+              "rank": 10
+            },
+            {
+              "num": 5,
+              "name": "LIBERAL BABY",
+              "note": 65.1,
+              "profile": "Outsider",
+              "signal": "Cote 65",
+              "rank": 11
+            },
+            {
+              "num": 6,
+              "name": "LUTIN DE LA BASLE",
+              "note": 61.5,
+              "profile": "Outsider",
+              "signal": "Cote 81",
+              "rank": 12
+            },
+            {
+              "num": 3,
+              "name": "LEADER DU MOUCHEL",
+              "note": 60.0,
+              "profile": "Outsider",
+              "signal": "Cote 81",
+              "rank": 13
+            },
+            {
+              "num": 4,
+              "name": "LADY DU POMMEREUX",
+              "note": 57.0,
+              "profile": "Outsider",
+              "signal": "Cote 81",
+              "rank": 14
+            }
           ]
         },
         {
@@ -1301,6 +5744,136 @@
             2,
             16,
             14
+          ],
+          "runners": [
+            {
+              "num": 13,
+              "name": "KHARNAS",
+              "note": 94.3,
+              "profile": "Base possible",
+              "signal": "Cote 4",
+              "rank": 1
+            },
+            {
+              "num": 11,
+              "name": "KEROSEN DU GERS",
+              "note": 89.3,
+              "profile": "Base possible",
+              "signal": "Cote 3.2",
+              "rank": 2
+            },
+            {
+              "num": 4,
+              "name": "KERIDO D'ALOUETTE",
+              "note": 89.2,
+              "profile": "Base possible",
+              "signal": "Cote 17",
+              "rank": 3
+            },
+            {
+              "num": 8,
+              "name": "KUSAERI",
+              "note": 85.5,
+              "profile": "Associé",
+              "signal": "Cote 14",
+              "rank": 4
+            },
+            {
+              "num": 16,
+              "name": "JOYEUX NONNA",
+              "note": 83.3,
+              "profile": "Associé",
+              "signal": "Cote 23",
+              "rank": 5
+            },
+            {
+              "num": 5,
+              "name": "KIARA DES BORDES",
+              "note": 80.1,
+              "profile": "Associé",
+              "signal": "Cote 4.1",
+              "rank": 6
+            },
+            {
+              "num": 12,
+              "name": "IMAGE D'HERFRAIE",
+              "note": 74.4,
+              "profile": "Associé",
+              "signal": "Cote 30",
+              "rank": 7
+            },
+            {
+              "num": 7,
+              "name": "JUST WINNER ROC",
+              "note": 74.0,
+              "profile": "Associé",
+              "signal": "Cote 33",
+              "rank": 8
+            },
+            {
+              "num": 14,
+              "name": "KARMA QUICK",
+              "note": 73.6,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 1,
+              "name": "JOKER DU DOLLAR",
+              "note": 73.5,
+              "profile": "Outsider",
+              "signal": "Cote 49",
+              "rank": 10
+            },
+            {
+              "num": 9,
+              "name": "JOUR D'ERABLE",
+              "note": 72.4,
+              "profile": "Outsider",
+              "signal": "Cote 32",
+              "rank": 11
+            },
+            {
+              "num": 2,
+              "name": "JADE DE TOUCHYVON",
+              "note": 67.2,
+              "profile": "Outsider",
+              "signal": "Cote 43",
+              "rank": 12
+            },
+            {
+              "num": 15,
+              "name": "INDIEN D'HERIPRE",
+              "note": 66.9,
+              "profile": "Outsider",
+              "signal": "Cote 67",
+              "rank": 13
+            },
+            {
+              "num": 10,
+              "name": "ILOWA D'OHARA",
+              "note": 62.4,
+              "profile": "Outsider",
+              "signal": "Cote 61",
+              "rank": 14
+            },
+            {
+              "num": 6,
+              "name": "JACK SPARROW GEPE",
+              "note": 60.9,
+              "profile": "Outsider",
+              "signal": "Cote 61",
+              "rank": 15
+            },
+            {
+              "num": 3,
+              "name": "IDEAL FLEURI",
+              "note": 57.0,
+              "profile": "Outsider",
+              "signal": "Cote 74",
+              "rank": 16
+            }
           ]
         },
         {
@@ -1319,6 +5892,104 @@
             1,
             6,
             8
+          ],
+          "runners": [
+            {
+              "num": 8,
+              "name": "MACKMAHCATH",
+              "note": 96.0,
+              "profile": "Base possible",
+              "signal": "Cote 5",
+              "rank": 1
+            },
+            {
+              "num": 10,
+              "name": "MARGUERITE BECO",
+              "note": 87.5,
+              "profile": "Base possible",
+              "signal": "Cote 21",
+              "rank": 2
+            },
+            {
+              "num": 11,
+              "name": "MAGISTER",
+              "note": 85.7,
+              "profile": "Base possible",
+              "signal": "Cote 6.8",
+              "rank": 3
+            },
+            {
+              "num": 9,
+              "name": "MOMO DE MIENNAIS",
+              "note": 85.2,
+              "profile": "Associé",
+              "signal": "Cote 11",
+              "rank": 4
+            },
+            {
+              "num": 5,
+              "name": "MY MILLION D'ANSY",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 5.4",
+              "rank": 5
+            },
+            {
+              "num": 2,
+              "name": "MAESTRO BREKKA",
+              "note": 80.0,
+              "profile": "Associé",
+              "signal": "Cote 5.3",
+              "rank": 6
+            },
+            {
+              "num": 7,
+              "name": "MUSUBI DE BELLANDE",
+              "note": 77.6,
+              "profile": "Associé",
+              "signal": "Cote 4.8",
+              "rank": 7
+            },
+            {
+              "num": 4,
+              "name": "MARGARET RIVER",
+              "note": 74.1,
+              "profile": "Associé",
+              "signal": "Cote 21",
+              "rank": 8
+            },
+            {
+              "num": 6,
+              "name": "METEORE",
+              "note": 71.6,
+              "profile": "Outsider",
+              "signal": "Cote 36",
+              "rank": 9
+            },
+            {
+              "num": 12,
+              "name": "MUSTANG D'ERI",
+              "note": 64.7,
+              "profile": "Outsider",
+              "signal": "Cote 59",
+              "rank": 10
+            },
+            {
+              "num": 3,
+              "name": "MADONE ROCHEL",
+              "note": 63.9,
+              "profile": "Outsider",
+              "signal": "Cote 50",
+              "rank": 11
+            },
+            {
+              "num": 1,
+              "name": "MEGANE DE VALMONT",
+              "note": 49.5,
+              "profile": "Outsider",
+              "signal": "Cote 326",
+              "rank": 12
+            }
           ]
         },
         {
@@ -1337,6 +6008,120 @@
             10,
             6,
             3
+          ],
+          "runners": [
+            {
+              "num": 9,
+              "name": "JAM DE FOURCADE",
+              "note": 92.6,
+              "profile": "Base possible",
+              "signal": "Cote 2.2",
+              "rank": 1
+            },
+            {
+              "num": 10,
+              "name": "KRISTIANO BELLO",
+              "note": 90.9,
+              "profile": "Base possible",
+              "signal": "Cote 10",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "KISS ME BABY",
+              "note": 89.9,
+              "profile": "Base possible",
+              "signal": "Cote 4",
+              "rank": 3
+            },
+            {
+              "num": 14,
+              "name": "HAZIRE DE GUEZ",
+              "note": 83.0,
+              "profile": "Associé",
+              "signal": "Cote 16",
+              "rank": 4
+            },
+            {
+              "num": 6,
+              "name": "KIR DU BOULAY",
+              "note": 79.2,
+              "profile": "Associé",
+              "signal": "Cote 17",
+              "rank": 5
+            },
+            {
+              "num": 5,
+              "name": "KUZA DU BOUILLON",
+              "note": 75.9,
+              "profile": "Associé",
+              "signal": "Cote 21",
+              "rank": 6
+            },
+            {
+              "num": 4,
+              "name": "KADOR DE SEVRE",
+              "note": 75.3,
+              "profile": "Associé",
+              "signal": "Cote 16",
+              "rank": 7
+            },
+            {
+              "num": 8,
+              "name": "IRISH PARKER",
+              "note": 70.6,
+              "profile": "Associé",
+              "signal": "Cote 27",
+              "rank": 8
+            },
+            {
+              "num": 1,
+              "name": "KALINE STED",
+              "note": 67.3,
+              "profile": "Outsider",
+              "signal": "Cote 38",
+              "rank": 9
+            },
+            {
+              "num": 12,
+              "name": "JOUJO DES CINTY",
+              "note": 67.3,
+              "profile": "Outsider",
+              "signal": "Cote 42",
+              "rank": 10
+            },
+            {
+              "num": 11,
+              "name": "JALIDA DE LA ROQUE",
+              "note": 66.6,
+              "profile": "Outsider",
+              "signal": "Cote 58",
+              "rank": 11
+            },
+            {
+              "num": 3,
+              "name": "IGOR THEPOL",
+              "note": 64.3,
+              "profile": "Outsider",
+              "signal": "Cote 51",
+              "rank": 12
+            },
+            {
+              "num": 13,
+              "name": "HAKA DANCER",
+              "note": 63.4,
+              "profile": "Outsider",
+              "signal": "Cote 46",
+              "rank": 13
+            },
+            {
+              "num": 2,
+              "name": "INA MELODY",
+              "note": 56.4,
+              "profile": "Outsider",
+              "signal": "Cote 77",
+              "rank": 14
+            }
           ]
         }
       ]
@@ -1361,6 +6146,88 @@
             3,
             5,
             1
+          ],
+          "runners": [
+            {
+              "num": 7,
+              "name": "JULIETTE DE THEYSS",
+              "note": 80.0,
+              "profile": "Base possible",
+              "signal": "Cote 11",
+              "rank": 1
+            },
+            {
+              "num": 3,
+              "name": "TROTINETTE",
+              "note": 62.0,
+              "profile": "Base possible",
+              "signal": "Cote 3.9",
+              "rank": 2
+            },
+            {
+              "num": 4,
+              "name": "HAYDEN DE ROCHE",
+              "note": 62.0,
+              "profile": "Base possible",
+              "signal": "Cote 5.9",
+              "rank": 3
+            },
+            {
+              "num": 5,
+              "name": "TRIO MAGIC",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Cote 3.9",
+              "rank": 4
+            },
+            {
+              "num": 6,
+              "name": "FREE MAN",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Cote 5.3",
+              "rank": 5
+            },
+            {
+              "num": 8,
+              "name": "NUIT TORRIDE",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Cote 6.8",
+              "rank": 6
+            },
+            {
+              "num": 2,
+              "name": "CARRYAN",
+              "note": 61.4,
+              "profile": "Associé",
+              "signal": "Cote 19",
+              "rank": 7
+            },
+            {
+              "num": 1,
+              "name": "LEROCK",
+              "note": 50.0,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 8
+            },
+            {
+              "num": 9,
+              "name": "HARYNA DES OBEAUX",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 10,
+              "name": "SARMYA",
+              "note": 46.0,
+              "profile": "Outsider",
+              "signal": "Cote 63",
+              "rank": 10
+            }
           ]
         },
         {
@@ -1379,6 +6246,96 @@
             9,
             7,
             4
+          ],
+          "runners": [
+            {
+              "num": 2,
+              "name": "MORELLE",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 4.5",
+              "rank": 1
+            },
+            {
+              "num": 3,
+              "name": "MERVEILLE ALLEN",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 5",
+              "rank": 2
+            },
+            {
+              "num": 4,
+              "name": "MA BELLE D'OR",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 10",
+              "rank": 3
+            },
+            {
+              "num": 8,
+              "name": "MADEE",
+              "note": 67.8,
+              "profile": "Associé",
+              "signal": "Cote 40",
+              "rank": 4
+            },
+            {
+              "num": 1,
+              "name": "MARIE DES OBEAUX",
+              "note": 65.9,
+              "profile": "Associé",
+              "signal": "Cote 31",
+              "rank": 5
+            },
+            {
+              "num": 6,
+              "name": "MAGIE D'AINAY",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Cote 2.8",
+              "rank": 6
+            },
+            {
+              "num": 7,
+              "name": "MISS GONAGALL",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Cote 6.7",
+              "rank": 7
+            },
+            {
+              "num": 11,
+              "name": "MONTAGNE",
+              "note": 58.6,
+              "profile": "Associé",
+              "signal": "Cote 25",
+              "rank": 8
+            },
+            {
+              "num": 5,
+              "name": "MALFA D'AIRY",
+              "note": 50.0,
+              "profile": "Outsider",
+              "signal": "Partant confirmé",
+              "rank": 9
+            },
+            {
+              "num": 9,
+              "name": "MANAMORY",
+              "note": 49.8,
+              "profile": "Outsider",
+              "signal": "Cote 40",
+              "rank": 10
+            },
+            {
+              "num": 10,
+              "name": "MISS CLAIE",
+              "note": 49.8,
+              "profile": "Outsider",
+              "signal": "Cote 40",
+              "rank": 11
+            }
           ]
         },
         {
@@ -1397,6 +6354,104 @@
             8,
             5,
             7
+          ],
+          "runners": [
+            {
+              "num": 1,
+              "name": "LE PROFESSIONNEL",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 5.4",
+              "rank": 1
+            },
+            {
+              "num": 3,
+              "name": "FUSTIER",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.9",
+              "rank": 2
+            },
+            {
+              "num": 2,
+              "name": "GEEKER",
+              "note": 80.0,
+              "profile": "Base possible",
+              "signal": "Cote 3.4",
+              "rank": 3
+            },
+            {
+              "num": 7,
+              "name": "KNIGHTOFTHEFOREST",
+              "note": 79.0,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 4
+            },
+            {
+              "num": 5,
+              "name": "MIKA DU SEUIL",
+              "note": 78.9,
+              "profile": "Associé",
+              "signal": "Cote 20",
+              "rank": 5
+            },
+            {
+              "num": 6,
+              "name": "JEM MAN",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 8.1",
+              "rank": 6
+            },
+            {
+              "num": 10,
+              "name": "LOUBRALTAR",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 5.3",
+              "rank": 7
+            },
+            {
+              "num": 8,
+              "name": "MAJOR",
+              "note": 63.6,
+              "profile": "Associé",
+              "signal": "Cote 14",
+              "rank": 8
+            },
+            {
+              "num": 4,
+              "name": "NOCTAMBULE",
+              "note": 59.5,
+              "profile": "Outsider",
+              "signal": "Cote 56",
+              "rank": 9
+            },
+            {
+              "num": 9,
+              "name": "WORLD AMIRAL PARK",
+              "note": 42.0,
+              "profile": "Outsider",
+              "signal": "Cote 71",
+              "rank": 10
+            },
+            {
+              "num": 12,
+              "name": "JUBILATION",
+              "note": 42.0,
+              "profile": "Outsider",
+              "signal": "Cote 142",
+              "rank": 11
+            },
+            {
+              "num": 11,
+              "name": "SILVER BUSINESS",
+              "note": 40.0,
+              "profile": "Outsider",
+              "signal": "Cote 142",
+              "rank": 12
+            }
           ]
         },
         {
@@ -1415,6 +6470,64 @@
             3,
             7,
             1
+          ],
+          "runners": [
+            {
+              "num": 3,
+              "name": "TIGER KING",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.8",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "LE PAS DU LOUP",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.8",
+              "rank": 2
+            },
+            {
+              "num": 7,
+              "name": "HOWE DES OBEAUX",
+              "note": 80.7,
+              "profile": "Base possible",
+              "signal": "Cote 6",
+              "rank": 3
+            },
+            {
+              "num": 2,
+              "name": "LEVE TOT",
+              "note": 80.0,
+              "profile": "Associé",
+              "signal": "Cote 5",
+              "rank": 4
+            },
+            {
+              "num": 6,
+              "name": "QUADRILLE SUCCES",
+              "note": 80.0,
+              "profile": "Associé",
+              "signal": "Cote 5",
+              "rank": 5
+            },
+            {
+              "num": 1,
+              "name": "LE SEUM",
+              "note": 78.0,
+              "profile": "Associé",
+              "signal": "Cote 4.3",
+              "rank": 6
+            },
+            {
+              "num": 5,
+              "name": "LOUPING SACRE",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Cote 8.4",
+              "rank": 7
+            }
           ]
         },
         {
@@ -1433,6 +6546,56 @@
             1,
             5,
             6
+          ],
+          "runners": [
+            {
+              "num": 1,
+              "name": "MAISSIGNAC",
+              "note": 95.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.9",
+              "rank": 1
+            },
+            {
+              "num": 2,
+              "name": "MUSIK PLEASE",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 1.8",
+              "rank": 2
+            },
+            {
+              "num": 4,
+              "name": "MIRAVAL DE GRUGY",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 7.1",
+              "rank": 3
+            },
+            {
+              "num": 5,
+              "name": "MISS GEORGES ALLEN",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 10",
+              "rank": 4
+            },
+            {
+              "num": 6,
+              "name": "MILLEMERCIS SIVOLA",
+              "note": 82.0,
+              "profile": "Associé",
+              "signal": "Cote 6.3",
+              "rank": 5
+            },
+            {
+              "num": 3,
+              "name": "MYSTERE DE LANCRAY",
+              "note": 80.0,
+              "profile": "Associé",
+              "signal": "Cote 9.1",
+              "rank": 6
+            }
           ]
         },
         {
@@ -1451,6 +6614,48 @@
             5,
             3,
             1
+          ],
+          "runners": [
+            {
+              "num": 5,
+              "name": "LADY ZAZA",
+              "note": 83.1,
+              "profile": "Base possible",
+              "signal": "Cote 2.2",
+              "rank": 1
+            },
+            {
+              "num": 1,
+              "name": "SANGRE DE DRAGO",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 2.5",
+              "rank": 2
+            },
+            {
+              "num": 3,
+              "name": "MY FAVORITE MIX",
+              "note": 82.0,
+              "profile": "Base possible",
+              "signal": "Cote 8.6",
+              "rank": 3
+            },
+            {
+              "num": 2,
+              "name": "STAR GAZER",
+              "note": 69.5,
+              "profile": "Associé",
+              "signal": "Cote 8",
+              "rank": 4
+            },
+            {
+              "num": 4,
+              "name": "PETITE THEYSS",
+              "note": 62.0,
+              "profile": "Associé",
+              "signal": "Cote 11",
+              "rank": 5
+            }
           ]
         },
         {
@@ -1469,6 +6674,72 @@
             5,
             2,
             8
+          ],
+          "runners": [
+            {
+              "num": 2,
+              "name": "LA P'TITE HISTOIRE",
+              "note": 92.9,
+              "profile": "Base possible",
+              "signal": "Cote 3.7",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "CASTLE ANNE",
+              "note": 91.8,
+              "profile": "Base possible",
+              "signal": "Cote 4.3",
+              "rank": 2
+            },
+            {
+              "num": 1,
+              "name": "JEDDIE CONTI",
+              "note": 91.0,
+              "profile": "Base possible",
+              "signal": "Cote 3.3",
+              "rank": 3
+            },
+            {
+              "num": 6,
+              "name": "NAIROBI D'OROUX",
+              "note": 85.5,
+              "profile": "Associé",
+              "signal": "Cote 6.9",
+              "rank": 4
+            },
+            {
+              "num": 3,
+              "name": "OSAXALINA",
+              "note": 84.5,
+              "profile": "Associé",
+              "signal": "Cote 18",
+              "rank": 5
+            },
+            {
+              "num": 5,
+              "name": "LOLLITA",
+              "note": 83.4,
+              "profile": "Associé",
+              "signal": "Cote 15",
+              "rank": 6
+            },
+            {
+              "num": 8,
+              "name": "LADY DU CLOS",
+              "note": 68.9,
+              "profile": "Associé",
+              "signal": "Partant confirmé",
+              "rank": 7
+            },
+            {
+              "num": 7,
+              "name": "KARABA ALLEN",
+              "note": 64.0,
+              "profile": "Associé",
+              "signal": "Cote 9.6",
+              "rank": 8
+            }
           ]
         },
         {
@@ -1487,6 +6758,48 @@
             4,
             6,
             2
+          ],
+          "runners": [
+            {
+              "num": 6,
+              "name": "NORDICA DEBELAIR",
+              "note": 94.2,
+              "profile": "Base possible",
+              "signal": "Cote 9",
+              "rank": 1
+            },
+            {
+              "num": 1,
+              "name": "LUPIN D'AUBRELLE",
+              "note": 92.9,
+              "profile": "Base possible",
+              "signal": "Cote 2.3",
+              "rank": 2
+            },
+            {
+              "num": 4,
+              "name": "KENAVO BAIE",
+              "note": 90.1,
+              "profile": "Base possible",
+              "signal": "Cote 6.2",
+              "rank": 3
+            },
+            {
+              "num": 3,
+              "name": "PARKATTHETHEATRE",
+              "note": 86.8,
+              "profile": "Associé",
+              "signal": "Cote 3.4",
+              "rank": 4
+            },
+            {
+              "num": 2,
+              "name": "LYRICAL STAR",
+              "note": 85.0,
+              "profile": "Associé",
+              "signal": "Cote 5.6",
+              "rank": 5
+            }
           ]
         }
       ]
