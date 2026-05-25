@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-25T12:00:43.564834+00:00",
+  "generated_at": "2026-05-25T12:30:56.397754+00:00",
   "finance": {
-    "bankroll": 312.2,
-    "bets_count": 22,
+    "bankroll": 292.2,
+    "bets_count": 23,
     "settled_bets": 22,
     "observed_arrivals": 22,
     "total_stake": 375.0,
@@ -16,60 +16,100 @@
     "topup_total": 200.0
   },
   "featured": {
-    "date": "2026-05-24",
+    "date": "2026-05-25",
     "reunion": 1,
     "course": 3,
-    "placed_at": "2026-05-24T14:00:27.318830+02:00",
-    "strategy": "combine_top7_plus_outsider_flexi_25",
-    "type": "QUINTE_PLUS_COMBINE_TOP7_PLUS_OUTSIDER_FLEXI_25",
-    "formula": "C(8,5)=56 combinaisons × 2€ × 25% = 28€",
-    "stake": 28.0,
-    "gain": 108.5,
-    "net": 80.5,
-    "settled": true,
+    "placed_at": "2026-05-25T14:00:43.633382+02:00",
+    "strategy": "champ_reduit_3bases_5associes_flexi_50",
+    "type": "QUINTE_PLUS_CHAMP_REDUIT_FLEXI_50",
+    "formula": "P(5,2)=20 permutations associées × 2€ × 50% = 20€",
+    "stake": 20.0,
+    "gain": 0.0,
+    "net": -20.0,
+    "settled": false,
     "selection": [
-      6,
-      11,
-      9,
-      12,
-      1,
-      13,
-      4,
-      5
-    ],
-    "bases": [],
-    "associes": [
-      6,
-      11,
-      9,
-      12,
-      1,
-      13,
-      4,
-      5
-    ],
-    "arrival": [
-      4,
-      1,
       5,
+      9,
+      4,
       2,
-      7
+      14,
+      15,
+      10,
+      3
     ],
-    "hit_counts": {
-      "bonus3": 10
-    },
-    "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: aucun; top5 non sélectionnés: [2, 7]; max par grille: 3/5 top5, 3/3 top3; rangs modèle arrivée: 4=#7 score 39.7, 1=#6 score 41.2, 5=#9 score 37.4, 2=#14 score 34.4, 7=#15 score 27.2; profils manqués: 2: rang #14, reg 0.40, EV 0.22, value=False | 7: rang #15, reg 0.20, EV 0.66, value=False",
+    "bases": [
+      5,
+      9,
+      4
+    ],
+    "associes": [
+      2,
+      14,
+      15,
+      10,
+      3
+    ],
+    "arrival": [],
+    "hit_counts": {},
+    "miss_analysis": "",
     "profile": {
-      "profile": "course_ouverte_outsider",
-      "recommendation": "combine_top7_plus_outsider_flexi_25",
+      "profile": "bases_solides",
+      "recommendation": "champ_reduit_3bases_5associes_flexi_50",
       "defensive_mode": null,
       "red_zone_mode": null,
       "non_profitable_streak": null,
-      "score_spread_8": 10.4,
-      "stability_index": 26.5
+      "score_spread_8": 14.67,
+      "stability_index": 57.9
     }
   },
   "recent": [
+    {
+      "date": "2026-05-25",
+      "reunion": 1,
+      "course": 3,
+      "placed_at": "2026-05-25T14:00:43.633382+02:00",
+      "strategy": "champ_reduit_3bases_5associes_flexi_50",
+      "type": "QUINTE_PLUS_CHAMP_REDUIT_FLEXI_50",
+      "formula": "P(5,2)=20 permutations associées × 2€ × 50% = 20€",
+      "stake": 20.0,
+      "gain": 0.0,
+      "net": -20.0,
+      "settled": false,
+      "selection": [
+        5,
+        9,
+        4,
+        2,
+        14,
+        15,
+        10,
+        3
+      ],
+      "bases": [
+        5,
+        9,
+        4
+      ],
+      "associes": [
+        2,
+        14,
+        15,
+        10,
+        3
+      ],
+      "arrival": [],
+      "hit_counts": {},
+      "miss_analysis": "",
+      "profile": {
+        "profile": "bases_solides",
+        "recommendation": "champ_reduit_3bases_5associes_flexi_50",
+        "defensive_mode": null,
+        "red_zone_mode": null,
+        "non_profitable_streak": null,
+        "score_spread_8": 14.67,
+        "stability_index": 57.9
+      }
+    },
     {
       "date": "2026-05-24",
       "reunion": 1,
@@ -424,434 +464,358 @@
         "score_spread_8": 6.69,
         "stability_index": 37.3
       }
-    },
-    {
-      "date": "2026-05-17",
-      "reunion": 1,
-      "course": 5,
-      "placed_at": "2026-05-17T15:00:33.792429+02:00",
-      "strategy": "combine_top6_plus_outsider_flexi_25",
-      "type": "QUINTE_PLUS_COMBINE_TOP6_PLUS_OUTSIDER_FLEXI_25",
-      "formula": "C(7,5)=21 combinaisons × 2€ × 25% = 10.50€",
-      "stake": 10.5,
-      "gain": 0.0,
-      "net": -10.5,
-      "settled": true,
-      "selection": [
-        8,
-        14,
-        11,
-        10,
-        6,
-        12,
-        13
-      ],
-      "bases": [],
-      "associes": [
-        8,
-        14,
-        11,
-        10,
-        6,
-        12,
-        13
-      ],
-      "arrival": [
-        9,
-        3,
-        2,
-        4,
-        1
-      ],
-      "hit_counts": {},
-      "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: [9, 3, 2]; top5 non sélectionnés: [9, 3, 2, 4, 1]; max par grille: 0/5 top5, 0/3 top3; rangs modèle arrivée: 9=#9 score 36.9, 3=#11 score 33.9, 2=#8 score 37.0, 4=#12 score 33.0, 1=#14 score 30.3; profils manqués: 9: rang #9, reg 0.80, EV -0.27, value=False | 3: rang #11, reg 0.80, EV 0.45, value=True | 2: rang #8, reg 0.80, EV -0.23, value=False | 4: rang #12, reg 0.80, EV -0.17, value=False | 1: rang #14, reg 0.60, EV 0.18, value=False",
-      "profile": {
-        "profile": "course_ouverte_anti_drawdown",
-        "recommendation": "combine_top6_plus_outsider_flexi_25",
-        "defensive_mode": true,
-        "red_zone_mode": null,
-        "non_profitable_streak": 9,
-        "score_spread_8": 8.61,
-        "stability_index": 32.5
-      }
     }
   ],
   "program": [
     {
       "reunion": "R1",
-      "hippo": "ParisLongchamp",
+      "hippo": "COMPIEGNE",
       "courses": [
         {
           "reunion": 1,
           "course": 1,
           "code": "R1C1",
-          "name": "PRIX DE L'HOTEL DE BRUXELLES",
-          "start_at": "2026-05-24T11:58:00+00:00",
-          "allocation": 14600,
+          "name": "PRIX DU PUITS D'ANTIN",
+          "start_at": "2026-05-25T11:58:00+00:00",
+          "allocation": 24700,
           "discipline": "PLAT",
           "quinte": false,
           "status": "FIN_COURSE",
           "result_top5": [
-            7,
+            2,
             6,
             8,
-            1,
-            2
+            10,
+            3
           ]
         },
         {
           "reunion": 1,
           "course": 2,
           "code": "R1C2",
-          "name": "PRIX HOCQUART",
-          "start_at": "2026-05-24T12:33:00+00:00",
-          "allocation": 73200,
+          "name": "PRIX DE SAINT LEGER AUX BOIS",
+          "start_at": "2026-05-25T12:33:00+00:00",
+          "allocation": 18300,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
-          "result_top5": [
-            1,
-            4,
-            6,
-            3,
-            2
-          ]
+          "status": "JOKEYS_MONTENT_A_CHEVAL",
+          "result_top5": []
         },
         {
           "reunion": 1,
           "course": 3,
           "code": "R1C3",
-          "name": "PRIX DE L'ORANGERIE",
-          "start_at": "2026-05-24T13:15:00+00:00",
+          "name": "PRIX DES HAUTS DE FRANCE",
+          "start_at": "2026-05-25T13:15:00+00:00",
           "allocation": 50900,
           "discipline": "PLAT",
           "quinte": true,
-          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
-          "result_top5": [
-            4,
-            1,
-            5,
-            2,
-            7
-          ]
+          "status": "PROGRAMMEE",
+          "result_top5": []
         },
         {
           "reunion": 1,
           "course": 4,
           "code": "R1C4",
-          "name": "PRIX CORRIDA",
-          "start_at": "2026-05-24T13:50:00+00:00",
-          "allocation": 119000,
+          "name": "PRIX DES FRONDAISONS",
+          "start_at": "2026-05-25T13:50:00+00:00",
+          "allocation": 18300,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
-          "result_top5": [
-            7,
-            3,
-            4,
-            2,
-            5
-          ]
+          "status": "PROGRAMMEE",
+          "result_top5": []
         },
         {
           "reunion": 1,
           "course": 5,
           "code": "R1C5",
-          "name": "PRIX DE MONTRETOUT",
-          "start_at": "2026-05-24T14:27:00+00:00",
-          "allocation": 47600,
+          "name": "PRIX DE LA FORET D'OURSCAMP",
+          "start_at": "2026-05-25T14:25:00+00:00",
+          "allocation": 24000,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "FIN_COURSE",
-          "result_top5": [
-            7,
-            4,
-            8,
-            2,
-            3
-          ]
+          "status": "PROGRAMMEE",
+          "result_top5": []
         },
         {
           "reunion": 1,
           "course": 6,
           "code": "R1C6",
-          "name": "PRIX DE LA RUE CREMIEUX",
-          "start_at": "2026-05-24T15:02:00+00:00",
-          "allocation": 21100,
+          "name": "PRIX DE PICARDIE",
+          "start_at": "2026-05-25T15:00:00+00:00",
+          "allocation": 25900,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "FIN_COURSE",
-          "result_top5": [
-            8,
-            3,
-            7,
-            13,
-            4
-          ]
+          "status": "PROGRAMMEE",
+          "result_top5": []
         },
         {
           "reunion": 1,
           "course": 7,
           "code": "R1C7",
-          "name": "PRIX DU JEU DE PAUME",
-          "start_at": "2026-05-24T15:37:00+00:00",
-          "allocation": 25900,
+          "name": "PRIX DE SAINT-JUST EN CHAUSSEE",
+          "start_at": "2026-05-25T15:35:00+00:00",
+          "allocation": 17300,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "FIN_COURSE",
-          "result_top5": [
-            5,
-            12,
-            7,
-            2,
-            1
-          ]
+          "status": "PROGRAMMEE",
+          "result_top5": []
         },
         {
           "reunion": 1,
           "course": 8,
           "code": "R1C8",
-          "name": "PRIX DE LA RUE DU CHAT QUI PECHE",
-          "start_at": "2026-05-24T16:12:00+00:00",
-          "allocation": 19200,
+          "name": "PRIX BETHANCOURT EN VALOIS",
+          "start_at": "2026-05-25T16:10:00+00:00",
+          "allocation": 14400,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "FIN_COURSE",
-          "result_top5": [
-            9,
-            2,
-            6,
-            11,
-            12
-          ]
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 1,
+          "course": 9,
+          "code": "R1C9",
+          "name": "PRIX DES BEAUX MONTS",
+          "start_at": "2026-05-25T16:45:00+00:00",
+          "allocation": 14600,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
         }
       ]
     },
     {
       "reunion": "R2",
-      "hippo": "SHA TIN (HONG KONG)",
+      "hippo": "SON PARDO",
       "courses": [
         {
           "reunion": 2,
-          "course": 6,
-          "code": "R2C6",
-          "name": "STANDARD CHARTERED PRIORITY BANKING HANDICAP - SECTION 1",
-          "start_at": "2026-05-24T07:05:00+00:00",
-          "allocation": 144729,
-          "discipline": "PLAT",
-          "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
-          "result_top5": [
-            5,
-            8,
-            9,
-            3,
-            4
-          ]
-        },
-        {
-          "reunion": 2,
-          "course": 7,
-          "code": "R2C7",
-          "name": "STANDARD CHARTERED WEALTH SOLUTIONS HANDICAP",
-          "start_at": "2026-05-24T07:35:00+00:00",
-          "allocation": 253585,
-          "discipline": "PLAT",
+          "course": 1,
+          "code": "R2C1",
+          "name": "PREMI DESKO                             ESPAGNE",
+          "start_at": "2026-05-25T09:14:00+00:00",
+          "allocation": 4500,
+          "discipline": "ATTELE",
           "quinte": false,
           "status": "FIN_COURSE",
           "result_top5": [
-            12,
-            13,
-            8,
-            4,
-            14
-          ]
-        },
-        {
-          "reunion": 2,
-          "course": 8,
-          "code": "R2C8",
-          "name": "THE STANDARD CHARTERED CHAMPIONS & CHATER CUP",
-          "start_at": "2026-05-24T08:10:00+00:00",
-          "allocation": 1608100,
-          "discipline": "PLAT",
-          "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
-          "result_top5": [
-            1,
-            5,
             2,
-            9,
-            7
-          ]
-        },
-        {
-          "reunion": 2,
-          "course": 9,
-          "code": "R2C9",
-          "name": "STANDARD CHARTERED GLOBAL PRIVATE BANK HANDICAP",
-          "start_at": "2026-05-24T08:50:00+00:00",
-          "allocation": 351308,
-          "discipline": "PLAT",
-          "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
-          "result_top5": [
-            5,
-            11,
+            3,
             7,
-            9,
-            6
+            4,
+            1
           ]
         },
         {
           "reunion": 2,
-          "course": 10,
-          "code": "R2C10",
-          "name": "STANDARD CHARTERED RENMINBI BUSINESS HANDICAP",
-          "start_at": "2026-05-24T09:25:00+00:00",
-          "allocation": 230082,
-          "discipline": "PLAT",
+          "course": 2,
+          "code": "R2C2",
+          "name": "PREMI NEW STAR BLAI                     ESPAGNE",
+          "start_at": "2026-05-25T09:46:00+00:00",
+          "allocation": 4000,
+          "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "status": "FIN_COURSE",
           "result_top5": [
-            5,
-            13,
+            3,
+            6,
+            9,
+            7,
+            2
+          ]
+        },
+        {
+          "reunion": 2,
+          "course": 3,
+          "code": "R2C3",
+          "name": "PREMI DAFI RS                           ESPAGNE",
+          "start_at": "2026-05-25T10:18:00+00:00",
+          "allocation": 3500,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            4,
+            9,
+            7,
+            11,
+            2
+          ]
+        },
+        {
+          "reunion": 2,
+          "course": 4,
+          "code": "R2C4",
+          "name": "PREMI VARCO                             ESPAGNE",
+          "start_at": "2026-05-25T10:53:00+00:00",
+          "allocation": 5500,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            4,
+            8,
+            7,
+            3,
+            5
+          ]
+        },
+        {
+          "reunion": 2,
+          "course": 5,
+          "code": "R2C5",
+          "name": "PREMI OMAR DE FONT                      ESPAGNE",
+          "start_at": "2026-05-25T11:22:00+00:00",
+          "allocation": 5500,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            6,
             1,
-            10,
-            4
+            4,
+            5,
+            10
           ]
         }
       ]
     },
     {
       "reunion": "R3",
-      "hippo": "VICHY",
+      "hippo": "REIMS",
       "courses": [
         {
           "reunion": 3,
           "course": 1,
           "code": "R3C1",
-          "name": "PRIX COMMANDANT DE PIBRAC",
-          "start_at": "2026-05-24T09:20:00+00:00",
-          "allocation": 17000,
-          "discipline": "PLAT",
+          "name": "PRIX ZETURF",
+          "start_at": "2026-05-25T09:30:00+00:00",
+          "allocation": 18000,
+          "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "status": "FIN_COURSE",
           "result_top5": [
-            4,
-            5,
-            3,
-            2,
-            1
+            9,
+            6,
+            10
           ]
         },
         {
           "reunion": 3,
           "course": 2,
           "code": "R3C2",
-          "name": "PRIX ROGER DE SOULTRAIT",
-          "start_at": "2026-05-24T09:51:00+00:00",
-          "allocation": 11000,
-          "discipline": "PLAT",
+          "name": "GRAND PRIX JOSEPH PERRIER",
+          "start_at": "2026-05-25T10:02:00+00:00",
+          "allocation": 23000,
+          "discipline": "ATTELE",
           "quinte": false,
           "status": "FIN_COURSE",
           "result_top5": [
-            5,
             3,
-            4,
             6,
-            1
+            7,
+            9,
+            5
           ]
         },
         {
           "reunion": 3,
           "course": 3,
           "code": "R3C3",
-          "name": "PRIX D'HURIEL",
-          "start_at": "2026-05-24T10:22:00+00:00",
-          "allocation": 10100,
-          "discipline": "PLAT",
+          "name": "PRIX GRIMPOBRANCHES",
+          "start_at": "2026-05-25T10:34:00+00:00",
+          "allocation": 23000,
+          "discipline": "ATTELE",
           "quinte": false,
           "status": "FIN_COURSE",
           "result_top5": [
-            1,
-            7,
+            5,
             6,
-            9,
-            8
+            8,
+            3,
+            4
           ]
         },
         {
           "reunion": 3,
           "course": 4,
           "code": "R3C4",
-          "name": "PRIX HENRI ET MAURICE DE LAGENESTE",
-          "start_at": "2026-05-24T10:53:00+00:00",
-          "allocation": 20000,
-          "discipline": "PLAT",
+          "name": "PX DU HARAS DU SAINT GEORGES-ECURIE PAN",
+          "start_at": "2026-05-25T11:08:00+00:00",
+          "allocation": 18000,
+          "discipline": "ATTELE",
           "quinte": false,
           "status": "FIN_COURSE",
           "result_top5": [
-            3,
-            9,
+            7,
             1,
-            5,
-            4
+            4,
+            9,
+            6
           ]
         },
         {
           "reunion": 3,
           "course": 5,
           "code": "R3C5",
-          "name": "PRIX HUGUES DE VERDALLE",
-          "start_at": "2026-05-24T11:26:00+00:00",
-          "allocation": 11900,
-          "discipline": "PLAT",
+          "name": "PRIX DU LUNDI DE PENTECOTE",
+          "start_at": "2026-05-25T11:38:00+00:00",
+          "allocation": 24000,
+          "discipline": "ATTELE",
           "quinte": false,
           "status": "FIN_COURSE",
           "result_top5": [
-            6,
-            7,
-            8,
-            9,
-            10
+            10,
+            5,
+            3,
+            1,
+            7
           ]
         },
         {
           "reunion": 3,
           "course": 6,
           "code": "R3C6",
-          "name": "PRIX DE DREUILLE",
-          "start_at": "2026-05-24T12:02:00+00:00",
-          "allocation": 11900,
-          "discipline": "PLAT",
+          "name": "PRIX DE LA SOLIDARITE",
+          "start_at": "2026-05-25T12:15:00+00:00",
+          "allocation": 21000,
+          "discipline": "ATTELE",
           "quinte": false,
-          "status": "FIN_COURSE",
+          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
           "result_top5": [
-            10,
-            1,
-            3,
-            8,
-            9
+            6,
+            7,
+            16,
+            14,
+            12
           ]
         },
         {
           "reunion": 3,
           "course": 7,
           "code": "R3C7",
-          "name": "PRIX DU BOIS MORAND",
-          "start_at": "2026-05-24T12:35:00+00:00",
-          "allocation": 14000,
-          "discipline": "PLAT",
+          "name": "PX PARTENAIRES BRICKS4KIDS, J-AIR EVENTS",
+          "start_at": "2026-05-25T12:50:00+00:00",
+          "allocation": 23000,
+          "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
-          "result_top5": [
-            2,
-            5,
-            4,
-            1,
-            3
-          ]
+          "status": "ROUGE_AUX_PARTANTS",
+          "result_top5": []
+        },
+        {
+          "reunion": 3,
+          "course": 8,
+          "code": "R3C8",
+          "name": "PRIX L'ASSOCIATION ROSEAU",
+          "start_at": "2026-05-25T13:32:00+00:00",
+          "allocation": 30000,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
         }
       ]
     }
@@ -859,19 +823,19 @@
   "settled_count": 22,
   "observation": {
     "courses_count": 305,
-    "arrivals_count": 251,
+    "arrivals_count": 254,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 122,
-        "top3_covered_rate": 35.2,
-        "top5_covered_rate": 60.7
+        "courses": 123,
+        "top3_covered_rate": 35.0,
+        "top5_covered_rate": 61.0
       },
       {
         "name": "Trot",
-        "courses": 118,
-        "top3_covered_rate": 22.9,
-        "top5_covered_rate": 32.2
+        "courses": 120,
+        "top3_covered_rate": 22.5,
+        "top5_covered_rate": 31.7
       }
     ],
     "best_hippos": [
@@ -909,69 +873,69 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 244,
-        "top3_rate": 53.7,
-        "top5_rate": 66.4
+        "runners": 247,
+        "top3_rate": 53.8,
+        "top5_rate": 66.8
       },
       {
         "rank": 2,
-        "runners": 244,
-        "top3_rate": 41.8,
-        "top5_rate": 64.3
+        "runners": 247,
+        "top3_rate": 41.7,
+        "top5_rate": 64.0
       },
       {
         "rank": 3,
-        "runners": 242,
-        "top3_rate": 36.4,
-        "top5_rate": 57.4
+        "runners": 245,
+        "top3_rate": 35.9,
+        "top5_rate": 57.6
       },
       {
         "rank": 4,
-        "runners": 246,
-        "top3_rate": 32.1,
-        "top5_rate": 58.1
+        "runners": 250,
+        "top3_rate": 32.0,
+        "top5_rate": 57.6
       },
       {
         "rank": 5,
-        "runners": 242,
-        "top3_rate": 33.1,
-        "top5_rate": 58.3
+        "runners": 245,
+        "top3_rate": 33.5,
+        "top5_rate": 58.4
       },
       {
         "rank": 6,
-        "runners": 241,
-        "top3_rate": 24.5,
-        "top5_rate": 44.0
+        "runners": 244,
+        "top3_rate": 24.2,
+        "top5_rate": 43.4
       },
       {
         "rank": 7,
-        "runners": 230,
-        "top3_rate": 19.1,
+        "runners": 233,
+        "top3_rate": 18.9,
         "top5_rate": 36.5
       },
       {
         "rank": 8,
-        "runners": 212,
-        "top3_rate": 19.3,
-        "top5_rate": 35.4
+        "runners": 215,
+        "top3_rate": 19.5,
+        "top5_rate": 35.8
       },
       {
         "rank": 9,
-        "runners": 188,
-        "top3_rate": 19.1,
-        "top5_rate": 34.6
+        "runners": 191,
+        "top3_rate": 19.4,
+        "top5_rate": 35.1
       },
       {
         "rank": 10,
-        "runners": 159,
-        "top3_rate": 11.3,
-        "top5_rate": 28.3
+        "runners": 161,
+        "top3_rate": 11.8,
+        "top5_rate": 28.6
       },
       {
         "rank": 11,
-        "runners": 139,
-        "top3_rate": 12.2,
-        "top5_rate": 19.4
+        "runners": 141,
+        "top3_rate": 12.1,
+        "top5_rate": 19.1
       },
       {
         "rank": 12,
