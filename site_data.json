@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T15:00:31.301087+00:00",
+  "generated_at": "2026-05-25T15:18:30.554259+00:00",
   "finance": {
     "bankroll": 292.2,
     "bets_count": 23,
@@ -582,8 +582,14 @@
           "allocation": 25900,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_SOUS_ORDRES",
-          "result_top5": []
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            7,
+            4,
+            9,
+            10,
+            6
+          ]
         },
         {
           "reunion": 1,
@@ -594,7 +600,7 @@
           "allocation": 17300,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": []
         },
         {
@@ -866,24 +872,642 @@
           ]
         }
       ]
+    },
+    {
+      "reunion": "R4",
+      "hippo": "SALON DE PROVENCE",
+      "courses": [
+        {
+          "reunion": 4,
+          "course": 1,
+          "code": "R4C1",
+          "name": "PRIX FRANCOIS BLANC",
+          "start_at": "2026-05-25T14:07:00+00:00",
+          "allocation": 13400,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            5,
+            6,
+            8,
+            4,
+            1
+          ]
+        },
+        {
+          "reunion": 4,
+          "course": 2,
+          "code": "R4C2",
+          "name": "PRIX JACQUES TOUBOL (PATROUILLE DE FRANCE)",
+          "start_at": "2026-05-25T14:42:00+00:00",
+          "allocation": 16300,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            11,
+            7,
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "reunion": 4,
+          "course": 3,
+          "code": "R4C3",
+          "name": "PRIX SALON-DE-PROVENCE - RACE AND CARE",
+          "start_at": "2026-05-25T15:17:00+00:00",
+          "allocation": 19200,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "CHEVAUX_SOUS_ORDRES",
+          "result_top5": []
+        },
+        {
+          "reunion": 4,
+          "course": 4,
+          "code": "R4C4",
+          "name": "PRIX DE FOS-SUR-MER",
+          "start_at": "2026-05-25T15:50:00+00:00",
+          "allocation": 15400,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 4,
+          "course": 5,
+          "code": "R4C5",
+          "name": "PRIX JACQUES ROSSI",
+          "start_at": "2026-05-25T16:30:00+00:00",
+          "allocation": 16300,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 4,
+          "course": 6,
+          "code": "R4C6",
+          "name": "PRIX DES ELEVEURS DU SUD-EST",
+          "start_at": "2026-05-25T17:02:00+00:00",
+          "allocation": 14400,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 4,
+          "course": 7,
+          "code": "R4C7",
+          "name": "PRIX JEAN-JACQUES NAPOLI",
+          "start_at": "2026-05-25T17:34:00+00:00",
+          "allocation": 13700,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        }
+      ]
+    },
+    {
+      "reunion": "R5",
+      "hippo": "SAN ISIDRO",
+      "courses": [
+        {
+          "reunion": 5,
+          "course": 1,
+          "code": "R5C1",
+          "name": "PREMIO CHARM",
+          "start_at": "2026-05-25T16:45:00+00:00",
+          "allocation": 12512,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 5,
+          "course": 2,
+          "code": "R5C2",
+          "name": "CLÁSICO FONDISTAS PROVINCIALES - FINAL CAMPEONATO INTERIOR S.",
+          "start_at": "2026-05-25T17:18:00+00:00",
+          "allocation": 17621,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 5,
+          "course": 3,
+          "code": "R5C3",
+          "name": "PREMIO ASOCIACION ARGENTINA DE HACKNEY",
+          "start_at": "2026-05-25T17:50:00+00:00",
+          "allocation": 6882,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 5,
+          "course": 4,
+          "code": "R5C4",
+          "name": "GRAN PREMIO DE POTRANCAS G1 S. ( GRADE I )",
+          "start_at": "2026-05-25T18:22:00+00:00",
+          "allocation": 57638,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 5,
+          "course": 5,
+          "code": "R5C5",
+          "name": "GRAN PREMIO GRAN CRITERIUM G1 S. ( GRADE I )",
+          "start_at": "2026-05-25T19:00:00+00:00",
+          "allocation": 57638,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 5,
+          "course": 6,
+          "code": "R5C6",
+          "name": "PREMIO BYD PILAR - CIGLIUTTI GUERINI",
+          "start_at": "2026-05-25T19:35:00+00:00",
+          "allocation": 7116,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 5,
+          "course": 7,
+          "code": "R5C7",
+          "name": "GRAN PREMIO COPA DIAMANTE G1 (EX MIL GUINEAS) S. ( GRADE I )",
+          "start_at": "2026-05-25T20:05:00+00:00",
+          "allocation": 82340,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 5,
+          "course": 8,
+          "code": "R5C8",
+          "name": "PREMIO SANCOR SEGUROS",
+          "start_at": "2026-05-25T20:40:00+00:00",
+          "allocation": 13450,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 5,
+          "course": 9,
+          "code": "R5C9",
+          "name": "GRAN PREMIO 25 DE MAYO G1 - COPA DR. ENRIQUE OLIVERA G1 S. ( GRADE I )",
+          "start_at": "2026-05-25T21:25:00+00:00",
+          "allocation": 82340,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 5,
+          "course": 10,
+          "code": "R5C10",
+          "name": "PREMIO REVISTA PALERMO",
+          "start_at": "2026-05-25T21:55:00+00:00",
+          "allocation": 13450,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        }
+      ]
+    },
+    {
+      "reunion": "R6",
+      "hippo": "SANTIAGO",
+      "courses": [
+        {
+          "reunion": 6,
+          "course": 4,
+          "code": "R6C4",
+          "name": "UP VALLEY H.",
+          "start_at": "2026-05-25T18:45:00+00:00",
+          "allocation": 3899,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 6,
+          "course": 5,
+          "code": "R6C5",
+          "name": "PREMIO UNA BANDIDA",
+          "start_at": "2026-05-25T19:18:00+00:00",
+          "allocation": 3848,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 6,
+          "course": 6,
+          "code": "R6C6",
+          "name": "UN GOLAZO H.",
+          "start_at": "2026-05-25T19:50:00+00:00",
+          "allocation": 2321,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 6,
+          "course": 7,
+          "code": "R6C7",
+          "name": "UNICO SOY H.",
+          "start_at": "2026-05-25T20:20:00+00:00",
+          "allocation": 2475,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 6,
+          "course": 8,
+          "code": "R6C8",
+          "name": "PREMIO UNICA CHICA",
+          "start_at": "2026-05-25T20:52:00+00:00",
+          "allocation": 3848,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 6,
+          "course": 9,
+          "code": "R6C9",
+          "name": "PREMIO ULTRAREY",
+          "start_at": "2026-05-25T21:17:00+00:00",
+          "allocation": 7695,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        },
+        {
+          "reunion": 6,
+          "course": 10,
+          "code": "R6C10",
+          "name": "UNCIDO H.",
+          "start_at": "2026-05-25T21:47:00+00:00",
+          "allocation": 2693,
+          "discipline": "PLAT",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        }
+      ]
+    },
+    {
+      "reunion": "R7",
+      "hippo": "CHATILLON/CHALARONNE",
+      "courses": [
+        {
+          "reunion": 7,
+          "course": 8,
+          "code": "R7C8",
+          "name": "PRIX LUKAS AUTOS (PARIS TURF)",
+          "start_at": "2026-05-25T16:30:00+00:00",
+          "allocation": 24000,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "PROGRAMMEE",
+          "result_top5": []
+        }
+      ]
+    },
+    {
+      "reunion": "R8",
+      "hippo": "LE MONT SAINT MICHEL",
+      "courses": [
+        {
+          "reunion": 8,
+          "course": 1,
+          "code": "R8C1",
+          "name": "PRIX DE LA BAIE DU MONT-SAINT-MICHEL",
+          "start_at": "2026-05-25T11:45:00+00:00",
+          "allocation": 16500,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            6,
+            3,
+            10,
+            8,
+            12
+          ]
+        },
+        {
+          "reunion": 8,
+          "course": 2,
+          "code": "R8C2",
+          "name": "PRIX DES BENEVOLES",
+          "start_at": "2026-05-25T12:15:00+00:00",
+          "allocation": 15500,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            8,
+            14,
+            15,
+            2,
+            11
+          ]
+        },
+        {
+          "reunion": 8,
+          "course": 3,
+          "code": "R8C3",
+          "name": "PRIX DE MOIDREY",
+          "start_at": "2026-05-25T12:45:00+00:00",
+          "allocation": 17000,
+          "discipline": "MONTE",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            11,
+            8,
+            7,
+            10,
+            3
+          ]
+        },
+        {
+          "reunion": 8,
+          "course": 4,
+          "code": "R8C4",
+          "name": "PRIX DU RESTAURANT DE L'ARCHANGE",
+          "start_at": "2026-05-25T13:15:00+00:00",
+          "allocation": 17000,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            12,
+            9,
+            13,
+            11,
+            10
+          ]
+        },
+        {
+          "reunion": 8,
+          "course": 5,
+          "code": "R8C5",
+          "name": "PRIX DE BEAUVOIR",
+          "start_at": "2026-05-25T13:45:00+00:00",
+          "allocation": 23000,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            11,
+            8,
+            2,
+            16,
+            14
+          ]
+        },
+        {
+          "reunion": 8,
+          "course": 6,
+          "code": "R8C6",
+          "name": "PRIX DU MONT-SAINT-MICHEL",
+          "start_at": "2026-05-25T14:15:00+00:00",
+          "allocation": 15000,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            5,
+            2,
+            1,
+            6,
+            8
+          ]
+        },
+        {
+          "reunion": 8,
+          "course": 7,
+          "code": "R8C7",
+          "name": "PRIX DE PONTORSON",
+          "start_at": "2026-05-25T14:45:00+00:00",
+          "allocation": 5500,
+          "discipline": "ATTELE",
+          "quinte": false,
+          "status": "FIN_COURSE",
+          "result_top5": [
+            9,
+            7,
+            10,
+            6,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "reunion": "R9",
+      "hippo": "MOULINS",
+      "courses": [
+        {
+          "reunion": 9,
+          "course": 1,
+          "code": "R9C1",
+          "name": "GRAND PRIX DE LA VILLE DE MOULINS (PRIX D'HURIEL)",
+          "start_at": "2026-05-25T07:00:00+00:00",
+          "allocation": 14000,
+          "discipline": "HAIE",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            8,
+            4,
+            3,
+            5,
+            1
+          ]
+        },
+        {
+          "reunion": 9,
+          "course": 2,
+          "code": "R9C2",
+          "name": "PRIX EQUICER-CERFRANCE TERRE D'ALLIER (PRIX DE DREUILLE)",
+          "start_at": "2026-05-25T07:30:00+00:00",
+          "allocation": 20000,
+          "discipline": "HAIE",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            3,
+            1,
+            9,
+            7,
+            4
+          ]
+        },
+        {
+          "reunion": 9,
+          "course": 3,
+          "code": "R9C3",
+          "name": "PRIX CONNOLLY'S RED MILLS (PRIX RIVOLI)",
+          "start_at": "2026-05-25T08:05:00+00:00",
+          "allocation": 14000,
+          "discipline": "HAIE",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            1,
+            6,
+            8,
+            5,
+            7
+          ]
+        },
+        {
+          "reunion": 9,
+          "course": 4,
+          "code": "R9C4",
+          "name": "PRIX KAP MOULINS (PRIX DE BOURBON-BUSSET)",
+          "start_at": "2026-05-25T08:38:00+00:00",
+          "allocation": 16000,
+          "discipline": "HAIE",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            6,
+            4,
+            3,
+            7,
+            1
+          ]
+        },
+        {
+          "reunion": 9,
+          "course": 5,
+          "code": "R9C5",
+          "name": "PRIX ENTREPRISE JOSE DAL SILVA (PRIX HIPPODROME EN FETE)",
+          "start_at": "2026-05-25T09:12:00+00:00",
+          "allocation": 20000,
+          "discipline": "STEEPLECHASE",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            2,
+            4,
+            1,
+            5,
+            6
+          ]
+        },
+        {
+          "reunion": 9,
+          "course": 6,
+          "code": "R9C6",
+          "name": "PRIX REMAX PLATINIUM (PRIX DU SYNDICAT D'ELEVAGE DE LA NIEVRE)",
+          "start_at": "2026-05-25T09:43:00+00:00",
+          "allocation": 12000,
+          "discipline": "STEEPLECHASE",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            4,
+            2,
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "reunion": 9,
+          "course": 7,
+          "code": "R9C7",
+          "name": "PRIX CEA MERCEDES MOULINS (PRIX DU BEAUJOLAIS)",
+          "start_at": "2026-05-25T10:14:00+00:00",
+          "allocation": 20000,
+          "discipline": "STEEPLECHASE",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            4,
+            6,
+            5,
+            2,
+            8
+          ]
+        },
+        {
+          "reunion": 9,
+          "course": 8,
+          "code": "R9C8",
+          "name": "PRIX PARTEDIS - L'AVERMOIS (PRIX SAONE ET LOIRE GALOP)",
+          "start_at": "2026-05-25T10:44:00+00:00",
+          "allocation": 20000,
+          "discipline": "CROSS",
+          "quinte": false,
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            1,
+            3,
+            4,
+            6,
+            2
+          ]
+        }
+      ]
     }
   ],
   "settled_count": 23,
   "observation": {
     "courses_count": 305,
-    "arrivals_count": 266,
+    "arrivals_count": 269,
     "best_disciplines": [
       {
-        "name": "Trot",
-        "courses": 128,
-        "top3_covered_rate": 22.7,
-        "top5_covered_rate": 31.2
+        "name": "Galop",
+        "courses": 129,
+        "top3_covered_rate": 33.3,
+        "top5_covered_rate": 62.0
       },
       {
-        "name": "Galop",
-        "courses": 127,
-        "top3_covered_rate": 33.9,
-        "top5_covered_rate": 61.4
+        "name": "Trot",
+        "courses": 129,
+        "top3_covered_rate": 23.3,
+        "top5_covered_rate": 31.0
       }
     ],
     "best_hippos": [
@@ -921,75 +1545,75 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 259,
-        "top3_rate": 53.7,
-        "top5_rate": 67.6
+        "runners": 262,
+        "top3_rate": 53.4,
+        "top5_rate": 67.9
       },
       {
         "rank": 2,
-        "runners": 260,
-        "top3_rate": 42.3,
-        "top5_rate": 64.2
+        "runners": 263,
+        "top3_rate": 42.6,
+        "top5_rate": 64.3
       },
       {
         "rank": 3,
-        "runners": 257,
-        "top3_rate": 35.8,
-        "top5_rate": 57.2
+        "runners": 260,
+        "top3_rate": 35.4,
+        "top5_rate": 57.3
       },
       {
         "rank": 4,
-        "runners": 263,
-        "top3_rate": 31.6,
-        "top5_rate": 57.0
+        "runners": 266,
+        "top3_rate": 32.0,
+        "top5_rate": 57.1
       },
       {
         "rank": 5,
-        "runners": 257,
+        "runners": 260,
         "top3_rate": 33.5,
-        "top5_rate": 57.6
+        "top5_rate": 57.7
       },
       {
         "rank": 6,
-        "runners": 256,
-        "top3_rate": 23.8,
-        "top5_rate": 42.6
+        "runners": 259,
+        "top3_rate": 24.3,
+        "top5_rate": 42.9
       },
       {
         "rank": 7,
-        "runners": 245,
-        "top3_rate": 18.0,
+        "runners": 248,
+        "top3_rate": 18.1,
         "top5_rate": 35.5
       },
       {
         "rank": 8,
-        "runners": 228,
-        "top3_rate": 19.7,
-        "top5_rate": 36.4
+        "runners": 231,
+        "top3_rate": 19.5,
+        "top5_rate": 35.9
       },
       {
         "rank": 9,
-        "runners": 201,
-        "top3_rate": 19.4,
-        "top5_rate": 35.3
+        "runners": 204,
+        "top3_rate": 19.1,
+        "top5_rate": 34.8
       },
       {
         "rank": 10,
-        "runners": 171,
-        "top3_rate": 11.7,
-        "top5_rate": 28.1
+        "runners": 174,
+        "top3_rate": 11.5,
+        "top5_rate": 27.6
       },
       {
         "rank": 11,
-        "runners": 151,
-        "top3_rate": 11.3,
-        "top5_rate": 17.9
+        "runners": 154,
+        "top3_rate": 11.0,
+        "top5_rate": 18.2
       },
       {
         "rank": 12,
-        "runners": 128,
-        "top3_rate": 10.9,
-        "top5_rate": 20.3
+        "runners": 130,
+        "top3_rate": 10.8,
+        "top5_rate": 20.0
       }
     ]
   },
