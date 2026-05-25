@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T22:00:29.293568+00:00",
+  "generated_at": "2026-05-25T22:30:18.512456+00:00",
   "finance": {
     "bankroll": 292.2,
     "bets_count": 23,
@@ -6430,12 +6430,18 @@
           "course": 10,
           "code": "R5C10",
           "name": "PREMIO REVISTA PALERMO",
-          "start_at": "2026-05-25T21:55:00+00:00",
+          "start_at": "2026-05-25T22:10:00+00:00",
           "allocation": 13450,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "JOKEYS_MONTENT_A_CHEVAL",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            4,
+            6,
+            8,
+            11,
+            1
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10202,7 +10208,7 @@
   ],
   "settled_count": 23,
   "observation": {
-    "courses_count": 305,
+    "courses_count": 353,
     "arrivals_count": 292,
     "best_disciplines": [
       {
