@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T20:30:24.636977+00:00",
+  "generated_at": "2026-05-26T21:00:36.368577+00:00",
   "finance": {
     "bankroll": 342.8,
     "bets_count": 24,
@@ -7192,8 +7192,12 @@
           "allocation": 5000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "CHEVAUX_SOUS_ORDRES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            5,
+            1,
+            4
+          ],
           "runners": [
             {
               "rank": 1,
@@ -7804,8 +7808,14 @@
           "allocation": 1417,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            8,
+            5,
+            7,
+            6,
+            2
+          ],
           "runners": [
             {
               "rank": 1,
@@ -7910,109 +7920,96 @@
           "allocation": 1090,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
               "rank": 1,
-              "num": 7,
-              "name": "MI BUENA AMIGA",
-              "note": 38.7,
-              "profile": "Base modèle",
-              "signal": "Base 42",
-              "odds": null,
-              "probability": 0.2128,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 2,
               "num": 6,
               "name": "COMO TE EXTRANO",
               "note": 38.0,
               "profile": "Base modèle",
               "signal": "Base 42",
               "odds": null,
-              "probability": 0.2004,
+              "probability": 0.2546,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 3,
+              "rank": 2,
               "num": 2,
               "name": "LA SHEMI",
               "note": 36.7,
               "profile": "Base modèle",
               "signal": "Base 38",
               "odds": null,
-              "probability": 0.1797,
+              "probability": 0.2283,
+              "ev": 0.0,
+              "value_bet": false,
+              "source": "sqlite_runner_scores"
+            },
+            {
+              "rank": 3,
+              "num": 4,
+              "name": "PANTEU",
+              "note": 29.6,
+              "profile": "Base modèle",
+              "signal": "Base 20",
+              "odds": null,
+              "probability": 0.1261,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 4,
-              "num": 4,
-              "name": "PANTEU",
-              "note": 29.6,
-              "profile": "Associé modèle",
-              "signal": "Base 20",
-              "odds": null,
-              "probability": 0.0993,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 5,
               "num": 3,
               "name": "I AM BLACKLIST",
               "note": 29.3,
               "profile": "Associé modèle",
               "signal": "Base 21",
               "odds": null,
-              "probability": 0.0973,
+              "probability": 0.1236,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 6,
+              "rank": 5,
               "num": 1,
               "name": "IL IMPERATORE",
               "note": 28.5,
               "profile": "Associé modèle",
               "signal": "Base 21",
               "odds": null,
-              "probability": 0.0908,
+              "probability": 0.1154,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 7,
+              "rank": 6,
               "num": 8,
               "name": "KASCLARITO",
               "note": 26.2,
               "profile": "Associé modèle",
               "signal": "Base 21",
               "odds": null,
-              "probability": 0.0752,
+              "probability": 0.0955,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 8,
+              "rank": 7,
               "num": 5,
               "name": "LITTLE RUSSIAN",
               "note": 19.9,
               "profile": "Associé modèle",
               "signal": "Base 8",
               "odds": null,
-              "probability": 0.0445,
+              "probability": 0.0565,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8026,19 +8023,19 @@
   "settled_count": 24,
   "observation": {
     "courses_count": 353,
-    "arrivals_count": 334,
+    "arrivals_count": 336,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 168,
-        "top3_covered_rate": 35.7,
-        "top5_covered_rate": 59.5
+        "courses": 169,
+        "top3_covered_rate": 36.1,
+        "top5_covered_rate": 59.8
       },
       {
         "name": "Trot",
-        "courses": 155,
-        "top3_covered_rate": 21.9,
-        "top5_covered_rate": 30.3
+        "courses": 156,
+        "top3_covered_rate": 22.4,
+        "top5_covered_rate": 30.8
       }
     ],
     "best_hippos": [
@@ -8076,63 +8073,63 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 331,
-        "top3_rate": 55.3,
-        "top5_rate": 68.6
+        "runners": 333,
+        "top3_rate": 55.6,
+        "top5_rate": 68.8
       },
       {
         "rank": 2,
-        "runners": 330,
-        "top3_rate": 42.7,
+        "runners": 332,
+        "top3_rate": 42.8,
         "top5_rate": 64.8
       },
       {
         "rank": 3,
-        "runners": 328,
-        "top3_rate": 34.1,
-        "top5_rate": 57.0
+        "runners": 330,
+        "top3_rate": 34.2,
+        "top5_rate": 57.3
       },
       {
         "rank": 4,
-        "runners": 332,
-        "top3_rate": 31.9,
-        "top5_rate": 56.3
+        "runners": 334,
+        "top3_rate": 32.0,
+        "top5_rate": 56.6
       },
       {
         "rank": 5,
-        "runners": 325,
-        "top3_rate": 31.4,
-        "top5_rate": 55.1
+        "runners": 327,
+        "top3_rate": 31.5,
+        "top5_rate": 55.0
       },
       {
         "rank": 6,
-        "runners": 322,
-        "top3_rate": 23.6,
+        "runners": 324,
+        "top3_rate": 23.5,
         "top5_rate": 42.9
       },
       {
         "rank": 7,
-        "runners": 310,
-        "top3_rate": 18.4,
-        "top5_rate": 37.4
+        "runners": 312,
+        "top3_rate": 18.3,
+        "top5_rate": 37.5
       },
       {
         "rank": 8,
-        "runners": 289,
-        "top3_rate": 19.0,
-        "top5_rate": 35.3
+        "runners": 291,
+        "top3_rate": 18.9,
+        "top5_rate": 35.1
       },
       {
         "rank": 9,
-        "runners": 253,
-        "top3_rate": 20.2,
-        "top5_rate": 36.8
+        "runners": 255,
+        "top3_rate": 20.0,
+        "top5_rate": 36.5
       },
       {
         "rank": 10,
-        "runners": 216,
-        "top3_rate": 12.5,
-        "top5_rate": 28.2
+        "runners": 218,
+        "top3_rate": 12.4,
+        "top5_rate": 28.0
       },
       {
         "rank": 11,
