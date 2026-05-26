@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T18:30:24.197418+00:00",
+  "generated_at": "2026-05-26T19:00:38.901196+00:00",
   "finance": {
     "bankroll": 342.8,
     "bets_count": 24,
@@ -6523,12 +6523,13 @@
           "allocation": 3500,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "status": "FIN_COURSE",
           "result_top5": [
             12,
             8,
             4,
-            5
+            5,
+            9
           ],
           "runners": [
             {
@@ -6712,19 +6713,24 @@
           "allocation": 2500,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "result_top5": [
+            6,
+            8,
+            4,
+            1
+          ],
           "runners": [
             {
               "rank": 1,
               "num": 6,
               "name": "TITANIUM HANOVER",
-              "note": 53.8,
+              "note": 55.1,
               "profile": "Base modèle",
-              "signal": "Cote 1.8 · Base 70",
-              "odds": 1.8,
-              "probability": 0.3063,
-              "ev": -0.449,
+              "signal": "Cote 1.5 · Base 71",
+              "odds": 1.5,
+              "probability": 0.3469,
+              "ev": -0.48,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -6732,142 +6738,142 @@
               "rank": 2,
               "num": 5,
               "name": "KLOVIS LA BRECHE",
-              "note": 47.7,
+              "note": 47.6,
               "profile": "Base modèle",
-              "signal": "Cote 5.2 · Base 57",
-              "odds": 5.2,
-              "probability": 0.1541,
+              "signal": "Cote 5.3 · Base 57",
+              "odds": 5.3,
+              "probability": 0.1512,
               "ev": -0.199,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 3,
-              "num": 12,
-              "name": "KUPCAKE D'YVES",
-              "note": 41.4,
+              "num": 13,
+              "name": "LARS DE LUJO",
+              "note": 40.9,
               "profile": "Base modèle",
-              "signal": "Cote 12 · Base 41",
-              "odds": 12.0,
-              "probability": 0.0847,
-              "ev": 0.017,
-              "value_bet": false,
+              "signal": "Cote 41 · Value · Base 48",
+              "odds": 41.0,
+              "probability": 0.069,
+              "ev": 1.828,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 4,
-              "num": 13,
-              "name": "LARS DE LUJO",
-              "note": 40.9,
+              "num": 12,
+              "name": "KUPCAKE D'YVES",
+              "note": 40.1,
               "profile": "Associé modèle",
-              "signal": "Cote 40 · Value · Base 48",
-              "odds": 40.0,
-              "probability": 0.0698,
-              "ev": 1.791,
+              "signal": "Cote 21 · Value · Base 40",
+              "odds": 21.0,
+              "probability": 0.0699,
+              "ev": 0.468,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 5,
-              "num": 2,
-              "name": "LOTTO PALACE",
-              "note": 37.7,
+              "num": 1,
+              "name": "SUPRÏ¿?ME DU JOUR",
+              "note": 37.1,
               "profile": "Associé modèle",
-              "signal": "Cote 50 · Value · Base 28",
-              "odds": 50.0,
-              "probability": 0.0536,
-              "ev": 1.679,
+              "signal": "Cote 32 · Value · Base 41",
+              "odds": 32.0,
+              "probability": 0.0533,
+              "ev": 0.704,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 6,
-              "num": 1,
-              "name": "SUPRÊME DU JOUR",
-              "note": 37.4,
+              "num": 2,
+              "name": "LOTTO PALACE",
+              "note": 37.0,
               "profile": "Associé modèle",
-              "signal": "Cote 27 · Value · Base 41",
-              "odds": 27.0,
-              "probability": 0.056,
-              "ev": 0.512,
+              "signal": "Cote 91 · Value · Base 28",
+              "odds": 91.0,
+              "probability": 0.0487,
+              "ev": 3.435,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 7,
-              "num": 7,
-              "name": "LADY GIBUS",
-              "note": 34.0,
+              "num": 3,
+              "name": "SPEEDRIDER DE YH",
+              "note": 33.8,
               "profile": "Associé modèle",
-              "signal": "Cote 36 · Value · Base 27",
-              "odds": 36.0,
-              "probability": 0.0423,
-              "ev": 0.524,
-              "value_bet": true,
+              "signal": "Cote 16 · Base 37",
+              "odds": 16.0,
+              "probability": 0.0483,
+              "ev": -0.227,
+              "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 8,
-              "num": 3,
-              "name": "SPEEDRIDER DE YH",
-              "note": 33.2,
+              "num": 7,
+              "name": "LADY GIBUS",
+              "note": 33.4,
               "profile": "Associé modèle",
-              "signal": "Cote 21 · Base 37",
-              "odds": 21.0,
-              "probability": 0.044,
-              "ev": -0.077,
-              "value_bet": false,
+              "signal": "Cote 59 · Value · Base 26",
+              "odds": 59.0,
+              "probability": 0.0378,
+              "ev": 1.232,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 9,
               "num": 4,
               "name": "LA LILLOISE",
-              "note": 33.0,
+              "note": 32.4,
               "profile": "Outsider modèle",
-              "signal": "Cote 75 · Value · Base 27",
-              "odds": 75.0,
-              "probability": 0.0362,
-              "ev": 1.715,
+              "signal": "Cote 147 · Value · Base 27",
+              "odds": 147.0,
+              "probability": 0.033,
+              "ev": 3.854,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 10,
-              "num": 9,
-              "name": "RELLINA BALDWIN",
-              "note": 32.1,
+              "num": 11,
+              "name": "PRINCE CANTHIS",
+              "note": 32.0,
               "profile": "Outsider modèle",
-              "signal": "Cote 23 · Base 40",
-              "odds": 23.0,
-              "probability": 0.0403,
-              "ev": -0.073,
+              "signal": "Cote 12 · Base 41",
+              "odds": 12.0,
+              "probability": 0.0478,
+              "ev": -0.426,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 11,
-              "num": 8,
-              "name": "ONDINA D L VALLEE",
-              "note": 31.4,
+              "num": 9,
+              "name": "RELLINA BALDWIN",
+              "note": 31.5,
               "profile": "Outsider modèle",
-              "signal": "Cote 17 · Base 41",
-              "odds": 17.0,
-              "probability": 0.0418,
-              "ev": -0.29,
+              "signal": "Cote 33 · Base 35",
+              "odds": 33.0,
+              "probability": 0.0356,
+              "ev": 0.176,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 12,
-              "num": 11,
-              "name": "PRINCE CANTHIS",
-              "note": 30.9,
+              "num": 8,
+              "name": "ONDINA D L VALLEE",
+              "note": 30.0,
               "profile": "Outsider modèle",
-              "signal": "Cote 19 · Base 40",
-              "odds": 19.0,
-              "probability": 0.0393,
-              "ev": -0.254,
+              "signal": "Cote 39 · Base 35",
+              "odds": 39.0,
+              "probability": 0.0311,
+              "ev": 0.212,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -6875,13 +6881,13 @@
               "rank": 13,
               "num": 10,
               "name": "KAZAN NOA",
-              "note": 30.0,
+              "note": 29.3,
               "profile": "Outsider modèle",
-              "signal": "Cote 38 · Base 24",
-              "odds": 38.0,
-              "probability": 0.0317,
-              "ev": 0.203,
-              "value_bet": false,
+              "signal": "Cote 70 · Value · Base 23",
+              "odds": 70.0,
+              "probability": 0.0273,
+              "ev": 0.912,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             }
           ],
@@ -7272,8 +7278,14 @@
           "allocation": 1145,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            3,
+            5,
+            8,
+            6,
+            7
+          ],
           "runners": [
             {
               "rank": 1,
@@ -7430,7 +7442,7 @@
           "allocation": 1308,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -7996,7 +8008,7 @@
   "settled_count": 24,
   "observation": {
     "courses_count": 353,
-    "arrivals_count": 328,
+    "arrivals_count": 329,
     "best_disciplines": [
       {
         "name": "Galop",
@@ -8006,9 +8018,9 @@
       },
       {
         "name": "Trot",
-        "courses": 152,
-        "top3_covered_rate": 21.7,
-        "top5_covered_rate": 30.3
+        "courses": 153,
+        "top3_covered_rate": 21.6,
+        "top5_covered_rate": 30.1
       }
     ],
     "best_hippos": [
@@ -8046,75 +8058,75 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 325,
-        "top3_rate": 54.8,
-        "top5_rate": 68.0
+        "runners": 326,
+        "top3_rate": 54.9,
+        "top5_rate": 68.1
       },
       {
         "rank": 2,
-        "runners": 324,
-        "top3_rate": 42.6,
-        "top5_rate": 64.8
+        "runners": 325,
+        "top3_rate": 42.5,
+        "top5_rate": 64.6
       },
       {
         "rank": 3,
-        "runners": 322,
-        "top3_rate": 34.2,
-        "top5_rate": 57.1
+        "runners": 323,
+        "top3_rate": 34.4,
+        "top5_rate": 57.3
       },
       {
         "rank": 4,
-        "runners": 325,
-        "top3_rate": 31.7,
-        "top5_rate": 56.3
+        "runners": 326,
+        "top3_rate": 31.6,
+        "top5_rate": 56.4
       },
       {
         "rank": 5,
-        "runners": 319,
-        "top3_rate": 31.7,
-        "top5_rate": 55.2
+        "runners": 320,
+        "top3_rate": 31.6,
+        "top5_rate": 55.0
       },
       {
         "rank": 6,
-        "runners": 317,
-        "top3_rate": 23.7,
-        "top5_rate": 42.9
+        "runners": 318,
+        "top3_rate": 23.6,
+        "top5_rate": 42.8
       },
       {
         "rank": 7,
-        "runners": 305,
-        "top3_rate": 18.7,
-        "top5_rate": 37.4
+        "runners": 306,
+        "top3_rate": 18.6,
+        "top5_rate": 37.3
       },
       {
         "rank": 8,
-        "runners": 285,
-        "top3_rate": 19.3,
-        "top5_rate": 35.4
+        "runners": 286,
+        "top3_rate": 19.2,
+        "top5_rate": 35.3
       },
       {
         "rank": 9,
-        "runners": 249,
-        "top3_rate": 19.7,
-        "top5_rate": 36.1
+        "runners": 250,
+        "top3_rate": 20.0,
+        "top5_rate": 36.4
       },
       {
         "rank": 10,
-        "runners": 213,
-        "top3_rate": 12.7,
-        "top5_rate": 28.2
+        "runners": 214,
+        "top3_rate": 12.6,
+        "top5_rate": 28.5
       },
       {
         "rank": 11,
-        "runners": 186,
+        "runners": 187,
         "top3_rate": 11.8,
-        "top5_rate": 18.8
+        "top5_rate": 18.7
       },
       {
         "rank": 12,
-        "runners": 157,
-        "top3_rate": 12.1,
-        "top5_rate": 20.4
+        "runners": 158,
+        "top3_rate": 12.0,
+        "top5_rate": 20.3
       }
     ]
   },
