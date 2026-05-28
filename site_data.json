@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T02:30:36.014122+00:00",
+  "generated_at": "2026-05-28T03:00:15.211186+00:00",
   "finance": {
     "bankroll": 342.8,
     "bets_count": 24,
@@ -709,19 +709,6 @@
             },
             {
               "rank": 10,
-              "num": 11,
-              "name": "ZEOLAKIS",
-              "note": 29.6,
-              "profile": "Outsider modèle",
-              "signal": "Base 23",
-              "odds": null,
-              "probability": 0.0591,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 11,
               "num": 10,
               "name": "LOVER SONG",
               "note": 27.7,
@@ -734,7 +721,7 @@
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 12,
+              "rank": 11,
               "num": 3,
               "name": "BAILEYS BACHELOR",
               "note": 27.5,
