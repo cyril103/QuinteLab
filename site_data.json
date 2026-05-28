@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-28T19:00:44.616711+00:00",
+  "generated_at": "2026-05-28T19:30:13.406407+00:00",
   "finance": {
     "bankroll": 314.8,
     "bets_count": 25,
-    "settled_bets": 24,
-    "observed_arrivals": 24,
-    "total_stake": 423.0,
+    "settled_bets": 25,
+    "observed_arrivals": 25,
+    "total_stake": 451.0,
     "total_gain": 365.8,
-    "net": -57.2,
-    "roi": -13.52,
-    "win_rate": 45.83,
-    "profit_rate": 25.0,
+    "net": -85.2,
+    "roi": -18.89,
+    "win_rate": 44.0,
+    "profit_rate": 24.0,
     "max_drawdown": 178.95,
-    "non_profitable_streak": 0,
+    "non_profitable_streak": 1,
     "topup_total": 200.0
   },
   "featured": {
@@ -31,7 +31,7 @@
     "stake": 28.0,
     "gain": 0.0,
     "net": -28.0,
-    "settled": false,
+    "settled": true,
     "selection": [
       1,
       7,
@@ -53,9 +53,15 @@
       13,
       12
     ],
-    "arrival": [],
+    "arrival": [
+      7,
+      11,
+      2,
+      15,
+      14
+    ],
     "hit_counts": {},
-    "miss_analysis": "",
+    "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: [11, 2]; top5 non sélectionnés: [11, 2, 15]; max par grille: 2/5 top5, 1/3 top3; rangs modèle arrivée: 7=#2 score 48.6, 11=#14 score 37.7, 2=#11 score 39.5, 15=#10 score 40.5, 14=#6 score 44.2; profils manqués: 11: rang #14, reg 0.60, EV -0.50, value=False | 2: rang #11, reg 0.75, EV -0.10, value=False | 15: rang #10, reg 0.60, EV -0.42, value=False",
     "profile": {
       "profile": "course_ouverte_outsider",
       "recommendation": "combine_top7_plus_outsider_flexi_25",
@@ -145,7 +151,7 @@
       "stake": 28.0,
       "gain": 0.0,
       "net": -28.0,
-      "settled": false,
+      "settled": true,
       "selection": [
         1,
         7,
@@ -167,9 +173,15 @@
         13,
         12
       ],
-      "arrival": [],
+      "arrival": [
+        7,
+        11,
+        2,
+        15,
+        14
+      ],
       "hit_counts": {},
-      "miss_analysis": "",
+      "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: [11, 2]; top5 non sélectionnés: [11, 2, 15]; max par grille: 2/5 top5, 1/3 top3; rangs modèle arrivée: 7=#2 score 48.6, 11=#14 score 37.7, 2=#11 score 39.5, 15=#10 score 40.5, 14=#6 score 44.2; profils manqués: 11: rang #14, reg 0.60, EV -0.50, value=False | 2: rang #11, reg 0.75, EV -0.10, value=False | 15: rang #10, reg 0.60, EV -0.42, value=False",
       "profile": {
         "profile": "course_ouverte_outsider",
         "recommendation": "combine_top7_plus_outsider_flexi_25",
@@ -1722,58 +1734,63 @@
           "allocation": 24000,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "result_top5": [
+            4,
+            3,
+            1,
+            2
+          ],
           "runners": [
             {
               "rank": 1,
               "num": 7,
               "name": "AVALON",
-              "note": 48.4,
+              "note": 47.7,
               "profile": "Base modèle",
-              "signal": "Cote 4.5 · Base 53",
-              "odds": 4.5,
-              "probability": 0.2262,
-              "ev": 0.018,
-              "value_bet": false,
+              "signal": "Cote 5.4 · Value · Base 52",
+              "odds": 5.4,
+              "probability": 0.2077,
+              "ev": 0.121,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 2,
-              "num": 4,
-              "name": "RASHEED",
-              "note": 47.2,
+              "num": 2,
+              "name": "MOONEY VISION",
+              "note": 46.9,
               "profile": "Base modèle",
-              "signal": "Cote 3.4 · Base 48",
-              "odds": 3.4,
-              "probability": 0.2245,
-              "ev": -0.237,
+              "signal": "Cote 4.4 · Base 50",
+              "odds": 4.4,
+              "probability": 0.2061,
+              "ev": -0.093,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 3,
-              "num": 2,
-              "name": "MOONEY VISION",
-              "note": 45.4,
+              "num": 4,
+              "name": "RASHEED",
+              "note": 46.2,
               "profile": "Base modèle",
-              "signal": "Cote 6.5 · Value · Base 49",
-              "odds": 6.5,
-              "probability": 0.1717,
-              "ev": 0.116,
-              "value_bet": true,
+              "signal": "Cote 4.2 · Base 47",
+              "odds": 4.2,
+              "probability": 0.1998,
+              "ev": -0.161,
+              "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 4,
               "num": 3,
               "name": "LIGHT OF THUNDER",
-              "note": 42.7,
+              "note": 42.3,
               "profile": "Associé modèle",
-              "signal": "Cote 6.3 · Base 46",
-              "odds": 6.3,
-              "probability": 0.1447,
-              "ev": -0.089,
+              "signal": "Cote 7 · Base 45",
+              "odds": 7.0,
+              "probability": 0.1379,
+              "ev": -0.034,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -1781,12 +1798,12 @@
               "rank": 5,
               "num": 1,
               "name": "BOGLIASCO",
-              "note": 36.3,
+              "note": 38.3,
               "profile": "Associé modèle",
-              "signal": "Cote 8.5 · Base 36",
-              "odds": 8.5,
-              "probability": 0.09,
-              "ev": -0.235,
+              "signal": "Cote 4.8 · Base 39",
+              "odds": 4.8,
+              "probability": 0.1213,
+              "ev": -0.418,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -1794,12 +1811,12 @@
               "rank": 6,
               "num": 6,
               "name": "LA JUSTICIERE",
-              "note": 33.9,
+              "note": 33.5,
               "profile": "Associé modèle",
-              "signal": "Cote 8.2 · Base 33",
-              "odds": 8.2,
-              "probability": 0.0793,
-              "ev": -0.35,
+              "signal": "Cote 9.5 · Base 32",
+              "odds": 9.5,
+              "probability": 0.0738,
+              "ev": -0.299,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -1807,12 +1824,12 @@
               "rank": 7,
               "num": 5,
               "name": "BRIDGE OF TEARS",
-              "note": 30.9,
+              "note": 29.9,
               "profile": "Associé modèle",
-              "signal": "Cote 9.6 · Base 31",
-              "odds": 9.6,
-              "probability": 0.0637,
-              "ev": -0.389,
+              "signal": "Cote 14 · Base 30",
+              "odds": 14.0,
+              "probability": 0.0533,
+              "ev": -0.253,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             }
@@ -5644,8 +5661,14 @@
           "allocation": 7820,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            18,
+            8,
+            15,
+            11,
+            5
+          ],
           "runners": [
             {
               "rank": 1,
@@ -5880,7 +5903,7 @@
           "allocation": 10948,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -6508,16 +6531,16 @@
       ]
     }
   ],
-  "settled_count": 24,
+  "settled_count": 25,
   "observation": {
     "courses_count": 450,
-    "arrivals_count": 422,
+    "arrivals_count": 424,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 217,
-        "top3_covered_rate": 34.6,
-        "top5_covered_rate": 56.7
+        "courses": 219,
+        "top3_covered_rate": 34.7,
+        "top5_covered_rate": 57.1
       },
       {
         "name": "Trot",
@@ -6529,9 +6552,9 @@
     "best_hippos": [
       {
         "name": "ParisLongchamp",
-        "courses": 23,
-        "top3_covered_rate": 34.8,
-        "top5_covered_rate": 39.1
+        "courses": 24,
+        "top3_covered_rate": 33.3,
+        "top5_covered_rate": 41.7
       },
       {
         "name": "VINCENNES",
@@ -6561,57 +6584,57 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 422,
-        "top3_rate": 54.3,
-        "top5_rate": 67.8
+        "runners": 424,
+        "top3_rate": 54.5,
+        "top5_rate": 67.9
       },
       {
         "rank": 2,
-        "runners": 419,
-        "top3_rate": 41.8,
-        "top5_rate": 62.5
+        "runners": 421,
+        "top3_rate": 41.6,
+        "top5_rate": 62.7
       },
       {
         "rank": 3,
-        "runners": 419,
+        "runners": 421,
         "top3_rate": 36.3,
         "top5_rate": 57.5
       },
       {
         "rank": 4,
-        "runners": 422,
-        "top3_rate": 32.7,
-        "top5_rate": 56.2
+        "runners": 424,
+        "top3_rate": 32.5,
+        "top5_rate": 56.4
       },
       {
         "rank": 5,
-        "runners": 415,
-        "top3_rate": 29.9,
+        "runners": 417,
+        "top3_rate": 30.0,
         "top5_rate": 53.7
       },
       {
         "rank": 6,
-        "runners": 410,
-        "top3_rate": 25.6,
+        "runners": 412,
+        "top3_rate": 25.7,
         "top5_rate": 44.9
       },
       {
         "rank": 7,
-        "runners": 399,
-        "top3_rate": 17.8,
-        "top5_rate": 37.8
+        "runners": 401,
+        "top3_rate": 18.0,
+        "top5_rate": 37.9
       },
       {
         "rank": 8,
-        "runners": 370,
-        "top3_rate": 18.4,
-        "top5_rate": 35.1
+        "runners": 371,
+        "top3_rate": 18.3,
+        "top5_rate": 35.0
       },
       {
         "rank": 9,
-        "runners": 327,
-        "top3_rate": 19.6,
-        "top5_rate": 36.4
+        "runners": 328,
+        "top3_rate": 19.5,
+        "top5_rate": 36.3
       },
       {
         "rank": 10,
