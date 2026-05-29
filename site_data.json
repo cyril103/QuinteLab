@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T20:30:36.903526+00:00",
+  "generated_at": "2026-05-29T21:00:58.229902+00:00",
   "finance": {
     "bankroll": 286.8,
     "bets_count": 26,
@@ -7214,11 +7214,13 @@
           "allocation": 67325,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             2,
             1,
-            3
+            3,
+            7,
+            5
           ],
           "runners": [
             {
@@ -7298,8 +7300,12 @@
           "allocation": 65402,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE",
+          "result_top5": [
+            3,
+            1,
+            6
+          ],
           "runners": [
             {
               "rank": 1,
@@ -7378,7 +7384,7 @@
           "allocation": 35586,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -7481,27 +7487,27 @@
   "settled_count": 26,
   "observation": {
     "courses_count": 496,
-    "arrivals_count": 471,
+    "arrivals_count": 474,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 251,
-        "top3_covered_rate": 33.5,
-        "top5_covered_rate": 58.6
+        "courses": 253,
+        "top3_covered_rate": 34.0,
+        "top5_covered_rate": 58.9
       },
       {
         "name": "Trot",
-        "courses": 209,
-        "top3_covered_rate": 21.5,
-        "top5_covered_rate": 30.6
+        "courses": 210,
+        "top3_covered_rate": 21.9,
+        "top5_covered_rate": 30.5
       }
     ],
     "best_hippos": [
       {
         "name": "VINCENNES",
-        "courses": 26,
-        "top3_covered_rate": 15.4,
-        "top5_covered_rate": 15.4
+        "courses": 27,
+        "top3_covered_rate": 18.5,
+        "top5_covered_rate": 14.8
       },
       {
         "name": "ParisLongchamp",
@@ -7531,57 +7537,57 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 473,
-        "top3_rate": 55.2,
+        "runners": 476,
+        "top3_rate": 55.3,
         "top5_rate": 68.9
       },
       {
         "rank": 2,
-        "runners": 469,
-        "top3_rate": 41.6,
-        "top5_rate": 61.8
+        "runners": 472,
+        "top3_rate": 41.5,
+        "top5_rate": 62.1
       },
       {
         "rank": 3,
-        "runners": 469,
+        "runners": 472,
         "top3_rate": 37.5,
         "top5_rate": 57.6
       },
       {
         "rank": 4,
-        "runners": 472,
-        "top3_rate": 32.0,
-        "top5_rate": 56.1
+        "runners": 476,
+        "top3_rate": 32.4,
+        "top5_rate": 56.3
       },
       {
         "rank": 5,
-        "runners": 466,
-        "top3_rate": 29.6,
+        "runners": 470,
+        "top3_rate": 29.8,
         "top5_rate": 54.3
       },
       {
         "rank": 6,
-        "runners": 458,
-        "top3_rate": 26.0,
+        "runners": 460,
+        "top3_rate": 25.9,
         "top5_rate": 46.1
       },
       {
         "rank": 7,
-        "runners": 446,
-        "top3_rate": 17.7,
-        "top5_rate": 37.9
+        "runners": 449,
+        "top3_rate": 17.6,
+        "top5_rate": 37.6
       },
       {
         "rank": 8,
-        "runners": 412,
-        "top3_rate": 18.7,
-        "top5_rate": 35.2
+        "runners": 413,
+        "top3_rate": 18.6,
+        "top5_rate": 35.4
       },
       {
         "rank": 9,
-        "runners": 359,
+        "runners": 360,
         "top3_rate": 19.2,
-        "top5_rate": 35.4
+        "top5_rate": 35.6
       },
       {
         "rank": 10,
