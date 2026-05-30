@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T02:30:56.984086+00:00",
+  "generated_at": "2026-05-30T03:00:22.308871+00:00",
   "finance": {
     "bankroll": 286.8,
     "bets_count": 26,
@@ -5401,9 +5401,9 @@
             {
               "num": 2,
               "name": "BASQUIAT",
-              "note": 80.0,
+              "note": 92.0,
               "profile": "Base possible",
-              "signal": "Partant confirmé",
+              "signal": "Cote 1.1",
               "rank": 1
             },
             {
