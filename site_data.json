@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T18:30:22.576241+00:00",
+  "generated_at": "2026-05-31T19:00:42.236234+00:00",
   "finance": {
     "bankroll": 265.8,
     "bets_count": 28,
@@ -5833,8 +5833,14 @@
           "allocation": 18000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "DEPART_CONFIRME",
-          "result_top5": [],
+          "status": "FIN_COURSE",
+          "result_top5": [
+            10,
+            2,
+            11,
+            3,
+            1
+          ],
           "runners": [
             {
               "rank": 1,
@@ -6411,8 +6417,14 @@
           "allocation": 5900,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            5,
+            4,
+            6,
+            2,
+            1
+          ],
           "runners": [
             {
               "rank": 1,
@@ -6530,7 +6542,7 @@
           "allocation": 7054,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "JOKEYS_MONTENT_A_CHEVAL",
           "result_top5": [],
           "runners": [
             {
@@ -9596,7 +9608,7 @@
           "allocation": 8916,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
+          "status": "CHEVAUX_SOUS_ORDRES",
           "result_top5": [],
           "runners": [
             {
@@ -10735,19 +10747,19 @@
   "settled_count": 28,
   "observation": {
     "courses_count": 634,
-    "arrivals_count": 593,
+    "arrivals_count": 595,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 305,
-        "top3_covered_rate": 36.1,
-        "top5_covered_rate": 60.0
+        "courses": 306,
+        "top3_covered_rate": 35.9,
+        "top5_covered_rate": 60.1
       },
       {
         "name": "Trot",
-        "courses": 277,
-        "top3_covered_rate": 22.4,
-        "top5_covered_rate": 31.8
+        "courses": 278,
+        "top3_covered_rate": 22.7,
+        "top5_covered_rate": 31.7
       }
     ],
     "best_hippos": [
@@ -10785,69 +10797,69 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 598,
-        "top3_rate": 56.2,
-        "top5_rate": 70.2
+        "runners": 600,
+        "top3_rate": 56.3,
+        "top5_rate": 70.3
       },
       {
         "rank": 2,
-        "runners": 595,
+        "runners": 597,
         "top3_rate": 40.2,
-        "top5_rate": 60.5
+        "top5_rate": 60.6
       },
       {
         "rank": 3,
-        "runners": 594,
-        "top3_rate": 37.9,
+        "runners": 596,
+        "top3_rate": 37.8,
         "top5_rate": 58.2
       },
       {
         "rank": 4,
-        "runners": 600,
+        "runners": 603,
         "top3_rate": 33.8,
         "top5_rate": 57.2
       },
       {
         "rank": 5,
-        "runners": 592,
-        "top3_rate": 29.7,
+        "runners": 594,
+        "top3_rate": 29.8,
         "top5_rate": 53.2
       },
       {
         "rank": 6,
-        "runners": 580,
-        "top3_rate": 25.5,
-        "top5_rate": 46.7
+        "runners": 582,
+        "top3_rate": 25.4,
+        "top5_rate": 46.6
       },
       {
         "rank": 7,
-        "runners": 567,
-        "top3_rate": 18.2,
+        "runners": 569,
+        "top3_rate": 18.3,
         "top5_rate": 38.8
       },
       {
         "rank": 8,
-        "runners": 511,
-        "top3_rate": 18.6,
-        "top5_rate": 35.2
+        "runners": 513,
+        "top3_rate": 18.5,
+        "top5_rate": 35.1
       },
       {
         "rank": 9,
-        "runners": 452,
-        "top3_rate": 18.6,
-        "top5_rate": 35.2
+        "runners": 453,
+        "top3_rate": 18.5,
+        "top5_rate": 35.1
       },
       {
         "rank": 10,
-        "runners": 385,
+        "runners": 386,
         "top3_rate": 11.7,
-        "top5_rate": 28.3
+        "top5_rate": 28.2
       },
       {
         "rank": 11,
-        "runners": 316,
-        "top3_rate": 13.0,
-        "top5_rate": 21.8
+        "runners": 317,
+        "top3_rate": 12.9,
+        "top5_rate": 22.1
       },
       {
         "rank": 12,
