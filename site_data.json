@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T19:00:42.236234+00:00",
+  "generated_at": "2026-05-31T19:30:59.791058+00:00",
   "finance": {
     "bankroll": 265.8,
     "bets_count": 28,
@@ -6542,8 +6542,14 @@
           "allocation": 7054,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "JOKEYS_MONTENT_A_CHEVAL",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            5,
+            3,
+            1,
+            9,
+            8
+          ],
           "runners": [
             {
               "rank": 1,
@@ -6726,7 +6732,7 @@
           "allocation": 2116,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "JOKEYS_MONTENT_A_CHEVAL",
           "result_top5": [],
           "runners": [
             {
@@ -9608,8 +9614,14 @@
           "allocation": 8916,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_SOUS_ORDRES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            3,
+            14,
+            16,
+            17,
+            9
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9827,11 +9839,11 @@
           "course": 6,
           "code": "R9C6",
           "name": "PREMIO DEL 135 ANIVERSARIO DE ZAPICAN",
-          "start_at": "2026-05-31T19:25:00+00:00",
+          "start_at": "2026-05-31T19:30:00+00:00",
           "allocation": 10431,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_CONFIRME",
           "result_top5": [],
           "runners": [
             {
@@ -10747,13 +10759,13 @@
   "settled_count": 28,
   "observation": {
     "courses_count": 634,
-    "arrivals_count": 595,
+    "arrivals_count": 596,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 306,
-        "top3_covered_rate": 35.9,
-        "top5_covered_rate": 60.1
+        "courses": 307,
+        "top3_covered_rate": 35.8,
+        "top5_covered_rate": 60.3
       },
       {
         "name": "Trot",
@@ -10797,51 +10809,51 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 600,
-        "top3_rate": 56.3,
-        "top5_rate": 70.3
+        "runners": 601,
+        "top3_rate": 56.2,
+        "top5_rate": 70.4
       },
       {
         "rank": 2,
-        "runners": 597,
-        "top3_rate": 40.2,
-        "top5_rate": 60.6
+        "runners": 598,
+        "top3_rate": 40.3,
+        "top5_rate": 60.7
       },
       {
         "rank": 3,
-        "runners": 596,
-        "top3_rate": 37.8,
-        "top5_rate": 58.2
+        "runners": 597,
+        "top3_rate": 37.7,
+        "top5_rate": 58.3
       },
       {
         "rank": 4,
-        "runners": 603,
-        "top3_rate": 33.8,
-        "top5_rate": 57.2
+        "runners": 604,
+        "top3_rate": 33.9,
+        "top5_rate": 57.3
       },
       {
         "rank": 5,
-        "runners": 594,
-        "top3_rate": 29.8,
-        "top5_rate": 53.2
+        "runners": 595,
+        "top3_rate": 29.7,
+        "top5_rate": 53.1
       },
       {
         "rank": 6,
-        "runners": 582,
-        "top3_rate": 25.4,
-        "top5_rate": 46.6
+        "runners": 583,
+        "top3_rate": 25.6,
+        "top5_rate": 46.7
       },
       {
         "rank": 7,
-        "runners": 569,
-        "top3_rate": 18.3,
+        "runners": 570,
+        "top3_rate": 18.2,
         "top5_rate": 38.8
       },
       {
         "rank": 8,
-        "runners": 513,
+        "runners": 514,
         "top3_rate": 18.5,
-        "top5_rate": 35.1
+        "top5_rate": 35.0
       },
       {
         "rank": 9,
