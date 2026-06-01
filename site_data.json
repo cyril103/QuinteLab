@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T19:30:12.048596+00:00",
+  "generated_at": "2026-06-01T20:00:25.255107+00:00",
   "finance": {
     "bankroll": 255.3,
     "bets_count": 29,
@@ -9234,45 +9234,51 @@
           "allocation": 5500,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            6,
+            8,
+            4,
+            7,
+            10
+          ],
           "runners": [
             {
               "rank": 1,
               "num": 7,
               "name": "IT'S ME DIESCHOOT",
-              "note": 43.0,
+              "note": 41.8,
               "profile": "Base modèle",
-              "signal": "Cote 4 · Base 49",
-              "odds": 4.0,
-              "probability": 0.1986,
-              "ev": -0.206,
+              "signal": "Cote 5.4 · Base 48",
+              "odds": 5.4,
+              "probability": 0.1724,
+              "ev": -0.069,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 2,
-              "num": 10,
-              "name": "FRONSAC DE BOMO",
-              "note": 41.9,
+              "num": 6,
+              "name": "IBERNATUS",
+              "note": 41.1,
               "profile": "Base modèle",
-              "signal": "Cote 5.2 · Base 45",
-              "odds": 5.2,
-              "probability": 0.1734,
-              "ev": -0.098,
+              "signal": "Cote 4.1 · Base 45",
+              "odds": 4.1,
+              "probability": 0.1778,
+              "ev": -0.271,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 3,
-              "num": 6,
-              "name": "IBERNATUS",
-              "note": 40.0,
+              "num": 10,
+              "name": "FRONSAC DE BOMO",
+              "note": 40.9,
               "profile": "Base modèle",
-              "signal": "Cote 5.4 · Base 44",
-              "odds": 5.4,
-              "probability": 0.1521,
-              "ev": -0.179,
+              "signal": "Cote 6.8 · Base 43",
+              "odds": 6.8,
+              "probability": 0.1551,
+              "ev": 0.054,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -9280,12 +9286,12 @@
               "rank": 4,
               "num": 4,
               "name": "JUST LIKE A DREAM",
-              "note": 36.9,
+              "note": 37.3,
               "profile": "Associé modèle",
-              "signal": "Cote 4.7 · Base 38",
-              "odds": 4.7,
-              "probability": 0.1327,
-              "ev": -0.376,
+              "signal": "Cote 4.3 · Base 38",
+              "odds": 4.3,
+              "probability": 0.1412,
+              "ev": -0.393,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -9293,12 +9299,12 @@
               "rank": 5,
               "num": 3,
               "name": "INDY DE MUZE",
-              "note": 29.0,
+              "note": 29.7,
               "profile": "Associé modèle",
-              "signal": "Cote 18 · Base 28",
-              "odds": 18.0,
-              "probability": 0.057,
-              "ev": 0.025,
+              "signal": "Cote 13 · Base 29",
+              "odds": 13.0,
+              "probability": 0.0652,
+              "ev": -0.153,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -9306,12 +9312,12 @@
               "rank": 6,
               "num": 8,
               "name": "IDOLE DU MONCEL",
-              "note": 28.6,
+              "note": 29.0,
               "profile": "Associé modèle",
-              "signal": "Cote 18 · Base 27",
-              "odds": 18.0,
-              "probability": 0.0556,
-              "ev": 0.001,
+              "signal": "Cote 15 · Base 27",
+              "odds": 15.0,
+              "probability": 0.0602,
+              "ev": -0.097,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -9319,12 +9325,12 @@
               "rank": 7,
               "num": 11,
               "name": "GO CHICAGO",
-              "note": 27.8,
+              "note": 28.4,
               "profile": "Associé modèle",
-              "signal": "Cote 7.7 · Base 20",
-              "odds": 7.7,
-              "probability": 0.0684,
-              "ev": -0.473,
+              "signal": "Cote 6.5 · Base 21",
+              "odds": 6.5,
+              "probability": 0.0763,
+              "ev": -0.504,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -9332,12 +9338,12 @@
               "rank": 8,
               "num": 2,
               "name": "JOURNAC DIESCHOOT",
-              "note": 27.2,
+              "note": 26.6,
               "profile": "Associé modèle",
-              "signal": "Cote 38 · Value · Base 20",
-              "odds": 38.0,
-              "probability": 0.0446,
-              "ev": 0.694,
+              "signal": "Cote 60 · Value · Base 19",
+              "odds": 60.0,
+              "probability": 0.0412,
+              "ev": 1.471,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -9345,12 +9351,12 @@
               "rank": 9,
               "num": 9,
               "name": "FIER D'ARS",
-              "note": 26.2,
+              "note": 25.8,
               "profile": "Outsider modèle",
-              "signal": "Cote 37 · Value · Base 17",
-              "odds": 37.0,
-              "probability": 0.0417,
-              "ev": 0.541,
+              "signal": "Cote 52 · Value · Base 16",
+              "odds": 52.0,
+              "probability": 0.0391,
+              "ev": 1.034,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -9358,12 +9364,12 @@
               "rank": 10,
               "num": 5,
               "name": "ITOU DES GENIEVRES",
-              "note": 25.7,
+              "note": 25.2,
               "profile": "Outsider modèle",
-              "signal": "Cote 34 · Value · Base 17",
-              "odds": 34.0,
-              "probability": 0.0406,
-              "ev": 0.382,
+              "signal": "Cote 49 · Value · Base 17",
+              "odds": 49.0,
+              "probability": 0.0378,
+              "ev": 0.851,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -9371,12 +9377,12 @@
               "rank": 11,
               "num": 1,
               "name": "IMARA DU NORD",
-              "note": 25.0,
+              "note": 24.6,
               "profile": "Outsider modèle",
-              "signal": "Cote 70 · Value · Base 16",
-              "odds": 70.0,
-              "probability": 0.0353,
-              "ev": 1.474,
+              "signal": "Cote 101 · Value · Base 15",
+              "odds": 101.0,
+              "probability": 0.0339,
+              "ev": 2.425,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             }
@@ -9389,7 +9395,7 @@
   "settled_count": 29,
   "observation": {
     "courses_count": 686,
-    "arrivals_count": 647,
+    "arrivals_count": 648,
     "best_disciplines": [
       {
         "name": "Galop",
@@ -9399,9 +9405,9 @@
       },
       {
         "name": "Trot",
-        "courses": 306,
-        "top3_covered_rate": 22.5,
-        "top5_covered_rate": 32.0
+        "courses": 307,
+        "top3_covered_rate": 22.8,
+        "top5_covered_rate": 31.9
       }
     ],
     "best_hippos": [
@@ -9439,73 +9445,73 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 654,
-        "top3_rate": 55.5,
+        "runners": 655,
+        "top3_rate": 55.6,
         "top5_rate": 69.9
       },
       {
         "rank": 2,
-        "runners": 649,
+        "runners": 650,
         "top3_rate": 40.8,
-        "top5_rate": 61.3
+        "top5_rate": 61.2
       },
       {
         "rank": 3,
-        "runners": 648,
-        "top3_rate": 37.7,
-        "top5_rate": 58.3
+        "runners": 649,
+        "top3_rate": 37.6,
+        "top5_rate": 58.2
       },
       {
         "rank": 4,
-        "runners": 655,
-        "top3_rate": 33.1,
+        "runners": 656,
+        "top3_rate": 33.2,
         "top5_rate": 56.2
       },
       {
         "rank": 5,
-        "runners": 646,
-        "top3_rate": 30.5,
+        "runners": 647,
+        "top3_rate": 30.6,
         "top5_rate": 53.6
       },
       {
         "rank": 6,
-        "runners": 637,
-        "top3_rate": 25.3,
-        "top5_rate": 45.7
+        "runners": 638,
+        "top3_rate": 25.2,
+        "top5_rate": 45.8
       },
       {
         "rank": 7,
-        "runners": 620,
+        "runners": 621,
         "top3_rate": 19.0,
         "top5_rate": 39.5
       },
       {
         "rank": 8,
-        "runners": 560,
+        "runners": 561,
         "top3_rate": 18.9,
         "top5_rate": 35.7
       },
       {
         "rank": 9,
-        "runners": 496,
+        "runners": 497,
         "top3_rate": 18.1,
-        "top5_rate": 34.7
+        "top5_rate": 34.6
       },
       {
         "rank": 10,
-        "runners": 427,
+        "runners": 428,
         "top3_rate": 11.2,
-        "top5_rate": 27.4
+        "top5_rate": 27.3
       },
       {
         "rank": 11,
-        "runners": 352,
+        "runners": 353,
         "top3_rate": 12.5,
-        "top5_rate": 21.6
+        "top5_rate": 21.8
       },
       {
         "rank": 12,
-        "runners": 283,
+        "runners": 284,
         "top3_rate": 10.6,
         "top5_rate": 20.8
       }
