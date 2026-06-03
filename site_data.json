@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T20:00:52.670174+00:00",
+  "generated_at": "2026-06-03T20:30:12.111891+00:00",
   "finance": {
     "bankroll": 242.25,
     "bets_count": 31,
@@ -6968,11 +6968,13 @@
           "allocation": 5474,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             4,
             7,
-            10
+            10,
+            9,
+            3
           ],
           "runners": [
             {
@@ -7104,8 +7106,14 @@
           "allocation": 5474,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            9,
+            6,
+            4,
+            10,
+            5
+          ],
           "runners": [
             {
               "rank": 1,
@@ -7275,7 +7283,7 @@
           "allocation": 12516,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -10594,11 +10602,13 @@
           "allocation": 30136,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             9,
             15,
-            11
+            11,
+            12,
+            2
           ],
           "runners": [
             {
@@ -10788,8 +10798,14 @@
           "allocation": 5130,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            2,
+            10,
+            7,
+            6,
+            4
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10933,7 +10949,7 @@
           "allocation": 1667,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -11326,19 +11342,19 @@
   "settled_count": 31,
   "observation": {
     "courses_count": 794,
-    "arrivals_count": 745,
+    "arrivals_count": 747,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 369,
-        "top3_covered_rate": 35.0,
-        "top5_covered_rate": 56.9
+        "courses": 370,
+        "top3_covered_rate": 34.9,
+        "top5_covered_rate": 57.0
       },
       {
         "name": "Trot",
-        "courses": 365,
+        "courses": 366,
         "top3_covered_rate": 26.0,
-        "top5_covered_rate": 35.6
+        "top5_covered_rate": 35.5
       }
     ],
     "best_hippos": [
@@ -11355,16 +11371,16 @@
         "top5_covered_rate": 44.0
       },
       {
+        "name": "SAN ISIDRO",
+        "courses": 25,
+        "top3_covered_rate": 28.0,
+        "top5_covered_rate": 56.0
+      },
+      {
         "name": "SAINT-CLOUD",
         "courses": 24,
         "top3_covered_rate": 29.2,
         "top5_covered_rate": 41.7
-      },
-      {
-        "name": "SAN ISIDRO",
-        "courses": 24,
-        "top3_covered_rate": 29.2,
-        "top5_covered_rate": 54.2
       },
       {
         "name": "SOLVALLA",
@@ -11376,75 +11392,75 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 755,
-        "top3_rate": 56.0,
-        "top5_rate": 70.2
+        "runners": 757,
+        "top3_rate": 55.9,
+        "top5_rate": 70.0
       },
       {
         "rank": 2,
-        "runners": 747,
-        "top3_rate": 43.2,
+        "runners": 749,
+        "top3_rate": 43.3,
         "top5_rate": 63.7
       },
       {
         "rank": 3,
-        "runners": 749,
-        "top3_rate": 37.2,
-        "top5_rate": 57.9
+        "runners": 751,
+        "top3_rate": 37.4,
+        "top5_rate": 58.1
       },
       {
         "rank": 4,
-        "runners": 754,
+        "runners": 756,
         "top3_rate": 33.6,
-        "top5_rate": 56.1
+        "top5_rate": 56.2
       },
       {
         "rank": 5,
-        "runners": 745,
+        "runners": 747,
         "top3_rate": 29.9,
-        "top5_rate": 52.9
+        "top5_rate": 52.7
       },
       {
         "rank": 6,
-        "runners": 734,
-        "top3_rate": 24.9,
-        "top5_rate": 45.2
+        "runners": 736,
+        "top3_rate": 25.0,
+        "top5_rate": 45.4
       },
       {
         "rank": 7,
-        "runners": 722,
-        "top3_rate": 18.6,
-        "top5_rate": 38.8
+        "runners": 724,
+        "top3_rate": 18.5,
+        "top5_rate": 38.7
       },
       {
         "rank": 8,
-        "runners": 654,
-        "top3_rate": 17.6,
-        "top5_rate": 35.3
+        "runners": 656,
+        "top3_rate": 17.5,
+        "top5_rate": 35.5
       },
       {
         "rank": 9,
-        "runners": 585,
-        "top3_rate": 16.4,
-        "top5_rate": 32.6
+        "runners": 588,
+        "top3_rate": 16.3,
+        "top5_rate": 32.5
       },
       {
         "rank": 10,
-        "runners": 505,
-        "top3_rate": 12.1,
-        "top5_rate": 27.7
+        "runners": 506,
+        "top3_rate": 12.3,
+        "top5_rate": 27.9
       },
       {
         "rank": 11,
-        "runners": 419,
-        "top3_rate": 11.7,
-        "top5_rate": 21.2
+        "runners": 421,
+        "top3_rate": 11.6,
+        "top5_rate": 21.1
       },
       {
         "rank": 12,
-        "runners": 335,
-        "top3_rate": 9.6,
-        "top5_rate": 19.7
+        "runners": 336,
+        "top3_rate": 9.5,
+        "top5_rate": 19.6
       }
     ]
   },
