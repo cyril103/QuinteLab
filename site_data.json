@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T20:00:01.748569+00:00",
+  "generated_at": "2026-06-04T20:30:22.798001+00:00",
   "finance": {
     "bankroll": 259.95,
     "bets_count": 32,
@@ -6815,11 +6815,11 @@
           "course": 6,
           "code": "R5C6",
           "name": "GRAN PREMIO NAZIONALE                   ITALIE",
-          "start_at": "2026-06-04T20:30:00+00:00",
+          "start_at": "2026-06-04T20:35:00+00:00",
           "allocation": 165000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -7621,11 +7621,13 @@
           "allocation": 96179,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             3,
             13,
-            8
+            8,
+            1,
+            2
           ],
           "runners": [
             {
@@ -7796,8 +7798,12 @@
           "allocation": 115415,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE",
+          "result_top5": [
+            7,
+            8,
+            10
+          ],
           "runners": [
             {
               "rank": 1,
@@ -7911,11 +7917,11 @@
           "course": 8,
           "code": "R6C8",
           "name": "INTERCONTINENTAL S.",
-          "start_at": "2026-06-04T20:27:00+00:00",
+          "start_at": "2026-06-04T20:40:00+00:00",
           "allocation": 240448,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
