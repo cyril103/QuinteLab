@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-04T19:00:14.389032+00:00",
+  "generated_at": "2026-06-04T19:30:45.865074+00:00",
   "finance": {
-    "bankroll": 231.75,
+    "bankroll": 259.95,
     "bets_count": 32,
-    "settled_bets": 31,
-    "observed_arrivals": 31,
-    "total_stake": 531.5,
-    "total_gain": 373.75,
-    "net": -157.75,
-    "roi": -29.68,
-    "win_rate": 38.71,
-    "profit_rate": 19.35,
+    "settled_bets": 32,
+    "observed_arrivals": 32,
+    "total_stake": 542.0,
+    "total_gain": 401.95,
+    "net": -140.05,
+    "roi": -25.84,
+    "win_rate": 40.62,
+    "profit_rate": 21.88,
     "max_drawdown": 178.95,
-    "non_profitable_streak": 7,
+    "non_profitable_streak": 0,
     "topup_total": 200.0
   },
   "featured": {
@@ -29,9 +29,9 @@
     "type": "QUINTE_PLUS_COMBINE_7_FLEXI_25",
     "formula": "C(7,5)=21 combinaisons × 2€ × 25% = 10.50€",
     "stake": 10.5,
-    "gain": 0.0,
-    "net": -10.5,
-    "settled": false,
+    "gain": 28.2,
+    "net": 17.7,
+    "settled": true,
     "selection": [
       7,
       8,
@@ -51,9 +51,17 @@
       14,
       13
     ],
-    "arrival": [],
-    "hit_counts": {},
-    "miss_analysis": "",
+    "arrival": [
+      12,
+      7,
+      14,
+      10,
+      1
+    ],
+    "hit_counts": {
+      "bonus3": 6
+    },
+    "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: aucun; top5 non sélectionnés: [10, 1]; max par grille: 3/5 top5, 3/3 top3; rangs modèle arrivée: 12=#4 score 42.2, 7=#2 score 52.7, 14=#6 score 37.0, 10=#9 score 36.6, 1=#8 score 36.9; profils manqués: 10: rang #9, reg 0.40, EV -0.11, value=False | 1: rang #8, reg 0.20, EV -0.20, value=False",
     "profile": {
       "profile": "course_ouverte_anti_drawdown",
       "recommendation": "combine_7_flexi_25",
@@ -543,9 +551,9 @@
       "type": "QUINTE_PLUS_COMBINE_7_FLEXI_25",
       "formula": "C(7,5)=21 combinaisons × 2€ × 25% = 10.50€",
       "stake": 10.5,
-      "gain": 0.0,
-      "net": -10.5,
-      "settled": false,
+      "gain": 28.2,
+      "net": 17.7,
+      "settled": true,
       "selection": [
         7,
         8,
@@ -565,9 +573,17 @@
         14,
         13
       ],
-      "arrival": [],
-      "hit_counts": {},
-      "miss_analysis": "",
+      "arrival": [
+        12,
+        7,
+        14,
+        10,
+        1
+      ],
+      "hit_counts": {
+        "bonus3": 6
+      },
+      "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: aucun; top5 non sélectionnés: [10, 1]; max par grille: 3/5 top5, 3/3 top3; rangs modèle arrivée: 12=#4 score 42.2, 7=#2 score 52.7, 14=#6 score 37.0, 10=#9 score 36.6, 1=#8 score 36.9; profils manqués: 10: rang #9, reg 0.40, EV -0.11, value=False | 1: rang #8, reg 0.20, EV -0.20, value=False",
       "profile": {
         "profile": "course_ouverte_anti_drawdown",
         "recommendation": "combine_7_flexi_25",
@@ -2249,45 +2265,51 @@
           "allocation": 17300,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "FIN_COURSE",
+          "result_top5": [
+            1,
+            5,
+            8,
+            13,
+            7
+          ],
           "runners": [
             {
               "rank": 1,
-              "num": 7,
-              "name": "FIRST CREATION",
-              "note": 39.6,
+              "num": 1,
+              "name": "HUTTON",
+              "note": 40.9,
               "profile": "Base modèle",
-              "signal": "Cote 6.6 · Base 50",
-              "odds": 6.6,
-              "probability": 0.1283,
-              "ev": -0.153,
+              "signal": "Cote 5.7 · Base 47",
+              "odds": 5.7,
+              "probability": 0.1435,
+              "ev": -0.182,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 2,
-              "num": 1,
-              "name": "HUTTON",
-              "note": 38.5,
+              "num": 7,
+              "name": "FIRST CREATION",
+              "note": 39.3,
               "profile": "Base modèle",
-              "signal": "Cote 12 · Value · Base 45",
-              "odds": 12.0,
-              "probability": 0.1055,
-              "ev": 0.266,
-              "value_bet": true,
+              "signal": "Cote 7.3 · Base 50",
+              "odds": 7.3,
+              "probability": 0.1221,
+              "ev": -0.108,
+              "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 3,
               "num": 5,
               "name": "FORCE TRANQUILLE",
-              "note": 35.8,
+              "note": 36.8,
               "profile": "Base modèle",
-              "signal": "Cote 8 · Base 37",
-              "odds": 8.0,
-              "probability": 0.0966,
-              "ev": -0.228,
+              "signal": "Cote 6 · Base 38",
+              "odds": 6.0,
+              "probability": 0.1111,
+              "ev": -0.333,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -2295,77 +2317,77 @@
               "rank": 4,
               "num": 15,
               "name": "FIRST DREM",
-              "note": 34.6,
+              "note": 33.9,
               "profile": "Associé modèle",
-              "signal": "Cote 22 · Value · Base 42",
-              "odds": 22.0,
-              "probability": 0.0731,
-              "ev": 0.608,
+              "signal": "Cote 33 · Value · Base 37",
+              "odds": 33.0,
+              "probability": 0.066,
+              "ev": 1.176,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 5,
-              "num": 4,
-              "name": "PISORNO",
-              "note": 33.8,
+              "num": 11,
+              "name": "FLOWERY COAST",
+              "note": 33.7,
               "profile": "Associé modèle",
-              "signal": "Cote 15 · Base 38",
-              "odds": 15.0,
-              "probability": 0.0736,
-              "ev": 0.104,
+              "signal": "Cote 8.3 · Base 37",
+              "odds": 8.3,
+              "probability": 0.0841,
+              "ev": -0.302,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 6,
-              "num": 11,
-              "name": "FLOWERY COAST",
+              "num": 4,
+              "name": "PISORNO",
               "note": 33.2,
               "profile": "Associé modèle",
-              "signal": "Cote 10 · Base 36",
-              "odds": 10.0,
-              "probability": 0.0774,
-              "ev": -0.226,
-              "value_bet": false,
+              "signal": "Cote 20 · Value · Base 37",
+              "odds": 20.0,
+              "probability": 0.0668,
+              "ev": 0.335,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 7,
               "num": 13,
               "name": "NEROKAS",
-              "note": 32.7,
+              "note": 32.1,
               "profile": "Associé modèle",
-              "signal": "Cote 14 · Base 37",
-              "odds": 14.0,
-              "probability": 0.0692,
-              "ev": -0.031,
+              "signal": "Cote 18 · Base 37",
+              "odds": 18.0,
+              "probability": 0.0632,
+              "ev": 0.137,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 8,
-              "num": 6,
-              "name": "GREAT CHARLIE",
-              "note": 32.1,
+              "num": 8,
+              "name": "EYE OF THE TIGER",
+              "note": 30.9,
               "profile": "Associé modèle",
-              "signal": "Cote 10 · Base 32",
-              "odds": 10.0,
-              "probability": 0.0728,
-              "ev": -0.272,
+              "signal": "Cote 5.6 · Base 28",
+              "odds": 5.6,
+              "probability": 0.0843,
+              "ev": -0.528,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 9,
-              "num": 8,
-              "name": "EYE OF THE TIGER",
-              "note": 31.5,
+              "num": 6,
+              "name": "GREAT CHARLIE",
+              "note": 30.8,
               "profile": "Outsider modèle",
-              "signal": "Cote 4.8 · Base 29",
-              "odds": 4.8,
-              "probability": 0.0931,
-              "ev": -0.553,
+              "signal": "Cote 17 · Base 31",
+              "odds": 17.0,
+              "probability": 0.0584,
+              "ev": -0.007,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -2373,25 +2395,25 @@
               "rank": 10,
               "num": 16,
               "name": "LA MOMY",
-              "note": 28.1,
+              "note": 27.0,
               "profile": "Outsider modèle",
-              "signal": "Cote 23 · Base 25",
-              "odds": 23.0,
-              "probability": 0.0459,
-              "ev": 0.056,
-              "value_bet": false,
+              "signal": "Cote 44 · Value · Base 20",
+              "odds": 44.0,
+              "probability": 0.0383,
+              "ev": 0.686,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 11,
               "num": 9,
               "name": "KAWARETH",
-              "note": 25.8,
+              "note": 24.9,
               "profile": "Outsider modèle",
-              "signal": "Cote 23 · Base 24",
-              "odds": 23.0,
-              "probability": 0.0398,
-              "ev": -0.086,
+              "signal": "Cote 40 · Base 19",
+              "odds": 40.0,
+              "probability": 0.0335,
+              "ev": 0.339,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -2403,8 +2425,8 @@
               "profile": "Outsider modèle",
               "signal": "Cote 27 · Base 18",
               "odds": 27.0,
-              "probability": 0.0341,
-              "ev": -0.078,
+              "probability": 0.034,
+              "ev": -0.081,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -2412,12 +2434,12 @@
               "rank": 13,
               "num": 3,
               "name": "HERMANO",
-              "note": 22.7,
+              "note": 23.8,
               "profile": "Outsider modèle",
-              "signal": "Cote 35 · Base 11",
-              "odds": 35.0,
-              "probability": 0.0296,
-              "ev": 0.038,
+              "signal": "Cote 19 · Base 16",
+              "odds": 19.0,
+              "probability": 0.0368,
+              "ev": -0.3,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -2425,12 +2447,12 @@
               "rank": 14,
               "num": 2,
               "name": "HURRICANE",
-              "note": 21.3,
+              "note": 21.4,
               "profile": "Outsider modèle",
-              "signal": "Cote 35 · Base 15",
-              "odds": 35.0,
-              "probability": 0.027,
-              "ev": -0.054,
+              "signal": "Cote 34 · Base 15",
+              "odds": 34.0,
+              "probability": 0.0272,
+              "ev": -0.075,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -2438,12 +2460,12 @@
               "rank": 15,
               "num": 14,
               "name": "KARIOITAHI",
-              "note": 19.6,
+              "note": 19.4,
               "profile": "Outsider modèle",
-              "signal": "Cote 30 · Base 8",
-              "odds": 30.0,
-              "probability": 0.0253,
-              "ev": -0.242,
+              "signal": "Cote 34 · Base 8",
+              "odds": 34.0,
+              "probability": 0.0241,
+              "ev": -0.182,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -2451,12 +2473,12 @@
               "rank": 16,
               "num": 10,
               "name": "MISTRAL DE COCAGNE",
-              "note": 4.7,
+              "note": 4.0,
               "profile": "Outsider modèle",
-              "signal": "Cote 61 · Base 2",
-              "odds": 61.0,
-              "probability": 0.0087,
-              "ev": -0.468,
+              "signal": "Cote 129 · Base 1",
+              "odds": 129.0,
+              "probability": 0.0066,
+              "ev": -0.151,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             }
@@ -6685,8 +6707,14 @@
           "allocation": 165000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            2,
+            5,
+            7,
+            1,
+            6
+          ],
           "runners": [
             {
               "rank": 1,
@@ -7330,11 +7358,13 @@
           "allocation": 115415,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             6,
             5,
-            3
+            3,
+            4,
+            8
           ],
           "runners": [
             {
@@ -7440,7 +7470,7 @@
           "allocation": 110606,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "status": "ARRIVEE_DEFINITIVE",
           "result_top5": [
             8,
             11,
@@ -7585,11 +7615,11 @@
           "course": 6,
           "code": "R6C6",
           "name": "MAIDEN SPECIAL WEIGHT 1400",
-          "start_at": "2026-06-04T19:19:00+00:00",
+          "start_at": "2026-06-04T19:29:00+00:00",
           "allocation": 96179,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -8440,16 +8470,16 @@
       ]
     }
   ],
-  "settled_count": 31,
+  "settled_count": 32,
   "observation": {
     "courses_count": 839,
-    "arrivals_count": 785,
+    "arrivals_count": 787,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 392,
-        "top3_covered_rate": 33.7,
-        "top5_covered_rate": 56.1
+        "courses": 394,
+        "top3_covered_rate": 33.8,
+        "top5_covered_rate": 56.3
       },
       {
         "name": "Trot",
@@ -8467,9 +8497,9 @@
       },
       {
         "name": "ParisLongchamp",
-        "courses": 31,
-        "top3_covered_rate": 29.0,
-        "top5_covered_rate": 41.9
+        "courses": 32,
+        "top3_covered_rate": 31.2,
+        "top5_covered_rate": 43.8
       },
       {
         "name": "SAN ISIDRO",
@@ -8493,44 +8523,44 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 795,
-        "top3_rate": 55.8,
-        "top5_rate": 70.2
+        "runners": 797,
+        "top3_rate": 56.0,
+        "top5_rate": 70.3
       },
       {
         "rank": 2,
-        "runners": 787,
-        "top3_rate": 43.5,
-        "top5_rate": 63.5
+        "runners": 789,
+        "top3_rate": 43.6,
+        "top5_rate": 63.6
       },
       {
         "rank": 3,
-        "runners": 790,
-        "top3_rate": 37.3,
+        "runners": 792,
+        "top3_rate": 37.4,
         "top5_rate": 58.2
       },
       {
         "rank": 4,
-        "runners": 795,
-        "top3_rate": 33.0,
-        "top5_rate": 56.0
+        "runners": 797,
+        "top3_rate": 32.9,
+        "top5_rate": 55.8
       },
       {
         "rank": 5,
-        "runners": 785,
-        "top3_rate": 29.8,
-        "top5_rate": 52.7
+        "runners": 788,
+        "top3_rate": 29.7,
+        "top5_rate": 52.8
       },
       {
         "rank": 6,
-        "runners": 776,
-        "top3_rate": 24.9,
-        "top5_rate": 45.1
+        "runners": 778,
+        "top3_rate": 24.8,
+        "top5_rate": 45.2
       },
       {
         "rank": 7,
-        "runners": 762,
-        "top3_rate": 18.1,
+        "runners": 764,
+        "top3_rate": 18.2,
         "top5_rate": 38.2
       },
       {
