@@ -356,9 +356,13 @@
       document.getElementById('featuredProfile').textContent = f.profile?.profile || '—';
       document.getElementById('featuredFormula').textContent = f.formula || '—';
       document.getElementById('combineFormula').textContent = f.selection?.length >= 8 ? 'C(8,5)=56 grilles × 2€ × 25% = 28€' : (f.formula || 'Combiné conseillé');
-      const bases = (f.bases && f.bases.length >= 3) ? f.bases.slice(0,3) : (f.selection || []).slice(0,3);
-      const associes = (f.associes && f.associes.length >= 5 ? f.associes : (f.selection || []).slice(3,8)).slice(0,5);
-      document.getElementById('champDetail').textContent = `Bases proposées : ${bases.join(' - ')} · Associés : ${associes.join(' - ')}. À confirmer uniquement si le badge H-1 passe au vert.`;
+      const selection = f.selection || [];
+      const bases = (f.bases && f.bases.length >= 3) ? f.bases.slice(0,3) : selection.slice(0,3);
+      const baseSet = new Set(bases.map(String));
+      const explicitAssocies = (f.associes || []).filter(n => !baseSet.has(String(n)));
+      const selectionAssocies = selection.filter(n => !baseSet.has(String(n)));
+      const associes = [...explicitAssocies, ...selectionAssocies.filter(n => !explicitAssocies.map(String).includes(String(n)))].slice(0,5);
+      document.getElementById('champDetail').textContent = `Bases proposées : ${bases.join(' - ')} · Associés suivants : ${associes.join(' - ')}. À confirmer uniquement si le badge H-1 passe au vert.`;
     }
 
     function renderProgram(program, active='R1') {
