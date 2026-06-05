@@ -229,6 +229,11 @@
         <article class="kpi"><span>Net / ROI</span><strong id="netRoi">—</strong><small>Performance brute</small></article>
         <article class="kpi"><span>Série prudence</span><strong id="streak">—</strong><small>Non profitables consécutifs</small></article>
       </div>
+      <div class="panel" style="margin-top:18px">
+        <h2>Évolution financière fictive</h2>
+        <p class="muted">Bankroll jour après jour, avec les gains crédités et les mises/pertes simulées. Les rechargements fictifs sont exclus des barres pour garder la lecture sportive.</p>
+        <canvas id="financeChart"></canvas>
+      </div>
     </div></section>
 
     <section id="methodo"><div class="wrap grid2">
@@ -261,6 +266,7 @@
     const FALLBACK_DATA = {
       generated_at: new Date().toISOString(),
       finance: { bankroll:203.7, settled_bets:21, total_stake:347, total_gain:178.7, net:-168.3, roi:-48.5, non_profitable_streak:0 },
+      finance_history: [],
       featured: { date:new Date().toISOString().slice(0,10), reunion:1, course:4, strategy:'combine_top7_plus_outsider_flexi_25', formula:'C(8,5)=56 combinaisons × 2€ × 25% = 28€', stake:28, selection:[6,11,9,12,1,13,4,5], bases:[], associes:[6,11,9,12,1,13,4,5], profile:{ profile:'course_ouverte_outsider' } },
       recent: [], observation: { courses_count:243, arrivals_count:196, best_hippos:[], coverage_by_rank:[] },
       method_points: []
@@ -423,6 +429,31 @@
       document.getElementById('gainTotal').textContent = fmtEUR(f.total_gain);
       document.getElementById('netRoi').textContent = `${fmtEUR(f.net)} · ${Number(f.roi || 0).toFixed(1)} %`;
       document.getElementById('streak').textContent = f.non_profitable_streak ?? '—';
+      const financeHistory = SITE_DATA.finance_history || FALLBACK_DATA.finance_history || [];
+      if (window.Chart && financeHistory.length) {
+        new Chart(document.getElementById('financeChart'), {
+          data:{
+            labels:financeHistory.map(r => new Date(r.date).toLocaleDateString('fr-FR', {day:'2-digit', month:'2-digit'})),
+            datasets:[
+              { type:'line', label:'Bankroll', data:financeHistory.map(r => r.bankroll), borderColor:'#71b7ff', backgroundColor:'rgba(113,183,255,.12)', tension:.28, yAxisID:'euros', pointRadius:3 },
+              { type:'bar', label:'Gains du jour', data:financeHistory.map(r => r.gains), backgroundColor:'rgba(57,229,141,.62)', borderColor:'#39e58d', borderWidth:1, borderRadius:6, yAxisID:'euros' },
+              { type:'bar', label:'Mises / pertes simulées', data:financeHistory.map(r => -Number(r.stakes || 0)), backgroundColor:'rgba(255,107,122,.58)', borderColor:'#ff6b7a', borderWidth:1, borderRadius:6, yAxisID:'euros' }
+            ]
+          },
+          options:{
+            responsive:true,
+            plugins:{
+              legend:{ labels:{ color:'#dbeee5' } },
+              tooltip:{ callbacks:{ label:ctx => `${ctx.dataset.label}: ${fmtEUR(ctx.parsed.y)}` } },
+              title:{ display:true, text:'Bankroll, gains et mises de la simulation', color:'#dbeee5', font:{ size:13, weight:'bold' } }
+            },
+            scales:{
+              x:{ ticks:{ color:'#9eb9ad', maxRotation:0, autoSkip:true, maxTicksLimit:12 }, grid:{ color:'rgba(255,255,255,.05)' } },
+              euros:{ ticks:{ color:'#9eb9ad', callback:v => `${v}€` }, grid:{ color:'rgba(255,255,255,.06)' } }
+            }
+          }
+        });
+      }
       document.getElementById('methodList').innerHTML = (SITE_DATA.method_points || FALLBACK_DATA.method_points).map(p => `<li>${p}</li>`).join('');
       const obs = SITE_DATA.observation || FALLBACK_DATA.observation;
       document.getElementById('coverageCaption').textContent = `${obs.courses_count || 0} courses historisées · ${obs.arrivals_count || 0} arrivées observées.`;
