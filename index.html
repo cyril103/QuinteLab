@@ -233,7 +233,7 @@
 
     <section id="methodo"><div class="wrap grid2">
       <div class="panel"><h2>Méthodologie transparente</h2><ol class="method" id="methodList"></ol></div>
-      <div class="panel"><h2>Lecture data</h2><p class="muted" id="coverageCaption">Observation historique.</p><canvas id="coverageChart"></canvas></div>
+      <div class="panel"><h2>Fiabilité du modèle</h2><p class="muted" id="coverageCaption">Observation historique.</p><p class="muted" style="margin-top:-4px;font-size:13px">Ce graphique ne parle pas d'argent : il mesure seulement la fréquence à laquelle chaque rang du modèle finit dans l'arrivée réelle.</p><canvas id="coverageChart"></canvas></div>
     </div></section>
 
     <section><div class="wrap grid2">
@@ -437,9 +437,26 @@
       const cov = obs.coverage_by_rank || [];
       if (window.Chart && cov.length) {
         new Chart(document.getElementById('coverageChart'), {
-          type:'line',
-          data:{ labels:cov.map(r => '#' + r.rank), datasets:[{ label:'Présence top3 réel', data:cov.map(r => r.top3_rate), borderColor:'#39e58d', backgroundColor:'rgba(57,229,141,.08)', tension:.32 }, { label:'Présence top5 réel', data:cov.map(r => r.top5_rate), borderColor:'#f3c86a', tension:.32 }] },
-          options:{ responsive:true, plugins:{ legend:{ labels:{ color:'#dbeee5' } } }, scales:{ x:{ ticks:{ color:'#9eb9ad' }, grid:{ color:'rgba(255,255,255,.05)' } }, y:{ ticks:{ color:'#9eb9ad', callback:v => v + '%' }, grid:{ color:'rgba(255,255,255,.06)' } } } }
+          type:'bar',
+          data:{
+            labels:cov.map(r => 'Rang #' + r.rank),
+            datasets:[
+              { label:'A fini dans les 5 premiers', data:cov.map(r => r.top5_rate), backgroundColor:'rgba(243,200,106,.72)', borderColor:'#f3c86a', borderWidth:1, borderRadius:8 },
+              { label:'A fini dans les 3 premiers', data:cov.map(r => r.top3_rate), backgroundColor:'rgba(57,229,141,.70)', borderColor:'#39e58d', borderWidth:1, borderRadius:8 }
+            ]
+          },
+          options:{
+            responsive:true,
+            plugins:{
+              legend:{ labels:{ color:'#dbeee5' } },
+              tooltip:{ callbacks:{ label:ctx => `${ctx.dataset.label}: ${ctx.parsed.y}% des courses observées` } },
+              title:{ display:true, text:'Taux de présence dans l’arrivée selon le rang donné par le modèle', color:'#dbeee5', font:{ size:13, weight:'bold' } }
+            },
+            scales:{
+              x:{ ticks:{ color:'#9eb9ad' }, grid:{ color:'rgba(255,255,255,.05)' } },
+              y:{ beginAtZero:true, suggestedMax:100, title:{ display:true, text:'Taux de réussite historique', color:'#9eb9ad' }, ticks:{ color:'#9eb9ad', callback:v => v + '%' }, grid:{ color:'rgba(255,255,255,.06)' } }
+            }
+          }
         });
       }
     }
