@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T21:00:06.886497+00:00",
+  "generated_at": "2026-06-06T21:30:22.891840+00:00",
   "finance": {
     "bankroll": 224.85,
     "bets_count": 34,
@@ -9803,11 +9803,13 @@
           "allocation": 480895,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             7,
             6,
-            2
+            2,
+            1,
+            8
           ],
           "runners": [
             {
@@ -9935,11 +9937,11 @@
           "course": 10,
           "code": "R7C10",
           "name": "HILL 'N' DALE METROPOLITAN H.",
-          "start_at": "2026-06-06T21:32:00+00:00",
+          "start_at": "2026-06-06T21:35:00+00:00",
           "allocation": 961790,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -10813,11 +10815,13 @@
           "allocation": 8680,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             2,
             1,
-            8
+            8,
+            4,
+            3
           ],
           "runners": [
             {
@@ -12193,19 +12197,25 @@
           "allocation": 5500,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            8,
+            5,
+            11,
+            16,
+            13
+          ],
           "runners": [
             {
               "rank": 1,
               "num": 13,
               "name": "IQUEM MARVIC",
-              "note": 40.1,
+              "note": 39.9,
               "profile": "Base modèle",
-              "signal": "Cote 4.7 · Base 46",
-              "odds": 4.7,
-              "probability": 0.1472,
-              "ev": -0.308,
+              "signal": "Cote 5 · Base 46",
+              "odds": 5.0,
+              "probability": 0.1448,
+              "ev": -0.276,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -12213,12 +12223,12 @@
               "rank": 2,
               "num": 5,
               "name": "JAIN DE JANVILLE",
-              "note": 37.9,
+              "note": 39.3,
               "profile": "Base modèle",
-              "signal": "Cote 8.1 · Base 43",
-              "odds": 8.1,
-              "probability": 0.1114,
-              "ev": -0.097,
+              "signal": "Cote 5.4 · Base 44",
+              "odds": 5.4,
+              "probability": 0.1371,
+              "ev": -0.26,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -12226,12 +12236,12 @@
               "rank": 3,
               "num": 7,
               "name": "JUSTINE DU MESNIL",
-              "note": 37.2,
+              "note": 38.0,
               "profile": "Base modèle",
-              "signal": "Cote 5 · Base 40",
-              "odds": 5.0,
-              "probability": 0.1221,
-              "ev": -0.389,
+              "signal": "Cote 4.1 · Base 41",
+              "odds": 4.1,
+              "probability": 0.1397,
+              "ev": -0.427,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -12239,12 +12249,12 @@
               "rank": 4,
               "num": 11,
               "name": "JOYCE PILE",
-              "note": 34.7,
+              "note": 33.5,
               "profile": "Associé modèle",
-              "signal": "Cote 4.2 · Base 31",
-              "odds": 4.2,
-              "probability": 0.1146,
-              "ev": -0.519,
+              "signal": "Cote 5.6 · Base 30",
+              "odds": 5.6,
+              "probability": 0.0983,
+              "ev": -0.449,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -12252,129 +12262,129 @@
               "rank": 5,
               "num": 2,
               "name": "JULIOS DE DINGE",
-              "note": 30.9,
+              "note": 30.0,
               "profile": "Associé modèle",
-              "signal": "Cote 16 · Base 28",
-              "odds": 16.0,
-              "probability": 0.061,
-              "ev": -0.023,
-              "value_bet": false,
+              "signal": "Cote 25 · Value · Base 27",
+              "odds": 25.0,
+              "probability": 0.0536,
+              "ev": 0.34,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 6,
-              "num": 12,
-              "name": "GALCINOIS",
-              "note": 28.7,
+              "num": 1,
+              "name": "IKKO JOSSELYN",
+              "note": 28.2,
               "profile": "Associé modèle",
-              "signal": "Cote 17 · Base 25",
-              "odds": 17.0,
-              "probability": 0.0522,
-              "ev": -0.112,
-              "value_bet": false,
+              "signal": "Cote 58 · Value · Base 22",
+              "odds": 58.0,
+              "probability": 0.0426,
+              "ev": 1.469,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 7,
-              "num": 1,
-              "name": "IKKO JOSSELYN",
-              "note": 28.5,
+              "num": 6,
+              "name": "INES D'IDEF",
+              "note": 27.8,
               "profile": "Associé modèle",
-              "signal": "Cote 48 · Value · Base 23",
-              "odds": 48.0,
-              "probability": 0.0437,
-              "ev": 1.099,
+              "signal": "Cote 58 · Value · Base 21",
+              "odds": 58.0,
+              "probability": 0.0412,
+              "ev": 1.387,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 8,
-              "num": 4,
-              "name": "IXIOLINO",
-              "note": 27.5,
+              "num": 14,
+              "name": "IRON MAN",
+              "note": 27.3,
               "profile": "Associé modèle",
-              "signal": "Cote 9.7 · Base 21",
-              "odds": 9.7,
-              "probability": 0.0573,
-              "ev": -0.444,
+              "signal": "Cote 7.4 · Base 24",
+              "odds": 7.4,
+              "probability": 0.0646,
+              "ev": -0.522,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 9,
-              "num": 6,
-              "name": "INES D'IDEF",
-              "note": 27.3,
-              "profile": "Outsider modèle",
-              "signal": "Cote 97 · Value · Base 21",
-              "odds": 97.0,
-              "probability": 0.0378,
-              "ev": 2.664,
-              "value_bet": true,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 10,
               "num": 3,
               "name": "JALOUSY DU RABUTIN",
               "note": 26.9,
               "profile": "Outsider modèle",
               "signal": "Base 19",
               "odds": null,
-              "probability": 0.0346,
+              "probability": 0.0348,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 11,
-              "num": 14,
-              "name": "IRON MAN",
-              "note": 26.7,
+              "rank": 10,
+              "num": 15,
+              "name": "HIJO MOKO",
+              "note": 26.4,
               "profile": "Outsider modèle",
-              "signal": "Cote 8.8 · Base 24",
-              "odds": 8.8,
-              "probability": 0.0572,
-              "ev": -0.497,
+              "signal": "Cote 29 · Base 19",
+              "odds": 29.0,
+              "probability": 0.0408,
+              "ev": 0.182,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 12,
-              "num": 10,
-              "name": "HEROS DE BANVILLE",
-              "note": 26.2,
+              "rank": 11,
+              "num": 12,
+              "name": "GALCINOIS",
+              "note": 26.3,
               "profile": "Outsider modèle",
-              "signal": "Cote 21 · Base 23",
-              "odds": 21.0,
-              "probability": 0.0422,
-              "ev": -0.114,
+              "signal": "Cote 87 · Value · Base 18",
+              "odds": 87.0,
+              "probability": 0.0355,
+              "ev": 2.087,
+              "value_bet": true,
+              "source": "sqlite_runner_scores"
+            },
+            {
+              "rank": 12,
+              "num": 4,
+              "name": "IXIOLINO",
+              "note": 26.1,
+              "profile": "Outsider modèle",
+              "signal": "Cote 17 · Base 19",
+              "odds": 17.0,
+              "probability": 0.045,
+              "ev": -0.235,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 13,
-              "num": 15,
-              "name": "HIJO MOKO",
-              "note": 25.7,
+              "num": 10,
+              "name": "HEROS DE BANVILLE",
+              "note": 25.1,
               "profile": "Outsider modèle",
-              "signal": "Cote 48 · Value · Base 18",
-              "odds": 48.0,
-              "probability": 0.0355,
-              "ev": 0.704,
-              "value_bet": true,
+              "signal": "Cote 39 · Base 17",
+              "odds": 39.0,
+              "probability": 0.0354,
+              "ev": 0.381,
+              "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 14,
               "num": 8,
               "name": "JOSS D'ATTAQUE",
-              "note": 24.7,
+              "note": 24.8,
               "profile": "Outsider modèle",
-              "signal": "Cote 97 · Value · Base 19",
-              "odds": 97.0,
-              "probability": 0.031,
-              "ev": 2.006,
+              "signal": "Cote 87 · Value · Base 19",
+              "odds": 87.0,
+              "probability": 0.0317,
+              "ev": 1.76,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -12386,7 +12396,7 @@
               "profile": "Outsider modèle",
               "signal": "Base 12",
               "odds": null,
-              "probability": 0.028,
+              "probability": 0.0281,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -12395,13 +12405,13 @@
               "rank": 16,
               "num": 16,
               "name": "GAVROCHE ANABA",
-              "note": 21.5,
+              "note": 22.1,
               "profile": "Outsider modèle",
-              "signal": "Cote 97 · Value · Base 12",
-              "odds": 97.0,
-              "probability": 0.0242,
-              "ev": 1.344,
-              "value_bet": true,
+              "signal": "Cote 58 · Base 12",
+              "odds": 58.0,
+              "probability": 0.0269,
+              "ev": 0.558,
+              "value_bet": false,
               "source": "sqlite_runner_scores"
             }
           ],
@@ -13695,19 +13705,19 @@
   "settled_count": 34,
   "observation": {
     "courses_count": 983,
-    "arrivals_count": 925,
+    "arrivals_count": 928,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 481,
-        "top3_covered_rate": 33.7,
-        "top5_covered_rate": 58.2
+        "courses": 483,
+        "top3_covered_rate": 34.0,
+        "top5_covered_rate": 58.4
       },
       {
         "name": "Trot",
-        "courses": 433,
-        "top3_covered_rate": 26.1,
-        "top5_covered_rate": 36.3
+        "courses": 434,
+        "top3_covered_rate": 26.0,
+        "top5_covered_rate": 36.2
       }
     ],
     "best_hippos": [
@@ -13725,9 +13735,9 @@
       },
       {
         "name": "SAN ISIDRO",
-        "courses": 31,
-        "top3_covered_rate": 25.8,
-        "top5_covered_rate": 61.3
+        "courses": 32,
+        "top3_covered_rate": 28.1,
+        "top5_covered_rate": 62.5
       },
       {
         "name": "LYON-PARILLY",
@@ -13745,75 +13755,75 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 939,
+        "runners": 942,
         "top3_rate": 55.5,
         "top5_rate": 70.6
       },
       {
         "rank": 2,
-        "runners": 932,
-        "top3_rate": 43.6,
-        "top5_rate": 63.4
+        "runners": 935,
+        "top3_rate": 43.7,
+        "top5_rate": 63.5
       },
       {
         "rank": 3,
-        "runners": 933,
-        "top3_rate": 38.7,
-        "top5_rate": 58.9
+        "runners": 936,
+        "top3_rate": 38.6,
+        "top5_rate": 59.0
       },
       {
         "rank": 4,
-        "runners": 938,
-        "top3_rate": 33.3,
-        "top5_rate": 56.6
+        "runners": 941,
+        "top3_rate": 33.2,
+        "top5_rate": 56.7
       },
       {
         "rank": 5,
-        "runners": 931,
-        "top3_rate": 29.2,
-        "top5_rate": 52.7
+        "runners": 934,
+        "top3_rate": 29.3,
+        "top5_rate": 52.8
       },
       {
         "rank": 6,
-        "runners": 921,
-        "top3_rate": 25.0,
-        "top5_rate": 45.8
+        "runners": 924,
+        "top3_rate": 24.9,
+        "top5_rate": 45.7
       },
       {
         "rank": 7,
-        "runners": 897,
+        "runners": 900,
         "top3_rate": 19.0,
         "top5_rate": 39.2
       },
       {
         "rank": 8,
-        "runners": 811,
+        "runners": 814,
         "top3_rate": 17.1,
         "top5_rate": 34.5
       },
       {
         "rank": 9,
-        "runners": 724,
-        "top3_rate": 15.6,
-        "top5_rate": 31.9
+        "runners": 727,
+        "top3_rate": 15.5,
+        "top5_rate": 31.8
       },
       {
         "rank": 10,
-        "runners": 621,
-        "top3_rate": 12.6,
-        "top5_rate": 26.4
+        "runners": 623,
+        "top3_rate": 12.5,
+        "top5_rate": 26.3
       },
       {
         "rank": 11,
-        "runners": 512,
+        "runners": 513,
         "top3_rate": 12.1,
         "top5_rate": 21.1
       },
       {
         "rank": 12,
-        "runners": 415,
-        "top3_rate": 9.4,
-        "top5_rate": 19.8
+        "runners": 416,
+        "top3_rate": 9.6,
+        "top5_rate": 20.0
       }
     ]
   },
