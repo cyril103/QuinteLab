@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T20:30:42.800307+00:00",
+  "generated_at": "2026-06-08T21:01:00.091370+00:00",
   "finance": {
     "bankroll": 210.95,
     "bets_count": 36,
@@ -8313,8 +8313,14 @@
           "allocation": 1667,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            6,
+            2,
+            7,
+            3,
+            5
+          ],
           "runners": [
             {
               "rank": 1,
@@ -8419,7 +8425,7 @@
           "allocation": 3206,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -8702,11 +8708,13 @@
           "allocation": 12512,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             3,
             2,
-            7
+            7,
+            1,
+            6
           ],
           "runners": [
             {
@@ -8821,12 +8829,16 @@
           "course": 10,
           "code": "R7C10",
           "name": "NICE LORD",
-          "start_at": "2026-06-08T20:45:00+00:00",
+          "start_at": "2026-06-08T20:50:00+00:00",
           "allocation": 5787,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_PROVISOIRE",
+          "result_top5": [
+            7,
+            5,
+            6
+          ],
           "runners": [
             {
               "rank": 1,
@@ -11075,13 +11087,13 @@
   "settled_count": 36,
   "observation": {
     "courses_count": 1107,
-    "arrivals_count": 1044,
+    "arrivals_count": 1045,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 551,
-        "top3_covered_rate": 33.9,
-        "top5_covered_rate": 56.6
+        "courses": 552,
+        "top3_covered_rate": 34.1,
+        "top5_covered_rate": 56.7
       },
       {
         "name": "Trot",
@@ -11125,51 +11137,51 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 1061,
-        "top3_rate": 56.6,
+        "runners": 1063,
+        "top3_rate": 56.5,
         "top5_rate": 71.3
       },
       {
         "rank": 2,
-        "runners": 1055,
+        "runners": 1056,
         "top3_rate": 44.4,
         "top5_rate": 63.8
       },
       {
         "rank": 3,
-        "runners": 1053,
+        "runners": 1054,
         "top3_rate": 38.7,
         "top5_rate": 59.2
       },
       {
         "rank": 4,
-        "runners": 1063,
+        "runners": 1064,
         "top3_rate": 32.6,
         "top5_rate": 55.2
       },
       {
         "rank": 5,
-        "runners": 1055,
+        "runners": 1056,
         "top3_rate": 28.2,
-        "top5_rate": 51.5
+        "top5_rate": 51.4
       },
       {
         "rank": 6,
-        "runners": 1042,
+        "runners": 1043,
         "top3_rate": 24.4,
         "top5_rate": 45.5
       },
       {
         "rank": 7,
-        "runners": 1018,
-        "top3_rate": 19.0,
+        "runners": 1020,
+        "top3_rate": 18.9,
         "top5_rate": 39.2
       },
       {
         "rank": 8,
-        "runners": 921,
+        "runners": 922,
         "top3_rate": 16.9,
-        "top5_rate": 33.9
+        "top5_rate": 33.8
       },
       {
         "rank": 9,
