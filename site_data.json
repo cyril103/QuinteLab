@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T19:30:42.069139+00:00",
+  "generated_at": "2026-06-09T20:00:59.539961+00:00",
   "finance": {
     "bankroll": 182.95,
     "bets_count": 37,
@@ -8540,12 +8540,13 @@
           "allocation": 2000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "status": "FIN_COURSE",
           "result_top5": [
             9,
             7,
             6,
-            8
+            8,
+            1
           ],
           "runners": [
             {
@@ -8703,7 +8704,7 @@
           "allocation": 1500,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_CONFIRME",
           "result_top5": [],
           "runners": [
             {
@@ -9096,8 +9097,14 @@
           "allocation": 1066,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            5,
+            1,
+            7,
+            3,
+            6
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9198,11 +9205,11 @@
           "course": 4,
           "code": "R6C4",
           "name": "YAGUARI",
-          "start_at": "2026-06-09T20:00:00+00:00",
+          "start_at": "2026-06-09T20:03:00+00:00",
           "allocation": 927,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -9213,111 +9220,85 @@
               "profile": "Base modèle",
               "signal": "Base 44",
               "odds": null,
-              "probability": 0.2489,
+              "probability": 0.3286,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 2,
-              "num": 1,
-              "name": "GOOD VICTORY",
-              "note": 33.4,
-              "profile": "Base modèle",
-              "signal": "Base 26",
-              "odds": null,
-              "probability": 0.1351,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 3,
               "num": 6,
               "name": "PANTEU",
               "note": 32.0,
               "profile": "Base modèle",
               "signal": "Base 28",
               "odds": null,
-              "probability": 0.1211,
+              "probability": 0.1598,
+              "ev": 0.0,
+              "value_bet": false,
+              "source": "sqlite_runner_scores"
+            },
+            {
+              "rank": 3,
+              "num": 2,
+              "name": "GRAN DREAMER",
+              "note": 31.2,
+              "profile": "Base modèle",
+              "signal": "Base 30",
+              "odds": null,
+              "probability": 0.1493,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 4,
-              "num": 2,
-              "name": "GRAN DREAMER",
-              "note": 31.2,
-              "profile": "Associé modèle",
-              "signal": "Base 30",
-              "odds": null,
-              "probability": 0.1131,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 5,
-              "num": 7,
-              "name": "SOY ECONOMICO",
-              "note": 30.6,
-              "profile": "Associé modèle",
-              "signal": "Base 28",
-              "odds": null,
-              "probability": 0.1075,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 6,
               "num": 3,
               "name": "ECLIPSE DE ORO",
               "note": 27.6,
               "profile": "Associé modèle",
               "signal": "Base 19",
               "odds": null,
-              "probability": 0.0837,
+              "probability": 0.1105,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 7,
+              "rank": 5,
               "num": 9,
               "name": "KASCLARITO",
               "note": 25.0,
               "profile": "Associé modèle",
               "signal": "Base 21",
               "odds": null,
-              "probability": 0.0672,
+              "probability": 0.0887,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 8,
+              "rank": 6,
               "num": 8,
               "name": "SUZZANNE",
               "note": 24.0,
               "profile": "Associé modèle",
               "signal": "Base 13",
               "odds": null,
-              "probability": 0.0618,
+              "probability": 0.0816,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 9,
+              "rank": 7,
               "num": 5,
               "name": "LITTLE RUSSIAN",
               "note": 23.9,
-              "profile": "Outsider modèle",
+              "profile": "Associé modèle",
               "signal": "Base 18",
               "odds": null,
-              "probability": 0.0617,
+              "probability": 0.0814,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11022,7 +11003,7 @@
   "settled_count": 37,
   "observation": {
     "courses_count": 1159,
-    "arrivals_count": 1093,
+    "arrivals_count": 1094,
     "best_disciplines": [
       {
         "name": "Galop",
@@ -11032,9 +11013,9 @@
       },
       {
         "name": "Trot",
-        "courses": 516,
-        "top3_covered_rate": 26.2,
-        "top5_covered_rate": 35.1
+        "courses": 517,
+        "top3_covered_rate": 26.3,
+        "top5_covered_rate": 35.2
       }
     ],
     "best_hippos": [
@@ -11072,68 +11053,68 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 1111,
-        "top3_rate": 56.4,
+        "runners": 1112,
+        "top3_rate": 56.5,
         "top5_rate": 71.5
       },
       {
         "rank": 2,
-        "runners": 1104,
+        "runners": 1105,
         "top3_rate": 44.4,
         "top5_rate": 63.3
       },
       {
         "rank": 3,
-        "runners": 1103,
+        "runners": 1104,
         "top3_rate": 38.4,
-        "top5_rate": 59.6
+        "top5_rate": 59.5
       },
       {
         "rank": 4,
-        "runners": 1113,
+        "runners": 1114,
         "top3_rate": 32.9,
-        "top5_rate": 55.4
+        "top5_rate": 55.5
       },
       {
         "rank": 5,
-        "runners": 1104,
+        "runners": 1105,
         "top3_rate": 28.5,
         "top5_rate": 51.5
       },
       {
         "rank": 6,
-        "runners": 1091,
+        "runners": 1092,
         "top3_rate": 24.2,
         "top5_rate": 45.1
       },
       {
         "rank": 7,
-        "runners": 1068,
+        "runners": 1069,
         "top3_rate": 18.9,
         "top5_rate": 39.0
       },
       {
         "rank": 8,
-        "runners": 968,
+        "runners": 969,
         "top3_rate": 16.8,
         "top5_rate": 33.7
       },
       {
         "rank": 9,
-        "runners": 872,
-        "top3_rate": 15.4,
+        "runners": 873,
+        "top3_rate": 15.3,
         "top5_rate": 32.1
       },
       {
         "rank": 10,
-        "runners": 757,
+        "runners": 758,
         "top3_rate": 12.0,
         "top5_rate": 25.6
       },
       {
         "rank": 11,
-        "runners": 627,
-        "top3_rate": 12.0,
+        "runners": 628,
+        "top3_rate": 11.9,
         "top5_rate": 22.0
       },
       {
