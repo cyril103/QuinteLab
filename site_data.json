@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T19:00:22.408495+00:00",
+  "generated_at": "2026-06-09T19:30:42.069139+00:00",
   "finance": {
     "bankroll": 182.95,
     "bets_count": 37,
@@ -8415,12 +8415,13 @@
           "allocation": 9000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "status": "FIN_COURSE",
           "result_top5": [
             3,
             2,
             7,
-            5
+            5,
+            8
           ],
           "runners": [
             {
@@ -8539,58 +8540,63 @@
           "allocation": 2000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "result_top5": [
+            9,
+            7,
+            6,
+            8
+          ],
           "runners": [
             {
               "rank": 1,
-              "num": 6,
-              "name": "KISS ME ELTE",
-              "note": 54.9,
+              "num": 9,
+              "name": "TITANIUM HANOVER",
+              "note": 54.8,
               "profile": "Base modèle",
-              "signal": "Cote 5.1 · Value · Base 60",
-              "odds": 5.1,
-              "probability": 0.2134,
-              "ev": 0.088,
-              "value_bet": true,
+              "signal": "Cote 1.3 · Base 72",
+              "odds": 1.3,
+              "probability": 0.3288,
+              "ev": -0.573,
+              "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 2,
-              "num": 4,
-              "name": "LAZARRO DE LOU",
-              "note": 54.3,
+              "num": 6,
+              "name": "KISS ME ELTE",
+              "note": 54.6,
               "profile": "Base modèle",
-              "signal": "Cote 10 · Value · Base 65",
-              "odds": 10.0,
-              "probability": 0.1853,
-              "ev": 0.853,
+              "signal": "Cote 5.5 · Value · Base 60",
+              "odds": 5.5,
+              "probability": 0.2064,
+              "ev": 0.135,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 3,
-              "num": 9,
-              "name": "TITANIUM HANOVER",
-              "note": 52.1,
+              "num": 4,
+              "name": "LAZARRO DE LOU",
+              "note": 53.5,
               "profile": "Base modèle",
-              "signal": "Cote 1.9 · Base 69",
-              "odds": 1.9,
-              "probability": 0.2467,
-              "ev": -0.531,
-              "value_bet": false,
+              "signal": "Cote 14 · Value · Base 64",
+              "odds": 14.0,
+              "probability": 0.1684,
+              "ev": 1.357,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 4,
               "num": 7,
               "name": "LUNA BELLISSIMA",
-              "note": 47.1,
+              "note": 44.9,
               "profile": "Associé modèle",
-              "signal": "Cote 5.1 · Base 54",
-              "odds": 5.1,
-              "probability": 0.1314,
-              "ev": -0.33,
+              "signal": "Cote 10 · Base 52",
+              "odds": 10.0,
+              "probability": 0.0955,
+              "ev": -0.045,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -8598,12 +8604,12 @@
               "rank": 5,
               "num": 3,
               "name": "LOTTO PALACE",
-              "note": 37.7,
+              "note": 37.5,
               "profile": "Associé modèle",
-              "signal": "Cote 46 · Value · Base 28",
-              "odds": 46.0,
-              "probability": 0.0457,
-              "ev": 1.103,
+              "signal": "Cote 54 · Value · Base 28",
+              "odds": 54.0,
+              "probability": 0.0445,
+              "ev": 1.404,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -8611,25 +8617,25 @@
               "rank": 6,
               "num": 2,
               "name": "SUPRÊME DU JOUR",
-              "note": 37.3,
+              "note": 35.9,
               "profile": "Associé modèle",
-              "signal": "Cote 17 · Base 45",
-              "odds": 17.0,
-              "probability": 0.0521,
-              "ev": -0.114,
-              "value_bet": false,
+              "signal": "Cote 38 · Value · Base 39",
+              "odds": 38.0,
+              "probability": 0.0408,
+              "ev": 0.552,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 7,
               "num": 1,
               "name": "LADY GIBUS",
-              "note": 36.0,
+              "note": 35.5,
               "profile": "Associé modèle",
-              "signal": "Cote 78 · Value · Base 30",
-              "odds": 78.0,
-              "probability": 0.0383,
-              "ev": 1.984,
+              "signal": "Cote 127 · Value · Base 30",
+              "odds": 127.0,
+              "probability": 0.0362,
+              "ev": 3.592,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -8637,12 +8643,12 @@
               "rank": 8,
               "num": 8,
               "name": "PIPA SPARROW",
-              "note": 33.6,
+              "note": 32.9,
               "profile": "Associé modèle",
-              "signal": "Cote 27 · Base 39",
-              "odds": 27.0,
-              "probability": 0.037,
-              "ev": -0.002,
+              "signal": "Cote 43 · Base 38",
+              "odds": 43.0,
+              "probability": 0.0325,
+              "ev": 0.396,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -8650,25 +8656,25 @@
               "rank": 9,
               "num": 11,
               "name": "RELLINA BALDWIN",
-              "note": 29.0,
+              "note": 28.6,
               "profile": "Outsider modèle",
-              "signal": "Cote 62 · Base 32",
-              "odds": 62.0,
-              "probability": 0.0233,
-              "ev": 0.443,
-              "value_bet": false,
+              "signal": "Cote 87 · Value · Base 31",
+              "odds": 87.0,
+              "probability": 0.0218,
+              "ev": 0.895,
+              "value_bet": true,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 10,
               "num": 5,
               "name": "PAULO BASE E",
-              "note": 22.8,
+              "note": 22.2,
               "profile": "Outsider modèle",
-              "signal": "Cote 61 · Base 18",
-              "odds": 61.0,
-              "probability": 0.0153,
-              "ev": -0.067,
+              "signal": "Cote 114 · Base 17",
+              "odds": 114.0,
+              "probability": 0.0131,
+              "ev": 0.497,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -8676,12 +8682,12 @@
               "rank": 11,
               "num": 10,
               "name": "JADORE ICE",
-              "note": 21.5,
+              "note": 21.7,
               "profile": "Outsider modèle",
-              "signal": "Cote 215 · Base 11",
-              "odds": 215.0,
-              "probability": 0.0116,
-              "ev": 1.502,
+              "signal": "Cote 166 · Base 11",
+              "odds": 166.0,
+              "probability": 0.0121,
+              "ev": 1.01,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             }
@@ -8693,7 +8699,7 @@
           "course": 9,
           "code": "R5C9",
           "name": "PRIX FIDEEL                             BELGIQUE",
-          "start_at": "2026-06-09T19:43:00+00:00",
+          "start_at": "2026-06-09T19:50:00+00:00",
           "allocation": 1500,
           "discipline": "ATTELE",
           "quinte": false,
@@ -9038,8 +9044,13 @@
           "allocation": 1575,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            4,
+            3,
+            2,
+            1
+          ],
           "runners": [
             {
               "num": 1,
@@ -9081,11 +9092,11 @@
           "course": 3,
           "code": "R6C3",
           "name": "YUNGAYINO",
-          "start_at": "2026-06-09T19:30:00+00:00",
+          "start_at": "2026-06-09T19:35:00+00:00",
           "allocation": 1066,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -11011,19 +11022,19 @@
   "settled_count": 37,
   "observation": {
     "courses_count": 1159,
-    "arrivals_count": 1091,
+    "arrivals_count": 1093,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 565,
-        "top3_covered_rate": 33.8,
-        "top5_covered_rate": 56.3
+        "courses": 566,
+        "top3_covered_rate": 33.9,
+        "top5_covered_rate": 56.2
       },
       {
         "name": "Trot",
-        "courses": 515,
+        "courses": 516,
         "top3_covered_rate": 26.2,
-        "top5_covered_rate": 35.0
+        "top5_covered_rate": 35.1
       }
     ],
     "best_hippos": [
@@ -11061,67 +11072,67 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 1109,
+        "runners": 1111,
         "top3_rate": 56.4,
-        "top5_rate": 71.4
+        "top5_rate": 71.5
       },
       {
         "rank": 2,
-        "runners": 1102,
+        "runners": 1104,
         "top3_rate": 44.4,
         "top5_rate": 63.3
       },
       {
         "rank": 3,
-        "runners": 1101,
+        "runners": 1103,
         "top3_rate": 38.4,
         "top5_rate": 59.6
       },
       {
         "rank": 4,
-        "runners": 1111,
+        "runners": 1113,
         "top3_rate": 32.9,
         "top5_rate": 55.4
       },
       {
         "rank": 5,
-        "runners": 1102,
+        "runners": 1104,
         "top3_rate": 28.5,
         "top5_rate": 51.5
       },
       {
         "rank": 6,
-        "runners": 1089,
+        "runners": 1091,
         "top3_rate": 24.2,
-        "top5_rate": 45.2
+        "top5_rate": 45.1
       },
       {
         "rank": 7,
-        "runners": 1066,
+        "runners": 1068,
         "top3_rate": 18.9,
-        "top5_rate": 38.9
+        "top5_rate": 39.0
       },
       {
         "rank": 8,
-        "runners": 966,
-        "top3_rate": 16.9,
-        "top5_rate": 33.6
+        "runners": 968,
+        "top3_rate": 16.8,
+        "top5_rate": 33.7
       },
       {
         "rank": 9,
-        "runners": 871,
+        "runners": 872,
         "top3_rate": 15.4,
         "top5_rate": 32.1
       },
       {
         "rank": 10,
-        "runners": 755,
-        "top3_rate": 12.1,
+        "runners": 757,
+        "top3_rate": 12.0,
         "top5_rate": 25.6
       },
       {
         "rank": 11,
-        "runners": 626,
+        "runners": 627,
         "top3_rate": 12.0,
         "top5_rate": 22.0
       },
