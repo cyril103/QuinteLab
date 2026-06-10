@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T18:30:28.688472+00:00",
+  "generated_at": "2026-06-10T19:00:57.482215+00:00",
   "finance": {
     "bankroll": 172.45,
     "bets_count": 38,
@@ -9352,11 +9352,13 @@
           "allocation": 25511,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             1,
             10,
-            3
+            3,
+            5,
+            7
           ],
           "runners": [
             {
@@ -9488,8 +9490,12 @@
           "allocation": 30136,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "DEPART_CONFIRME",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE",
+          "result_top5": [
+            13,
+            6,
+            9
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9685,8 +9691,12 @@
           "allocation": 25511,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE",
+          "result_top5": [
+            7,
+            1,
+            9
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9856,7 +9866,7 @@
           "allocation": 30136,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -10401,11 +10411,13 @@
           "allocation": 6569,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             7,
             4,
-            2
+            2,
+            6,
+            11
           ],
           "runners": [
             {
@@ -10559,12 +10571,18 @@
           "course": 6,
           "code": "R7C6",
           "name": "PREMIO HONY BOONE 2022",
-          "start_at": "2026-06-10T18:45:00+00:00",
+          "start_at": "2026-06-10T18:47:00+00:00",
           "allocation": 4379,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            2,
+            3,
+            1,
+            4,
+            6
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10669,7 +10687,7 @@
           "allocation": 5943,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -11149,7 +11167,7 @@
           "allocation": 1667,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -13031,19 +13049,19 @@
   "settled_count": 38,
   "observation": {
     "courses_count": 1225,
-    "arrivals_count": 1147,
+    "arrivals_count": 1151,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 592,
-        "top3_covered_rate": 33.8,
+        "courses": 594,
+        "top3_covered_rate": 33.7,
         "top5_covered_rate": 56.1
       },
       {
         "name": "Trot",
-        "courses": 544,
-        "top3_covered_rate": 26.3,
-        "top5_covered_rate": 35.5
+        "courses": 546,
+        "top3_covered_rate": 26.2,
+        "top5_covered_rate": 35.3
       }
     ],
     "best_hippos": [
@@ -13066,84 +13084,84 @@
         "top5_covered_rate": 55.6
       },
       {
+        "name": "SAN ISIDRO",
+        "courses": 33,
+        "top3_covered_rate": 27.3,
+        "top5_covered_rate": 60.6
+      },
+      {
         "name": "COMPIEGNE",
         "courses": 32,
         "top3_covered_rate": 15.6,
         "top5_covered_rate": 50.0
-      },
-      {
-        "name": "SAN ISIDRO",
-        "courses": 32,
-        "top3_covered_rate": 28.1,
-        "top5_covered_rate": 62.5
       }
     ],
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 1166,
-        "top3_rate": 56.3,
+        "runners": 1171,
+        "top3_rate": 56.4,
         "top5_rate": 71.5
       },
       {
         "rank": 2,
-        "runners": 1160,
-        "top3_rate": 44.4,
+        "runners": 1164,
+        "top3_rate": 44.3,
         "top5_rate": 63.3
       },
       {
         "rank": 3,
-        "runners": 1158,
-        "top3_rate": 38.0,
-        "top5_rate": 59.5
+        "runners": 1163,
+        "top3_rate": 37.8,
+        "top5_rate": 59.4
       },
       {
         "rank": 4,
-        "runners": 1169,
+        "runners": 1173,
         "top3_rate": 33.0,
-        "top5_rate": 55.3
+        "top5_rate": 55.2
       },
       {
         "rank": 5,
-        "runners": 1160,
-        "top3_rate": 28.2,
+        "runners": 1164,
+        "top3_rate": 28.3,
         "top5_rate": 51.2
       },
       {
         "rank": 6,
-        "runners": 1146,
-        "top3_rate": 24.6,
+        "runners": 1150,
+        "top3_rate": 24.7,
         "top5_rate": 45.3
       },
       {
         "rank": 7,
-        "runners": 1124,
+        "runners": 1128,
         "top3_rate": 18.9,
         "top5_rate": 39.1
       },
       {
         "rank": 8,
-        "runners": 1022,
-        "top3_rate": 17.0,
+        "runners": 1026,
+        "top3_rate": 17.1,
         "top5_rate": 33.7
       },
       {
         "rank": 9,
-        "runners": 923,
-        "top3_rate": 15.4,
+        "runners": 927,
+        "top3_rate": 15.3,
         "top5_rate": 31.7
       },
       {
         "rank": 10,
-        "runners": 806,
-        "top3_rate": 11.8,
-        "top5_rate": 25.2
+        "runners": 809,
+        "top3_rate": 11.9,
+        "top5_rate": 25.3
       },
       {
         "rank": 11,
-        "runners": 663,
-        "top3_rate": 12.1,
-        "top5_rate": 22.5
+        "runners": 665,
+        "top3_rate": 12.0,
+        "top5_rate": 22.4
       },
       {
         "rank": 12,
