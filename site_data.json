@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T19:30:15.298041+00:00",
+  "generated_at": "2026-06-10T20:00:35.742615+00:00",
   "finance": {
     "bankroll": 172.45,
     "bets_count": 38,
@@ -9693,11 +9693,13 @@
           "allocation": 25511,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             7,
             1,
-            9
+            9,
+            5,
+            8
           ],
           "runners": [
             {
@@ -9868,11 +9870,13 @@
           "allocation": 30136,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             11,
             8,
-            12
+            12,
+            15,
+            13
           ],
           "runners": [
             {
@@ -10082,8 +10086,12 @@
           "allocation": 25511,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "DEPART_CONFIRME",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE",
+          "result_top5": [
+            15,
+            10,
+            13
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10253,8 +10261,12 @@
           "allocation": 27251,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE",
+          "result_top5": [
+            8,
+            7,
+            4
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10892,12 +10904,18 @@
           "course": 8,
           "code": "R7C8",
           "name": "HANDICAP RAFALE",
-          "start_at": "2026-06-10T19:45:00+00:00",
+          "start_at": "2026-06-10T19:48:00+00:00",
           "allocation": 11183,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            7,
+            3,
+            1,
+            5,
+            2
+          ],
           "runners": [
             {
               "rank": 1,
@@ -11002,7 +11020,7 @@
           "allocation": 5943,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -11330,8 +11348,14 @@
           "allocation": 4104,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            7,
+            9,
+            16,
+            15,
+            12
+          ],
           "runners": [
             {
               "rank": 1,
@@ -11341,7 +11365,7 @@
               "profile": "Base modèle",
               "signal": "Base 43",
               "odds": null,
-              "probability": 0.3577,
+              "probability": 0.3645,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11354,7 +11378,7 @@
               "profile": "Base modèle",
               "signal": "Base 33",
               "odds": null,
-              "probability": 0.1652,
+              "probability": 0.1684,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11367,7 +11391,7 @@
               "profile": "Base modèle",
               "signal": "Base 29",
               "odds": null,
-              "probability": 0.1335,
+              "probability": 0.136,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11380,7 +11404,7 @@
               "profile": "Associé modèle",
               "signal": "Base 22",
               "odds": null,
-              "probability": 0.0781,
+              "probability": 0.0796,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11393,7 +11417,7 @@
               "profile": "Associé modèle",
               "signal": "Base 14",
               "odds": null,
-              "probability": 0.0317,
+              "probability": 0.0323,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11406,7 +11430,7 @@
               "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0307,
+              "probability": 0.0312,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11419,7 +11443,7 @@
               "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0307,
+              "probability": 0.0312,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11432,7 +11456,7 @@
               "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0307,
+              "probability": 0.0312,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11445,7 +11469,7 @@
               "profile": "Outsider modèle",
               "signal": "Base 7",
               "odds": null,
-              "probability": 0.0256,
+              "probability": 0.0261,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11458,7 +11482,7 @@
               "profile": "Outsider modèle",
               "signal": "Base 8",
               "odds": null,
-              "probability": 0.022,
+              "probability": 0.0224,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11471,7 +11495,7 @@
               "profile": "Outsider modèle",
               "signal": "Base 3",
               "odds": null,
-              "probability": 0.0211,
+              "probability": 0.0215,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11484,7 +11508,7 @@
               "profile": "Outsider modèle",
               "signal": "Base 3",
               "odds": null,
-              "probability": 0.0194,
+              "probability": 0.0197,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11497,33 +11521,20 @@
               "profile": "Outsider modèle",
               "signal": "Base 2",
               "odds": null,
-              "probability": 0.0186,
+              "probability": 0.019,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 14,
-              "num": 8,
-              "name": "SABIA PALABRA",
-              "note": 8.1,
-              "profile": "Outsider modèle",
-              "signal": "Base 2",
-              "odds": null,
-              "probability": 0.0186,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 15,
               "num": 14,
               "name": "CUANDO VUELVES",
               "note": 6.7,
               "profile": "Outsider modèle",
               "signal": "Base 3",
               "odds": null,
-              "probability": 0.0166,
+              "probability": 0.0169,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -11536,11 +11547,11 @@
           "course": 5,
           "code": "R8C5",
           "name": "OBSESIONADO H.",
-          "start_at": "2026-06-10T20:00:00+00:00",
+          "start_at": "2026-06-10T20:05:00+00:00",
           "allocation": 1860,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -13067,19 +13078,19 @@
   "settled_count": 38,
   "observation": {
     "courses_count": 1225,
-    "arrivals_count": 1152,
+    "arrivals_count": 1155,
     "best_disciplines": [
       {
         "name": "Galop",
-        "courses": 594,
-        "top3_covered_rate": 33.7,
-        "top5_covered_rate": 56.1
+        "courses": 596,
+        "top3_covered_rate": 33.9,
+        "top5_covered_rate": 56.2
       },
       {
         "name": "Trot",
-        "courses": 547,
+        "courses": 548,
         "top3_covered_rate": 26.1,
-        "top5_covered_rate": 35.3
+        "top5_covered_rate": 35.2
       }
     ],
     "best_hippos": [
@@ -13103,9 +13114,9 @@
       },
       {
         "name": "SAN ISIDRO",
-        "courses": 33,
-        "top3_covered_rate": 27.3,
-        "top5_covered_rate": 60.6
+        "courses": 34,
+        "top3_covered_rate": 29.4,
+        "top5_covered_rate": 61.8
       },
       {
         "name": "COMPIEGNE",
@@ -13117,73 +13128,73 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 1172,
+        "runners": 1175,
         "top3_rate": 56.4,
         "top5_rate": 71.5
       },
       {
         "rank": 2,
-        "runners": 1165,
+        "runners": 1168,
         "top3_rate": 44.3,
         "top5_rate": 63.3
       },
       {
         "rank": 3,
-        "runners": 1164,
-        "top3_rate": 37.8,
-        "top5_rate": 59.4
+        "runners": 1167,
+        "top3_rate": 38.0,
+        "top5_rate": 59.5
       },
       {
         "rank": 4,
-        "runners": 1174,
+        "runners": 1177,
         "top3_rate": 33.0,
         "top5_rate": 55.1
       },
       {
         "rank": 5,
-        "runners": 1165,
+        "runners": 1168,
         "top3_rate": 28.3,
-        "top5_rate": 51.2
+        "top5_rate": 51.1
       },
       {
         "rank": 6,
-        "runners": 1151,
+        "runners": 1154,
         "top3_rate": 24.7,
         "top5_rate": 45.4
       },
       {
         "rank": 7,
-        "runners": 1129,
+        "runners": 1132,
         "top3_rate": 18.9,
         "top5_rate": 39.1
       },
       {
         "rank": 8,
-        "runners": 1027,
+        "runners": 1029,
         "top3_rate": 17.0,
-        "top5_rate": 33.7
+        "top5_rate": 33.6
       },
       {
         "rank": 9,
-        "runners": 928,
+        "runners": 930,
         "top3_rate": 15.3,
         "top5_rate": 31.8
       },
       {
         "rank": 10,
-        "runners": 810,
-        "top3_rate": 11.9,
-        "top5_rate": 25.3
+        "runners": 812,
+        "top3_rate": 11.8,
+        "top5_rate": 25.4
       },
       {
         "rank": 11,
-        "runners": 666,
+        "runners": 667,
         "top3_rate": 12.0,
-        "top5_rate": 22.4
+        "top5_rate": 22.3
       },
       {
         "rank": 12,
-        "runners": 541,
+        "runners": 542,
         "top3_rate": 8.9,
         "top5_rate": 19.6
       }
