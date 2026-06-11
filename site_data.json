@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T19:30:58.299908+00:00",
+  "generated_at": "2026-06-11T20:00:17.660629+00:00",
   "finance": {
     "bankroll": 161.95,
     "bets_count": 39,
@@ -2988,12 +2988,13 @@
           "allocation": 19200,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             6,
             7,
             3,
-            2
+            2,
+            13
           ],
           "runners": [
             {
@@ -7699,8 +7700,14 @@
           "allocation": 1205,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            3,
+            5,
+            7,
+            2,
+            4
+          ],
           "runners": [
             {
               "rank": 1,
@@ -7805,7 +7812,7 @@
           "allocation": 973,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -7909,7 +7916,7 @@
               "profile": "Base modèle",
               "signal": "Base 53",
               "odds": null,
-              "probability": 0.1754,
+              "probability": 0.1913,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -7922,7 +7929,7 @@
               "profile": "Base modèle",
               "signal": "Base 47",
               "odds": null,
-              "probability": 0.0949,
+              "probability": 0.1035,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -7935,7 +7942,7 @@
               "profile": "Base modèle",
               "signal": "Base 49",
               "odds": null,
-              "probability": 0.0879,
+              "probability": 0.0959,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -7948,7 +7955,7 @@
               "profile": "Associé modèle",
               "signal": "Base 44",
               "odds": null,
-              "probability": 0.0795,
+              "probability": 0.0867,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -7961,137 +7968,111 @@
               "profile": "Associé modèle",
               "signal": "Base 39",
               "odds": null,
-              "probability": 0.0689,
+              "probability": 0.0751,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 6,
-              "num": 8,
-              "name": "GRAN KEVIN",
-              "note": 37.9,
-              "profile": "Associé modèle",
-              "signal": "Base 37",
-              "odds": null,
-              "probability": 0.0663,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 7,
               "num": 9,
               "name": "EL TATUADO",
               "note": 37.5,
               "profile": "Associé modèle",
               "signal": "Base 40",
               "odds": null,
-              "probability": 0.0646,
+              "probability": 0.0704,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 8,
+              "rank": 7,
               "num": 13,
               "name": "DESERT CAT",
               "note": 36.4,
               "profile": "Associé modèle",
               "signal": "Base 44",
               "odds": null,
-              "probability": 0.0585,
+              "probability": 0.0639,
+              "ev": 0.0,
+              "value_bet": false,
+              "source": "sqlite_runner_scores"
+            },
+            {
+              "rank": 8,
+              "num": 10,
+              "name": "JOVENTURFMAN",
+              "note": 36.3,
+              "profile": "Associé modèle",
+              "signal": "Base 37",
+              "odds": null,
+              "probability": 0.0636,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 9,
-              "num": 10,
-              "name": "JOVENTURFMAN",
-              "note": 36.3,
-              "profile": "Outsider modèle",
-              "signal": "Base 37",
-              "odds": null,
-              "probability": 0.0583,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 10,
               "num": 11,
               "name": "ALMERILLO",
               "note": 35.8,
               "profile": "Outsider modèle",
               "signal": "Base 36",
               "odds": null,
-              "probability": 0.0559,
+              "probability": 0.061,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 11,
+              "rank": 10,
               "num": 5,
               "name": "ME LO LLEVO",
               "note": 35.1,
               "profile": "Outsider modèle",
               "signal": "Base 35",
               "odds": null,
-              "probability": 0.0527,
+              "probability": 0.0574,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 12,
+              "rank": 11,
               "num": 6,
               "name": "CEDERIC",
               "note": 35.0,
               "profile": "Outsider modèle",
               "signal": "Base 31",
               "odds": null,
-              "probability": 0.0522,
+              "probability": 0.057,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 13,
+              "rank": 12,
               "num": 15,
               "name": "GOLDEN WARRIOR",
               "note": 33.5,
               "profile": "Outsider modèle",
               "signal": "Base 41",
               "odds": null,
-              "probability": 0.0463,
+              "probability": 0.0505,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 14,
+              "rank": 13,
               "num": 14,
               "name": "STROKE OF LUCK",
               "note": 24.4,
               "profile": "Outsider modèle",
               "signal": "Base 19",
               "odds": null,
-              "probability": 0.0216,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 15,
-              "num": 4,
-              "name": "NUBES NEGRAS",
-              "note": 21.5,
-              "profile": "Outsider modèle",
-              "signal": "Base 8",
-              "odds": null,
-              "probability": 0.0169,
+              "probability": 0.0236,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8951,8 +8932,14 @@
           "allocation": 76943,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            3,
+            5,
+            2,
+            8,
+            1
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9053,11 +9040,11 @@
           "course": 7,
           "code": "R6C7",
           "name": "ALLOWANCE OPTIONAL CLAIMING 1700",
-          "start_at": "2026-06-11T20:16:00+00:00",
+          "start_at": "2026-06-11T20:18:00+00:00",
           "allocation": 84638,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -9305,7 +9292,7 @@
   "settled_count": 39,
   "observation": {
     "courses_count": 1272,
-    "arrivals_count": 1200,
+    "arrivals_count": 1201,
     "best_disciplines": [
       {
         "name": "Trot",
