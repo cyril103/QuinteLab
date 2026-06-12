@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T20:30:50.736120+00:00",
+  "generated_at": "2026-06-12T21:00:03.749468+00:00",
   "finance": {
     "bankroll": 151.45,
     "bets_count": 40,
@@ -8451,11 +8451,13 @@
           "allocation": 25487,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             1,
             3,
-            2
+            2,
+            7,
+            4
           ],
           "runners": [
             {
@@ -8548,8 +8550,12 @@
           "allocation": 68287,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE",
+          "result_top5": [
+            3,
+            6,
+            5
+          ],
           "runners": [
             {
               "rank": 1,
@@ -8628,7 +8634,7 @@
           "allocation": 62516,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -8731,7 +8737,7 @@
   "settled_count": 40,
   "observation": {
     "courses_count": 1318,
-    "arrivals_count": 1250,
+    "arrivals_count": 1252,
     "best_disciplines": [
       {
         "name": "Trot",
