@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T02:30:53.398972+00:00",
+  "generated_at": "2026-06-14T03:00:16.254758+00:00",
   "finance": {
     "bankroll": 146.8,
     "bets_count": 41,
@@ -3061,17 +3061,17 @@
           "result_top5": [],
           "runners": [
             {
-              "num": 2,
-              "name": "SPACE WALTZ",
-              "note": 85.2,
+              "num": 4,
+              "name": "RUMORISTE",
+              "note": 95.0,
               "profile": "Base possible",
-              "signal": "Partant confirmé",
+              "signal": "Cote 1.1",
               "rank": 1
             },
             {
-              "num": 4,
-              "name": "RUMORISTE",
-              "note": 83.0,
+              "num": 2,
+              "name": "SPACE WALTZ",
+              "note": 85.2,
               "profile": "Base possible",
               "signal": "Partant confirmé",
               "rank": 2
