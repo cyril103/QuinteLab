@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T19:30:03.668685+00:00",
+  "generated_at": "2026-06-15T20:00:29.422861+00:00",
   "finance": {
     "bankroll": 125.8,
     "bets_count": 43,
@@ -8188,8 +8188,14 @@
           "allocation": 4489,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            6,
+            8,
+            10,
+            5,
+            2
+          ],
           "runners": [
             {
               "rank": 1,
@@ -8320,7 +8326,7 @@
           "allocation": 7695,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "JOKEYS_MONTENT_A_CHEVAL",
           "result_top5": [],
           "runners": [
             {
@@ -9031,8 +9037,14 @@
           "allocation": 12512,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            13,
+            14,
+            7,
+            3,
+            2
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9042,7 +9054,7 @@
               "profile": "Base modèle",
               "signal": "Base 49",
               "odds": null,
-              "probability": 0.3409,
+              "probability": 0.3487,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9055,7 +9067,7 @@
               "profile": "Base modèle",
               "signal": "Base 45",
               "odds": null,
-              "probability": 0.2593,
+              "probability": 0.2653,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9068,7 +9080,7 @@
               "profile": "Base modèle",
               "signal": "Base 38",
               "odds": null,
-              "probability": 0.1908,
+              "probability": 0.1953,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9081,7 +9093,7 @@
               "profile": "Associé modèle",
               "signal": "Base 19",
               "odds": null,
-              "probability": 0.0256,
+              "probability": 0.0262,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9094,111 +9106,98 @@
               "profile": "Associé modèle",
               "signal": "Base 18",
               "odds": null,
-              "probability": 0.0234,
+              "probability": 0.0239,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 6,
-              "num": 5,
-              "name": "MALENIKI",
-              "note": 17.1,
-              "profile": "Associé modèle",
-              "signal": "Base 18",
-              "odds": null,
-              "probability": 0.0226,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 7,
               "num": 6,
               "name": "OUTSIDE KING",
               "note": 17.1,
               "profile": "Associé modèle",
               "signal": "Base 18",
               "odds": null,
-              "probability": 0.0226,
+              "probability": 0.0231,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 8,
+              "rank": 7,
               "num": 8,
               "name": "SIDNEY RIVER",
               "note": 16.0,
               "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0206,
+              "probability": 0.0211,
+              "ev": 0.0,
+              "value_bet": false,
+              "source": "sqlite_runner_scores"
+            },
+            {
+              "rank": 8,
+              "num": 10,
+              "name": "DON JALEO",
+              "note": 15.6,
+              "profile": "Associé modèle",
+              "signal": "Base 17",
+              "odds": null,
+              "probability": 0.0204,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 9,
-              "num": 10,
-              "name": "DON JALEO",
-              "note": 15.6,
-              "profile": "Outsider modèle",
-              "signal": "Base 17",
-              "odds": null,
-              "probability": 0.02,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 10,
               "num": 12,
               "name": "SIN CONSULTAR",
               "note": 15.6,
               "profile": "Outsider modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.02,
+              "probability": 0.0204,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 11,
+              "rank": 10,
               "num": 13,
               "name": "EQUAL HIDDEN",
               "note": 14.6,
               "profile": "Outsider modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0184,
+              "probability": 0.0188,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 12,
+              "rank": 11,
               "num": 14,
               "name": "BELLO CHINO",
               "note": 14.6,
               "profile": "Outsider modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0184,
+              "probability": 0.0188,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 13,
+              "rank": 12,
               "num": 11,
               "name": "SANTINECCO",
               "note": 13.9,
               "profile": "Outsider modèle",
               "signal": "Base 16",
               "odds": null,
-              "probability": 0.0174,
+              "probability": 0.0178,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9211,11 +9210,11 @@
           "course": 7,
           "code": "R6C7",
           "name": "PREMIO PERFECT DELIVERY",
-          "start_at": "2026-06-15T19:55:00+00:00",
+          "start_at": "2026-06-15T20:00:00+00:00",
           "allocation": 6412,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -9345,7 +9344,7 @@
               "profile": "Base modèle",
               "signal": "Base 51",
               "odds": null,
-              "probability": 0.2137,
+              "probability": 0.2477,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9358,7 +9357,7 @@
               "profile": "Base modèle",
               "signal": "Base 48",
               "odds": null,
-              "probability": 0.1895,
+              "probability": 0.2197,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9371,85 +9370,72 @@
               "profile": "Base modèle",
               "signal": "Base 48",
               "odds": null,
-              "probability": 0.1734,
+              "probability": 0.201,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 4,
-              "num": 2,
-              "name": "PERDIENDO EL TIEMPO",
-              "note": 44.8,
-              "profile": "Associé modèle",
-              "signal": "Base 42",
-              "odds": null,
-              "probability": 0.1374,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 5,
               "num": 3,
               "name": "PRA KASH",
               "note": 44.8,
               "profile": "Associé modèle",
               "signal": "Base 42",
               "odds": null,
-              "probability": 0.1374,
+              "probability": 0.1593,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 6,
+              "rank": 5,
               "num": 4,
               "name": "CASERO SILVADOR",
               "note": 37.7,
               "profile": "Associé modèle",
               "signal": "Base 24",
               "odds": null,
-              "probability": 0.0757,
+              "probability": 0.0877,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 7,
+              "rank": 6,
               "num": 1,
               "name": "AMIGUITO ESTRELLA",
               "note": 32.2,
               "profile": "Associé modèle",
               "signal": "Base 15",
               "odds": null,
-              "probability": 0.0478,
+              "probability": 0.0555,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 8,
+              "rank": 7,
               "num": 5,
               "name": "CHE EXPLOSIVO",
               "note": 16.6,
               "profile": "Associé modèle",
               "signal": "Base 18",
               "odds": null,
-              "probability": 0.013,
+              "probability": 0.0151,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 9,
+              "rank": 8,
               "num": 9,
               "name": "BABY SI",
               "note": 15.6,
-              "profile": "Outsider modèle",
+              "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.012,
+              "probability": 0.014,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9740,7 +9726,7 @@
   "settled_count": 43,
   "observation": {
     "courses_count": 1490,
-    "arrivals_count": 1409,
+    "arrivals_count": 1411,
     "best_disciplines": [
       {
         "name": "Trot",
@@ -9750,7 +9736,7 @@
       },
       {
         "name": "Galop",
-        "courses": 267,
+        "courses": 268,
         "top3_covered_rate": 15.7,
         "top5_covered_rate": 18.7
       }
@@ -9790,75 +9776,75 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 700,
+        "runners": 701,
         "top3_rate": 49.1,
-        "top5_rate": 63.7
+        "top5_rate": 63.6
       },
       {
         "rank": 2,
-        "runners": 700,
-        "top3_rate": 40.0,
-        "top5_rate": 54.7
+        "runners": 701,
+        "top3_rate": 40.1,
+        "top5_rate": 54.8
       },
       {
         "rank": 3,
-        "runners": 696,
+        "runners": 697,
         "top3_rate": 32.6,
-        "top5_rate": 51.0
+        "top5_rate": 50.9
       },
       {
         "rank": 4,
-        "runners": 702,
-        "top3_rate": 31.1,
-        "top5_rate": 48.3
+        "runners": 703,
+        "top3_rate": 31.0,
+        "top5_rate": 48.4
       },
       {
         "rank": 5,
-        "runners": 691,
+        "runners": 692,
         "top3_rate": 24.9,
         "top5_rate": 43.1
       },
       {
         "rank": 6,
-        "runners": 699,
+        "runners": 700,
         "top3_rate": 23.3,
         "top5_rate": 38.9
       },
       {
         "rank": 7,
-        "runners": 711,
+        "runners": 712,
         "top3_rate": 17.3,
         "top5_rate": 33.6
       },
       {
         "rank": 8,
-        "runners": 702,
-        "top3_rate": 16.7,
-        "top5_rate": 32.3
+        "runners": 703,
+        "top3_rate": 16.8,
+        "top5_rate": 32.4
       },
       {
         "rank": 9,
-        "runners": 702,
-        "top3_rate": 15.7,
-        "top5_rate": 31.1
+        "runners": 703,
+        "top3_rate": 15.8,
+        "top5_rate": 31.2
       },
       {
         "rank": 10,
-        "runners": 711,
+        "runners": 712,
         "top3_rate": 13.1,
         "top5_rate": 26.0
       },
       {
         "rank": 11,
-        "runners": 691,
+        "runners": 692,
         "top3_rate": 12.3,
         "top5_rate": 23.4
       },
       {
         "rank": 12,
-        "runners": 659,
+        "runners": 660,
         "top3_rate": 8.5,
-        "top5_rate": 19.9
+        "top5_rate": 19.8
       }
     ]
   },
