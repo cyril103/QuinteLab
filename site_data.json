@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T02:30:27.448899+00:00",
+  "generated_at": "2026-06-15T03:00:49.130569+00:00",
   "finance": {
     "bankroll": 136.3,
     "bets_count": 42,
@@ -3369,7 +3369,7 @@
               "profile": "Base modèle",
               "signal": "Base 49",
               "odds": null,
-              "probability": 0.3171,
+              "probability": 0.3914,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -3382,7 +3382,7 @@
               "profile": "Base modèle",
               "signal": "Base 46",
               "odds": null,
-              "probability": 0.2614,
+              "probability": 0.3226,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -3395,46 +3395,33 @@
               "profile": "Base modèle",
               "signal": "Base 35",
               "odds": null,
-              "probability": 0.1923,
+              "probability": 0.2374,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 4,
-              "num": 3,
-              "name": "SOUDYA",
-              "note": 42.1,
-              "profile": "Associé modèle",
-              "signal": "Base 41",
-              "odds": null,
-              "probability": 0.1898,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 5,
               "num": 6,
               "name": "CASABLANCA",
               "note": 17.1,
               "profile": "Associé modèle",
               "signal": "Base 18",
               "odds": null,
-              "probability": 0.0236,
+              "probability": 0.0291,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 6,
+              "rank": 5,
               "num": 2,
               "name": "NAGIKHTAAL",
               "note": 12.3,
               "profile": "Associé modèle",
               "signal": "Base 8",
               "odds": null,
-              "probability": 0.0158,
+              "probability": 0.0195,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
