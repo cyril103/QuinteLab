@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T20:30:44.042265+00:00",
+  "generated_at": "2026-06-15T21:00:00.727000+00:00",
   "finance": {
     "bankroll": 125.8,
     "bets_count": 43,
@@ -8477,8 +8477,14 @@
           "allocation": 2116,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            3,
+            5,
+            7,
+            13,
+            8
+          ],
           "runners": [
             {
               "rank": 1,
@@ -8661,7 +8667,7 @@
           "allocation": 2398,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -9345,8 +9351,14 @@
           "allocation": 12981,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_SOUS_ORDRES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            6,
+            7,
+            8,
+            4,
+            1
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9460,11 +9472,11 @@
           "course": 9,
           "code": "R6C9",
           "name": "PERFECT DELIVEY  (2DO. TURNO)",
-          "start_at": "2026-06-15T20:55:00+00:00",
+          "start_at": "2026-06-15T20:57:00+00:00",
           "allocation": 6412,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -9738,7 +9750,7 @@
   "settled_count": 43,
   "observation": {
     "courses_count": 1490,
-    "arrivals_count": 1413,
+    "arrivals_count": 1415,
     "best_disciplines": [
       {
         "name": "Trot",
