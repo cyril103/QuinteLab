@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T20:30:04.339618+00:00",
+  "generated_at": "2026-06-16T21:00:18.319392+00:00",
   "finance": {
     "bankroll": 123.8,
     "bets_count": 44,
@@ -9603,8 +9603,14 @@
           "allocation": 1853,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            4,
+            1,
+            2,
+            5,
+            6
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9614,72 +9620,59 @@
               "profile": "Base modèle",
               "signal": "Base 56",
               "odds": null,
-              "probability": 0.2738,
+              "probability": 0.3508,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 2,
-              "num": 3,
-              "name": "NINO DEL SUR",
-              "note": 48.2,
-              "profile": "Base modèle",
-              "signal": "Base 45",
-              "odds": null,
-              "probability": 0.2195,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 3,
               "num": 6,
               "name": "FIRST RAIDER",
               "note": 45.6,
               "profile": "Base modèle",
               "signal": "Base 47",
               "odds": null,
-              "probability": 0.1775,
+              "probability": 0.2274,
+              "ev": 0.0,
+              "value_bet": false,
+              "source": "sqlite_runner_scores"
+            },
+            {
+              "rank": 3,
+              "num": 2,
+              "name": "GRAN RAI",
+              "note": 41.5,
+              "profile": "Base modèle",
+              "signal": "Base 40",
+              "odds": null,
+              "probability": 0.1608,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 4,
-              "num": 2,
-              "name": "GRAN RAI",
-              "note": 41.5,
-              "profile": "Associé modèle",
-              "signal": "Base 40",
-              "odds": null,
-              "probability": 0.1255,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 5,
               "num": 4,
               "name": "MUY DONOSO",
               "note": 41.0,
               "profile": "Associé modèle",
               "signal": "Base 44",
               "odds": null,
-              "probability": 0.1204,
+              "probability": 0.1542,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 6,
+              "rank": 5,
               "num": 5,
               "name": "PECADO INCONFESABLE",
               "note": 36.6,
               "profile": "Associé modèle",
               "signal": "Base 36",
               "odds": null,
-              "probability": 0.0834,
+              "probability": 0.1068,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9692,11 +9685,11 @@
           "course": 6,
           "code": "R6C6",
           "name": "AROLAS",
-          "start_at": "2026-06-16T21:00:00+00:00",
+          "start_at": "2026-06-16T21:05:00+00:00",
           "allocation": 1390,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -9838,7 +9831,7 @@
   "settled_count": 44,
   "observation": {
     "courses_count": 1535,
-    "arrivals_count": 1458,
+    "arrivals_count": 1460,
     "best_disciplines": [
       {
         "name": "Trot",
