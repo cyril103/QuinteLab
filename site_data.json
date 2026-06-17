@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T20:30:59.553092+00:00",
+  "generated_at": "2026-06-17T21:00:16.864129+00:00",
   "finance": {
     "bankroll": 124.4,
     "bets_count": 45,
@@ -11920,8 +11920,14 @@
           "allocation": 11543,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            6,
+            9,
+            3,
+            5,
+            4
+          ],
           "runners": [
             {
               "rank": 1,
@@ -12061,11 +12067,11 @@
           "course": 8,
           "code": "R8C8",
           "name": "SANDY BAY H.",
-          "start_at": "2026-06-17T21:00:00+00:00",
+          "start_at": "2026-06-17T21:03:00+00:00",
           "allocation": 1924,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -12378,13 +12384,13 @@
   "settled_count": 45,
   "observation": {
     "courses_count": 1592,
-    "arrivals_count": 1513,
+    "arrivals_count": 1515,
     "best_disciplines": [
       {
         "name": "Trot",
-        "courses": 443,
-        "top3_covered_rate": 20.8,
-        "top5_covered_rate": 19.9
+        "courses": 444,
+        "top3_covered_rate": 20.7,
+        "top5_covered_rate": 19.8
       },
       {
         "name": "Galop",
@@ -12428,75 +12434,75 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 747,
+        "runners": 748,
         "top3_rate": 49.5,
-        "top5_rate": 64.1
+        "top5_rate": 64.2
       },
       {
         "rank": 2,
-        "runners": 748,
-        "top3_rate": 39.4,
+        "runners": 749,
+        "top3_rate": 39.5,
         "top5_rate": 53.9
       },
       {
         "rank": 3,
-        "runners": 744,
-        "top3_rate": 32.1,
-        "top5_rate": 50.5
+        "runners": 745,
+        "top3_rate": 32.2,
+        "top5_rate": 50.6
       },
       {
         "rank": 4,
-        "runners": 749,
+        "runners": 750,
         "top3_rate": 30.4,
         "top5_rate": 48.1
       },
       {
         "rank": 5,
-        "runners": 739,
-        "top3_rate": 24.8,
+        "runners": 740,
+        "top3_rate": 24.7,
         "top5_rate": 42.6
       },
       {
         "rank": 6,
-        "runners": 749,
+        "runners": 750,
         "top3_rate": 22.8,
-        "top5_rate": 38.6
+        "top5_rate": 38.5
       },
       {
         "rank": 7,
-        "runners": 761,
+        "runners": 762,
         "top3_rate": 17.2,
         "top5_rate": 33.2
       },
       {
         "rank": 8,
-        "runners": 751,
+        "runners": 752,
         "top3_rate": 17.2,
-        "top5_rate": 32.8
+        "top5_rate": 32.7
       },
       {
         "rank": 9,
-        "runners": 749,
-        "top3_rate": 15.4,
-        "top5_rate": 30.6
+        "runners": 750,
+        "top3_rate": 15.3,
+        "top5_rate": 30.5
       },
       {
         "rank": 10,
-        "runners": 758,
+        "runners": 759,
         "top3_rate": 13.3,
         "top5_rate": 26.4
       },
       {
         "rank": 11,
-        "runners": 738,
+        "runners": 739,
         "top3_rate": 12.6,
         "top5_rate": 23.3
       },
       {
         "rank": 12,
-        "runners": 706,
-        "top3_rate": 8.6,
-        "top5_rate": 19.8
+        "runners": 707,
+        "top3_rate": 8.8,
+        "top5_rate": 19.9
       }
     ]
   },
