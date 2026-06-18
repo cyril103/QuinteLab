@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T21:00:06.885759+00:00",
+  "generated_at": "2026-06-18T21:30:22.774634+00:00",
   "finance": {
     "bankroll": 100.0,
     "bets_count": 46,
@@ -10314,11 +10314,13 @@
           "allocation": 67325,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             5,
             3,
-            6
+            6,
+            8,
+            2
           ],
           "runners": [
             {
@@ -10398,8 +10400,13 @@
           "allocation": 39433,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "JOKEYS_MONTENT_A_CHEVAL",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            1,
+            6,
+            5,
+            4
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10409,7 +10416,7 @@
               "profile": "Base modèle",
               "signal": "Base 47",
               "odds": null,
-              "probability": 0.1838,
+              "probability": 0.1943,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -10422,7 +10429,7 @@
               "profile": "Base modèle",
               "signal": "Base 45",
               "odds": null,
-              "probability": 0.1772,
+              "probability": 0.1873,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -10435,7 +10442,7 @@
               "profile": "Base modèle",
               "signal": "Base 39",
               "odds": null,
-              "probability": 0.1281,
+              "probability": 0.1354,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -10448,7 +10455,7 @@
               "profile": "Associé modèle",
               "signal": "Base 29",
               "odds": null,
-              "probability": 0.0997,
+              "probability": 0.1054,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -10461,7 +10468,7 @@
               "profile": "Associé modèle",
               "signal": "Base 31",
               "odds": null,
-              "probability": 0.0966,
+              "probability": 0.1021,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -10474,7 +10481,7 @@
               "profile": "Associé modèle",
               "signal": "Base 31",
               "odds": null,
-              "probability": 0.092,
+              "probability": 0.0972,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -10487,7 +10494,7 @@
               "profile": "Associé modèle",
               "signal": "Base 33",
               "odds": null,
-              "probability": 0.0853,
+              "probability": 0.0902,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -10500,20 +10507,7 @@
               "profile": "Associé modèle",
               "signal": "Base 30",
               "odds": null,
-              "probability": 0.0833,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 9,
-              "num": 3,
-              "name": "WIDDERSHINS",
-              "note": 29.8,
-              "profile": "Outsider modèle",
-              "signal": "Base 21",
-              "odds": null,
-              "probability": 0.0539,
+              "probability": 0.0881,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
