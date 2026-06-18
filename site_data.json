@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T20:30:49.581736+00:00",
+  "generated_at": "2026-06-18T21:00:06.885759+00:00",
   "finance": {
     "bankroll": 100.0,
     "bets_count": 46,
@@ -10256,7 +10256,7 @@
           "allocation": 39433,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             6,
             4,
@@ -10314,8 +10314,12 @@
           "allocation": 67325,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE",
+          "result_top5": [
+            5,
+            3,
+            6
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10390,11 +10394,11 @@
           "course": 8,
           "code": "R6C8",
           "name": "CLAIMING 1600M",
-          "start_at": "2026-06-18T20:47:00+00:00",
+          "start_at": "2026-06-18T21:06:00+00:00",
           "allocation": 39433,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "JOKEYS_MONTENT_A_CHEVAL",
           "result_top5": [],
           "runners": [
             {
