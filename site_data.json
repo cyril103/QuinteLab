@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T20:30:32.278511+00:00",
+  "generated_at": "2026-06-20T21:00:51.009714+00:00",
   "finance": {
     "bankroll": 61.5,
     "bets_count": 48,
@@ -9773,8 +9773,14 @@
           "allocation": 39433,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            4,
+            6,
+            8,
+            7,
+            10
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9905,7 +9911,7 @@
           "allocation": 28373,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -10853,12 +10859,18 @@
           "course": 5,
           "code": "R8C5",
           "name": "SPIRITUS",
-          "start_at": "2026-06-20T20:35:00+00:00",
+          "start_at": "2026-06-20T20:33:00+00:00",
           "allocation": 6647,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            8,
+            3,
+            1,
+            7,
+            5
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10972,11 +10984,11 @@
           "course": 6,
           "code": "R8C6",
           "name": "CLASICO GENERAL BELGRANO (G2) ( GRADE II )",
-          "start_at": "2026-06-20T20:55:00+00:00",
+          "start_at": "2026-06-20T21:02:00+00:00",
           "allocation": 27370,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_SOUS_ORDRES",
           "result_top5": [],
           "runners": [
             {
@@ -17146,11 +17158,13 @@
           "allocation": 5500,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             5,
             9,
-            7
+            7,
+            4,
+            10
           ],
           "runners": [
             {
@@ -17292,17 +17306,17 @@
   "settled_count": 48,
   "observation": {
     "courses_count": 1790,
-    "arrivals_count": 1697,
+    "arrivals_count": 1702,
     "best_disciplines": [
       {
         "name": "Trot",
-        "courses": 510,
-        "top3_covered_rate": 21.8,
-        "top5_covered_rate": 19.6
+        "courses": 512,
+        "top3_covered_rate": 21.7,
+        "top5_covered_rate": 19.5
       },
       {
         "name": "Galop",
-        "courses": 322,
+        "courses": 323,
         "top3_covered_rate": 14.6,
         "top5_covered_rate": 18.0
       }
@@ -17316,9 +17330,9 @@
       },
       {
         "name": "GRAIGNES",
-        "courses": 35,
-        "top3_covered_rate": 11.4,
-        "top5_covered_rate": 17.1
+        "courses": 36,
+        "top3_covered_rate": 11.1,
+        "top5_covered_rate": 16.7
       },
       {
         "name": "ParisLongchamp",
@@ -17342,75 +17356,75 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 851,
-        "top3_rate": 49.1,
-        "top5_rate": 63.5
+        "runners": 854,
+        "top3_rate": 49.2,
+        "top5_rate": 63.6
       },
       {
         "rank": 2,
-        "runners": 851,
-        "top3_rate": 40.1,
-        "top5_rate": 55.1
+        "runners": 854,
+        "top3_rate": 39.9,
+        "top5_rate": 54.9
       },
       {
         "rank": 3,
-        "runners": 845,
-        "top3_rate": 32.1,
-        "top5_rate": 50.3
+        "runners": 848,
+        "top3_rate": 32.2,
+        "top5_rate": 50.4
       },
       {
         "rank": 4,
-        "runners": 851,
+        "runners": 854,
         "top3_rate": 30.3,
         "top5_rate": 47.1
       },
       {
         "rank": 5,
-        "runners": 843,
-        "top3_rate": 24.2,
-        "top5_rate": 42.1
+        "runners": 846,
+        "top3_rate": 24.1,
+        "top5_rate": 42.0
       },
       {
         "rank": 6,
-        "runners": 852,
-        "top3_rate": 22.4,
+        "runners": 855,
+        "top3_rate": 22.3,
         "top5_rate": 38.4
       },
       {
         "rank": 7,
-        "runners": 864,
-        "top3_rate": 17.1,
-        "top5_rate": 33.0
+        "runners": 867,
+        "top3_rate": 17.2,
+        "top5_rate": 33.1
       },
       {
         "rank": 8,
-        "runners": 853,
+        "runners": 857,
         "top3_rate": 17.6,
-        "top5_rate": 33.9
+        "top5_rate": 33.8
       },
       {
         "rank": 9,
-        "runners": 850,
-        "top3_rate": 14.9,
-        "top5_rate": 30.4
+        "runners": 853,
+        "top3_rate": 15.0,
+        "top5_rate": 30.5
       },
       {
         "rank": 10,
-        "runners": 860,
+        "runners": 863,
         "top3_rate": 13.0,
         "top5_rate": 26.0
       },
       {
         "rank": 11,
-        "runners": 840,
-        "top3_rate": 12.6,
-        "top5_rate": 23.2
+        "runners": 843,
+        "top3_rate": 12.7,
+        "top5_rate": 23.4
       },
       {
         "rank": 12,
-        "runners": 808,
+        "runners": 811,
         "top3_rate": 8.5,
-        "top5_rate": 19.6
+        "top5_rate": 19.5
       }
     ]
   },
