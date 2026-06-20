@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T21:00:51.009714+00:00",
+  "generated_at": "2026-06-20T21:30:09.698213+00:00",
   "finance": {
     "bankroll": 61.5,
     "bets_count": 48,
@@ -9911,8 +9911,14 @@
           "allocation": 28373,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            10,
+            3,
+            2,
+            1,
+            8
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10056,7 +10062,7 @@
           "allocation": 46166,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -10988,8 +10994,14 @@
           "allocation": 27370,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_SOUS_ORDRES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            3,
+            7,
+            6,
+            5,
+            8
+          ],
           "runners": [
             {
               "rank": 1,
@@ -11116,11 +11128,11 @@
           "course": 7,
           "code": "R8C7",
           "name": "DANCING AGAIN",
-          "start_at": "2026-06-20T21:25:00+00:00",
+          "start_at": "2026-06-20T21:30:00+00:00",
           "allocation": 9149,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -17306,7 +17318,7 @@
   "settled_count": 48,
   "observation": {
     "courses_count": 1790,
-    "arrivals_count": 1702,
+    "arrivals_count": 1703,
     "best_disciplines": [
       {
         "name": "Trot",
