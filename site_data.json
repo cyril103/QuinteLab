@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T23:00:04.417908+00:00",
+  "generated_at": "2026-06-22T23:30:54.284432+00:00",
   "finance": {
     "bankroll": 48.0,
     "bets_count": 50,
@@ -9899,7 +9899,7 @@
               "profile": "Base modèle",
               "signal": "Base 37",
               "odds": null,
-              "probability": 0.2698,
+              "probability": 0.2985,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9912,7 +9912,7 @@
               "profile": "Base modèle",
               "signal": "Base 34",
               "odds": null,
-              "probability": 0.1895,
+              "probability": 0.2096,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9925,7 +9925,7 @@
               "profile": "Base modèle",
               "signal": "Base 30",
               "odds": null,
-              "probability": 0.1464,
+              "probability": 0.1619,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9938,7 +9938,7 @@
               "profile": "Associé modèle",
               "signal": "Base 25",
               "odds": null,
-              "probability": 0.1115,
+              "probability": 0.1233,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9951,7 +9951,7 @@
               "profile": "Associé modèle",
               "signal": "Base 15",
               "odds": null,
-              "probability": 0.1021,
+              "probability": 0.113,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9964,7 +9964,7 @@
               "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0847,
+              "probability": 0.0937,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
