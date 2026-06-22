@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T22:30:37.356742+00:00",
+  "generated_at": "2026-06-22T23:00:04.417908+00:00",
   "finance": {
     "bankroll": 48.0,
     "bets_count": 50,
@@ -9958,19 +9958,6 @@
             },
             {
               "rank": 6,
-              "num": 3,
-              "name": "HEMATITE",
-              "note": 27.3,
-              "profile": "Associé modèle",
-              "signal": "Base 13",
-              "odds": null,
-              "probability": 0.0959,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 7,
               "num": 15,
               "name": "INMATE",
               "note": 25.8,
@@ -10676,7 +10663,7 @@
           "allocation": 9638,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
