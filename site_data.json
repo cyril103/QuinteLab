@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T20:30:49.137243+00:00",
+  "generated_at": "2026-06-22T21:00:12.802741+00:00",
   "finance": {
     "bankroll": 48.0,
     "bets_count": 50,
@@ -7297,8 +7297,14 @@
           "allocation": 18000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "DEPART_CONFIRME",
-          "result_top5": [],
+          "status": "FIN_COURSE",
+          "result_top5": [
+            5,
+            8,
+            11,
+            9,
+            7
+          ],
           "runners": [
             {
               "rank": 1,
@@ -7468,19 +7474,24 @@
           "allocation": 23000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "result_top5": [
+            4,
+            6,
+            8,
+            3
+          ],
           "runners": [
             {
               "rank": 1,
               "num": 8,
               "name": "NANS DE FLEUR",
-              "note": 52.4,
+              "note": 52.0,
               "profile": "Base modèle",
-              "signal": "Cote 12 · Value · Base 61",
-              "odds": 12.0,
-              "probability": 0.1884,
-              "ev": 1.261,
+              "signal": "Cote 14 · Value · Base 61",
+              "odds": 14.0,
+              "probability": 0.1795,
+              "ev": 1.513,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -7488,12 +7499,12 @@
               "rank": 2,
               "num": 9,
               "name": "NORTH LIFE",
-              "note": 48.4,
+              "note": 49.6,
               "profile": "Base modèle",
-              "signal": "Cote 4 · Base 62",
-              "odds": 4.0,
-              "probability": 0.1758,
-              "ev": -0.297,
+              "signal": "Cote 3.1 · Base 63",
+              "odds": 3.1,
+              "probability": 0.2028,
+              "ev": -0.371,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -7501,12 +7512,12 @@
               "rank": 3,
               "num": 5,
               "name": "NEVER EVER",
-              "note": 46.9,
+              "note": 47.2,
               "profile": "Base modèle",
-              "signal": "Cote 7.9 · Base 59",
-              "odds": 7.9,
-              "probability": 0.1351,
-              "ev": 0.067,
+              "signal": "Cote 7.3 · Base 60",
+              "odds": 7.3,
+              "probability": 0.1387,
+              "ev": 0.013,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -7514,38 +7525,38 @@
               "rank": 4,
               "num": 6,
               "name": "NAPOLITANO D'AWA",
-              "note": 43.6,
+              "note": 42.9,
               "profile": "Associé modèle",
-              "signal": "Cote 4.7 · Base 47",
-              "odds": 4.7,
-              "probability": 0.1274,
-              "ev": -0.401,
+              "signal": "Cote 5.6 · Base 46",
+              "odds": 5.6,
+              "probability": 0.1145,
+              "ev": -0.359,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 5,
-              "num": 4,
-              "name": "NENESSE PECE",
-              "note": 42.9,
+              "num": 3,
+              "name": "NOTUS DU COGLAIS",
+              "note": 42.8,
               "profile": "Associé modèle",
-              "signal": "Cote 5.3 · Base 49",
-              "odds": 5.3,
-              "probability": 0.1179,
-              "ev": -0.375,
+              "signal": "Cote 11 · Base 54",
+              "odds": 11.0,
+              "probability": 0.0956,
+              "ev": 0.051,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 6,
-              "num": 3,
-              "name": "NOTUS DU COGLAIS",
-              "note": 42.6,
+              "num": 4,
+              "name": "NENESSE PECE",
+              "note": 42.3,
               "profile": "Associé modèle",
-              "signal": "Cote 12 · Base 53",
-              "odds": 12.0,
-              "probability": 0.0931,
-              "ev": 0.117,
+              "signal": "Cote 6.3 · Base 49",
+              "odds": 6.3,
+              "probability": 0.1066,
+              "ev": -0.329,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -7553,12 +7564,12 @@
               "rank": 7,
               "num": 2,
               "name": "NORLANDO",
-              "note": 41.0,
+              "note": 41.4,
               "profile": "Associé modèle",
-              "signal": "Cote 5.9 · Base 46",
-              "odds": 5.9,
-              "probability": 0.1023,
-              "ev": -0.396,
+              "signal": "Cote 5.3 · Base 46",
+              "odds": 5.3,
+              "probability": 0.1077,
+              "ev": -0.429,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -7566,12 +7577,12 @@
               "rank": 8,
               "num": 7,
               "name": "NOTELLA D'OR",
-              "note": 35.4,
+              "note": 34.9,
               "profile": "Associé modèle",
-              "signal": "Cote 31 · Value · Base 29",
-              "odds": 31.0,
-              "probability": 0.0482,
-              "ev": 0.496,
+              "signal": "Cote 42 · Value · Base 28",
+              "odds": 42.0,
+              "probability": 0.0446,
+              "ev": 0.874,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -7579,12 +7590,12 @@
               "rank": 9,
               "num": 1,
               "name": "NELLY CROWN",
-              "note": 12.4,
+              "note": 12.0,
               "profile": "Outsider modèle",
-              "signal": "Cote 38 · Base 16",
-              "odds": 38.0,
-              "probability": 0.0117,
-              "ev": -0.555,
+              "signal": "Cote 52 · Base 15",
+              "odds": 52.0,
+              "probability": 0.0099,
+              "ev": -0.485,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             }
@@ -8611,11 +8622,13 @@
           "allocation": 6021,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             7,
             16,
-            1
+            1,
+            12,
+            10
           ],
           "runners": [
             {
@@ -8838,8 +8851,14 @@
           "allocation": 9149,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            9,
+            7,
+            6,
+            10,
+            8
+          ],
           "runners": [
             {
               "rank": 1,
@@ -8966,11 +8985,11 @@
           "course": 8,
           "code": "R6C8",
           "name": "CLASICO PRENSA HIPICA (L) ( LISTED )",
-          "start_at": "2026-06-22T20:55:00+00:00",
+          "start_at": "2026-06-22T21:18:00+00:00",
           "allocation": 18299,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -9497,8 +9516,14 @@
           "allocation": 4104,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            5,
+            8,
+            1,
+            9,
+            2
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9681,7 +9706,7 @@
           "allocation": 1796,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "ROUGE_AUX_PARTANTS",
           "result_top5": [],
           "runners": [
             {
@@ -11921,17 +11946,17 @@
   "settled_count": 50,
   "observation": {
     "courses_count": 1917,
-    "arrivals_count": 1808,
+    "arrivals_count": 1811,
     "best_disciplines": [
       {
         "name": "Trot",
-        "courses": 546,
+        "courses": 547,
         "top3_covered_rate": 21.8,
-        "top5_covered_rate": 20.0
+        "top5_covered_rate": 19.9
       },
       {
         "name": "Galop",
-        "courses": 338,
+        "courses": 339,
         "top3_covered_rate": 14.5,
         "top5_covered_rate": 18.0
       }
@@ -11971,73 +11996,73 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 903,
+        "runners": 905,
         "top3_rate": 49.1,
         "top5_rate": 63.5
       },
       {
         "rank": 2,
-        "runners": 904,
-        "top3_rate": 40.4,
-        "top5_rate": 55.3
+        "runners": 906,
+        "top3_rate": 40.5,
+        "top5_rate": 55.4
       },
       {
         "rank": 3,
-        "runners": 898,
-        "top3_rate": 32.9,
-        "top5_rate": 50.8
+        "runners": 900,
+        "top3_rate": 32.8,
+        "top5_rate": 50.7
       },
       {
         "rank": 4,
-        "runners": 904,
-        "top3_rate": 29.8,
-        "top5_rate": 46.6
+        "runners": 906,
+        "top3_rate": 29.7,
+        "top5_rate": 46.5
       },
       {
         "rank": 5,
-        "runners": 896,
-        "top3_rate": 24.1,
-        "top5_rate": 41.9
+        "runners": 899,
+        "top3_rate": 24.0,
+        "top5_rate": 41.8
       },
       {
         "rank": 6,
-        "runners": 905,
-        "top3_rate": 22.2,
-        "top5_rate": 38.3
+        "runners": 907,
+        "top3_rate": 22.3,
+        "top5_rate": 38.4
       },
       {
         "rank": 7,
-        "runners": 919,
-        "top3_rate": 16.9,
-        "top5_rate": 33.5
+        "runners": 921,
+        "top3_rate": 16.8,
+        "top5_rate": 33.4
       },
       {
         "rank": 8,
-        "runners": 909,
+        "runners": 911,
         "top3_rate": 18.0,
-        "top5_rate": 34.1
+        "top5_rate": 34.0
       },
       {
         "rank": 9,
-        "runners": 904,
+        "runners": 906,
         "top3_rate": 14.7,
-        "top5_rate": 29.9
+        "top5_rate": 29.8
       },
       {
         "rank": 10,
-        "runners": 915,
-        "top3_rate": 13.0,
-        "top5_rate": 25.9
+        "runners": 917,
+        "top3_rate": 13.2,
+        "top5_rate": 26.1
       },
       {
         "rank": 11,
-        "runners": 895,
+        "runners": 897,
         "top3_rate": 12.6,
-        "top5_rate": 23.4
+        "top5_rate": 23.3
       },
       {
         "rank": 12,
-        "runners": 865,
+        "runners": 867,
         "top3_rate": 8.2,
         "top5_rate": 19.0
       }
