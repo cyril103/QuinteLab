@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T02:30:43.044783+00:00",
+  "generated_at": "2026-06-23T03:00:14.108402+00:00",
   "finance": {
     "bankroll": 48.0,
     "bets_count": 50,
@@ -9622,9 +9622,9 @@
             {
               "num": 2,
               "name": "GANODIN",
-              "note": 78.5,
+              "note": 90.5,
               "profile": "Base possible",
-              "signal": "Partant confirmé",
+              "signal": "Cote 1.1",
               "rank": 1
             },
             {
