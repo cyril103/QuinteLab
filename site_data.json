@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T22:30:38.766319+00:00",
+  "generated_at": "2026-06-24T23:00:16.149675+00:00",
   "finance": {
     "bankroll": 27.0,
     "bets_count": 52,
@@ -378,58 +378,45 @@
     }
   ],
   "featured": {
-    "date": "2026-06-24",
-    "reunion": 1,
-    "course": 3,
-    "placed_at": "2026-06-24T17:15:41.435921+02:00",
-    "stage": "refined_final",
-    "preview_only": false,
-    "not_debited": false,
-    "refined_at": null,
-    "refined_selection": [],
-    "strategy": "combine_7_flexi_25",
-    "type": "QUINTE_PLUS_COMBINE_7_FLEXI_25",
-    "formula": "C(7,5)=21 combinaisons × 2€ × 25% = 10.50€",
-    "stake": 10.5,
-    "gain": 0.0,
-    "net": -10.5,
-    "settled": true,
+    "date": "2026-06-25",
+    "reunion": 5,
+    "course": 4,
+    "placed_at": null,
+    "strategy": "pronostic_site_sans_ticket_fictif",
+    "type": "SITE_PRONOSTIC_ONLY",
+    "formula": "Aucun pari fictif enregistré aujourd'hui — pronostic public issu du programme PMU et des scores disponibles.",
+    "stake": 0,
+    "gain": 0,
+    "net": 0,
+    "settled": false,
     "selection": [
-      15,
-      5,
+      13,
       3,
-      4,
-      16,
-      8,
-      14
-    ],
-    "bases": [],
-    "associes": [
+      11,
       15,
-      5,
-      3,
-      4,
+      2,
       16,
-      8,
-      14
+      12,
+      5
     ],
-    "arrival": [
-      5,
-      16,
-      9,
-      18,
+    "bases": [
+      13,
+      3,
       11
     ],
+    "associes": [
+      15,
+      2,
+      16,
+      12,
+      5
+    ],
+    "arrival": [],
     "hit_counts": {},
-    "miss_analysis": "bases absentes top5: aucune; top3 non sélectionnés: [9]; top5 non sélectionnés: [9, 18, 11]; max par grille: 2/5 top5, 2/3 top3; rangs modèle arrivée: 5=#1 score 48.9, 16=#5 score 40.4, 9=#9 score 32.4, 18=#15 score 28.4, 11=#10 score 31.4; profils manqués: 9: rang #9, reg 0.40, EV -0.39, value=False | 18: rang #15, reg 0.20, EV 1.47, value=True | 11: rang #10, reg 0.40, EV 0.12, value=False",
+    "miss_analysis": "Le tracker n'a pas placé de ticket fictif pour cette course; affichage du support e-Quinté+ du jour uniquement.",
     "profile": {
-      "profile": "course_ouverte_anti_drawdown",
-      "recommendation": "combine_7_flexi_25",
-      "defensive_mode": true,
-      "red_zone_mode": null,
-      "non_profitable_streak": 6,
-      "score_spread_8": 14.23,
-      "stability_index": 43.7
+      "profile": "support_e_quinte_du_jour",
+      "recommendation": "pronostic_site_only"
     }
   },
   "ticket_previews": [
@@ -7942,7 +7929,7 @@
           "start_at": "2026-06-25T18:45:00+00:00",
           "allocation": 27000,
           "discipline": "ATTELE",
-          "quinte": false,
+          "quinte": true,
           "status": "PROGRAMMEE",
           "result_top5": [],
           "runners": [
