@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T00:30:34.204254+00:00",
+  "generated_at": "2026-06-24T01:00:12.784589+00:00",
   "finance": {
     "bankroll": 37.5,
     "bets_count": 51,
@@ -5020,7 +5020,7 @@
           "course": 1,
           "code": "R3C1",
           "name": "PRIX DU DONJON",
-          "start_at": "2026-06-24T07:00:00+00:00",
+          "start_at": "2026-06-25T07:00:00+00:00",
           "allocation": 33000,
           "discipline": "MONTE",
           "quinte": false,
@@ -5139,7 +5139,7 @@
           "course": 2,
           "code": "R3C2",
           "name": "PRIX DE VARENNES-SUR-ALLIER",
-          "start_at": "2026-06-24T07:30:00+00:00",
+          "start_at": "2026-06-25T07:30:00+00:00",
           "allocation": 19500,
           "discipline": "ATTELE",
           "quinte": false,
