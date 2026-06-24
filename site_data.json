@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T23:00:16.149675+00:00",
+  "generated_at": "2026-06-24T23:30:24.622659+00:00",
   "finance": {
     "bankroll": 27.0,
     "bets_count": 52,
@@ -381,13 +381,18 @@
     "date": "2026-06-25",
     "reunion": 5,
     "course": 4,
-    "placed_at": null,
-    "strategy": "pronostic_site_sans_ticket_fictif",
-    "type": "SITE_PRONOSTIC_ONLY",
-    "formula": "Aucun pari fictif enregistré aujourd'hui — pronostic public issu du programme PMU et des scores disponibles.",
-    "stake": 0,
-    "gain": 0,
-    "net": 0,
+    "placed_at": "2026-06-25T01:00:16.152599+02:00",
+    "stage": "initial_preview",
+    "preview_only": true,
+    "not_debited": true,
+    "refined_at": null,
+    "refined_selection": [],
+    "strategy": "combine_7_flexi_25",
+    "type": "QUINTE_PLUS_COMBINE_7_FLEXI_25",
+    "formula": "C(7,5)=21 combinaisons × 2€ × 25% = 10.50€",
+    "stake": 10.5,
+    "gain": 0.0,
+    "net": -10.5,
     "settled": false,
     "selection": [
       13,
@@ -396,27 +401,29 @@
       15,
       2,
       16,
-      12,
-      5
+      12
     ],
-    "bases": [
+    "bases": [],
+    "associes": [
       13,
       3,
-      11
-    ],
-    "associes": [
+      11,
       15,
       2,
       16,
-      12,
-      5
+      12
     ],
     "arrival": [],
     "hit_counts": {},
-    "miss_analysis": "Le tracker n'a pas placé de ticket fictif pour cette course; affichage du support e-Quinté+ du jour uniquement.",
+    "miss_analysis": "",
     "profile": {
-      "profile": "support_e_quinte_du_jour",
-      "recommendation": "pronostic_site_only"
+      "profile": "course_ouverte_anti_drawdown",
+      "recommendation": "combine_7_flexi_25",
+      "defensive_mode": true,
+      "red_zone_mode": null,
+      "non_profitable_streak": 7,
+      "score_spread_8": 9.66,
+      "stability_index": 46.2
     }
   },
   "ticket_previews": [
@@ -2026,6 +2033,55 @@
         "non_profitable_streak": 6,
         "score_spread_8": 8.52,
         "stability_index": 42.7
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "reunion": 5,
+      "course": 4,
+      "placed_at": "2026-06-25T01:00:16.152599+02:00",
+      "stage": "initial_preview",
+      "preview_only": true,
+      "not_debited": true,
+      "refined_at": null,
+      "refined_selection": [],
+      "strategy": "combine_7_flexi_25",
+      "type": "QUINTE_PLUS_COMBINE_7_FLEXI_25",
+      "formula": "C(7,5)=21 combinaisons × 2€ × 25% = 10.50€",
+      "stake": 10.5,
+      "gain": 0.0,
+      "net": -10.5,
+      "settled": false,
+      "selection": [
+        13,
+        3,
+        11,
+        15,
+        2,
+        16,
+        12
+      ],
+      "bases": [],
+      "associes": [
+        13,
+        3,
+        11,
+        15,
+        2,
+        16,
+        12
+      ],
+      "arrival": [],
+      "hit_counts": {},
+      "miss_analysis": "",
+      "profile": {
+        "profile": "course_ouverte_anti_drawdown",
+        "recommendation": "combine_7_flexi_25",
+        "defensive_mode": true,
+        "red_zone_mode": null,
+        "non_profitable_streak": 7,
+        "score_spread_8": 9.66,
+        "stability_index": 46.2
       }
     }
   ],
