@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T21:00:57.624347+00:00",
+  "generated_at": "2026-06-25T21:30:29.771710+00:00",
   "finance": {
     "bankroll": 266.5,
     "bets_count": 53,
@@ -7533,19 +7533,25 @@
           "allocation": 27000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "COURSE_ARRETEE",
-          "result_top5": [],
+          "status": "FIN_COURSE",
+          "result_top5": [
+            7,
+            4,
+            3,
+            8,
+            1
+          ],
           "runners": [
             {
               "rank": 1,
               "num": 7,
               "name": "KEVA LUDOISE",
-              "note": 53.4,
+              "note": 52.9,
               "profile": "Base modèle",
-              "signal": "Cote 1.4 · Base 59",
-              "odds": 1.4,
-              "probability": 0.4538,
-              "ev": -0.365,
+              "signal": "Cote 1.5 · Base 58",
+              "odds": 1.5,
+              "probability": 0.4329,
+              "ev": -0.351,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -7553,12 +7559,12 @@
               "rank": 2,
               "num": 3,
               "name": "KINJAL DE BELLANDE",
-              "note": 45.7,
+              "note": 46.2,
               "profile": "Base modèle",
-              "signal": "Cote 7.4 · Value · Base 54",
-              "odds": 7.4,
-              "probability": 0.1888,
-              "ev": 0.397,
+              "signal": "Cote 6.4 · Value · Base 54",
+              "odds": 6.4,
+              "probability": 0.2008,
+              "ev": 0.285,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -7566,12 +7572,12 @@
               "rank": 3,
               "num": 4,
               "name": "KELLISIA GIRL",
-              "note": 39.6,
+              "note": 39.7,
               "profile": "Base modèle",
-              "signal": "Cote 5.3 · Base 41",
-              "odds": 5.3,
-              "probability": 0.1363,
-              "ev": -0.278,
+              "signal": "Cote 5.2 · Base 42",
+              "odds": 5.2,
+              "probability": 0.1383,
+              "ev": -0.281,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -7579,12 +7585,12 @@
               "rank": 4,
               "num": 8,
               "name": "KAPELLA VET",
-              "note": 38.1,
+              "note": 38.5,
               "profile": "Associé modèle",
-              "signal": "Cote 14 · Value · Base 37",
-              "odds": 14.0,
-              "probability": 0.1004,
-              "ev": 0.405,
+              "signal": "Cote 12 · Value · Base 38",
+              "odds": 12.0,
+              "probability": 0.106,
+              "ev": 0.272,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -7596,8 +7602,8 @@
               "profile": "Associé modèle",
               "signal": "Cote 27 · Value · Base 29",
               "odds": 27.0,
-              "probability": 0.0654,
-              "ev": 0.766,
+              "probability": 0.0656,
+              "ev": 0.772,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -7605,12 +7611,12 @@
               "rank": 6,
               "num": 1,
               "name": "KANELLE DE TILLARD",
-              "note": 30.4,
+              "note": 30.5,
               "profile": "Associé modèle",
-              "signal": "Cote 20 · Base 25",
-              "odds": 20.0,
-              "probability": 0.0553,
-              "ev": 0.105,
+              "signal": "Cote 19 · Base 25",
+              "odds": 19.0,
+              "probability": 0.0564,
+              "ev": 0.072,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             }
@@ -10614,13 +10620,13 @@
   "settled_count": 53,
   "observation": {
     "courses_count": 2103,
-    "arrivals_count": 1958,
+    "arrivals_count": 1962,
     "best_disciplines": [
       {
         "name": "Trot",
-        "courses": 575,
+        "courses": 576,
         "top3_covered_rate": 21.2,
-        "top5_covered_rate": 19.7
+        "top5_covered_rate": 19.6
       },
       {
         "name": "Galop",
@@ -10664,73 +10670,73 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 952,
-        "top3_rate": 49.2,
+        "runners": 953,
+        "top3_rate": 49.1,
         "top5_rate": 63.6
       },
       {
         "rank": 2,
-        "runners": 955,
-        "top3_rate": 39.6,
-        "top5_rate": 55.0
+        "runners": 956,
+        "top3_rate": 39.5,
+        "top5_rate": 54.9
       },
       {
         "rank": 3,
-        "runners": 950,
-        "top3_rate": 32.3,
-        "top5_rate": 50.3
+        "runners": 951,
+        "top3_rate": 32.4,
+        "top5_rate": 50.4
       },
       {
         "rank": 4,
-        "runners": 953,
+        "runners": 955,
         "top3_rate": 30.1,
-        "top5_rate": 46.5
+        "top5_rate": 46.4
       },
       {
         "rank": 5,
-        "runners": 949,
-        "top3_rate": 23.9,
-        "top5_rate": 42.0
+        "runners": 950,
+        "top3_rate": 24.0,
+        "top5_rate": 42.1
       },
       {
         "rank": 6,
-        "runners": 954,
+        "runners": 955,
         "top3_rate": 22.4,
-        "top5_rate": 38.8
+        "top5_rate": 38.7
       },
       {
         "rank": 7,
-        "runners": 968,
-        "top3_rate": 17.4,
-        "top5_rate": 33.6
+        "runners": 969,
+        "top3_rate": 17.3,
+        "top5_rate": 33.5
       },
       {
         "rank": 8,
-        "runners": 959,
+        "runners": 960,
         "top3_rate": 18.1,
         "top5_rate": 34.4
       },
       {
         "rank": 9,
-        "runners": 954,
-        "top3_rate": 15.0,
-        "top5_rate": 30.0
+        "runners": 955,
+        "top3_rate": 15.1,
+        "top5_rate": 30.1
       },
       {
         "rank": 10,
-        "runners": 967,
+        "runners": 968,
         "top3_rate": 13.2,
-        "top5_rate": 25.9
+        "top5_rate": 25.8
       },
       {
         "rank": 11,
-        "runners": 947,
-        "top3_rate": 12.4,
-        "top5_rate": 23.0
+        "runners": 948,
+        "top3_rate": 12.3,
+        "top5_rate": 23.1
       },
       {
         "rank": 12,
-        "runners": 917,
+        "runners": 918,
         "top3_rate": 8.3,
         "top5_rate": 19.2
       }
