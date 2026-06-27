@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T21:00:51.934427+00:00",
+  "generated_at": "2026-06-27T21:30:22.905027+00:00",
   "finance": {
     "bankroll": 280.7,
     "bets_count": 55,
@@ -4157,8 +4157,14 @@
           "allocation": 52000,
           "discipline": "MONTE",
           "quinte": false,
-          "status": "CHEVAUX_SOUS_ORDRES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            5,
+            8,
+            9,
+            6,
+            10
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9539,8 +9545,14 @@
           "allocation": 165000,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "DEPART_CONFIRME",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            9,
+            5,
+            2,
+            3,
+            1
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10408,11 +10420,13 @@
           "allocation": 144269,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             1,
             2,
-            6
+            6,
+            3,
+            4
           ],
           "runners": [
             {
@@ -10514,12 +10528,16 @@
           "course": 9,
           "code": "R9C9",
           "name": "ALLOWANCE OPTIONAL CLAIMING 1600",
-          "start_at": "2026-06-27T21:18:00+00:00",
+          "start_at": "2026-06-27T21:24:00+00:00",
           "allocation": 84638,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "result_top5": [
+            8,
+            1,
+            5
+          ],
           "runners": [
             {
               "rank": 1,
@@ -10993,11 +11011,13 @@
           "allocation": 44160,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_DEFINITIVE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             7,
             2,
-            1
+            1,
+            4,
+            8
           ],
           "runners": [
             {
@@ -11155,8 +11175,12 @@
           "allocation": 10635,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE",
+          "result_top5": [
+            3,
+            1,
+            8
+          ],
           "runners": [
             {
               "rank": 1,
@@ -11326,7 +11350,7 @@
           "allocation": 51520,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -16758,11 +16782,11 @@
           "allocation": 5500,
           "discipline": "ATTELE",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE_NON_VALIDEE",
+          "status": "FIN_COURSE",
           "result_top5": [
             12,
-            8,
-            2
+            2,
+            8
           ],
           "runners": [
             {
@@ -16982,13 +17006,13 @@
   "settled_count": 55,
   "observation": {
     "courses_count": 2251,
-    "arrivals_count": 2086,
+    "arrivals_count": 2091,
     "best_disciplines": [
       {
         "name": "Trot",
-        "courses": 609,
-        "top3_covered_rate": 20.7,
-        "top5_covered_rate": 19.9
+        "courses": 611,
+        "top3_covered_rate": 20.8,
+        "top5_covered_rate": 19.8
       },
       {
         "name": "Galop",
@@ -17032,73 +17056,73 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 993,
+        "runners": 995,
         "top3_rate": 48.9,
         "top5_rate": 63.4
       },
       {
         "rank": 2,
-        "runners": 996,
-        "top3_rate": 39.0,
-        "top5_rate": 54.6
+        "runners": 998,
+        "top3_rate": 39.1,
+        "top5_rate": 54.7
       },
       {
         "rank": 3,
-        "runners": 990,
-        "top3_rate": 32.3,
+        "runners": 992,
+        "top3_rate": 32.4,
         "top5_rate": 50.2
       },
       {
         "rank": 4,
-        "runners": 994,
+        "runners": 996,
         "top3_rate": 30.3,
         "top5_rate": 46.4
       },
       {
         "rank": 5,
-        "runners": 989,
-        "top3_rate": 23.9,
-        "top5_rate": 42.0
+        "runners": 991,
+        "top3_rate": 23.8,
+        "top5_rate": 41.9
       },
       {
         "rank": 6,
-        "runners": 994,
-        "top3_rate": 22.9,
-        "top5_rate": 39.3
+        "runners": 996,
+        "top3_rate": 23.0,
+        "top5_rate": 39.5
       },
       {
         "rank": 7,
-        "runners": 1009,
+        "runners": 1011,
         "top3_rate": 17.6,
-        "top5_rate": 33.6
+        "top5_rate": 33.5
       },
       {
         "rank": 8,
-        "runners": 1003,
+        "runners": 1005,
         "top3_rate": 18.2,
-        "top5_rate": 34.4
+        "top5_rate": 34.3
       },
       {
         "rank": 9,
-        "runners": 997,
+        "runners": 999,
         "top3_rate": 15.2,
         "top5_rate": 30.3
       },
       {
         "rank": 10,
-        "runners": 1007,
+        "runners": 1009,
         "top3_rate": 13.4,
-        "top5_rate": 26.3
+        "top5_rate": 26.4
       },
       {
         "rank": 11,
-        "runners": 989,
+        "runners": 991,
         "top3_rate": 12.2,
-        "top5_rate": 23.0
+        "top5_rate": 22.9
       },
       {
         "rank": 12,
-        "runners": 957,
+        "runners": 960,
         "top3_rate": 8.0,
         "top5_rate": 19.1
       }
