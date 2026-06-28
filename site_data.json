@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T02:30:49.636415+00:00",
+  "generated_at": "2026-06-28T03:00:28.803075+00:00",
   "finance": {
     "bankroll": 280.7,
     "bets_count": 55,
@@ -3170,33 +3170,33 @@
           "result_top5": [],
           "runners": [
             {
+              "num": 2,
+              "name": "PEARLED MAJESTY",
+              "note": 90.0,
+              "profile": "Base possible",
+              "signal": "Cote 3",
+              "rank": 1
+            },
+            {
+              "num": 4,
+              "name": "OVERNIGHT",
+              "note": 90.0,
+              "profile": "Base possible",
+              "signal": "Cote 1.2",
+              "rank": 2
+            },
+            {
               "num": 1,
               "name": "BAROUD",
               "note": 83.0,
               "profile": "Base possible",
               "signal": "Partant confirmé",
-              "rank": 1
+              "rank": 3
             },
             {
               "num": 3,
               "name": "FOCUS",
               "note": 79.0,
-              "profile": "Base possible",
-              "signal": "Partant confirmé",
-              "rank": 2
-            },
-            {
-              "num": 2,
-              "name": "PEARLED MAJESTY",
-              "note": 78.0,
-              "profile": "Base possible",
-              "signal": "Partant confirmé",
-              "rank": 3
-            },
-            {
-              "num": 4,
-              "name": "OVERNIGHT",
-              "note": 78.0,
               "profile": "Associé",
               "signal": "Partant confirmé",
               "rank": 4
