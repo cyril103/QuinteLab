@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T20:00:13.046395+00:00",
+  "generated_at": "2026-06-29T20:30:32.413676+00:00",
   "finance": {
     "bankroll": 233.3,
     "bets_count": 57,
@@ -8270,8 +8270,12 @@
           "allocation": 19238,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ROUGE_AUX_PARTANTS",
-          "result_top5": [],
+          "status": "ARRIVEE_PROVISOIRE",
+          "result_top5": [
+            2,
+            1,
+            8
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9117,8 +9121,14 @@
           "allocation": 6256,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            8,
+            9,
+            11,
+            7,
+            6
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9297,11 +9307,11 @@
           "course": 4,
           "code": "R6C4",
           "name": "HANDICAP PICAPLEITOS",
-          "start_at": "2026-06-29T20:30:00+00:00",
+          "start_at": "2026-06-29T20:35:00+00:00",
           "allocation": 13294,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -9681,7 +9691,7 @@
   "settled_count": 57,
   "observation": {
     "courses_count": 2356,
-    "arrivals_count": 2180,
+    "arrivals_count": 2182,
     "best_disciplines": [
       {
         "name": "Trot",
