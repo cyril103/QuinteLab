@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T21:00:49.754795+00:00",
+  "generated_at": "2026-06-29T21:30:04.260132+00:00",
   "finance": {
     "bankroll": 233.3,
     "bets_count": 57,
@@ -8408,11 +8408,13 @@
           "allocation": 1988,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             2,
             12,
-            1
+            1,
+            13,
+            8
           ],
           "runners": [
             {
@@ -8596,7 +8598,7 @@
           "allocation": 4489,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_CONFIRME",
           "result_top5": [],
           "runners": [
             {
@@ -8607,7 +8609,7 @@
               "profile": "Base modèle",
               "signal": "Base 41",
               "odds": null,
-              "probability": 0.4007,
+              "probability": 0.4145,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8620,7 +8622,7 @@
               "profile": "Base modèle",
               "signal": "Base 30",
               "odds": null,
-              "probability": 0.1743,
+              "probability": 0.1803,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8633,7 +8635,7 @@
               "profile": "Base modèle",
               "signal": "Base 20",
               "odds": null,
-              "probability": 0.0995,
+              "probability": 0.1029,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8646,7 +8648,7 @@
               "profile": "Associé modèle",
               "signal": "Base 18",
               "odds": null,
-              "probability": 0.0517,
+              "probability": 0.0535,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8659,7 +8661,7 @@
               "profile": "Associé modèle",
               "signal": "Base 18",
               "odds": null,
-              "probability": 0.0484,
+              "probability": 0.05,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8672,7 +8674,7 @@
               "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0456,
+              "probability": 0.0472,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8685,72 +8687,59 @@
               "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0403,
+              "probability": 0.0417,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 8,
-              "num": 11,
-              "name": "NINA GUERRERA",
-              "note": 11.9,
+              "num": 6,
+              "name": "NO SE POR QUE",
+              "note": 10.0,
               "profile": "Associé modèle",
-              "signal": "Base 13",
+              "signal": "Base 5",
               "odds": null,
-              "probability": 0.0334,
+              "probability": 0.0297,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 9,
-              "num": 6,
-              "name": "NO SE POR QUE",
-              "note": 10.0,
-              "profile": "Outsider modèle",
-              "signal": "Base 5",
-              "odds": null,
-              "probability": 0.0287,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 10,
               "num": 12,
               "name": "GLAMOROSA PIBA",
               "note": 9.8,
               "profile": "Outsider modèle",
               "signal": "Base 7",
               "odds": null,
-              "probability": 0.0283,
+              "probability": 0.0292,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 11,
+              "rank": 10,
               "num": 7,
               "name": "LA RINCONERA",
               "note": 9.6,
               "profile": "Outsider modèle",
               "signal": "Base 5",
               "odds": null,
-              "probability": 0.0277,
+              "probability": 0.0286,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
-              "rank": 12,
+              "rank": 11,
               "num": 9,
               "name": "TORMENTA INDOMABLE",
               "note": 6.6,
               "profile": "Outsider modèle",
               "signal": "Base 2",
               "odds": null,
-              "probability": 0.0216,
+              "probability": 0.0223,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -9429,8 +9418,14 @@
           "allocation": 6647,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "CHEVAUX_ENTRENT_EN_PISTE",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            8,
+            2,
+            9,
+            1,
+            11
+          ],
           "runners": [
             {
               "rank": 1,
@@ -9570,11 +9565,11 @@
           "course": 6,
           "code": "R6C6",
           "name": "TIZNOW FOREVER",
-          "start_at": "2026-06-29T21:30:00+00:00",
+          "start_at": "2026-06-29T21:35:00+00:00",
           "allocation": 13450,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "CHEVAUX_ENTRENT_EN_PISTE",
           "result_top5": [],
           "runners": [
             {
@@ -9677,7 +9672,7 @@
   "settled_count": 57,
   "observation": {
     "courses_count": 2356,
-    "arrivals_count": 2184,
+    "arrivals_count": 2186,
     "best_disciplines": [
       {
         "name": "Trot",
@@ -9687,8 +9682,8 @@
       },
       {
         "name": "Galop",
-        "courses": 381,
-        "top3_covered_rate": 13.6,
+        "courses": 382,
+        "top3_covered_rate": 13.9,
         "top5_covered_rate": 17.8
       }
     ],
@@ -9727,73 +9722,73 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 1026,
-        "top3_rate": 48.6,
+        "runners": 1027,
+        "top3_rate": 48.7,
         "top5_rate": 63.2
       },
       {
         "rank": 2,
-        "runners": 1029,
-        "top3_rate": 38.9,
-        "top5_rate": 54.7
+        "runners": 1031,
+        "top3_rate": 38.8,
+        "top5_rate": 54.6
       },
       {
         "rank": 3,
-        "runners": 1024,
-        "top3_rate": 32.4,
+        "runners": 1025,
+        "top3_rate": 32.5,
         "top5_rate": 50.2
       },
       {
         "rank": 4,
-        "runners": 1028,
+        "runners": 1030,
         "top3_rate": 30.1,
         "top5_rate": 45.8
       },
       {
         "rank": 5,
-        "runners": 1022,
+        "runners": 1023,
         "top3_rate": 23.8,
         "top5_rate": 42.3
       },
       {
         "rank": 6,
-        "runners": 1026,
+        "runners": 1027,
         "top3_rate": 23.0,
-        "top5_rate": 39.3
+        "top5_rate": 39.2
       },
       {
         "rank": 7,
-        "runners": 1041,
+        "runners": 1042,
         "top3_rate": 18.3,
         "top5_rate": 34.0
       },
       {
         "rank": 8,
-        "runners": 1035,
-        "top3_rate": 18.4,
+        "runners": 1036,
+        "top3_rate": 18.3,
         "top5_rate": 34.3
       },
       {
         "rank": 9,
-        "runners": 1030,
-        "top3_rate": 15.0,
-        "top5_rate": 30.0
+        "runners": 1031,
+        "top3_rate": 14.9,
+        "top5_rate": 30.1
       },
       {
         "rank": 10,
-        "runners": 1039,
+        "runners": 1040,
         "top3_rate": 13.3,
-        "top5_rate": 26.6
+        "top5_rate": 26.5
       },
       {
         "rank": 11,
-        "runners": 1021,
+        "runners": 1022,
         "top3_rate": 12.3,
         "top5_rate": 23.3
       },
       {
         "rank": 12,
-        "runners": 990,
+        "runners": 991,
         "top3_rate": 8.1,
         "top5_rate": 19.0
       }
