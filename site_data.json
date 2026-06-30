@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T18:30:29.695126+00:00",
+  "generated_at": "2026-06-30T19:00:47.927802+00:00",
   "finance": {
     "bankroll": 224.75,
     "bets_count": 58,
@@ -4047,7 +4047,7 @@
               "profile": "Base modèle",
               "signal": "Cote 3.6 · Base 56",
               "odds": 3.6,
-              "probability": 0.2295,
+              "probability": 0.2294,
               "ev": -0.174,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -4056,12 +4056,12 @@
               "rank": 2,
               "num": 13,
               "name": "NAPOLI SAINT JEAN",
-              "note": 39.6,
+              "note": 39.8,
               "profile": "Base modèle",
-              "signal": "Cote 12 · Value · Base 47",
-              "odds": 12.0,
-              "probability": 0.116,
-              "ev": 0.392,
+              "signal": "Cote 11 · Value · Base 47",
+              "odds": 11.0,
+              "probability": 0.1194,
+              "ev": 0.313,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -4073,7 +4073,7 @@
               "profile": "Base modèle",
               "signal": "Cote 6.5 · Base 43",
               "odds": 6.5,
-              "probability": 0.13,
+              "probability": 0.1299,
               "ev": -0.155,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -4097,10 +4097,10 @@
               "name": "NOSTALGIE CENE",
               "note": 32.9,
               "profile": "Associé modèle",
-              "signal": "Cote 25 · Value · Base 39",
-              "odds": 25.0,
-              "probability": 0.0648,
-              "ev": 0.621,
+              "signal": "Cote 26 · Value · Base 35",
+              "odds": 26.0,
+              "probability": 0.0641,
+              "ev": 0.667,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -4110,10 +4110,10 @@
               "name": "NEW KADESH",
               "note": 30.6,
               "profile": "Associé modèle",
-              "signal": "Cote 49 · Value · Base 25",
-              "odds": 49.0,
-              "probability": 0.0508,
-              "ev": 1.49,
+              "signal": "Cote 50 · Value · Base 25",
+              "odds": 50.0,
+              "probability": 0.0506,
+              "ev": 1.528,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -4123,10 +4123,10 @@
               "name": "NINA DE BENAC",
               "note": 28.3,
               "profile": "Associé modèle",
-              "signal": "Cote 53 · Value · Base 34",
-              "odds": 53.0,
+              "signal": "Cote 52 · Value · Base 34",
+              "odds": 52.0,
               "probability": 0.0424,
-              "ev": 1.245,
+              "ev": 1.207,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -4147,12 +4147,12 @@
               "rank": 9,
               "num": 5,
               "name": "NELSON DE FORGES",
-              "note": 24.4,
+              "note": 24.3,
               "profile": "Outsider modèle",
-              "signal": "Cote 75 · Value · Base 29",
-              "odds": 75.0,
-              "probability": 0.0305,
-              "ev": 1.285,
+              "signal": "Cote 80 · Value · Base 29",
+              "odds": 80.0,
+              "probability": 0.0301,
+              "ev": 1.41,
               "value_bet": true,
               "source": "sqlite_runner_scores"
             },
@@ -4160,25 +4160,25 @@
               "rank": 10,
               "num": 7,
               "name": "NEMESIS DU LOISIR",
-              "note": 24.2,
+              "note": 24.3,
               "profile": "Outsider modèle",
-              "signal": "Cote 48 · Value · Base 22",
-              "odds": 48.0,
-              "probability": 0.0316,
-              "ev": 0.517,
-              "value_bet": true,
+              "signal": "Cote 44 · Base 22",
+              "odds": 44.0,
+              "probability": 0.0323,
+              "ev": 0.419,
+              "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 11,
               "num": 8,
               "name": "NIAGARA DU LOISIR",
-              "note": 22.4,
+              "note": 22.3,
               "profile": "Outsider modèle",
-              "signal": "Cote 17 · Base 21",
-              "odds": 17.0,
-              "probability": 0.0359,
-              "ev": -0.39,
+              "signal": "Cote 18 · Base 21",
+              "odds": 18.0,
+              "probability": 0.0349,
+              "ev": -0.371,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -4188,10 +4188,10 @@
               "name": "NEOPHYTE GIGI",
               "note": 16.9,
               "profile": "Outsider modèle",
-              "signal": "Cote 125 · Base 10",
-              "odds": 125.0,
-              "probability": 0.0165,
-              "ev": 1.061,
+              "signal": "Cote 126 · Base 10",
+              "odds": 126.0,
+              "probability": 0.0164,
+              "ev": 1.071,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -4203,8 +4203,8 @@
               "profile": "Outsider modèle",
               "signal": "Cote 9.7 · Base 22",
               "odds": 9.7,
-              "probability": 0.033,
-              "ev": -0.68,
+              "probability": 0.0331,
+              "ev": -0.679,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -4212,12 +4212,12 @@
               "rank": 14,
               "num": 2,
               "name": "NOUBA DU SAPHIR",
-              "note": 13.6,
+              "note": 13.4,
               "profile": "Outsider modèle",
-              "signal": "Cote 15 · Base 21",
-              "odds": 15.0,
-              "probability": 0.0253,
-              "ev": -0.62,
+              "signal": "Cote 16 · Base 21",
+              "odds": 16.0,
+              "probability": 0.0243,
+              "ev": -0.611,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -4227,10 +4227,10 @@
               "name": "NASH AND STEEL",
               "note": 9.7,
               "profile": "Outsider modèle",
-              "signal": "Cote 93 · Base 14",
-              "odds": 93.0,
+              "signal": "Cote 94 · Base 14",
+              "odds": 94.0,
               "probability": 0.0104,
-              "ev": -0.03,
+              "ev": -0.025,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
@@ -4238,12 +4238,12 @@
               "rank": 16,
               "num": 4,
               "name": "NORDEN",
-              "note": 3.8,
+              "note": 3.6,
               "profile": "Outsider modèle",
-              "signal": "Cote 28 · Base 1",
-              "odds": 28.0,
-              "probability": 0.0125,
-              "ev": -0.651,
+              "signal": "Cote 30 · Base 0",
+              "odds": 30.0,
+              "probability": 0.0119,
+              "ev": -0.642,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             }
@@ -7978,8 +7978,14 @@
           "allocation": 21000,
           "discipline": "HAIE",
           "quinte": false,
-          "status": "DEPART_CONFIRME",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            4,
+            1,
+            7,
+            6,
+            2
+          ],
           "runners": [
             {
               "rank": 1,
@@ -8090,8 +8096,14 @@
           "allocation": 4489,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            2,
+            6,
+            8,
+            4,
+            13
+          ],
           "runners": [
             {
               "rank": 1,
@@ -8287,7 +8299,7 @@
           "allocation": 1308,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -8944,12 +8956,12 @@
   "settled_count": 58,
   "observation": {
     "courses_count": 2395,
-    "arrivals_count": 2217,
+    "arrivals_count": 2219,
     "best_disciplines": [
       {
         "name": "Trot",
-        "courses": 632,
-        "top3_covered_rate": 20.6,
+        "courses": 633,
+        "top3_covered_rate": 20.5,
         "top5_covered_rate": 19.9
       },
       {
@@ -8974,9 +8986,9 @@
       },
       {
         "name": "VICHY",
-        "courses": 42,
-        "top3_covered_rate": 19.0,
-        "top5_covered_rate": 28.6
+        "courses": 43,
+        "top3_covered_rate": 18.6,
+        "top5_covered_rate": 27.9
       },
       {
         "name": "CAEN",
@@ -8994,75 +9006,75 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 1037,
+        "runners": 1038,
         "top3_rate": 48.5,
-        "top5_rate": 63.1
+        "top5_rate": 63.0
       },
       {
         "rank": 2,
-        "runners": 1042,
-        "top3_rate": 38.8,
-        "top5_rate": 54.6
+        "runners": 1043,
+        "top3_rate": 38.7,
+        "top5_rate": 54.7
       },
       {
         "rank": 3,
-        "runners": 1035,
-        "top3_rate": 32.6,
+        "runners": 1036,
+        "top3_rate": 32.5,
         "top5_rate": 50.3
       },
       {
         "rank": 4,
-        "runners": 1040,
-        "top3_rate": 29.9,
+        "runners": 1041,
+        "top3_rate": 30.0,
         "top5_rate": 46.1
       },
       {
         "rank": 5,
-        "runners": 1033,
+        "runners": 1034,
         "top3_rate": 23.9,
         "top5_rate": 42.4
       },
       {
         "rank": 6,
-        "runners": 1037,
-        "top3_rate": 23.0,
-        "top5_rate": 39.2
+        "runners": 1038,
+        "top3_rate": 22.9,
+        "top5_rate": 39.1
       },
       {
         "rank": 7,
-        "runners": 1052,
+        "runners": 1053,
         "top3_rate": 18.5,
-        "top5_rate": 34.1
+        "top5_rate": 34.2
       },
       {
         "rank": 8,
-        "runners": 1046,
+        "runners": 1047,
         "top3_rate": 18.3,
-        "top5_rate": 34.1
+        "top5_rate": 34.2
       },
       {
         "rank": 9,
-        "runners": 1041,
+        "runners": 1042,
         "top3_rate": 15.0,
-        "top5_rate": 30.1
+        "top5_rate": 30.0
       },
       {
         "rank": 10,
-        "runners": 1050,
+        "runners": 1051,
         "top3_rate": 13.2,
         "top5_rate": 26.5
       },
       {
         "rank": 11,
-        "runners": 1032,
+        "runners": 1033,
         "top3_rate": 12.4,
-        "top5_rate": 23.3
+        "top5_rate": 23.2
       },
       {
         "rank": 12,
-        "runners": 1002,
+        "runners": 1003,
         "top3_rate": 8.1,
-        "top5_rate": 19.0
+        "top5_rate": 18.9
       }
     ]
   },
