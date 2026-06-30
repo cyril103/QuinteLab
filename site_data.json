@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:00:56.126791+00:00",
+  "generated_at": "2026-06-30T21:30:18.598410+00:00",
   "finance": {
     "bankroll": 224.75,
     "bets_count": 58,
@@ -8825,8 +8825,14 @@
           "allocation": 1526,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            7,
+            9,
+            10,
+            5,
+            6
+          ],
           "runners": [
             {
               "rank": 1,
@@ -8967,7 +8973,7 @@
   "settled_count": 58,
   "observation": {
     "courses_count": 2395,
-    "arrivals_count": 2224,
+    "arrivals_count": 2225,
     "best_disciplines": [
       {
         "name": "Trot",
