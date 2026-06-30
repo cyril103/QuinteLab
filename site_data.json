@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T19:00:47.927802+00:00",
+  "generated_at": "2026-06-30T19:30:03.994608+00:00",
   "finance": {
     "bankroll": 224.75,
     "bets_count": 58,
@@ -8299,8 +8299,14 @@
           "allocation": 1308,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "DEPART_DANS_TROIS_MINUTES",
-          "result_top5": [],
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
+          "result_top5": [
+            2,
+            8,
+            7,
+            10,
+            5
+          ],
           "runners": [
             {
               "rank": 1,
@@ -8310,7 +8316,7 @@
               "profile": "Base modèle",
               "signal": "Base 37",
               "odds": null,
-              "probability": 0.215,
+              "probability": 0.2245,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8323,7 +8329,7 @@
               "profile": "Base modèle",
               "signal": "Base 35",
               "odds": null,
-              "probability": 0.1902,
+              "probability": 0.1986,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8336,7 +8342,7 @@
               "profile": "Base modèle",
               "signal": "Base 28",
               "odds": null,
-              "probability": 0.1842,
+              "probability": 0.1922,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8349,7 +8355,7 @@
               "profile": "Associé modèle",
               "signal": "Base 20",
               "odds": null,
-              "probability": 0.1038,
+              "probability": 0.1083,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8362,7 +8368,7 @@
               "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0977,
+              "probability": 0.102,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8375,7 +8381,7 @@
               "profile": "Associé modèle",
               "signal": "Base 22",
               "odds": null,
-              "probability": 0.0803,
+              "probability": 0.0838,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8388,33 +8394,20 @@
               "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0455,
+              "probability": 0.0475,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
             },
             {
               "rank": 8,
-              "num": 6,
-              "name": "TREN BALA",
-              "note": 16.4,
-              "profile": "Associé modèle",
-              "signal": "Base 17",
-              "odds": null,
-              "probability": 0.042,
-              "ev": 0.0,
-              "value_bet": false,
-              "source": "sqlite_runner_scores"
-            },
-            {
-              "rank": 9,
               "num": 8,
               "name": "MADAM SECRETARY",
               "note": 16.2,
-              "profile": "Outsider modèle",
+              "profile": "Associé modèle",
               "signal": "Base 17",
               "odds": null,
-              "probability": 0.0413,
+              "probability": 0.0431,
               "ev": 0.0,
               "value_bet": false,
               "source": "sqlite_runner_scores"
@@ -8431,7 +8424,7 @@
           "allocation": 1090,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
+          "status": "DEPART_DANS_TROIS_MINUTES",
           "result_top5": [],
           "runners": [
             {
@@ -8956,7 +8949,7 @@
   "settled_count": 58,
   "observation": {
     "courses_count": 2395,
-    "arrivals_count": 2219,
+    "arrivals_count": 2221,
     "best_disciplines": [
       {
         "name": "Trot",
@@ -8966,7 +8959,7 @@
       },
       {
         "name": "Galop",
-        "courses": 384,
+        "courses": 385,
         "top3_covered_rate": 13.8,
         "top5_covered_rate": 17.7
       }
@@ -9006,73 +8999,73 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 1038,
-        "top3_rate": 48.5,
-        "top5_rate": 63.0
+        "runners": 1039,
+        "top3_rate": 48.4,
+        "top5_rate": 62.9
       },
       {
         "rank": 2,
-        "runners": 1043,
-        "top3_rate": 38.7,
+        "runners": 1044,
+        "top3_rate": 38.8,
         "top5_rate": 54.7
       },
       {
         "rank": 3,
-        "runners": 1036,
+        "runners": 1037,
         "top3_rate": 32.5,
-        "top5_rate": 50.3
+        "top5_rate": 50.2
       },
       {
         "rank": 4,
-        "runners": 1041,
+        "runners": 1042,
         "top3_rate": 30.0,
-        "top5_rate": 46.1
+        "top5_rate": 46.2
       },
       {
         "rank": 5,
-        "runners": 1034,
+        "runners": 1035,
         "top3_rate": 23.9,
-        "top5_rate": 42.4
+        "top5_rate": 42.3
       },
       {
         "rank": 6,
-        "runners": 1038,
+        "runners": 1040,
         "top3_rate": 22.9,
         "top5_rate": 39.1
       },
       {
         "rank": 7,
-        "runners": 1053,
+        "runners": 1054,
         "top3_rate": 18.5,
         "top5_rate": 34.2
       },
       {
         "rank": 8,
-        "runners": 1047,
+        "runners": 1048,
         "top3_rate": 18.3,
-        "top5_rate": 34.2
+        "top5_rate": 34.3
       },
       {
         "rank": 9,
-        "runners": 1042,
+        "runners": 1043,
         "top3_rate": 15.0,
         "top5_rate": 30.0
       },
       {
         "rank": 10,
-        "runners": 1051,
+        "runners": 1052,
         "top3_rate": 13.2,
-        "top5_rate": 26.5
+        "top5_rate": 26.4
       },
       {
         "rank": 11,
-        "runners": 1033,
+        "runners": 1034,
         "top3_rate": 12.4,
         "top5_rate": 23.2
       },
       {
         "rank": 12,
-        "runners": 1003,
+        "runners": 1004,
         "top3_rate": 8.1,
         "top5_rate": 18.9
       }
