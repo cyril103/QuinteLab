@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T21:00:16.057776+00:00",
+  "generated_at": "2026-07-01T21:30:30.771826+00:00",
   "finance": {
     "bankroll": 227.0,
     "bets_count": 59,
@@ -12267,11 +12267,13 @@
           "allocation": 6100,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "ARRIVEE_PROVISOIRE",
+          "status": "ARRIVEE_DEFINITIVE_COMPLETE",
           "result_top5": [
             3,
             1,
-            4
+            4,
+            7,
+            9
           ],
           "runners": [
             {
@@ -12416,8 +12418,12 @@
           "allocation": 6412,
           "discipline": "PLAT",
           "quinte": false,
-          "status": "PROGRAMMEE",
-          "result_top5": [],
+          "status": "ARRIVEE_PROVISOIRE",
+          "result_top5": [
+            6,
+            1,
+            3
+          ],
           "runners": [
             {
               "rank": 1,
@@ -12519,11 +12525,11 @@
   "settled_count": 59,
   "observation": {
     "courses_count": 2453,
-    "arrivals_count": 2280,
+    "arrivals_count": 2282,
     "best_disciplines": [
       {
         "name": "Trot",
-        "courses": 647,
+        "courses": 648,
         "top3_covered_rate": 20.2,
         "top5_covered_rate": 19.9
       },
@@ -12543,9 +12549,9 @@
       },
       {
         "name": "VICHY",
-        "courses": 48,
-        "top3_covered_rate": 16.7,
-        "top5_covered_rate": 29.2
+        "courses": 49,
+        "top3_covered_rate": 16.3,
+        "top5_covered_rate": 28.6
       },
       {
         "name": "GRAIGNES",
@@ -12569,74 +12575,74 @@
     "coverage_by_rank": [
       {
         "rank": 1,
-        "runners": 1066,
-        "top3_rate": 48.2,
+        "runners": 1067,
+        "top3_rate": 48.3,
         "top5_rate": 62.8
       },
       {
         "rank": 2,
-        "runners": 1070,
+        "runners": 1071,
         "top3_rate": 38.6,
-        "top5_rate": 54.3
+        "top5_rate": 54.2
       },
       {
         "rank": 3,
-        "runners": 1063,
+        "runners": 1064,
         "top3_rate": 32.7,
         "top5_rate": 50.5
       },
       {
         "rank": 4,
-        "runners": 1068,
-        "top3_rate": 30.1,
-        "top5_rate": 46.5
+        "runners": 1069,
+        "top3_rate": 30.2,
+        "top5_rate": 46.6
       },
       {
         "rank": 5,
-        "runners": 1061,
+        "runners": 1062,
         "top3_rate": 23.9,
-        "top5_rate": 42.0
+        "top5_rate": 42.1
       },
       {
         "rank": 6,
-        "runners": 1067,
-        "top3_rate": 23.0,
+        "runners": 1068,
+        "top3_rate": 22.9,
         "top5_rate": 38.9
       },
       {
         "rank": 7,
-        "runners": 1081,
+        "runners": 1082,
         "top3_rate": 18.8,
         "top5_rate": 34.8
       },
       {
         "rank": 8,
-        "runners": 1075,
-        "top3_rate": 18.1,
+        "runners": 1076,
+        "top3_rate": 18.2,
         "top5_rate": 34.0
       },
       {
         "rank": 9,
-        "runners": 1071,
+        "runners": 1072,
         "top3_rate": 14.8,
-        "top5_rate": 30.1
+        "top5_rate": 30.0
       },
       {
         "rank": 10,
-        "runners": 1078,
+        "runners": 1079,
         "top3_rate": 13.1,
         "top5_rate": 26.6
       },
       {
         "rank": 11,
-        "runners": 1060,
-        "top3_rate": 12.5,
-        "top5_rate": 23.3
+        "runners": 1061,
+        "top3_rate": 12.4,
+        "top5_rate": 23.4
       },
       {
         "rank": 12,
-        "runners": 1031,
-        "top3_rate": 8.0,
+        "runners": 1032,
+        "top3_rate": 7.9,
         "top5_rate": 18.7
       }
     ]
