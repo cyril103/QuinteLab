@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T02:30:17.707313+00:00",
+  "generated_at": "2026-07-02T03:00:44.692161+00:00",
   "finance": {
     "bankroll": 227.0,
     "bets_count": 59,
@@ -6403,33 +6403,33 @@
             {
               "num": 2,
               "name": "NINA D'ANGE",
-              "note": 81.0,
+              "note": 93.0,
               "profile": "Base possible",
-              "signal": "Partant confirmé",
+              "signal": "Cote 3.4",
               "rank": 1
             },
             {
               "num": 1,
               "name": "NUIT DE STAR",
-              "note": 70.0,
+              "note": 82.0,
               "profile": "Base possible",
-              "signal": "Partant confirmé",
+              "signal": "Cote 3.4",
               "rank": 2
             },
             {
               "num": 4,
               "name": "NERVEUSE",
-              "note": 68.0,
+              "note": 80.0,
               "profile": "Base possible",
-              "signal": "Partant confirmé",
+              "signal": "Cote 3.4",
               "rank": 3
             },
             {
               "num": 3,
               "name": "NANA DES BRIERES",
-              "note": 50.0,
+              "note": 62.0,
               "profile": "Associé",
-              "signal": "Partant confirmé",
+              "signal": "Cote 3.4",
               "rank": 4
             }
           ],
